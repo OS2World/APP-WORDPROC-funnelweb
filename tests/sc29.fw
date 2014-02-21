@@ -1,0 +1,23 @@
+SC29: Test syntax checking of typesetter pragma.
+
+1. Test not three arguments.
+@p typesetter
+@p typesetter =
+@p typesetter = xxx yyy
+
+2. Test second argument not "=".
+@p typesetter x sloth
+
+3. Test third argument is not legal.
+@p typesetter = sloth
+
+4. Test third argument is none.
+@p typesetter = none
+
+5. Test third argument is tex.
+6. Test pragma opposes earlier pragma.
+@p typesetter = tex
+
+7. Test pragma does not oppose earlier pragma.
+@p typesetter = none
+

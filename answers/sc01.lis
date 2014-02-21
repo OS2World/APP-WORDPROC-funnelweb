@@ -1,0 +1,35 @@
+FUNNELWEB LISTING FILE
+======================
+
+S: Error opening input file "<<Suppressed>>".
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 1 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+Macro table dump skipped (Parser was not invoked).
+Document list dump skipped (Parser was not invoked).
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+.................
+------------+-------------------------------------------------------------------
+
+There was 1 Severe error.

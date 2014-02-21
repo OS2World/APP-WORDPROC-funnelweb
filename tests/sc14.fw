@@ -1,0 +1,6 @@
+SC14: Test that the maximum number of levels of include file is 10.
+This is most easily done with a recursive inclusion.
+
+Before the include
+@i sc14.fw
+After the include

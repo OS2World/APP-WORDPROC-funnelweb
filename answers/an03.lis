@@ -1,0 +1,86 @@
+FUNNELWEB LISTING FILE
+======================
+
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| AN03: Test semantics checking of macros.
+     2     2| 
+     3     3| First define some macros to call.
+     4     4| @$@<Zero@>@Z@M@{@}
+     5     5| @$@<One@>@(@1@)@Z@M@{@}
+     6     6| @$@<Two@>@(@2@)@Z@M@{@}
+     7     7| 
+     8     8| 1. Test call to undefined macro.
+     9     9| @$@<Sloth1@>@Z==@{@<Walrus@>@}
+       Error|...................^Call to undefined macro.
+    10    10| 
+    11    11| 2. Test calls with wrong number of parameters.
+    12    12| @$@<Sloth2@>@Z==@{
+    13    13| @<Zero@>
+    14    14| @<Zero@>@(@)
+       Error|.^Call has 1 parameter, but the macro
+            |.^definition at line 4 specifies 0 parameters.
+            |.^Note: If your call looks like this: @<Macro@>@(@) then you
+            |.^should be aware that FunnelWeb treats this as a call with
+            |.^a single parameter consisting of the empty string. This
+            |.^is a consequence of parameter delimiters @"@" being optional.
+    15    15| @<Zero@>@(@,@)
+       Error|.^Call has 2 parameters, but the macro
+            |.^definition at line 4 specifies 0 parameters.
+    16    16| @<One@>
+       Error|.^Call has 0 parameters, but the macro
+            |.^definition at line 5 specifies 1 parameter.
+    17    17| @<One@>@(@)
+    18    18| @<One@>@(Walrus@,@)
+       Error|.^Call has 2 parameters, but the macro
+            |.^definition at line 5 specifies 1 parameter.
+    19    19| @<Two@>@(Sloth@)
+       Error|.^Call has 1 parameter, but the macro
+            |.^definition at line 6 specifies 2 parameters.
+    20    20| @}
+    21    21| 
+    22    22| 3. Test call to file macro.
+    23    23| @O@<deleteme.txt@>@{@}
+            |.^This file macro is called one or more times.
+            |.^Each call has been flagged with an error message.
+    24    24| @$@<Teapot@>@Z@{@<deleteme.txt@>@}
+       Error|.................^Calls to file macros are not allowed.
+            |.................^Reason: It should be possible to comment out a
+            |.................^file macro without a big fuss. Calling a file macro
+            |.................^just tangles it up in the macro structure,
+            |.................^making it more difficult to comment out later.
+    25    25| 
+    26    26| 4. Test macro never used and has <special>Z.
+    27    27| @$@<Elephant@>@Z@{@}
+    28    28| 
+    29    29| 5. Test macro often used and has <special>M.
+    30    30| @$@<Giraffe@>@M@{@}
+    31    31| @$@<Use Giraffe@>@Z@{@<Giraffe@>@<Giraffe@>@}
+    32    32| 
+    33    33| 6. Test macro never used and no <special>Z
+    34    34| @$@<Zebra@>@{@}
+       Error|.^This macro is never used (and has no @Z).
+    35    35| 
+    36    36| 7. Test multiply used and no <special>M.
+    37    37| @$@<Monkey@>@{@}
+       Error|.^This macro is used more than once (and has no @M).
+    38    38| @$@<Use Monkey@>@Z@{@<Monkey@>@<Monkey@>@}
+    39    39| 
+    40    40| 8. Test directly recursive macro.
+    41    41| @$@<Who do ya call?@>@{@<Who do ya call?@>@}
+       Error|.^This macro has an infinite expansion.
+    42    42| 
+    43    43| 9. Test indirectly recursive macro.
+    44    44| @$@<X@>@M@{@<Y@>@}
+       Error|.^This macro has an infinite expansion.
+    45    45| @$@<Y@>@{@<X@>@}
+       Error|.^This macro has an infinite expansion.
+    46    46| 
+    47    47| 10. Test callers of recursive macros.
+    48    48| @$@<Z@>@Z@{@<X@>@}
+       Error|.^This macro has an infinite expansion.
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 13 Errors.

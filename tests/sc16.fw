@@ -1,0 +1,62 @@
+SC16: Test <special>^ sequence.
+
+1. Test that all base characters work (in both cases).
+   These should provoke no errors.
+
+   @^B(00000000)   @^b(00000000)
+   @^O(000)   @^o(000)
+   @^Q(000)   @^q(000)
+   @^D(000)   @^d(000)
+   @^H(00)    @^h(00)
+   @^X(00)    @^x(00)
+
+2. Test that some other base characters generate an error.
+
+   @^u(0)
+   @^y
+   @^#
+   @^(
+
+3. Test that an error is generated if parenthesis is missing.
+
+   @^D34)
+
+4. Test legal digits in each base.
+
+   @^B(00001111)
+   @^O(012)  @^O(034) @^O(056) @^O(077)
+   @^D(012)  @^D(034) @^D(056) @^D(078) @^D(099)
+   @^H(01) @^H(23) @^H(45) @^H(67)
+   @^H(89) @^H(AB) @^X(CD) @^X(EF)  @^x(af)
+
+5. Test illegal digits in each base.
+
+   @^B(00000002)
+   @^O(008)
+   @^D(00A)
+   @^H(0G)
+
+6. Test what happens if there are the wrong number of digits
+   (too few, too many).
+
+   @^B(1)
+   @^O(1)
+   @^D(1)
+   @^H(1)
+
+   @^B(000000001)
+   @^O(0004)
+   @^D(0001)
+   @^H(005)
+
+7. Test that an error is generated for a missing closing parenthesis.
+
+  @^B(00000000
+  @^D(045(
+
+8. Test what happens in number is out of the range [0,255].
+
+  @^D(255)
+  @^D(256)
+  @^D(999)
+

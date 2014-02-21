@@ -1,0 +1,31 @@
+PR01: Test the inline typesetting features.
+
+1. First we test the legal use of the @{literal@} construct.
+
+2.Test @{@} (illegal).
+@A@<Error Recovery Point@>
+
+3. Test the construct @{across
+   more than one line@}.
+
+4. Now we test the construct with non-text following it.
+   @{@<sloth@>@}
+@A@<Error Recovery Point@>
+   @{     @>   @}
+@A@<Error Recovery Point@>
+
+5. Test the legal use of the @/emphasis@/ construct.
+
+6.Test @/@/ (illegal).
+@A@<Error Recovery Point@>
+
+7. Test the construct @/across
+   more than one line@/.
+
+8. Now we test the construct with non-text following it.
+   @/@<sloth@>@/
+@A@<Error Recovery Point@>
+   @/     @<   @/
+
+
+

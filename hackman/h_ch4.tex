@@ -1,0 +1,401 @@
+%==============================================================================%
+%                              Start of Ch4.tex                                %
+%==============================================================================%
+%
+% Copyright
+% ---------
+% Copyright (C) 1992 Ross N. Williams.
+% This file contains a chapter of the FunnelWeb Hacker's Manual.
+% See the main TeX file for this manual for further information.
+%
+%==============================================================================%
+
+\chapter{FunnelWeb Future}
+\label{chapfuture}\xx{FunnelWeb}{future}
+
+Previous chapters have explained the design of FunnelWeb and given reasons
+for why it is the way it is. This chapter goes through each of the
+aspects of FunnelWeb, and explores their problems, how they can be solved,
+and lists opportunities for improvement.
+
+\section{Documentation}
+\x{documentation}
+
+\thing{An official example:} A official example program written using
+FunnelWeb should be constructed and made available.\xx{official}{example}
+
+\thing{Index program:} In order to typeset the documentation, a portable
+index sorting program is required. One should be written and added to the
+distribution kit.\xx{index}{program} Perhaps this could be the official
+example!
+
+\section{Command Line Interface}
+\xx{command}{interface}
+
+\thing{Buffer length:} Currently the FunnelWeb shell uses the
+\p{COMLINE\_MAX} constant to size its internal command line buffers.
+This is untenable. The maximum length of a shell command line should
+not be machine dependent.
+
+\thing{Antiquated Features:} As the FunnelWeb language develops, it is likely
+that some changes will have to be made that will render one or more
+language constructs obsolete. When this happens, it may be necessary to
+add a command line option that has the power to turn on and off warnings or
+errors flagging antiquated features.\xx{antiquated}{features}
+
+\section{Shell Interpreter}
+\xx{shell}{interpreter}\xx{command}{interpreter}
+
+\thing{SETALL command:} When writing FunnelWeb scripts, it is sometimes
+desirable to set \i{all} of FunnelWeb's options\x{options}
+to some particular value
+so that the script is not vulnerable to changes in FunnelWeb's default
+values which might occur from time to time. To this end, it may be worth
+creating a \dqp{SETALL} command that is identical to the \dqp{SET} command
+except that it will generate an error if the value of an option is not
+specified explicitly.\xx{setall}{command}
+
+\thing{Recursion test:} A test should be added to test for recursive
+invocation in a shellscript.\xx{recursion}{test}
+
+\thing{Diagnostic counting:} The code for counting diagnostics in the
+script interpreter is rather messy and perhaps even buggy. It should be
+cleaned up and commented.\xx{diagnostic}{counting}
+
+\thing{Argument counting:} In the \p{command.c} module, there is a variable
+that counts the arguments to a command. Currently it takes the value of
+the number of parameters including the command verb. This has turned out
+to make the code less readable. It should be changed to be the number of
+arguments to the command verb.
+
+\thing{Make facility:} It may be worth building some sort of make facility
+into the script language so as to support machines such as the Macintosh
+that do not already have this facility.\x{make}
+
+\thing{Signature file:} One problem with using FunnelWeb in conjunction with
+an external \p{Make} facility is that a user might change a FunnelWeb source
+file without making changes that will affect the files that it generates.
+If FunnelWeb is then run and the \dqp{+D} option is on, then the output
+files will be deleted (to avoid further \p{Make} propagations).
+If \p{Make} then has a production linking the \p{.fw} file to its output
+files, then it may conclude that the output files are still out of date.
+To solve the problem, FunnelWeb could be changed to write a \p{.sig} file
+whenever it processes a \p{.fw} file. The \p{Make} production could then
+be wired up to link
+the \p{.fw} file to the \p{.sig} file instead of to the output
+files.\xx{signature}{file}
+  
+\section{Language Design}
+\xx{language}{design}
+
+Some proposed changes to FunnelWeb do not correspond to
+any particular component of FunnelWeb
+and are really to do with the design of the input language.
+
+\thing{Output or file?:} The \dqp{@O} special sequence for defining an output
+file is somewhat non-mnemonic and can be confused with zero (\dqp{0}). Perhaps
+it should be replaced by the \dqp{@F} sequence.
+
+\thing{Syntax of section names:} Currently section names use
+the same syntax as macro names. For example \dqp{@<Sloth@>}. It can be
+argued that angle brackets should be reserved only for macro names and that
+some other syntax should be found for delimiting section names. This is not
+a clear issue. It could also be argued that they are both names, and that
+because sections can inherit their names from the macros they contain, that
+the names are of the same \dq{type}.\xx{section}{syntax}
+
+\thing{One macro per section:} One particular style of using FunnelWeb is
+to have at most one macro definition per section. It may be worth adding
+a pragma that instructs FunnelWeb to enforce this.
+
+\thing{Should @\{ suppress EOL?:} When defining a macro in FunnelWeb, it
+seems to be rule rather than the exception that the
+\dqp{@\{} be followed by \dqp{@-}. This suppresses the EOL on the definition
+line, allowing the first line of the macro to be placed immediately
+above and in line with the other
+lines without introducing an EOL at the start of the macro text.
+One option is to introduce a pragma to determine whether to suppress EOLs
+following \dqp{@\{}.
+
+\thing{Pragma syntax:} It is not clear how \dq{loose} the syntax of pragmas
+should be. Perhaps they should be case insensitive.\xx{pragma}{syntax}
+
+\thing{Conditionals:} Depending on demand, it may be worth reintroducing
+some sort of conditional feature into FunnelWeb. However, it would have to
+be very simple to compete with the various ways in which conditionals
+can already be fudged within FunnelWeb as it stands.\x{conditionals}
+
+\thing{File markers:} It might be worth modifying the language so that
+a special syntactical marker is required at the start and end of files.
+This will assist in detecting truncations and other
+corruptions.\xx{file}{markers}
+
+\thing{Formal parameter lists:} It might be worth changing over to a
+syntax for formal parameter lists that does not require the \p{@(} and
+\p{@)}. However, they could be retained as optional for backward
+compatibility.\xx{parameter list}{formal}
+
+\section{Scanner/Mapper}
+\x{scanner}\x{mapper}
+
+\thing{All non-contiguous mappings:} Currently FunnelWeb requires that all
+input files be mapped into a contiguous lump of memory. This caused problems
+for two reasons. First, to do this, one has to allocate the memory first,
+and to do that, you have to know how long the file is, and it turns out that
+finding out the length of a file in a portable manner is very inefficient.
+Second, although IBM PC compatibles may have megabytes of memory, it is
+segmented into blocks of at most 64K. This means that FunnelWeb currently
+cannot read a file longer than 64K on a PC.\xx{contiguous}{memory}
+
+These problems could be avoided if the mapper and scanner were reorganized to
+allow input files to be read in and stored as a linked list of chunks of text
+rather than a contiguous block.
+
+\thing{EOL is unspecifiable:} FunnelWeb uses ASCII character decimal ten (10)
+internally to represent logical end-of-line and is currently organized so that
+if one of these is inserted into the text by the user using a
+\dqp{@\circumflex{}D(10)}, it will be written out as a logical end of line,
+rather than as a single ASCII character 10. This should be
+fixed.\xx{representation}{EOL}
+
+\thing{Allow mnemonics for unprintables:} FunnelWeb allows users to insert
+unprintable characters into the output using the \dqp{@\circumflex{}D(ddd)}
+special sequence. Perhaps it would be changed so that it understands ASCII
+standard mnemonics such as \dqp{LF} as well as ASCII
+numbers.\xx{ASCII}{mnemonics}
+
+\thing{Version pragma:} A \dqp{version} pragma should be added that allows
+the user to specify in the input file the version of FunnelWeb that was
+around when the input file was created. At a later date, such a construct
+would be very useful for determining how an input file should be updated
+if the FunnelWeb language has changed between
+versions.\xx{version}{pragma}
+
+\section{Parser}
+\x{parser}
+
+There are no proposals to change the parser except as a consequence of
+other proposals.
+
+\section{Analyser}
+\x{analyser}
+
+\thing{Recursion detection:} Currently the FunnelWeb analyser flags, with
+an error, all macros with an infinite expansion. This would be best
+changed to flagging all macros that are directly or indirectly recursive.
+To do this, Tarjan's algorithm\paper{Tarjan72}\xn{Robert Endre}{Tarjan}
+for the detection of strong components should
+be installed.\xx{recursion}{detection}
+
+\thing{Once only macros:} By default FunnelWeb prevents a macro from being
+called more than once unless it has a \dqp{@M} associated with it. However,
+FunnelWeb does allow a macro that calls such a macro to be called more
+than once. Perhaps this \dq{loophole} should be plugged somehow.
+
+  
+\section{Tangle}
+\x{tangle}
+
+The Tangler is one of the cleanest components of FunnelWeb, as basically all it
+has to do is expand some very well-defined macros.
+
+\thing{Text indentation:} Currently FunnelWeb supports \i{no indentation}
+and \i{blank indentation}. A third form could be added if it was considered
+necessary. \i{Text indentation} is the same as \i{blank indentation} except
+that instead of indenting with blanks, FunnelWeb would indent with the
+text to the left of the called macro. This facility could be useful for
+commenting out large bodies of text in languages that do not have
+multi-line comments (e.g. Ada). A discussion of the pros and cons of this
+form of indentation appears earlier.\xx{text}{indentation}
+
+\section{Weave}
+\x{weave}
+
+Perhaps FunnelWeb's weakest aspect is its typesetting facility.
+
+
+\thing{Align table of contents:} When FunnelWeb generates a table of contents,
+the section numbers are not quite aligned with the start of the controlling
+heading above them.\x{table of contents}
+
+\thing{Typesetting strength:} It should be possible to specify the
+level of typesetting strength for headings so that short documents do not
+look overdone when typeset. A new pragma would be good for
+this.\xx{strength}{typesetting}
+
+\thing{Typeset a portion:} Sometimes it is desirable to typeset just a
+portion of a program. A command line option could be added to do
+this. The option could accept as its argument, a string containing a list
+of section numbers or heading names.
+
+\thing{Generic typesetter option:} In addition to building in a number
+of different versions of Weave, one for each popular typesetter, it would be
+possible to add a special generic format where the typeset output is
+expressed in terms of \i{FunnelWeb macros}. The user could then specify
+macro definitions for a non-supported typesetter and run the output
+through FunnelWeb Tangle to get a typeset file in a format suitable for the
+unsupported typesetter.\xx{typesetter}{generic}
+
+\thing{Suppression of include files:} It should be possible to specify
+in the input file that particular included files not appear in the
+typeset output. Currently, the fact that an inclusion has occurred is
+not even represented in the typeset output. Suppression of inclusions
+is particularly necessary where a library of macros has been included
+at the top of each of a group of source files.\xx{include file}{suppression}
+
+\thing{Cross reference of identifiers:} WEB provides a list of identifiers
+and a list of all the definitions in which they are used. A similar
+feature could be added to FunnelWeb.\xx{cross}{references}
+
+\thing{Support for non-printables:} Currently FunnelWeb does not provide
+support for typesetting the special \dqp{@\circumflex(num)} sequences.
+This should be added.
+
+\thing{Support for @+ sequences:} Currently Weave does not see \dqp{@+}
+sequences as such. Instead it perceives them as ordinary EOLs. However,
+there are arguments for typesetting them specially.
+
+\thing{Typeset text in macro bodies:} One of the much-loved features
+of WEB is the way that it allows the user to switch recursively between
+document and program formats. FunnelWeb does not allow this, but
+should. In FunnelWeb, the delimiters \dqp{@\{} and \dqp{@\}} are already
+used consistently to delimit macro text. The \dqp{@[} and \dqp{@]} sequences
+have been reserved for the delimitation of documentation text.
+
+\thing{Non-tt typesetting:} The current version of FunnelWeb sets all its
+macro text in \p{tt font}. This is both a blessing and a curse. It is a
+blessing because it connects the reader directly to the code, with no
+complicated intermediary. It is a curse because it looks ugly compared to
+the beautifully typeset programs produced by other literate programming
+tools.
+
+The difficulty with adding such beautiful typesetting is that it is
+necessarily language-specific. Keywords and syntax differ from language
+to language and it would not be easy to come up with a set of language
+independent rules.
+
+One approach is to write a set of Weave back-ends, one for each language.
+Another approach is to \i{generate} back ends. This is the approach
+taken in the \i{Spider} system\paper{Ramsey89}.\x{spider}
+In the \i{Spider} system,
+the programmer writes production rules for converting lexical components
+of the program text into typesetter instructions. The \i{Spider} program
+reads these rules and generates a new version of WEB suited for the target
+language.
+
+For FunnelWeb a slightly different system is proposed in which Spider-like
+rules appear in the input file and are used directly by Weave to perform the
+typesetting. An intermediate abstract typesetting language could be used
+so that the productions can be made language specific, but not typesetter
+specific.
+
+\section{Lister}
+\x{lister}
+
+\thing{Glue factor:} A glue factor could be added that determines how many
+lines can be in between two diagnostics in the listing before the two
+groups of lines are joined together in the listing with no intervening
+ellipsis.\xx{glue}{factor}
+
+\section{Diagnostics}
+\x{diagnostics}
+
+\thing{Advisory information:} Some of FunnelWeb's diagnostics provide
+a detailed explanatory paragraph. While this information might be useful the
+first time, it has the capacity to clog up a listing file if the user has
+made the same error many times. To solve this problem, FunnelWeb could be
+modified so that such explanations are only displayed the first time the
+error occurs.
+
+\thing{Abort after n errors:} A facility could be added to prevent
+FunnelWeb's scanning, parsing, and analysing phases from continuing if
+a certain number of errors have already been issued.
+
+
+\section{Speed}
+\x{speed}\x{efficiency}
+
+\thing{Measurement of speed:} Although FunnelWeb can generate a breakdown
+of where it is spending its time, it does not give a final rating in
+lines per minute. This should be added.
+
+\thing{Find the hot spots:} Although FunnelWeb has been designed to allow
+high speed, not much effort has so far been made to make it fast. This should
+be done.
+
+\thing{Change some declarations:} FunnelWeb is full of variable declarations
+where the variables are wider than they need be. Replacing these might speed
+it up.
+
+\section{Correctness}
+\x{correctness}
+
+\thing{Bounds analysis:} Not much effort has gone into the design of
+FunnelWeb's input boundaries. An analysis should be made of FunnelWeb's
+behaviour when the following quantities are stretched:
+
+\begin{itemize}
+\item Input line length.
+\item Input file size.
+\item Number of macros.
+\item Length of macro.
+\end{itemize}
+
+In particular, FunnelWeb's behaviour at 32K and 64K boundaries should be
+observed.
+
+\thing{Stack detection:} Macintosh THINK-C provides just 6K of memory for
+the stack. It might be worth adding checks to make sure that the stack is
+not being blown.
+
+\section{Test Suite}
+\xx{test}{suite}
+
+The following tests should be added to the test suite:
+
+\begin{verbatim}
+Lister
+------
+   LR01: Test with a full listing with no diagnostics.
+   LR02: Test with a full listing with diagnostics.
+   LR03: Test with an abbreviated listing with no diagnostics.
+   LR04: Test with an abbreviated listing with diagnostics.
+   LR05: Test error context system with nearby diagnostics.
+
+Boundary Cases
+--------------
+Static analysis might preclude the need for most of these tests.
+   BC01: Test what happens when memory runs out.
+   BC02: Test on a file with a single line of a megabyte.
+   BC03: Test on a file of a megabyte of EOLs.
+   BC04: Generate an output file with an extremely long line.
+   BC05: Generate an output file with one million lines.
+   BC06: Test on a file with very many macros.
+
+General
+-------
+   GN01: A large legal input file exercising as many features as possible.
+         1. Test listing file.
+         2. Test output files.
+         3. Test typeset file.
+   GN... A selection of ten real-life FunnelWeb files.
+\end{verbatim}
+
+\section{Machine-Specific Changes}
+
+\thing{Icon for the Macintosh:} Currently no icon is supplied for the
+Macintosh version of FunnelWeb. An icon depicting a spider or a funnelled
+web of some kind would seem appropriate.
+
+\section{Summary}
+
+This chapter has describes some of the problems with FunnelWeb and some of the
+opportunities that exist for improving it. The direction and speed in which
+FunnelWeb will develop will depend largely on user feedback. If you have any
+strong feelings on where FunnelWeb should go, please email them to
+Ross Williams (\p{ross@spam.adelaide.edu.au}).
+
+
+%==============================================================================%
+%                              Start of Ch4.tex                                %
+%==============================================================================%

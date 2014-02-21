@@ -1,0 +1,63 @@
+! This scrip is useful for cleaning up the source code if you
+! already have a working version of FunnelWeb.
+
+trace on
+define 1 "slartibartfast:funnelweb:funnelweb-2:sources:"
+
+fixeols $1analyse.h
+fixeols $1analyse.c
+fixeols $1as.h
+fixeols $1as.c
+fixeols $1clock.h
+fixeols $1clock.c
+fixeols $1command.h
+fixeols $1command.c
+fixeols $1data.h
+fixeols $1data.c
+fixeols $1dump.h
+fixeols $1dump.c
+fixeols $1environ.h
+fixeols $1help.h
+fixeols $1help.c
+fixeols $1help_gnu.h
+fixeols $1help_gnu.c
+fixeols $1help_gnu.txt
+fixeols $1help_gnu.ctx
+fixeols $1list.h
+fixeols $1list.c
+fixeols $1lister.h
+fixeols $1lister.c
+fixeols $1machin.h
+fixeols $1machin.c
+fixeols $1main.c
+fixeols $1mapper.h
+fixeols $1mapper.c
+fixeols $1memory.h
+fixeols $1memory.c
+fixeols $1misc.h
+fixeols $1misc.c
+fixeols $1option.h
+fixeols $1option.c
+fixeols $1parser.h
+fixeols $1parser.c
+fixeols $1scanner.h
+fixeols $1scanner.c
+fixeols $1section.h
+fixeols $1section.c
+fixeols $1style.h
+fixeols $1table.h
+fixeols $1table.c
+fixeols $1tangle.h
+fixeols $1tangle.c
+fixeols $1texhead.h
+fixeols $1texhead.c
+fixeols $1texhead.ctx
+fixeols $1texhead.tex
+fixeols $1weave.h
+fixeols $1weave.c
+fixeols $1writfile.h
+fixeols $1writfile.c
+
+!Now for the test scripts.
+fixeols $1master.fws
+!The other scripts are cleaned just before they are run.

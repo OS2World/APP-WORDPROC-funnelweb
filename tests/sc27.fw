@@ -1,0 +1,20 @@
+SC27: Test syntax checking of vskip typesetting directive.
+
+1. Test not exactly three arguments (includes vskip).
+@t vskip
+@t vskip one
+@t vskip one two three four
+
+2. Test third argument not "mm".
+@t vskip 32 xx
+
+3. Test second argument has bad digit.
+@t vskip 3f mm
+
+4. Test number has more than three digits
+
+@t vskip 4355 mm
+
+5. Test a legal one too.
+@t vskip 20 mm
+

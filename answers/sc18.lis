@@ -1,0 +1,261 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 53 43 31 38 3A 20 54 65 73 74 20 3C 73 70 65 63 | SC18: Test <spec |
+| 69 61 6C 3E 23 3D 0A 0A 46 69 72 73 74 20 77 65 | ial>#=..First we |
+| 20 74 72 69 70 20 75 70 20 74 68 65 20 73 63 61 |  trip up the sca |
+| 6E 6E 65 72 20 73 6F 20 6E 6F 20 66 75 72 74 68 | nner so no furth |
+| 65 72 20 70 61 73 73 65 73 20 74 61 6B 65 20 70 | er passes take p |
+| 6C 61 63 65 2E 0A 0A 40 0A 0A 31 2E 20 54 65 73 | lace...@..1. Tes |
+| 74 20 77 69 74 68 20 61 6C 6C 20 70 6F 73 73 69 | t with all possi |
+| 62 6C 65 20 70 72 69 6E 74 61 62 6C 65 20 63 68 | ble printable ch |
+| 61 72 61 63 74 65 72 73 2E 0A 0A 40 3D 21 20 21 | aracters...@=! ! |
+| 3D 22 20 22 3D 23 20 23 3D 24 20 24 3D 25 20 25 | =" "=# #=$ $=% % |
+| 3D 26 20 26 3D 27 20 27 3D 28 20 28 3D 29 20 29 | =& &=' '=( (=) ) |
+| 3D 2A 20 2A 3D 2B 20 2B 3D 2C 20 2C 3D 2D 20 2D | =* *=+ +=, ,=- - |
+| 3D 2E 20 2E 3D 2F 0A 2F 3D 30 20 30 3D 31 20 31 | =. .=/./=0 0=1 1 |
+| 3D 32 20 32 3D 33 20 33 3D 34 20 34 3D 35 20 35 | =2 2=3 3=4 4=5 5 |
+| 3D 36 20 36 3D 37 20 37 3D 38 20 38 3D 39 20 39 | =6 6=7 7=8 8=9 9 |
+| 3D 3A 20 3A 3D 3B 20 3B 3D 3C 20 3C 3D 3D 20 3D | =: :=; ;=< <== = |
+| 3D 3E 0A 3E 3D 3F 20 3F 3D 40 20 40 3D 41 20 41 | =>.>=? ?=@ @=A A |
+| 3D 42 20 42 3D 43 20 43 3D 44 20 44 3D 45 20 45 | =B B=C C=D D=E E |
+| 3D 46 20 46 3D 47 20 47 3D 48 20 48 3D 49 20 49 | =F F=G G=H H=I I |
+| 3D 4A 20 4A 3D 4B 20 4B 3D 4C 20 4C 3D 4D 0A 4D | =J J=K K=L L=M.M |
+| 3D 4E 20 4E 3D 4F 20 4F 3D 50 20 50 3D 51 20 51 | =N N=O O=P P=Q Q |
+| 3D 52 20 52 3D 53 20 53 3D 54 20 54 3D 55 20 55 | =R R=S S=T T=U U |
+| 3D 56 20 56 3D 57 20 57 3D 58 20 58 3D 59 20 59 | =V V=W W=X X=Y Y |
+| 3D 5A 20 5A 3D 5B 20 5B 3D 5C 0A 5C 3D 5D 20 5D | =Z Z=[ [=\.\=] ] |
+| 3D 5E 20 5E 3D 5F 20 5F 3D 60 20 60 3D 61 20 61 | =^ ^=_ _=` `=a a |
+| 3D 62 20 62 3D 63 20 63 3D 64 20 64 3D 65 20 65 | =b b=c c=d d=e e |
+| 3D 66 20 66 3D 67 20 67 3D 68 20 68 3D 69 20 69 | =f f=g g=h h=i i |
+| 3D 6A 20 6A 3D 6B 0A 6B 3D 6C 20 6C 3D 6D 20 6D | =j j=k.k=l l=m m |
+| 3D 6E 20 6E 3D 6F 20 6F 3D 70 20 70 3D 71 20 71 | =n n=o o=p p=q q |
+| 3D 72 20 72 3D 73 20 73 3D 74 20 74 3D 75 20 75 | =r r=s s=t t=u u |
+| 3D 76 20 76 3D 77 20 77 3D 78 20 78 3D 79 20 79 | =v v=w w=x x=y y |
+| 3D 7A 0A 7A 3D 7B 20 7B 3D 7C 20 7C 3D 7D 20 7D | =z.z={ {=| |=} } |
+| 3D 7E 20 7E 3D 40 0A 0A 32 2E 20 54 65 73 74 20 | =~ ~=@..2. Test  |
+| 74 68 61 74 20 3C 73 70 65 63 69 61 6C 3E 3D 3C | that <special>=< |
+| 73 70 61 63 65 3E 20 69 73 20 66 6C 61 67 67 65 | space> is flagge |
+| 64 20 61 73 20 61 6E 20 65 72 72 6F 72 2E 0A 0A | d as an error... |
+| 20 20 20 40 3D 20 20 20 20 20 40 21 20 53 68 6F |    @=     @! Sho |
+| 75 6C 64 20 62 65 20 66 6C 61 67 67 65 64 20 61 | uld be flagged a |
+| 73 20 61 6E 20 65 72 72 6F 72 2E 0A 0A 33 2E 20 | s an error...3.  |
+| 54 65 73 74 20 74 68 61 74 20 3C 73 70 65 63 69 | Test that <speci |
+| 61 6C 3E 3D 45 4F 4C 20 69 73 20 66 6C 61 67 67 | al>=EOL is flagg |
+| 65 64 20 61 73 20 61 6E 20 65 72 72 6F 72 2E 0A | ed as an error.. |
+| 0A 20 20 20 40 3D 0A 0A                         | .   @=..         |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| SC18: Test <special>#=<010>
+00002 00002| <010>
+00003 00003| First we trip up the scanner so no further passes take place.<010>
+00004 00004| <010>
+00005 00005| @<010>
+00006 00006| <010>
+00007 00007| 1. Test with all possible printable characters.<010>
+00008 00008| <010>
+00009 00009| @=! !=" "=# #=$ $=% %=& &=' '=( (=) )=* *=+ +=, ,=- -=. .=/<010>
+00010 00010| /=0 0=1 1=2 2=3 3=4 4=5 5=6 6=7 7=8 8=9 9=: :=; ;=< <== ==><010>
+00011 00011| >=? ?=@ @=A A=B B=C C=D D=E E=F F=G G=H H=I I=J J=K K=L L=M<010>
+00012 00012| M=N N=O O=P P=Q Q=R R=S S=T T=U U=V V=W W=X X=Y Y=Z Z=[ [=\<010>
+00013 00013| \=] ]=^ ^=_ _=` `=a a=b b=c c=d d=e e=f f=g g=h h=i i=j j=k<010>
+00014 00014| k=l l=m m=n n=o o=p p=q q=r r=s s=t t=u u=v v=w w=x x=y y=z<010>
+00015 00015| z={ {=| |=} }=~ ~=@<010>
+00016 00016| <010>
+00017 00017| 2. Test that <special>=<space> is flagged as an error.<010>
+00018 00018| <010>
+00019 00019|    @=     @! Should be flagged as an error.<010>
+00020 00020| <010>
+00021 00021| 3. Test that <special>=EOL is flagged as an error.<010>
+00022 00022| <010>
+00023 00023|    @=<010>
+00024 00024| <010>
+00025 00025| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 101 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="SC18: Test <special>#=<010>
+<010>
+First we trip up the scanner so no further passes take place.<010>
+<010>
+"
+0006[01]: Text. Text scrap[Grey]="<010>
+1. Test with all possible printable characters.<010>
+<010>
+"
+0009[04]: Text. Text scrap[White]=" "
+0009[08]: Text. Text scrap[White]=" "
+0009[12]: Text. Text scrap[White]=" "
+0009[16]: Text. Text scrap[White]=" "
+0009[20]: Text. Text scrap[White]=" "
+0009[24]: Text. Text scrap[White]=" "
+0009[28]: Text. Text scrap[White]=" "
+0009[32]: Text. Text scrap[White]=" "
+0009[36]: Text. Text scrap[White]=" "
+0009[40]: Text. Text scrap[White]=" "
+0009[44]: Text. Text scrap[White]=" "
+0009[48]: Text. Text scrap[White]=" "
+0009[52]: Text. Text scrap[White]=" "
+0009[56]: Text. Text scrap[White]=" "
+0009[60]: Text. Text scrap[White]="<010>
+"
+0010[04]: Text. Text scrap[White]=" "
+0010[08]: Text. Text scrap[White]=" "
+0010[12]: Text. Text scrap[White]=" "
+0010[16]: Text. Text scrap[White]=" "
+0010[20]: Text. Text scrap[White]=" "
+0010[24]: Text. Text scrap[White]=" "
+0010[28]: Text. Text scrap[White]=" "
+0010[32]: Text. Text scrap[White]=" "
+0010[36]: Text. Text scrap[White]=" "
+0010[40]: Text. Text scrap[White]=" "
+0010[44]: Text. Text scrap[White]=" "
+0010[48]: Text. Text scrap[White]=" "
+0010[52]: Text. Text scrap[White]=" "
+0010[56]: Text. Text scrap[White]=" "
+0010[60]: Text. Text scrap[White]="<010>
+"
+0011[04]: Text. Text scrap[White]=" "
+0011[08]: Text. Text scrap[White]=" "
+0011[12]: Text. Text scrap[White]=" "
+0011[16]: Text. Text scrap[White]=" "
+0011[20]: Text. Text scrap[White]=" "
+0011[24]: Text. Text scrap[White]=" "
+0011[28]: Text. Text scrap[White]=" "
+0011[32]: Text. Text scrap[White]=" "
+0011[36]: Text. Text scrap[White]=" "
+0011[40]: Text. Text scrap[White]=" "
+0011[44]: Text. Text scrap[White]=" "
+0011[48]: Text. Text scrap[White]=" "
+0011[52]: Text. Text scrap[White]=" "
+0011[56]: Text. Text scrap[White]=" "
+0011[60]: Text. Text scrap[White]="<010>
+"
+0012[04]: Text. Text scrap[White]=" "
+0012[08]: Text. Text scrap[White]=" "
+0012[12]: Text. Text scrap[White]=" "
+0012[16]: Text. Text scrap[White]=" "
+0012[20]: Text. Text scrap[White]=" "
+0012[24]: Text. Text scrap[White]=" "
+0012[28]: Text. Text scrap[White]=" "
+0012[32]: Text. Text scrap[White]=" "
+0012[36]: Text. Text scrap[White]=" "
+0012[40]: Text. Text scrap[White]=" "
+0012[44]: Text. Text scrap[White]=" "
+0012[48]: Text. Text scrap[White]=" "
+0012[52]: Text. Text scrap[White]=" "
+0012[56]: Text. Text scrap[White]=" "
+0012[60]: Text. Text scrap[White]="<010>
+"
+0013[04]: Text. Text scrap[White]=" "
+0013[08]: Text. Text scrap[White]=" "
+0013[12]: Text. Text scrap[White]=" "
+0013[16]: Text. Text scrap[White]=" "
+0013[20]: Text. Text scrap[White]=" "
+0013[24]: Text. Text scrap[White]=" "
+0013[28]: Text. Text scrap[White]=" "
+0013[32]: Text. Text scrap[White]=" "
+0013[36]: Text. Text scrap[White]=" "
+0013[40]: Text. Text scrap[White]=" "
+0013[44]: Text. Text scrap[White]=" "
+0013[48]: Text. Text scrap[White]=" "
+0013[52]: Text. Text scrap[White]=" "
+0013[56]: Text. Text scrap[White]=" "
+0013[60]: Text. Text scrap[White]="<010>
+"
+0014[04]: Text. Text scrap[White]=" "
+0014[08]: Text. Text scrap[White]=" "
+0014[12]: Text. Text scrap[White]=" "
+0014[16]: Text. Text scrap[White]=" "
+0014[20]: Text. Text scrap[White]=" "
+0014[24]: Text. Text scrap[White]=" "
+0014[28]: Text. Text scrap[White]=" "
+0014[32]: Text. Text scrap[White]=" "
+0014[36]: Text. Text scrap[White]=" "
+0014[40]: Text. Text scrap[White]=" "
+0014[44]: Text. Text scrap[White]=" "
+0014[48]: Text. Text scrap[White]=" "
+0014[52]: Text. Text scrap[White]=" "
+0014[56]: Text. Text scrap[White]=" "
+0014[60]: Text. Text scrap[White]="<010>
+"
+0015[04]: Text. Text scrap[White]=" "
+0015[08]: Text. Text scrap[White]=" "
+0015[12]: Text. Text scrap[White]=" "
+0015[16]: Text. Text scrap[White]=" "
+0015[20]: Text. Text scrap[Grey]="<010>
+<010>
+2. Test that <special>=<space> is flagged as an error.<010>
+<010>
+   "
+0019[07]: Text. Text scrap[White]="    "
+0020[01]: Text. Text scrap[Grey]="<010>
+3. Test that <special>=EOL is flagged as an error.<010>
+<010>
+   "
+0024[01]: Text. Text scrap[White]="<010>
+"
+0025[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+Macro table dump skipped (Parser was not invoked).
+Document list dump skipped (Parser was not invoked).
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| SC18: Test <special>#=
+     2     2| 
+     3     3| First we trip up the scanner so no further passes take place.
+     4     4| 
+     5     5| @
+       Error|.^<special><endofline> is not a legal special sequence.
+     6     6| 
+     7     7| 1. Test with all possible printable characters.
+     8     8| 
+     9     9| @=! !=" "=# #=$ $=% %=& &=' '=( (=) )=* *=+ +=, ,=- -=. .=/
+    10    10| /=0 0=1 1=2 2=3 3=4 4=5 5=6 6=7 7=8 8=9 9=: :=; ;=< <== ==>
+    11    11| >=? ?=@ @=A A=B B=C C=D D=E E=F F=G G=H H=I I=J J=K K=L L=M
+    12    12| M=N N=O O=P P=Q Q=R R=S S=T T=U U=V V=W W=X X=Y Y=Z Z=[ [=\
+    13    13| \=] ]=^ ^=_ _=` `=a a=b b=c c=d d=e e=f f=g g=h h=i i=j j=k
+    14    14| k=l l=m m=n n=o o=p p=q q=r r=s s=t t=u u=v v=w w=x x=y y=z
+    15    15| z={ {=| |=} }=~ ~=@
+    16    16| 
+    17    17| 2. Test that <special>=<space> is flagged as an error.
+    18    18| 
+    19    19|    @=     @! Should be flagged as an error.
+       Error|....^You cannot set the special character to <space>!
+            |....^Special sequence ignored.
+    20    20| 
+    21    21| 3. Test that <special>=EOL is flagged as an error.
+    22    22| 
+    23    23|    @=
+       Error|....^You cannot set the special character to <endofline>!
+            |....^Special sequence ignored.
+    24    24| 
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 3 Errors.

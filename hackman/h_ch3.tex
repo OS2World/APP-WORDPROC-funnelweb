@@ -1,0 +1,549 @@
+%==============================================================================%
+%                              Start of Ch3.tex                                %
+%==============================================================================%
+%
+% Copyright
+% ---------
+% Copyright (C) 1992 Ross N. Williams.
+% This file contains a chapter of the FunnelWeb Hacker's Manual.
+% See the main TeX file for this manual for further information.
+%
+%==============================================================================%
+
+\chapter{FunnelWeb Modification}
+\label{chapmod}\xx{FunnelWeb}{modification}
+
+\section{Introduction}
+
+This chapter deals with modifications to FunnelWeb. Although the
+GNU license\xx{GNU}{license}
+under which FunnelWeb is distributed allows anyone to
+modify FunnelWeb and distribute the modified versions, there are a number of
+dangers in doing this. This chapter explains the dangers and presents
+some issues that you should think about if you intend to
+distribute modified versions of FunnelWeb.
+
+\section{The Danger of Modifying Languages}
+\xx{changes}{dangers}\xx{languages}{dangers}
+
+Whenever someone modifies a computer program they should always ask
+themselves \dq{what is the impact of these changes going to be on
+users}. For mature products, the degree of impact is largely determined
+by the investment that users have made in particular file formats
+supported by the product.
+
+At the two extremes, there are the video game\x{video game} and the
+compiler.\x{compiler}
+If one changes a video game, the change affects only the future games
+played. However, if one changes a compiler in particular ways,
+it is likely that thousands of users will be forced to change millions
+of source files to accommodate the new version. Thus the impact of changes
+to a program depends largely on the investment made by users, in
+source files, training, and even muscle memory!
+
+FunnelWeb lies very much at the compiler end of this spectrum. In fact
+it lies even further. Not only does it implement a language, but it is
+currently the \i{only} implementation of that language! This means that,
+although they shouldn't, people will be tempted to treat the FunnelWeb
+program as the definition of its input language instead of
+the definition chapter in the \i{FunnelWeb User's Manual},
+which takes precedence.
+
+Because FunnelWeb defines an input language, and people will write programs
+using that language, particular kinds of changes in the language will
+impact severely on users. Three different kinds of change are discussed
+below.
+
+\narrowthing{Removing features:}{Removal\xx{removing}{features}
+of features (featurectomy) is extremely
+difficult once the user base has started using them. If a feature is
+removed, users of the program will have to go through all their
+programs and find a way to simulate the effect of the removed feature
+with other features. Often this is so unthinkable, that bad language
+constructs are tolerated far beyond their useful lifetime.}
+
+\narrowthing{Modifying features:}{Modification\xx{features}{modification}
+of features has less
+direct impact than the removal of features, but can cause more subtle errors.
+For example, consider the sorts of subtle errors that might arise if the
+semantics of the FunnelWeb comment \p{@!} were changed so that it no
+longer includes the end of line marker. Anyone modifying features should
+be sure that they are not inadvertently laying traps.}
+
+\narrowthing{Adding features:}{Although\xx{features}{adding}
+the addition of features is
+generally the most painless for the user community, as Hoare points
+out, it is also the most dangerous in the long run.}
+
+\begin{quotation}
+\dq{When any new language design project is nearing completion, there is
+always a mad rush to get new features added before standardization.
+The rush is mad indeed, because it leads into a trap from which there is
+no escape. A feature which is omitted can always be added later, when its
+design and its implications are well understood. A feature which is
+included before it is fully understood can never be removed
+later.}\paper{Hoare80}
+\end{quotation}
+
+These problems exist even when there is a central authority.
+If we consider the case where there is no central authority, and
+users modify a language and its implementations and distribute the
+modified versions, the result is even worse. For a start, the
+structure of the genealogy of the program\xx{genealogy}{program}
+changes from a list to a tree.
+This makes it impossible to impose an ordering on the different versions
+and makes it difficult to merge them once they diverge. Second, it
+reduces the portability of files created under different versions.
+Third, it makes adding features hazardous. If a feature is added in
+one version, files will be created that use it. These files will
+immediately become non-portable. Furthermore, two programmers may
+introduce different features that use the same syntactical constructs,
+thus preventing the two versions from ever being merged. Worse, two
+programmers could introduce \i{similar} features that use the
+same syntactical constructs, producing even more subtle problems.
+
+The only way to avoid all these problems is to create some sort of
+central design authority,\xx{design}{authority}
+(or, at the very least, some sort of design
+synchronization) that controls the language and its implementation.
+
+The benefits of tight control over the language are enormous.
+
+\narrowthing{Universal portability:}{Source files can be treated as portable.
+If all the language
+implementations in the world are singing the same tune, then someone
+in Sydney could send a file to someone in New York and be
+sure that it will be successfully processed.}
+
+\narrowthing{Clear semantics:}{Doubt about the semantics of the
+language will be greatly minimized.
+So long as more than one slightly differing version of a language exists,
+there will be confusion over the semantics of its constructs. A good
+example is the confusion between the AT\&T Unix\x{Unix}
+and Berkeley Unix shell languages.}
+
+While changes to the language supported by a piece of software is the
+most serious problem associated with multiple versions of software,
+the lesser problem of keeping track of changes that don't affect the
+language that the software implements can also cause trouble. Merging
+different versions of software is extremely tedious as anyone who
+has tried it will verify. However, changes not affecting the
+language are far less serious because they impact only on the program
+itself, not on the far more numerous source files that depend on it.
+
+\section{Authority vs User Security}
+\xx{security}{authority}
+
+There are a number of ways of providing the
+strong central design authority required to produce
+the portability and semantic security desired by users,
+
+\begin{itemize}
+
+\item Trade mark\x{trademark}
+the name of the language. Publish a specification of the
+language under the trade name. Warn all users not to trust any
+implementation that does not guarantee that it implements the language.
+Then control implementations by only licensing the trade mark to conforming
+implementations.
+
+\item Create a single implementation of the language. Do not release
+the source code to the implementation. Release only binary executables.
+
+\item Release the source code to the implementation, but under a license
+that prohibits the distribution of modified versions.
+
+\end{itemize}
+
+Many other variations on these themes are possible, but they are all
+based on the idea of regulating either the \dq{official}
+definition of the language
+or all of its existing implementations.
+
+At about this stage, a conflict arises. While users want the language
+they are using to be tightly controlled, they also want to feel secure
+about the availability of its implementations. If hundreds of source
+files are to be created in the language, there had better be one or
+more translators available when the time comes to use them.
+
+In the case of widely-used programming languages such as~C, the problem of
+securing implementations does not arise. If you don't get your
+compiler from Borland, you can get it from Microsoft. However, in the
+case of a newly introduced language such as FunnelWeb, there may be
+very few implementations, or even just one implementation,
+and this poses a danger to the
+user who is committing to that format. Despite the best intentions of the
+copyright owner, there are a variety of ways in which a computer
+program can suddenly become
+unavailable.\xx{program}{availability} Here are some examples:
+
+\begin{itemize}
+
+\item If the program is owned by a company and the company goes broke,
+the liquidators may not bother to place the software in the public domain.
+
+\item If the program is owned by a kindly individual who issues licenses
+for free, and that individual suddenly dies, users might suddenly find
+themselves negotiating with hard-nosed estate executors for the rights
+to continue using the program.
+
+\item If whoever owns the program does not upgrade the program every so
+often, it is actually possible for the released
+executables to \dq{expire} when new operating system upgrades appear.
+
+\end{itemize}
+
+These possibilities mean that users about to invest in a newly
+introduced programming
+tool such as FunnelWeb have legitimate concerns when they worry
+about the tool's availability. For non-commercially
+distributed  tools such as FunnelWeb, the simplest solution to this
+problem is to make the source code available, either by placing it
+into the public domain, or by releasing it under some kind of
+public license, such as a GNU license.
+The trouble with releasing the source code
+is that it removes control from the design
+authority. Once the code is \dq{out} there is no stopping anyone
+from modifying the program and distributing modified versions.
+All chaos can ensue.
+
+One solution to this conflict is to take the trade mark approach. This
+separates the right of the design authority to control the language and
+its implementations, and the right of the users to use the source
+code in any way they like (but they may have to change its name!).
+However, the trade mark approach is expensive.
+
+The solution that I (Ross Williams (\p{ross@spam.adelaide.edu.au}))
+have adopted is to release the FunnelWeb source code under a GNU license
+and then to write this chapter in the \i{FunnelWeb
+Hacker's Manual} to dissuade possible hackers from
+releasing modified versions under the FunnelWeb name.
+This is about as close to the GNU/trademark approach
+I can get without forking out about \$1200 for a US trademark
+or paying even more to get a lawyer to attempt to draft a contract
+stating \dq{thou shalt not modify the FunnelWeb language}.
+
+\section{What I Want to Protect}
+\xx{protection}{FunnelWeb}\xx{protection}{file extension}
+
+The concerns expressed in the previous section about modifications to the
+FunnelWeb program do not preclude modifications. They merely imply that
+some conditions be observed when modifications are made.
+In fact,
+having formally released the sources under GNU, there is nothing that
+I can do to stop people distributing modified versions and the conditions
+to be described must be imposed voluntarily.
+
+In the end there are two things that I want to protect/maintain:
+
+\begin{enumerate}
+
+\item Restriction of the name \dq{FunnelWeb} only to computer programs
+that exactly implement my \dq{official} definition of the language.
+
+\item Restriction of the FunnelWeb source file extensions \dqp{.fw}
+(input files) and \dqp{.fwi} (include files) only
+to source files that conform to my \dq{official} definition of the
+language.
+
+\end{enumerate}
+
+So long as these conditions hold, source files created under \dq{FunnelWeb}
+will be portable, and the language will have the potential to
+be stable and well-defined. Here are my suggestions for how to
+obey these rules. These suggestions are in addition to the GNU license
+rules about documenting any changes that you make in the source files.
+
+\narrowthing{Modifications that do not affect functionality:}{If you
+change the FunnelWeb program in a manner that does not
+affect the functionality of the program in any way (\eg{}port
+it to a new machine, or just speed it up),
+then you should modify the program to write out a message when it
+starts up saying that
+it is a modified version of FunnelWeb. No other actions need be taken.}
+
+\narrowthing{Modifications that affect functionality:}{If you make changes
+to FunnelWeb that affect its functionality (\eg{}changes to command line
+options, the command language, or the input language)
+you should change the name of the program so that the name
+no longer contains the word
+\dq{FunnelWeb}, and should choose alternative input and include-file
+file extensions (the current ones are \dqp{.fw} and \dqp{.fwi}). For example,
+you might call your program \dq{BananaWeb} and use the file extensions
+\dqp{.bw} and \dqp{.bwi}.}
+
+These rules are not very restrictive. Basically you can do what you like
+so long as you change the name of the resulting program. I do not wish to
+restrict anyone who might want to use FunnelWeb as a foundation for a more
+sophisticated literate programming system. My sole aim here is to
+protect the integrity of what already exists.
+
+\section{Modifying the Manuals}
+\xx{modifying}{manuals}
+
+While it is permitted to modify the FunnelWeb program, no license has been
+granted
+to modify its documentation (\i{The FunnelWeb User's Manual} and
+\i{The FunnelWeb Hacker's Manual}). The only operation that can be
+performed on the FunnelWeb documentation is a verbatim copy in any medium.
+
+If you have created a modified version of FunnelWeb and wish to document it,
+either write your own manual from scratch, or write a manual that can be
+used in conjunction with the existing manuals.
+
+\section{How Copyright Law Works}
+\xx{copyright}{law}
+
+In order to understand the next section, some understanding of copyright
+law is required. The assertions made in this section are not legal opinions;
+they are merely approximations of the law, based on my understanding of it.
+
+By default, whoever creates a \newterm{work} owns \newterm{copyright}
+over it. This means that by default, that person is the only person in the
+world who has the legal right to make copies of the work.
+
+Copyright over a work usually covers all direct derivations of this work.
+For example, if someone owns the source code to a computer program
+then they also own any direct derivations such as the binary executable.
+
+More than one person may own copyright over a work. If this is the case,
+then the work cannot be copied without the permission of all of the people
+owning the copyright.
+
+A person (or group) owning copyright over a work
+can \newterm{license} the right to make copies
+of the work to anyone he likes under any conditions he likes.
+
+If a work is modified, the result is called a \newterm{derived work}.
+
+If copyright on a work is owned by $A$ is the work is modified by $B$,
+copyright on the derived work is owned by both $A$ and $B$.
+
+Copyright is not ownership over particular configurations of information,
+but rather is the right to restrict the copying of information derived
+from particular sources. For example, if two people point their cameras
+out a window and take identical photographs, each person has the right
+to restrict the copying of \i{their} photograph regardless of the
+fact that the other person has copyright over an identical photograph.
+In the unlikely event that two people wrote
+novels that were letter for letter identical and it could be proven that
+there was no contact between the two people when they wrote the novels,
+then copyright law would each protect the right of each person to
+restrict the copying of the novel originating from \i{them}. In practice,
+the probability of such an event occurring is so low that the law
+assumes that if two works are close or identical, that there has been
+some information interchange at some point.
+
+Thus, if I own copyright on computer program $X$, and I create
+an identical copy of $X$
+called $Y$ and distribute it under the terms of a license agreement,
+then that license agreement does not cover the copy $X$. Once the
+license agreement is signed, there is nothing I can do to undo the
+license; $Y$ has gone. However, I still have total control over $X$.
+
+Version~2 of the GNU General Public License\xx{GNU}{license}
+(under which FunnelWeb is
+released) specifies (in a nutshell) that software can be copied freely
+so long as it is not sold, and that it can be modified and copied
+freely so long as the modifications are logged and it is not sold.
+In both cases, it requires that the
+result of the copy or modification operation
+be copied only under the conditions of the license.
+
+Once a declaration is issued licensing a copy of a program under GNU
+license, that license cannot be retracted.
+
+\section{Management of the Official FunnelWeb}
+\xx{FunnelWeb}{management}\xx{FunnelWeb}{official}
+
+I intend to maintain an official copy of FunnelWeb and release it under
+GNU license from time to time so that everyone can use it. Unfortunately
+its going to be a little messy.
+
+For a variety of reasons, I want to maintain
+total control over \i{my} copy of the official version of FunnelWeb.
+Some of the reasons are:
+
+\begin{itemize}
+
+\item If it turns out that there is an enormous demand for
+FunnelWeb (unlikely) then
+I want to be able to create a business based on it, or at least
+be able to bundle it with other products.
+This would be difficult if the only up-to-date copy available was a GNU copy.
+Note: If this happens, all the GNU releases of FunnelWeb will remain
+valid.
+
+\item I want to be able to copy code from my version of FunnelWeb
+into commercial products without having to worry about the GNU license.
+
+\end{itemize}
+
+The trouble is that (in my understanding of copyright law),
+once a copy of FunnelWeb has been released under GNU license, then it
+and any works derived from it fall under GNU license too. This means that
+if you modify a GNU release of 
+FunnelWeb and send me your modifications, and I incorporate
+them into my version, then I no longer own copyright on the version I
+modified. Basically, if GNU touches a work, then that copy is gone forever.
+
+My solution to the problem is to keep a copy of FunnelWeb that is
+GNU-clean and only make modifications to it that are GNU-clean. So
+long as my official copy is GNU clean, any modifications that I make
+myself will be GNU clean. The problem comes when someone else modifies
+the GNU version and then wants me to incorporate the modifications into
+my official version. As I understand the law, by default, the programmer
+owns the modifications (because he made them), but the result of making
+the modifications falls under GNU license. What I propose is that those
+who want their modifications included in the official copy of FunnelWeb
+sign an agreement transferring copyright of the modifications over to
+me on condition that the result be released under GNU license within
+a certain time period. \figlicense{} demonstrates the process.
+
+\begin{figure}[htbp]
+\begin{verbatim}
+
+  +---------->----------+--------------<-------------+
+  |(modifications by    |                            |
+  | me)                 V                            |
+  |     +----------------------------------+         |
+  +--<--|  My Official Copy of FunnelWeb   |         |
+        |   Copyright (C) Ross Williams    |         |
+        +----------------------------------+         |
+                        | (Periodic releases)       / \
+                        V                          /   \  Programmers
+              +------------------+                /Legal\ sign away
+              | GNU Release Copy |                \Filte/ copyright on
+              +------------------+                 \ r /  modifications
+                        |                           \ /
+                        | (Modifications made by     |
+                        V  random programmers) --->--+
+             +-----------------------+
+             | Modified GNU Version  |
+             +-----------------------+
+
+\end{verbatim}
+\mylabel{\figlicense{}: How I am going to maintain copyright over FunnelWeb.}{%
+%
+Once a work is released under GNU license, all derived works fall under
+GNU license. However, this diagram shows how copyright can be maintained
+over a work, while still making it available under GNU license.
+Unfortunately, this scheme requires that copyright on
+modifications to FunnelWeb be signed off by the people who make the
+modifications.
+%
+}
+\end{figure}
+
+There are two main disadvantages to this scheme:
+
+\begin{enumerate}
+
+\item Getting each person who contributes modifications to FunnelWeb
+to sign and send a piece of paper signing away copyright will be tedious.
+
+\item Programmers may be reluctant to sign away copyright on modifications
+because the result could be used by me for commercial purposes
+by me at a later date (Note: But it must be released under GNU as well).
+
+\end{enumerate}
+
+These disadvantages are regrettable consequences of my decision to retain
+total control over the \dq{official} version of FunnelWeb.
+
+The upshot of all this is that:
+
+\begin{itemize}
+
+\item I will never allow any code from a GNU release of FunnelWeb to
+touch my official copy. Only modifications will be acceptable.
+
+\item If you make a modification to FunnelWeb and send it to me for
+inclusion in the official version, I will not incorporate your
+modification until I have received a signed declaration transferring copyright.
+I will prepare such a contract when the first person sends me a worthy
+modification!
+
+\item If you intend to make changes to FunnelWeb that are so massive that they
+will involve wide-scale modification of the source files, and you want
+the modification to be part of the official version,
+it might be a good idea to contact me before doing so. There are two
+reasons for doing this. First, it allows me a chance to comment on your
+proposed modifications and give my opinion on whether they are likely to be
+incorporated into the official version. Second, I can send you a copy
+(under special license) of the GNU-clean official version to work on. This will
+allow you to ship back your changes as files rather than as change sections.
+
+\end{itemize}
+
+As a separate point from the legal issues, I am likely to turn out to be
+pretty picky about what modifications I will incorporate into the
+official copy. Whether a modification will be accepted will depend,
+amongst other things, on the following criteria.
+
+\begin{itemize}
+
+\item Does the modification fit in with the design goals of FunnelWeb, or
+is it just a case of creeping featurism?
+
+\item How well coded is the modification? Would it reduce the quality of the
+code?
+
+\item If the modification changes FunnelWeb's functionality, is this a
+desirable change? How will it impact on existing users?
+
+\item Would it be quicker for me to make the modification myself than
+to work out how to incorporate the submitted modification?
+
+\end{itemize}
+
+It is my goal to guard the integrity of the design and code of the
+official version of FunnelWeb and so I will probably be rather
+fussy about what I regard as a worthwhile modification. I do not wish to
+lose control of the code, either technically or legally.
+
+\section{A GNU Version?}
+\xx{GNU}{version}
+
+The controls on the official version of FunnelWeb described in the previous
+section will have at most a minor impact on FunnelWeb development if
+FunnelWeb already serves the needs of most of its users. However, if it
+turns out that FunnelWeb is both popular, \i{and} needs
+widespread modifications and enhancements, then the official feedback loop
+described in the previous section will become unworkable, and there will be
+a GNU breakout.
+
+A \newterm{GNU breakout}\xs{breakout}{GNU}
+will occur if FunnelWeb users become
+organized enough and annoyed enough (at the official development cycle)
+to start maintaining a coherent version of FunnelWeb that
+diverges from the official version.
+If a GNU breakout occurs, I would appreciate, as requested earlier, that
+a different name and file extensions be chosen for the diverging version.
+
+\section{Summary}
+
+Decentralized modifications to a programming language and its implementations
+can seriously damage the language's portability and semantic clarity.
+Unfortunately, there is a tension between centralizing control of a
+programming language and providing source code security to nervous users.
+In FunnelWeb, this trade-off has been resolved to some extent by
+releasing the source code along with a request
+that if the functionality of the program is modified,
+that the program's name be changed and a different file
+extension be chosen for input files created under the modified program.
+The author of FunnelWeb has decided to maintain an official version of
+FunnelWeb over which he will own copyright, but which he will release
+under GNU license from time to time. This means that copyright
+on all changes to FunnelWeb must be signed over to the author before they
+have a chance of being incorporated in the official version. Finally, it is
+possible that this reluctance of the author to remove his copyrighted
+version from the development cycle of the official version
+will result in a GNU breakout in which a diverging GNU
+version of FunnelWeb will be maintained by the GNU community. The author
+hopes this won't be necessary and requests,
+if this happens, that the diverging GNU version be renamed.
+
+%==============================================================================%
+%                              Start of Ch3.tex                                %
+%==============================================================================%

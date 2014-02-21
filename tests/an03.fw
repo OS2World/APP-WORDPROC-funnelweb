@@ -1,0 +1,48 @@
+AN03: Test semantics checking of macros.
+
+First define some macros to call.
+@$@<Zero@>@Z@M@{@}
+@$@<One@>@(@1@)@Z@M@{@}
+@$@<Two@>@(@2@)@Z@M@{@}
+
+1. Test call to undefined macro.
+@$@<Sloth1@>@Z==@{@<Walrus@>@}
+
+2. Test calls with wrong number of parameters.
+@$@<Sloth2@>@Z==@{
+@<Zero@>
+@<Zero@>@(@)
+@<Zero@>@(@,@)
+@<One@>
+@<One@>@(@)
+@<One@>@(Walrus@,@)
+@<Two@>@(Sloth@)
+@}
+
+3. Test call to file macro.
+@O@<deleteme.txt@>@{@}
+@$@<Teapot@>@Z@{@<deleteme.txt@>@}
+
+4. Test macro never used and has <special>Z.
+@$@<Elephant@>@Z@{@}
+
+5. Test macro often used and has <special>M.
+@$@<Giraffe@>@M@{@}
+@$@<Use Giraffe@>@Z@{@<Giraffe@>@<Giraffe@>@}
+
+6. Test macro never used and no <special>Z
+@$@<Zebra@>@{@}
+
+7. Test multiply used and no <special>M.
+@$@<Monkey@>@{@}
+@$@<Use Monkey@>@Z@{@<Monkey@>@<Monkey@>@}
+
+8. Test directly recursive macro.
+@$@<Who do ya call?@>@{@<Who do ya call?@>@}
+
+9. Test indirectly recursive macro.
+@$@<X@>@M@{@<Y@>@}
+@$@<Y@>@{@<X@>@}
+
+10. Test callers of recursive macros.
+@$@<Z@>@Z@{@<X@>@}

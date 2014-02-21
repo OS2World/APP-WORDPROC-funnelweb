@@ -1,0 +1,35 @@
+
+ANNOUNCING FUNNELWEB
+====================
+Author : Ross Williams (ross@spam.adelaide.edu.au).
+Date   : 27-May-1992.
+
+FunnelWeb is a production-quality literate-programming tool that emphasises
+simplicity and reliability. It provides a macro facility, and assists in the
+production of typeset documentation. FunnelWeb runs on most popular machines
+(Sun, VAX, Mac, PC) and its highly portable source code in C is freely
+available under a GNU license.
+
+Features:
+   + Provides a simple macro preprocessor facility.
+   + Assists in the generation of typeset documentation.
+   + Runs on Sun, VMS VAX, Macintosh, and PC.
+   + Portable C source code distributed under GNU licence.
+   + Comprehensive user's manual (115 pages).
+   + Input programming language independent.
+   + Allows complete control over the output text.
+   + Regression test suite with over 200 tests.
+   - Requires TeX to produce typeset documentation.
+   - Typesets program code using TT font only.
+
+How to Obtain FunnelWeb
+-----------------------
+FunnelWeb can be obtained by anonymous FTP from:
+
+Machine  : sirius.itd.adelaide.edu.au [IP=129.127.40.3].
+Directory: ~pub/funnelweb/   (or a directory of similar name).
+
+It is not clear at the time of writing whether FunnelWeb will be
+presented as a TAR file or as a directory tree or both.
+
+--<End of Announcement>--

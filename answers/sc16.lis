@@ -1,0 +1,456 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 53 43 31 36 3A 20 54 65 73 74 20 3C 73 70 65 63 | SC16: Test <spec |
+| 69 61 6C 3E 5E 20 73 65 71 75 65 6E 63 65 2E 0A | ial>^ sequence.. |
+| 0A 31 2E 20 54 65 73 74 20 74 68 61 74 20 61 6C | .1. Test that al |
+| 6C 20 62 61 73 65 20 63 68 61 72 61 63 74 65 72 | l base character |
+| 73 20 77 6F 72 6B 20 28 69 6E 20 62 6F 74 68 20 | s work (in both  |
+| 63 61 73 65 73 29 2E 0A 20 20 20 54 68 65 73 65 | cases)..   These |
+| 20 73 68 6F 75 6C 64 20 70 72 6F 76 6F 6B 65 20 |  should provoke  |
+| 6E 6F 20 65 72 72 6F 72 73 2E 0A 0A 20 20 20 40 | no errors...   @ |
+| 5E 42 28 30 30 30 30 30 30 30 30 29 20 20 20 40 | ^B(00000000)   @ |
+| 5E 62 28 30 30 30 30 30 30 30 30 29 0A 20 20 20 | ^b(00000000).    |
+| 40 5E 4F 28 30 30 30 29 20 20 20 40 5E 6F 28 30 | @^O(000)   @^o(0 |
+| 30 30 29 0A 20 20 20 40 5E 51 28 30 30 30 29 20 | 00).   @^Q(000)  |
+| 20 20 40 5E 71 28 30 30 30 29 0A 20 20 20 40 5E |   @^q(000).   @^ |
+| 44 28 30 30 30 29 20 20 20 40 5E 64 28 30 30 30 | D(000)   @^d(000 |
+| 29 0A 20 20 20 40 5E 48 28 30 30 29 20 20 20 20 | ).   @^H(00)     |
+| 40 5E 68 28 30 30 29 0A 20 20 20 40 5E 58 28 30 | @^h(00).   @^X(0 |
+| 30 29 20 20 20 20 40 5E 78 28 30 30 29 0A 0A 32 | 0)    @^x(00)..2 |
+| 2E 20 54 65 73 74 20 74 68 61 74 20 73 6F 6D 65 | . Test that some |
+| 20 6F 74 68 65 72 20 62 61 73 65 20 63 68 61 72 |  other base char |
+| 61 63 74 65 72 73 20 67 65 6E 65 72 61 74 65 20 | acters generate  |
+| 61 6E 20 65 72 72 6F 72 2E 0A 0A 20 20 20 40 5E | an error...   @^ |
+| 75 28 30 29 0A 20 20 20 40 5E 79 0A 20 20 20 40 | u(0).   @^y.   @ |
+| 5E 23 0A 20 20 20 40 5E 28 0A 0A 33 2E 20 54 65 | ^#.   @^(..3. Te |
+| 73 74 20 74 68 61 74 20 61 6E 20 65 72 72 6F 72 | st that an error |
+| 20 69 73 20 67 65 6E 65 72 61 74 65 64 20 69 66 |  is generated if |
+| 20 70 61 72 65 6E 74 68 65 73 69 73 20 69 73 20 |  parenthesis is  |
+| 6D 69 73 73 69 6E 67 2E 0A 0A 20 20 20 40 5E 44 | missing...   @^D |
+| 33 34 29 0A 0A 34 2E 20 54 65 73 74 20 6C 65 67 | 34)..4. Test leg |
+| 61 6C 20 64 69 67 69 74 73 20 69 6E 20 65 61 63 | al digits in eac |
+| 68 20 62 61 73 65 2E 0A 0A 20 20 20 40 5E 42 28 | h base...   @^B( |
+| 30 30 30 30 31 31 31 31 29 0A 20 20 20 40 5E 4F | 00001111).   @^O |
+| 28 30 31 32 29 20 20 40 5E 4F 28 30 33 34 29 20 | (012)  @^O(034)  |
+| 40 5E 4F 28 30 35 36 29 20 40 5E 4F 28 30 37 37 | @^O(056) @^O(077 |
+| 29 0A 20 20 20 40 5E 44 28 30 31 32 29 20 20 40 | ).   @^D(012)  @ |
+| 5E 44 28 30 33 34 29 20 40 5E 44 28 30 35 36 29 | ^D(034) @^D(056) |
+| 20 40 5E 44 28 30 37 38 29 20 40 5E 44 28 30 39 |  @^D(078) @^D(09 |
+| 39 29 0A 20 20 20 40 5E 48 28 30 31 29 20 40 5E | 9).   @^H(01) @^ |
+| 48 28 32 33 29 20 40 5E 48 28 34 35 29 20 40 5E | H(23) @^H(45) @^ |
+| 48 28 36 37 29 0A 20 20 20 40 5E 48 28 38 39 29 | H(67).   @^H(89) |
+| 20 40 5E 48 28 41 42 29 20 40 5E 58 28 43 44 29 |  @^H(AB) @^X(CD) |
+| 20 40 5E 58 28 45 46 29 20 20 40 5E 78 28 61 66 |  @^X(EF)  @^x(af |
+| 29 0A 0A 35 2E 20 54 65 73 74 20 69 6C 6C 65 67 | )..5. Test illeg |
+| 61 6C 20 64 69 67 69 74 73 20 69 6E 20 65 61 63 | al digits in eac |
+| 68 20 62 61 73 65 2E 0A 0A 20 20 20 40 5E 42 28 | h base...   @^B( |
+| 30 30 30 30 30 30 30 32 29 0A 20 20 20 40 5E 4F | 00000002).   @^O |
+| 28 30 30 38 29 0A 20 20 20 40 5E 44 28 30 30 41 | (008).   @^D(00A |
+| 29 0A 20 20 20 40 5E 48 28 30 47 29 0A 0A 36 2E | ).   @^H(0G)..6. |
+| 20 54 65 73 74 20 77 68 61 74 20 68 61 70 70 65 |  Test what happe |
+| 6E 73 20 69 66 20 74 68 65 72 65 20 61 72 65 20 | ns if there are  |
+| 74 68 65 20 77 72 6F 6E 67 20 6E 75 6D 62 65 72 | the wrong number |
+| 20 6F 66 20 64 69 67 69 74 73 0A 20 20 20 28 74 |  of digits.   (t |
+| 6F 6F 20 66 65 77 2C 20 74 6F 6F 20 6D 61 6E 79 | oo few, too many |
+| 29 2E 0A 0A 20 20 20 40 5E 42 28 31 29 0A 20 20 | )...   @^B(1).   |
+| 20 40 5E 4F 28 31 29 0A 20 20 20 40 5E 44 28 31 |  @^O(1).   @^D(1 |
+| 29 0A 20 20 20 40 5E 48 28 31 29 0A 0A 20 20 20 | ).   @^H(1)..    |
+| 40 5E 42 28 30 30 30 30 30 30 30 30 31 29 0A 20 | @^B(000000001).  |
+| 20 20 40 5E 4F 28 30 30 30 34 29 0A 20 20 20 40 |   @^O(0004).   @ |
+| 5E 44 28 30 30 30 31 29 0A 20 20 20 40 5E 48 28 | ^D(0001).   @^H( |
+| 30 30 35 29 0A 0A 37 2E 20 54 65 73 74 20 74 68 | 005)..7. Test th |
+| 61 74 20 61 6E 20 65 72 72 6F 72 20 69 73 20 67 | at an error is g |
+| 65 6E 65 72 61 74 65 64 20 66 6F 72 20 61 20 6D | enerated for a m |
+| 69 73 73 69 6E 67 20 63 6C 6F 73 69 6E 67 20 70 | issing closing p |
+| 61 72 65 6E 74 68 65 73 69 73 2E 0A 0A 20 20 40 | arenthesis...  @ |
+| 5E 42 28 30 30 30 30 30 30 30 30 0A 20 20 40 5E | ^B(00000000.  @^ |
+| 44 28 30 34 35 28 0A 0A 38 2E 20 54 65 73 74 20 | D(045(..8. Test  |
+| 77 68 61 74 20 68 61 70 70 65 6E 73 20 69 6E 20 | what happens in  |
+| 6E 75 6D 62 65 72 20 69 73 20 6F 75 74 20 6F 66 | number is out of |
+| 20 74 68 65 20 72 61 6E 67 65 20 5B 30 2C 32 35 |  the range [0,25 |
+| 35 5D 2E 0A 0A 20 20 40 5E 44 28 32 35 35 29 0A | 5]...  @^D(255). |
+| 20 20 40 5E 44 28 32 35 36 29 0A 20 20 40 5E 44 |   @^D(256).  @^D |
+| 28 39 39 39 29 0A 0A                            | (999)..          |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| SC16: Test <special>^ sequence.<010>
+00002 00002| <010>
+00003 00003| 1. Test that all base characters work (in both cases).<010>
+00004 00004|    These should provoke no errors.<010>
+00005 00005| <010>
+00006 00006|    @^B(00000000)   @^b(00000000)<010>
+00007 00007|    @^O(000)   @^o(000)<010>
+00008 00008|    @^Q(000)   @^q(000)<010>
+00009 00009|    @^D(000)   @^d(000)<010>
+00010 00010|    @^H(00)    @^h(00)<010>
+00011 00011|    @^X(00)    @^x(00)<010>
+00012 00012| <010>
+00013 00013| 2. Test that some other base characters generate an error.<010>
+00014 00014| <010>
+00015 00015|    @^u(0)<010>
+00016 00016|    @^y<010>
+00017 00017|    @^#<010>
+00018 00018|    @^(<010>
+00019 00019| <010>
+00020 00020| 3. Test that an error is generated if parenthesis is missing.<010>
+00021 00021| <010>
+00022 00022|    @^D34)<010>
+00023 00023| <010>
+00024 00024| 4. Test legal digits in each base.<010>
+00025 00025| <010>
+00026 00026|    @^B(00001111)<010>
+00027 00027|    @^O(012)  @^O(034) @^O(056) @^O(077)<010>
+00028 00028|    @^D(012)  @^D(034) @^D(056) @^D(078) @^D(099)<010>
+00029 00029|    @^H(01) @^H(23) @^H(45) @^H(67)<010>
+00030 00030|    @^H(89) @^H(AB) @^X(CD) @^X(EF)  @^x(af)<010>
+00031 00031| <010>
+00032 00032| 5. Test illegal digits in each base.<010>
+00033 00033| <010>
+00034 00034|    @^B(00000002)<010>
+00035 00035|    @^O(008)<010>
+00036 00036|    @^D(00A)<010>
+00037 00037|    @^H(0G)<010>
+00038 00038| <010>
+00039 00039| 6. Test what happens if there are the wrong number of digits<010>
+00040 00040|    (too few, too many).<010>
+00041 00041| <010>
+00042 00042|    @^B(1)<010>
+00043 00043|    @^O(1)<010>
+00044 00044|    @^D(1)<010>
+00045 00045|    @^H(1)<010>
+00046 00046| <010>
+00047 00047|    @^B(000000001)<010>
+00048 00048|    @^O(0004)<010>
+00049 00049|    @^D(0001)<010>
+00050 00050|    @^H(005)<010>
+00051 00051| <010>
+00052 00052| 7. Test that an error is generated for a missing closing parenthesis.<010>
+00053 00053| <010>
+00054 00054|   @^B(00000000<010>
+00055 00055|   @^D(045(<010>
+00056 00056| <010>
+00057 00057| 8. Test what happens in number is out of the range [0,255].<010>
+00058 00058| <010>
+00059 00059|   @^D(255)<010>
+00060 00060|   @^D(256)<010>
+00061 00061|   @^D(999)<010>
+00062 00062| <010>
+00063 00063| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 87 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="SC16: Test <special>^ sequence.<010>
+<010>
+1. Test that all base characters work (in both cases).<010>
+   These should provoke no errors.<010>
+<010>
+   "
+0006[04]: Text. Text scrap[Grey]="<000>"
+0006[17]: Text. Text scrap[White]="   "
+0006[20]: Text. Text scrap[Grey]="<000>"
+0006[33]: Text. Text scrap[White]="<010>
+   "
+0007[04]: Text. Text scrap[Grey]="<000>"
+0007[12]: Text. Text scrap[White]="   "
+0007[15]: Text. Text scrap[Grey]="<000>"
+0007[23]: Text. Text scrap[White]="<010>
+   "
+0008[04]: Text. Text scrap[Grey]="<000>"
+0008[12]: Text. Text scrap[White]="   "
+0008[15]: Text. Text scrap[Grey]="<000>"
+0008[23]: Text. Text scrap[White]="<010>
+   "
+0009[04]: Text. Text scrap[Grey]="<000>"
+0009[12]: Text. Text scrap[White]="   "
+0009[15]: Text. Text scrap[Grey]="<000>"
+0009[23]: Text. Text scrap[White]="<010>
+   "
+0010[04]: Text. Text scrap[Grey]="<000>"
+0010[11]: Text. Text scrap[White]="    "
+0010[15]: Text. Text scrap[Grey]="<000>"
+0010[22]: Text. Text scrap[White]="<010>
+   "
+0011[04]: Text. Text scrap[Grey]="<000>"
+0011[11]: Text. Text scrap[White]="    "
+0011[15]: Text. Text scrap[Grey]="<000>"
+0011[22]: Text. Text scrap[Grey]="<010>
+<010>
+2. Test that some other base characters generate an error.<010>
+<010>
+   "
+0015[07]: Text. Text scrap[Grey]="(0)<010>
+   "
+0016[07]: Text. Text scrap[White]="<010>
+   "
+0017[07]: Text. Text scrap[White]="<010>
+   "
+0018[07]: Text. Text scrap[Grey]="<010>
+<010>
+3. Test that an error is generated if parenthesis is missing.<010>
+<010>
+   "
+0022[08]: Text. Text scrap[Grey]="4)<010>
+<010>
+4. Test legal digits in each base.<010>
+<010>
+   "
+0026[04]: Text. Text scrap[Grey]="<015>"
+0026[17]: Text. Text scrap[White]="<010>
+   "
+0027[04]: Text. Text scrap[Grey]="<010>
+"
+0027[12]: Text. Text scrap[White]="  "
+0027[14]: Text. Text scrap[Grey]="<028>"
+0027[22]: Text. Text scrap[White]=" "
+0027[23]: Text. Text scrap[Grey]="."
+0027[31]: Text. Text scrap[White]=" "
+0027[32]: Text. Text scrap[Grey]="?"
+0027[40]: Text. Text scrap[White]="<010>
+   "
+0028[04]: Text. Text scrap[Grey]="<012>"
+0028[12]: Text. Text scrap[White]="  "
+0028[14]: Text. Text scrap[Grey]="""
+0028[22]: Text. Text scrap[White]=" "
+0028[23]: Text. Text scrap[Grey]="8"
+0028[31]: Text. Text scrap[White]=" "
+0028[32]: Text. Text scrap[Grey]="N"
+0028[40]: Text. Text scrap[White]=" "
+0028[41]: Text. Text scrap[Grey]="c"
+0028[49]: Text. Text scrap[White]="<010>
+   "
+0029[04]: Text. Text scrap[Grey]="<001>"
+0029[11]: Text. Text scrap[White]=" "
+0029[12]: Text. Text scrap[Grey]="#"
+0029[19]: Text. Text scrap[White]=" "
+0029[20]: Text. Text scrap[Grey]="E"
+0029[27]: Text. Text scrap[White]=" "
+0029[28]: Text. Text scrap[Grey]="g"
+0029[35]: Text. Text scrap[White]="<010>
+   "
+0030[04]: Text. Text scrap[Grey]="<137>"
+0030[11]: Text. Text scrap[White]=" "
+0030[12]: Text. Text scrap[Grey]="<171>"
+0030[19]: Text. Text scrap[White]=" "
+0030[20]: Text. Text scrap[Grey]="<205>"
+0030[27]: Text. Text scrap[White]=" "
+0030[28]: Text. Text scrap[Grey]="<239>"
+0030[35]: Text. Text scrap[White]="  "
+0030[37]: Text. Text scrap[Grey]="<175>"
+0030[44]: Text. Text scrap[Grey]="<010>
+<010>
+5. Test illegal digits in each base.<010>
+<010>
+   "
+0034[16]: Text. Text scrap[Grey]=")<010>
+   "
+0035[11]: Text. Text scrap[Grey]=")<010>
+   "
+0036[11]: Text. Text scrap[Grey]=")<010>
+   "
+0037[10]: Text. Text scrap[Grey]=")<010>
+<010>
+6. Test what happens if there are the wrong number of digits<010>
+   (too few, too many).<010>
+<010>
+   "
+0042[10]: Text. Text scrap[White]="<010>
+   "
+0043[10]: Text. Text scrap[White]="<010>
+   "
+0044[10]: Text. Text scrap[White]="<010>
+   "
+0045[10]: Text. Text scrap[White]="<010>
+<010>
+   "
+0047[17]: Text. Text scrap[Grey]=")<010>
+   "
+0048[12]: Text. Text scrap[Grey]=")<010>
+   "
+0049[12]: Text. Text scrap[Grey]=")<010>
+   "
+0050[11]: Text. Text scrap[Grey]=")<010>
+<010>
+7. Test that an error is generated for a missing closing parenthesis.<010>
+<010>
+  "
+0055[01]: Text. Text scrap[White]="  "
+0055[11]: Text. Text scrap[Grey]="<010>
+<010>
+8. Test what happens in number is out of the range [0,255].<010>
+<010>
+  "
+0059[03]: Text. Text scrap[Grey]="<255>"
+0059[11]: Text. Text scrap[White]="<010>
+  "
+0060[11]: Text. Text scrap[White]="<010>
+  "
+0061[11]: Text. Text scrap[White]="<010>
+<010>
+"
+0063[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+Macro table dump skipped (Parser was not invoked).
+Document list dump skipped (Parser was not invoked).
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| SC16: Test <special>^ sequence.
+     2     2| 
+     3     3| 1. Test that all base characters work (in both cases).
+     4     4|    These should provoke no errors.
+     5     5| 
+     6     6|    @^B(00000000)   @^b(00000000)
+     7     7|    @^O(000)   @^o(000)
+     8     8|    @^Q(000)   @^q(000)
+     9     9|    @^D(000)   @^d(000)
+    10    10|    @^H(00)    @^h(00)
+    11    11|    @^X(00)    @^x(00)
+    12    12| 
+    13    13| 2. Test that some other base characters generate an error.
+    14    14| 
+    15    15|    @^u(0)
+       Error|......^Expecting one of 'B', 'Q', 'D', 'H'.
+            |......^(For Binary, Octal, Decimal, and Hexadecimal).
+            |......^A decimal character representation takes the form "@^D(ddd)".
+            |......^(exactly 3 digits) where each digit d is in the range 0..9.
+    16    16|    @^y
+       Error|......^Expecting one of 'B', 'Q', 'D', 'H'.
+            |......^(For Binary, Octal, Decimal, and Hexadecimal).
+            |......^A decimal character representation takes the form "@^D(ddd)".
+            |......^(exactly 3 digits) where each digit d is in the range 0..9.
+    17    17|    @^#
+       Error|......^Expecting one of 'B', 'Q', 'D', 'H'.
+            |......^(For Binary, Octal, Decimal, and Hexadecimal).
+            |......^A decimal character representation takes the form "@^D(ddd)".
+            |......^(exactly 3 digits) where each digit d is in the range 0..9.
+    18    18|    @^(
+       Error|......^Expecting one of 'B', 'Q', 'D', 'H'.
+            |......^(For Binary, Octal, Decimal, and Hexadecimal).
+            |......^A decimal character representation takes the form "@^D(ddd)".
+            |......^(exactly 3 digits) where each digit d is in the range 0..9.
+    19    19| 
+    20    20| 3. Test that an error is generated if parenthesis is missing.
+    21    21| 
+    22    22|    @^D34)
+       Error|.......^Expecting '('.
+            |.......^A decimal character representation takes the form "@^D(ddd)".
+            |.......^(exactly 3 digits) where each digit d is in the range 0..9.
+    23    23| 
+    24    24| 4. Test legal digits in each base.
+    25    25| 
+    26    26|    @^B(00001111)
+    27    27|    @^O(012)  @^O(034) @^O(056) @^O(077)
+    28    28|    @^D(012)  @^D(034) @^D(056) @^D(078) @^D(099)
+    29    29|    @^H(01) @^H(23) @^H(45) @^H(67)
+    30    30|    @^H(89) @^H(AB) @^X(CD) @^X(EF)  @^x(af)
+    31    31| 
+    32    32| 5. Test illegal digits in each base.
+    33    33| 
+    34    34|    @^B(00000002)
+       Error|...............^Illegal digit.
+            |...............^A binary character representation takes the form "@^B(dddddddd)".
+            |...............^(exactly 8 digits) where each digit d is either 0 or 1.
+    35    35|    @^O(008)
+       Error|..........^Illegal digit.
+            |..........^An octal character representation takes the form "@^Q(ddd)" (or "@^O(ddd)").
+            |..........^(exactly 3 digits) where each digit d is in the range 0..7.
+    36    36|    @^D(00A)
+       Error|..........^Illegal digit.
+            |..........^A decimal character representation takes the form "@^D(ddd)".
+            |..........^(exactly 3 digits) where each digit d is in the range 0..9.
+    37    37|    @^H(0G)
+       Error|.........^Illegal digit.
+            |.........^A hexadecimal character representation takes the form "@^X(dd)" (or "@^H(dd)").
+            |.........^(exactly 2 digits) where each digit d is in the range 0..9,A..F.
+    38    38| 
+    39    39| 6. Test what happens if there are the wrong number of digits
+    40    40|    (too few, too many).
+    41    41| 
+    42    42|    @^B(1)
+       Error|.........^Illegal digit.
+            |.........^A binary character representation takes the form "@^B(dddddddd)".
+            |.........^(exactly 8 digits) where each digit d is either 0 or 1.
+    43    43|    @^O(1)
+       Error|.........^Illegal digit.
+            |.........^An octal character representation takes the form "@^Q(ddd)" (or "@^O(ddd)").
+            |.........^(exactly 3 digits) where each digit d is in the range 0..7.
+    44    44|    @^D(1)
+       Error|.........^Illegal digit.
+            |.........^A decimal character representation takes the form "@^D(ddd)".
+            |.........^(exactly 3 digits) where each digit d is in the range 0..9.
+    45    45|    @^H(1)
+       Error|.........^Illegal digit.
+            |.........^A hexadecimal character representation takes the form "@^X(dd)" (or "@^H(dd)").
+            |.........^(exactly 2 digits) where each digit d is in the range 0..9,A..F.
+    46    46| 
+    47    47|    @^B(000000001)
+       Error|................^Expecting ')'.
+            |................^A binary character representation takes the form "@^B(dddddddd)".
+            |................^(exactly 8 digits) where each digit d is either 0 or 1.
+    48    48|    @^O(0004)
+       Error|...........^Expecting ')'.
+            |...........^An octal character representation takes the form "@^Q(ddd)" (or "@^O(ddd)").
+            |...........^(exactly 3 digits) where each digit d is in the range 0..7.
+    49    49|    @^D(0001)
+       Error|...........^Expecting ')'.
+            |...........^A decimal character representation takes the form "@^D(ddd)".
+            |...........^(exactly 3 digits) where each digit d is in the range 0..9.
+    50    50|    @^H(005)
+       Error|..........^Expecting ')'.
+            |..........^A hexadecimal character representation takes the form "@^X(dd)" (or "@^H(dd)").
+            |..........^(exactly 2 digits) where each digit d is in the range 0..9,A..F.
+    51    51| 
+    52    52| 7. Test that an error is generated for a missing closing parenthesis.
+    53    53| 
+    54    54|   @^B(00000000
+       Error|...............^Expecting ')'.
+            |...............^A binary character representation takes the form "@^B(dddddddd)".
+            |...............^(exactly 8 digits) where each digit d is either 0 or 1.
+    55    55|   @^D(045(
+       Error|..........^Expecting ')'.
+            |..........^A decimal character representation takes the form "@^D(ddd)".
+            |..........^(exactly 3 digits) where each digit d is in the range 0..9.
+    56    56| 
+    57    57| 8. Test what happens in number is out of the range [0,255].
+    58    58| 
+    59    59|   @^D(255)
+    60    60|   @^D(256)
+       Error|..........^Character number is too large.
+            |..........^Character number must be in the range [0,255] (decimal).
+            |..........^A decimal character representation takes the form "@^D(ddd)".
+            |..........^(exactly 3 digits) where each digit d is in the range 0..9.
+    61    61|   @^D(999)
+       Error|..........^Character number is too large.
+            |..........^Character number must be in the range [0,255] (decimal).
+            |..........^A decimal character representation takes the form "@^D(ddd)".
+            |..........^(exactly 3 digits) where each digit d is in the range 0..9.
+    62    62| 
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 21 Errors.

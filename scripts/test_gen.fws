@@ -1,0 +1,58 @@
+!==========================<Start of test_gen Script>===========================
+!
+! Generate Tricky Input Files
+! ---------------------------
+! This script processes the "generate.fw" test file which not only tests
+! FunnelWeb to some extent, but also generates a few ".fw" input test
+! files which are tested later on in the test suite process.
+!
+! Inputs: None.
+! Outputs:
+!    Listing file.
+!    Product files (which appear in the input $I directory as .fw files).
+!    Appendage to differences file.
+
+! Announce this test.
+write ""
+write ""
+writeu "Basic Test and Generate Some Tricky Input Files"
+
+! Delete any previous output files.
+eneo $Isc06.fw
+eneo $Isc08.fw
+eneo $Isc09.fw
+eneo $Isc13e.fwi
+eneo $Ogenerate.log
+eneo $Ogenerate.lis
+eneo $Ogenerate.tex
+eneo $Ogenerate.out
+
+! Check input and answer files.
+exists $Igenerate.fw
+exists $Agenerate.lis
+absent $Agenerate.out
+absent $Agenerate.tex
+
+! Clean input and answer files.
+fixeols $Igenerate.fw
+fixeols $Agenerate.lis
+
+! Perform the actual FunnelWeb run.
+fw $Igenerate.fw +L$Ogenerate.lis +O$I
+
+! Ensure that the correct files were generated.
+absent $Ogenerate.log
+absent $Ogenerate.tex
+absent $Ogenerate.out
+exists $Ogenerate.lis
+exists $Isc06.fw
+exists $Isc08.fw
+exists $Isc09.fw
+exists $Isc13e.fwi
+
+! Compare the listing file with the correct answer.
+! We can't check the other files because of the original problem this whole
+! generation script is designed to solve!
+diff $Ogenerate.lis $Agenerate.lis $D
+
+!===========================<End of test_gen Script>============================

@@ -1,0 +1,163 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 50 52 30 32 3A 20 54 65 73 74 20 74 68 65 20 70 | PR02: Test the p |
+| 61 72 73 69 6E 67 20 6F 66 20 74 79 70 65 73 65 | arsing of typese |
+| 74 74 65 72 20 64 69 72 65 63 74 69 76 65 73 2E | tter directives. |
+| 0A 0A 31 2E 20 54 65 73 74 20 70 61 72 73 69 6E | ..1. Test parsin |
+| 67 20 6F 66 20 6E 65 77 20 70 61 67 65 20 64 69 | g of new page di |
+| 72 65 63 74 69 76 65 2E 0A 40 74 20 6E 65 77 5F | rective..@t new_ |
+| 70 61 67 65 0A 0A 32 2E 20 54 65 73 74 20 70 61 | page..2. Test pa |
+| 72 73 69 6E 67 20 6F 66 20 74 61 62 6C 65 20 6F | rsing of table o |
+| 66 20 63 6F 6E 74 65 6E 74 73 20 64 69 72 65 63 | f contents direc |
+| 74 69 76 65 2E 0A 40 74 20 74 61 62 6C 65 5F 6F | tive..@t table_o |
+| 66 5F 63 6F 6E 74 65 6E 74 73 0A 0A 33 2E 20 54 | f_contents..3. T |
+| 65 73 74 20 70 61 72 73 69 6E 67 20 6F 66 20 76 | est parsing of v |
+| 73 6B 69 70 20 64 69 72 65 63 74 69 76 65 2E 0A | skip directive.. |
+| 40 74 20 76 73 6B 69 70 20 33 32 20 6D 6D 0A 0A | @t vskip 32 mm.. |
+| 34 2E 20 54 65 73 74 20 70 61 72 73 69 6E 67 20 | 4. Test parsing  |
+| 6F 66 20 74 69 74 6C 65 20 64 69 72 65 63 74 69 | of title directi |
+| 76 65 2E 0A 40 74 20 74 69 74 6C 65 20 74 69 74 | ve..@t title tit |
+| 6C 65 66 6F 6E 74 20 6C 65 66 74 20 22 53 6C 6F | lefont left "Slo |
+| 74 68 22 0A 0A                                  | th"..            |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| PR02: Test the parsing of typesetter directives.<010>
+00002 00002| <010>
+00003 00003| 1. Test parsing of new page directive.<010>
+00004 00004| @t new_page<010>
+00005 00005| <010>
+00006 00006| 2. Test parsing of table of contents directive.<010>
+00007 00007| @t table_of_contents<010>
+00008 00008| <010>
+00009 00009| 3. Test parsing of vskip directive.<010>
+00010 00010| @t vskip 32 mm<010>
+00011 00011| <010>
+00012 00012| 4. Test parsing of title directive.<010>
+00013 00013| @t title titlefont left "Sloth"<010>
+00014 00014| <010>
+00015 00015| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 10 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="PR02: Test the parsing of typesetter directives.<010>
+<010>
+1. Test parsing of new page directive.<010>
+"
+0004[01]: @t.. Newpage. 
+0005[01]: Text. Text scrap[Grey]="<010>
+2. Test parsing of table of contents directive.<010>
+"
+0007[01]: @t.. TOC. 
+0008[01]: Text. Text scrap[Grey]="<010>
+3. Test parsing of vskip directive.<010>
+"
+0010[01]: @t.. Vertical skip. Vertical space skipped=32mm.
+0011[01]: Text. Text scrap[Grey]="<010>
+4. Test parsing of title directive.<010>
+"
+0013[01]: @t.. Title. Font=Title, Alignment=Left. Title text follows:
+Text scrap[Grey]="Sloth"
+0014[01]: Text. Text scrap[White]="<010>
+"
+0015[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+
+========================== Start of MACRO TABLE DUMP ===========================
+
+
+=========================== End of MACRO TABLE DUMP ============================
+
+
+========================= Start of DOCUMENT LIST DUMP ==========================
+
+
+TEXT COMPONENT: Pos(L,C)=(1,1). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="PR02: Test the parsing of typesetter directives.<010>
+<010>
+1. Test parsing of new page directive.<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT:    New page.
+
+TEXT COMPONENT: Pos(L,C)=(5,1). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+2. Test parsing of table of contents directive.<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT:    Table of contents.
+
+TEXT COMPONENT: Pos(L,C)=(8,1). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+3. Test parsing of vskip directive.<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT:    Vertical skip by 32 mm.
+
+TEXT COMPONENT: Pos(L,C)=(11,1). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+4. Test parsing of title directive.<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: Font=Title, Alignment=Left. Title text follows:
+Text scrap[Grey]="Sloth"
+
+TEXT COMPONENT: Pos(L,C)=(14,1). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+========================== End of DOCUMENT LIST DUMP ===========================
+
+E: No macros defined.
+E: No output files specified.
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+.................
+------------+-------------------------------------------------------------------
+
+There were 2 Errors.

@@ -1,0 +1,111 @@
+HI09: This example demonstrates how FunnelWeb can be used to create generics
+      in languages that do not already provide them.
+
+@! We have to set the output line length limit up to cater for Barry Dwyer's
+@! rather horizontal coding style.
+@p maximum_output_line_length = 100
+
+@O@<hi09.out@>==@{
+@<Generic Set Module@>@(NaryTree@,NaryTreeSet@)
+@}
+
+@$@<Generic Set Module@>@(@2@)==@{@-
+@! @1 is the base type, @2 is the set type.
+[inherit ('@1'), environment ('@2')]
+
+module @2;
+
+type  @2 = ^@2Record;
+      @2Record = record
+         Member: @1;
+         Next: @2;
+         end;
+
+procedure Null@2 (var Result: @2);
+begin new (Result);
+Result^.Member := (- MaxInt)::@1;
+Result^.Next := nil end;
+
+function IsNull@2 (S: @2): boolean;
+begin IsNull@2 := S^.Member::integer = - MaxInt end;
+
+procedure ForEach@1 (S: @2; procedure DoIt (i: @1));
+var   ThisS, NextS: @2;
+begin ThisS := S;
+while ThisS^.Member::integer <> - MaxInt do
+   begin NextS := ThisS^.Next;
+   DoIt (ThisS^.Member);
+   ThisS := NextS end;
+end;
+
+function First@1 (S: @2): @1;
+begin First@1 := S^.Member end;
+
+function Is@1InSet (i: @1; S: @2): boolean;
+   procedure TestEquals (j: @1);
+   begin if Equal@1 (i, j) then Is@1InSet := true; end;
+begin Is@1InSet := false; ForEach@1 (S, TestEquals); end;
+
+function Includes@2 (S1, S2: @2): boolean;
+var Result: boolean;
+   procedure TestIfInS1 (i: @1);
+   begin if Result then if not Is@1InSet (i, S1) then Result := false; end;
+begin Result := true;
+ForEach@1 (S2, TestIfInS1);
+Includes@2 := Result end;
+
+function Disjoint@2s (S1, S2: @2): boolean;
+var Result: boolean;
+   procedure TestIfInS1 (i: @1);
+   begin if Result then if Is@1InSet (i, S1) then Result := false; end;
+begin Result := true;
+ForEach@1 (S2, TestIfInS1);
+Disjoint@2s := Result end;
+
+function Equal@2 (S1, S2: @2): boolean;
+begin
+Equal@2 := Includes@2 (S1, S2) and Includes@2 (S2, S1);
+end;
+
+procedure Insert@1 (i: @1; var S: @2);
+var   This, Pred, Succ: @2;
+begin
+if not Is@1InSet (i, S) then
+   begin
+   Pred := nil; Succ := S;
+   while Succ^.Member::integer > i::integer do begin
+      Pred := Succ; Succ := Succ^.Next end;
+   if Succ^.Member::integer < i::integer then begin
+      new (This); This^.Next := Succ; This^.Member := i;
+      if Pred <> nil then Pred^.Next := This else S := This;
+      end;
+   end;
+end;
+
+procedure Insert@1s (S1: @2; var S2: @2);
+var   This, Pred, Succ: @2;
+   procedure Add@1 (i: @1);
+   begin Insert@1 (i, S2) end;
+begin
+ForEach@1 (S1, Add@1);
+end;
+
+procedure Remove@1 (i: @1; var S: @2);
+var   Pred, This: @2;
+begin
+Pred := nil; This := S;
+while not Equal@1 (This^.Member, i) do begin
+   Pred := This; This := This^.Next end;
+if Pred <> nil then Pred^.Next := This^.Next else S := This^.Next;
+Dispose (This);
+end;
+
+procedure Dispose@2 (var S: @2);
+var   Old: @2;
+begin
+while S <> nil do begin Old := S; S := S^.Next; Dispose (Old) end;
+end;
+
+end.
+@}
+

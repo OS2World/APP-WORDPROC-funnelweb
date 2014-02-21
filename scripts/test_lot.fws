@@ -1,0 +1,56 @@
+!==========================<Start of test_lot Script>===========================
+!
+! Test With Listing File and Product File and Typeset File
+! --------------------------------------------------------
+! Inputs:
+!    $1 = Name of the .fw file to be tested (e.g. $1="sc01").
+!    $I = Directory containing .fw    files.
+!    $A = Directory containing Answer files.
+!    $O = Directory to place   Result files.
+!    $D = Name of the differences file.
+! Outputs:
+!    Listing file.
+!    Product file.
+!    Typeset file.
+!    Appendage to differences file.
+
+! Announce this test.
+write ""
+write ""
+writeu "Performing Test $1"
+
+! Delete any previous output files.
+eneo $O$1.log
+eneo $O$1.lis
+eneo $O$1.tex
+eneo $O$1.out
+
+! Check input and answer files.
+exists $I$1.fw
+exists $A$1.lis
+exists $A$1.tex
+exists $A$1.out
+
+! Clean input and answer files.
+fixeols $I$1.fw
+fixeols $A$1.lis
+fixeols $A$1.tex
+fixeols $A$1.out
+
+! Perform the actual FunnelWeb run.
+! Tolerate means "don't abort on warning, error, or severe".
+tolerate
+fw $I$1.fw +l$O$1.lis +o$O +t$O$1.tex
+
+! Ensure that all three output files were generated.
+absent $O$1.log
+exists $O$1.out
+exists $O$1.lis
+exists $O$1.tex
+
+! Compare the results with the answers.
+diff $O$1.lis $A$1.lis $D
+diff $O$1.out $A$1.out $D
+diff $O$1.tex $A$1.tex $D
+
+!===========================<End of Test_lot Script>============================

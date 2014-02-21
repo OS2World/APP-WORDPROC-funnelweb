@@ -1,0 +1,22 @@
+HI06: This example shows how FunnelWeb can be used to allow compile
+time information sharing between two cooperating programs written in
+different programming languages.
+
+@A The following macro contains the temporary file name used to allow the
+two shellscripts to transfer each file to be printed.
+
+@$@<printfile@>@M==@{printme.txt@}
+
+@A Here are the scripts for the local VMS node and the remote UNIX node.
+
+@O@<hi06a.out@>==@{@-
+DCL commands
+copy @<printfile@> unixnode::
+DCL commands
+@}
+
+@O@<hi06b.out@>==@{@-
+unix commands
+print @<printfile@>
+unix commands
+@}

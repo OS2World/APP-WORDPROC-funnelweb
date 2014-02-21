@@ -1,0 +1,59 @@
+!===========================<Start of test_lo2 Script>==========================
+!
+! Test With Listing File and Two Product Files
+! --------------------------------------------
+! Inputs:
+!    $1 = Name of the .fw file to be tested (e.g. $1="sc01").
+!    $I = Directory containing .fw   files.
+!    $A = Directory containing Answer files.
+!    $O = Directory to place   Result files.
+!    $D = Name of the differences file.
+! Outputs:
+!    Listing file.
+!    Product file a.
+!    Product file b.
+!    Appendage to differences file.
+
+! Announce this test.
+write ""
+write ""
+writeu "Performing Test $1"
+
+! Delete any previous output files.
+eneo $O$1.log
+eneo $O$1.lis
+eneo $O$1.tex
+eneo $O$1a.out
+eneo $O$1b.out
+
+! Check input and answer files.
+exists $I$1.fw
+exists $A$1.lis
+exists $A$1a.out
+exists $A$1b.out
+absent $A$1.tex
+
+! Clean input and answer files.
+fixeols $I$1.fw
+fixeols $A$1.lis
+fixeols $A$1a.out
+fixeols $A$1b.out
+
+! Perform the actual FunnelWeb run.
+! Tolerate means "don't abort on warning, error, or severe".
+tolerate
+fw $I$1.fw +l$O$1.lis +o$O$1.out
+
+! Ensure that only a listing and two product files were generated.
+absent $O$1.log
+absent $O$1.tex
+exists $O$1.lis
+exists $O$1a.out
+exists $O$1b.out
+
+! Compare the results with the answers.
+diff $O$1.lis  $A$1.lis  $D
+diff $O$1a.out $A$1a.out $D
+diff $O$1b.out $A$1b.out $D
+
+!============================<End of test_lo2 Script>===========================

@@ -1,0 +1,40 @@
+PR05: Test the parsing of formal parameter lists.
+
+First trip the parser so we don't get past the parser.
+@>
+
+1. Test macro definition with no formal parameters.
+@$@<Sloth@>@{Slothtext@}
+
+2. Test macro definition with one formal parameter.
+@$@<Sloth with one@>@(@1@)@{Slothtext@}
+
+3. Test macro definition with many formal parameters.
+@$@<Sloth with 2@>@(@2@)@{Slothtext@}
+@$@<Sloth with 3@>@(@3@)@{Slothtext@}
+@$@<Sloth with 4@>@(@4@)@{Slothtext@}
+@$@<Sloth with 5@>@(@5@)@{Slothtext@}
+@$@<Sloth with 6@>@(@6@)@{Slothtext@}
+@$@<Sloth with 7@>@(@7@)@{Slothtext@}
+@$@<Sloth with 8@>@(@8@)@{Slothtext@}
+@$@<Sloth with 9@>@(@9@)@{Slothtext@}
+
+4. Test with syntax errors in the parameter list.
+
+@$@<Sloth a@>@(@+@9@)@{Slothtext@}
+@A@<Error recovery point@>
+
+@$@<Sloth b@>@9@)@{Slothtext@}
+@A@<Error recovery point@>
+
+@$@<Sloth c@>@(9@)@{Slothtext@}
+@A@<Error recovery point@>
+
+@$@<Sloth d@>@9@)@{Slothtext@}
+@A@<Error recovery point@>
+
+@$@<Sloth e@>@(@9@)@)@{Slothtext@}
+@A@<Error recovery point@>
+
+
+

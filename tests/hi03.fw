@@ -1,0 +1,25 @@
+HI03: This example shows how FunnelWeb's macro facility can be used to
+      fudge conditionals. This method is different to HI02.
+
+@O@<hi03.out@>==@{
+@<Sloth incrementing loop@>
+@}
+
+@A@<Debug Macro@>
+
+The following macro determines whether debug code will be included in the
+program. All debug code is wrapped by a call to this macro and so
+we can turn all the debug code on or off here by defining this macro to be
+either empty or its parameter.
+
+@$@#D@(@1@)@M==@{@1@}     @! Turns the debug code ON.
+@! Use this definition to turn the debug code OFF: @$@#D@(@1@)==@{@}
+
+
+
+@$@<Sloth incrementing loop@>==@{@-
+while sloth<walrus loop
+   @#D@(assert(sloth<walrus,"AWK! sloth>=walrus!!!!!!!");
+        assert(timer<timermax,"AWK! timer>=timermax!!!");@)
+   inc(sloth);
+end loop@}

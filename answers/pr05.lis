@@ -1,0 +1,1005 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 50 52 30 35 3A 20 54 65 73 74 20 74 68 65 20 70 | PR05: Test the p |
+| 61 72 73 69 6E 67 20 6F 66 20 66 6F 72 6D 61 6C | arsing of formal |
+| 20 70 61 72 61 6D 65 74 65 72 20 6C 69 73 74 73 |  parameter lists |
+| 2E 0A 0A 46 69 72 73 74 20 74 72 69 70 20 74 68 | ...First trip th |
+| 65 20 70 61 72 73 65 72 20 73 6F 20 77 65 20 64 | e parser so we d |
+| 6F 6E 27 74 20 67 65 74 20 70 61 73 74 20 74 68 | on't get past th |
+| 65 20 70 61 72 73 65 72 2E 0A 40 3E 0A 0A 31 2E | e parser..@>..1. |
+| 20 54 65 73 74 20 6D 61 63 72 6F 20 64 65 66 69 |  Test macro defi |
+| 6E 69 74 69 6F 6E 20 77 69 74 68 20 6E 6F 20 66 | nition with no f |
+| 6F 72 6D 61 6C 20 70 61 72 61 6D 65 74 65 72 73 | ormal parameters |
+| 2E 0A 40 24 40 3C 53 6C 6F 74 68 40 3E 40 7B 53 | ..@$@<Sloth@>@{S |
+| 6C 6F 74 68 74 65 78 74 40 7D 0A 0A 32 2E 20 54 | lothtext@}..2. T |
+| 65 73 74 20 6D 61 63 72 6F 20 64 65 66 69 6E 69 | est macro defini |
+| 74 69 6F 6E 20 77 69 74 68 20 6F 6E 65 20 66 6F | tion with one fo |
+| 72 6D 61 6C 20 70 61 72 61 6D 65 74 65 72 2E 0A | rmal parameter.. |
+| 40 24 40 3C 53 6C 6F 74 68 20 77 69 74 68 20 6F | @$@<Sloth with o |
+| 6E 65 40 3E 40 28 40 31 40 29 40 7B 53 6C 6F 74 | ne@>@(@1@)@{Slot |
+| 68 74 65 78 74 40 7D 0A 0A 33 2E 20 54 65 73 74 | htext@}..3. Test |
+| 20 6D 61 63 72 6F 20 64 65 66 69 6E 69 74 69 6F |  macro definitio |
+| 6E 20 77 69 74 68 20 6D 61 6E 79 20 66 6F 72 6D | n with many form |
+| 61 6C 20 70 61 72 61 6D 65 74 65 72 73 2E 0A 40 | al parameters..@ |
+| 24 40 3C 53 6C 6F 74 68 20 77 69 74 68 20 32 40 | $@<Sloth with 2@ |
+| 3E 40 28 40 32 40 29 40 7B 53 6C 6F 74 68 74 65 | >@(@2@)@{Slothte |
+| 78 74 40 7D 0A 40 24 40 3C 53 6C 6F 74 68 20 77 | xt@}.@$@<Sloth w |
+| 69 74 68 20 33 40 3E 40 28 40 33 40 29 40 7B 53 | ith 3@>@(@3@)@{S |
+| 6C 6F 74 68 74 65 78 74 40 7D 0A 40 24 40 3C 53 | lothtext@}.@$@<S |
+| 6C 6F 74 68 20 77 69 74 68 20 34 40 3E 40 28 40 | loth with 4@>@(@ |
+| 34 40 29 40 7B 53 6C 6F 74 68 74 65 78 74 40 7D | 4@)@{Slothtext@} |
+| 0A 40 24 40 3C 53 6C 6F 74 68 20 77 69 74 68 20 | .@$@<Sloth with  |
+| 35 40 3E 40 28 40 35 40 29 40 7B 53 6C 6F 74 68 | 5@>@(@5@)@{Sloth |
+| 74 65 78 74 40 7D 0A 40 24 40 3C 53 6C 6F 74 68 | text@}.@$@<Sloth |
+| 20 77 69 74 68 20 36 40 3E 40 28 40 36 40 29 40 |  with 6@>@(@6@)@ |
+| 7B 53 6C 6F 74 68 74 65 78 74 40 7D 0A 40 24 40 | {Slothtext@}.@$@ |
+| 3C 53 6C 6F 74 68 20 77 69 74 68 20 37 40 3E 40 | <Sloth with 7@>@ |
+| 28 40 37 40 29 40 7B 53 6C 6F 74 68 74 65 78 74 | (@7@)@{Slothtext |
+| 40 7D 0A 40 24 40 3C 53 6C 6F 74 68 20 77 69 74 | @}.@$@<Sloth wit |
+| 68 20 38 40 3E 40 28 40 38 40 29 40 7B 53 6C 6F | h 8@>@(@8@)@{Slo |
+| 74 68 74 65 78 74 40 7D 0A 40 24 40 3C 53 6C 6F | thtext@}.@$@<Slo |
+| 74 68 20 77 69 74 68 20 39 40 3E 40 28 40 39 40 | th with 9@>@(@9@ |
+| 29 40 7B 53 6C 6F 74 68 74 65 78 74 40 7D 0A 0A | )@{Slothtext@}.. |
+| 34 2E 20 54 65 73 74 20 77 69 74 68 20 73 79 6E | 4. Test with syn |
+| 74 61 78 20 65 72 72 6F 72 73 20 69 6E 20 74 68 | tax errors in th |
+| 65 20 70 61 72 61 6D 65 74 65 72 20 6C 69 73 74 | e parameter list |
+| 2E 0A 0A 40 24 40 3C 53 6C 6F 74 68 20 61 40 3E | ...@$@<Sloth a@> |
+| 40 28 40 2B 40 39 40 29 40 7B 53 6C 6F 74 68 74 | @(@+@9@)@{Slotht |
+| 65 78 74 40 7D 0A 40 41 40 3C 45 72 72 6F 72 20 | ext@}.@A@<Error  |
+| 72 65 63 6F 76 65 72 79 20 70 6F 69 6E 74 40 3E | recovery point@> |
+| 0A 0A 40 24 40 3C 53 6C 6F 74 68 20 62 40 3E 40 | ..@$@<Sloth b@>@ |
+| 39 40 29 40 7B 53 6C 6F 74 68 74 65 78 74 40 7D | 9@)@{Slothtext@} |
+| 0A 40 41 40 3C 45 72 72 6F 72 20 72 65 63 6F 76 | .@A@<Error recov |
+| 65 72 79 20 70 6F 69 6E 74 40 3E 0A 0A 40 24 40 | ery point@>..@$@ |
+| 3C 53 6C 6F 74 68 20 63 40 3E 40 28 39 40 29 40 | <Sloth c@>@(9@)@ |
+| 7B 53 6C 6F 74 68 74 65 78 74 40 7D 0A 40 41 40 | {Slothtext@}.@A@ |
+| 3C 45 72 72 6F 72 20 72 65 63 6F 76 65 72 79 20 | <Error recovery  |
+| 70 6F 69 6E 74 40 3E 0A 0A 40 24 40 3C 53 6C 6F | point@>..@$@<Slo |
+| 74 68 20 64 40 3E 40 39 40 29 40 7B 53 6C 6F 74 | th d@>@9@)@{Slot |
+| 68 74 65 78 74 40 7D 0A 40 41 40 3C 45 72 72 6F | htext@}.@A@<Erro |
+| 72 20 72 65 63 6F 76 65 72 79 20 70 6F 69 6E 74 | r recovery point |
+| 40 3E 0A 0A 40 24 40 3C 53 6C 6F 74 68 20 65 40 | @>..@$@<Sloth e@ |
+| 3E 40 28 40 39 40 29 40 29 40 7B 53 6C 6F 74 68 | >@(@9@)@)@{Sloth |
+| 74 65 78 74 40 7D 0A 40 41 40 3C 45 72 72 6F 72 | text@}.@A@<Error |
+| 20 72 65 63 6F 76 65 72 79 20 70 6F 69 6E 74 40 |  recovery point@ |
+| 3E 0A 0A 0A 0A                                  | >....            |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| PR05: Test the parsing of formal parameter lists.<010>
+00002 00002| <010>
+00003 00003| First trip the parser so we don't get past the parser.<010>
+00004 00004| @><010>
+00005 00005| <010>
+00006 00006| 1. Test macro definition with no formal parameters.<010>
+00007 00007| @$@<Sloth@>@{Slothtext@}<010>
+00008 00008| <010>
+00009 00009| 2. Test macro definition with one formal parameter.<010>
+00010 00010| @$@<Sloth with one@>@(@1@)@{Slothtext@}<010>
+00011 00011| <010>
+00012 00012| 3. Test macro definition with many formal parameters.<010>
+00013 00013| @$@<Sloth with 2@>@(@2@)@{Slothtext@}<010>
+00014 00014| @$@<Sloth with 3@>@(@3@)@{Slothtext@}<010>
+00015 00015| @$@<Sloth with 4@>@(@4@)@{Slothtext@}<010>
+00016 00016| @$@<Sloth with 5@>@(@5@)@{Slothtext@}<010>
+00017 00017| @$@<Sloth with 6@>@(@6@)@{Slothtext@}<010>
+00018 00018| @$@<Sloth with 7@>@(@7@)@{Slothtext@}<010>
+00019 00019| @$@<Sloth with 8@>@(@8@)@{Slothtext@}<010>
+00020 00020| @$@<Sloth with 9@>@(@9@)@{Slothtext@}<010>
+00021 00021| <010>
+00022 00022| 4. Test with syntax errors in the parameter list.<010>
+00023 00023| <010>
+00024 00024| @$@<Sloth a@>@(@+@9@)@{Slothtext@}<010>
+00025 00025| @A@<Error recovery point@><010>
+00026 00026| <010>
+00027 00027| @$@<Sloth b@>@9@)@{Slothtext@}<010>
+00028 00028| @A@<Error recovery point@><010>
+00029 00029| <010>
+00030 00030| @$@<Sloth c@>@(9@)@{Slothtext@}<010>
+00031 00031| @A@<Error recovery point@><010>
+00032 00032| <010>
+00033 00033| @$@<Sloth d@>@9@)@{Slothtext@}<010>
+00034 00034| @A@<Error recovery point@><010>
+00035 00035| <010>
+00036 00036| @$@<Sloth e@>@(@9@)@)@{Slothtext@}<010>
+00037 00037| @A@<Error recovery point@><010>
+00038 00038| <010>
+00039 00039| <010>
+00040 00040| <010>
+00041 00041| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 191 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="PR05: Test the parsing of formal parameter lists.<010>
+<010>
+First trip the parser so we don't get past the parser.<010>
+"
+0004[01]: @> Close name. 
+0004[03]: Text. Text scrap[Grey]="<010>
+<010>
+1. Test macro definition with no formal parameters.<010>
+"
+0007[01]: @$ Macro defn. 
+0007[03]: @< Open name. 
+0007[05]: Text. Text scrap[Grey]="Sloth"
+0007[10]: @> Close name. 
+0007[12]: @{ Open defn. 
+0007[14]: Text. Text scrap[Grey]="Slothtext"
+0007[23]: @} Close defn. 
+0007[25]: Text. Text scrap[Grey]="<010>
+<010>
+2. Test macro definition with one formal parameter.<010>
+"
+0010[01]: @$ Macro defn. 
+0010[03]: @< Open name. 
+0010[05]: Text. Text scrap[Grey]="Sloth with one"
+0010[19]: @> Close name. 
+0010[21]: @( Open param. 
+0010[23]: @n Parameter. Parameterno=1.
+0010[25]: @} Close param. 
+0010[27]: @{ Open defn. 
+0010[29]: Text. Text scrap[Grey]="Slothtext"
+0010[38]: @} Close defn. 
+0010[40]: Text. Text scrap[Grey]="<010>
+<010>
+3. Test macro definition with many formal parameters.<010>
+"
+0013[01]: @$ Macro defn. 
+0013[03]: @< Open name. 
+0013[05]: Text. Text scrap[Grey]="Sloth with 2"
+0013[17]: @> Close name. 
+0013[19]: @( Open param. 
+0013[21]: @n Parameter. Parameterno=2.
+0013[23]: @} Close param. 
+0013[25]: @{ Open defn. 
+0013[27]: Text. Text scrap[Grey]="Slothtext"
+0013[36]: @} Close defn. 
+0013[38]: Text. Text scrap[White]="<010>
+"
+0014[01]: @$ Macro defn. 
+0014[03]: @< Open name. 
+0014[05]: Text. Text scrap[Grey]="Sloth with 3"
+0014[17]: @> Close name. 
+0014[19]: @( Open param. 
+0014[21]: @n Parameter. Parameterno=3.
+0014[23]: @} Close param. 
+0014[25]: @{ Open defn. 
+0014[27]: Text. Text scrap[Grey]="Slothtext"
+0014[36]: @} Close defn. 
+0014[38]: Text. Text scrap[White]="<010>
+"
+0015[01]: @$ Macro defn. 
+0015[03]: @< Open name. 
+0015[05]: Text. Text scrap[Grey]="Sloth with 4"
+0015[17]: @> Close name. 
+0015[19]: @( Open param. 
+0015[21]: @n Parameter. Parameterno=4.
+0015[23]: @} Close param. 
+0015[25]: @{ Open defn. 
+0015[27]: Text. Text scrap[Grey]="Slothtext"
+0015[36]: @} Close defn. 
+0015[38]: Text. Text scrap[White]="<010>
+"
+0016[01]: @$ Macro defn. 
+0016[03]: @< Open name. 
+0016[05]: Text. Text scrap[Grey]="Sloth with 5"
+0016[17]: @> Close name. 
+0016[19]: @( Open param. 
+0016[21]: @n Parameter. Parameterno=5.
+0016[23]: @} Close param. 
+0016[25]: @{ Open defn. 
+0016[27]: Text. Text scrap[Grey]="Slothtext"
+0016[36]: @} Close defn. 
+0016[38]: Text. Text scrap[White]="<010>
+"
+0017[01]: @$ Macro defn. 
+0017[03]: @< Open name. 
+0017[05]: Text. Text scrap[Grey]="Sloth with 6"
+0017[17]: @> Close name. 
+0017[19]: @( Open param. 
+0017[21]: @n Parameter. Parameterno=6.
+0017[23]: @} Close param. 
+0017[25]: @{ Open defn. 
+0017[27]: Text. Text scrap[Grey]="Slothtext"
+0017[36]: @} Close defn. 
+0017[38]: Text. Text scrap[White]="<010>
+"
+0018[01]: @$ Macro defn. 
+0018[03]: @< Open name. 
+0018[05]: Text. Text scrap[Grey]="Sloth with 7"
+0018[17]: @> Close name. 
+0018[19]: @( Open param. 
+0018[21]: @n Parameter. Parameterno=7.
+0018[23]: @} Close param. 
+0018[25]: @{ Open defn. 
+0018[27]: Text. Text scrap[Grey]="Slothtext"
+0018[36]: @} Close defn. 
+0018[38]: Text. Text scrap[White]="<010>
+"
+0019[01]: @$ Macro defn. 
+0019[03]: @< Open name. 
+0019[05]: Text. Text scrap[Grey]="Sloth with 8"
+0019[17]: @> Close name. 
+0019[19]: @( Open param. 
+0019[21]: @n Parameter. Parameterno=8.
+0019[23]: @} Close param. 
+0019[25]: @{ Open defn. 
+0019[27]: Text. Text scrap[Grey]="Slothtext"
+0019[36]: @} Close defn. 
+0019[38]: Text. Text scrap[White]="<010>
+"
+0020[01]: @$ Macro defn. 
+0020[03]: @< Open name. 
+0020[05]: Text. Text scrap[Grey]="Sloth with 9"
+0020[17]: @> Close name. 
+0020[19]: @( Open param. 
+0020[21]: @n Parameter. Parameterno=9.
+0020[23]: @} Close param. 
+0020[25]: @{ Open defn. 
+0020[27]: Text. Text scrap[Grey]="Slothtext"
+0020[36]: @} Close defn. 
+0020[38]: Text. Text scrap[Grey]="<010>
+<010>
+4. Test with syntax errors in the parameter list.<010>
+<010>
+"
+0024[01]: @$ Macro defn. 
+0024[03]: @< Open name. 
+0024[05]: Text. Text scrap[Grey]="Sloth a"
+0024[12]: @> Close name. 
+0024[14]: @( Open param. 
+0024[16]: Text. Text scrap[White]="<010>
+"
+0024[18]: @n Parameter. Parameterno=9.
+0024[20]: @} Close param. 
+0024[22]: @{ Open defn. 
+0024[24]: Text. Text scrap[Grey]="Slothtext"
+0024[33]: @} Close defn. 
+0024[35]: Text. Text scrap[White]="<010>
+"
+0025[01]: @A New section (Level 1). 
+0025[03]: @< Open name. 
+0025[05]: Text. Text scrap[Grey]="Error recovery point"
+0025[25]: @> Close name. 
+0025[27]: Text. Text scrap[White]="<010>
+<010>
+"
+0027[01]: @$ Macro defn. 
+0027[03]: @< Open name. 
+0027[05]: Text. Text scrap[Grey]="Sloth b"
+0027[12]: @> Close name. 
+0027[14]: @n Parameter. Parameterno=9.
+0027[16]: @} Close param. 
+0027[18]: @{ Open defn. 
+0027[20]: Text. Text scrap[Grey]="Slothtext"
+0027[29]: @} Close defn. 
+0027[31]: Text. Text scrap[White]="<010>
+"
+0028[01]: @A New section (Level 1). 
+0028[03]: @< Open name. 
+0028[05]: Text. Text scrap[Grey]="Error recovery point"
+0028[25]: @> Close name. 
+0028[27]: Text. Text scrap[White]="<010>
+<010>
+"
+0030[01]: @$ Macro defn. 
+0030[03]: @< Open name. 
+0030[05]: Text. Text scrap[Grey]="Sloth c"
+0030[12]: @> Close name. 
+0030[14]: @( Open param. 
+0030[16]: Text. Text scrap[Grey]="9"
+0030[17]: @} Close param. 
+0030[19]: @{ Open defn. 
+0030[21]: Text. Text scrap[Grey]="Slothtext"
+0030[30]: @} Close defn. 
+0030[32]: Text. Text scrap[White]="<010>
+"
+0031[01]: @A New section (Level 1). 
+0031[03]: @< Open name. 
+0031[05]: Text. Text scrap[Grey]="Error recovery point"
+0031[25]: @> Close name. 
+0031[27]: Text. Text scrap[White]="<010>
+<010>
+"
+0033[01]: @$ Macro defn. 
+0033[03]: @< Open name. 
+0033[05]: Text. Text scrap[Grey]="Sloth d"
+0033[12]: @> Close name. 
+0033[14]: @n Parameter. Parameterno=9.
+0033[16]: @} Close param. 
+0033[18]: @{ Open defn. 
+0033[20]: Text. Text scrap[Grey]="Slothtext"
+0033[29]: @} Close defn. 
+0033[31]: Text. Text scrap[White]="<010>
+"
+0034[01]: @A New section (Level 1). 
+0034[03]: @< Open name. 
+0034[05]: Text. Text scrap[Grey]="Error recovery point"
+0034[25]: @> Close name. 
+0034[27]: Text. Text scrap[White]="<010>
+<010>
+"
+0036[01]: @$ Macro defn. 
+0036[03]: @< Open name. 
+0036[05]: Text. Text scrap[Grey]="Sloth e"
+0036[12]: @> Close name. 
+0036[14]: @( Open param. 
+0036[16]: @n Parameter. Parameterno=9.
+0036[18]: @} Close param. 
+0036[20]: @} Close param. 
+0036[22]: @{ Open defn. 
+0036[24]: Text. Text scrap[Grey]="Slothtext"
+0036[33]: @} Close defn. 
+0036[35]: Text. Text scrap[White]="<010>
+"
+0037[01]: @A New section (Level 1). 
+0037[03]: @< Open name. 
+0037[05]: Text. Text scrap[Grey]="Error recovery point"
+0037[25]: @> Close name. 
+0037[27]: Text. Text scrap[White]="<010>
+<010>
+<010>
+<010>
+"
+0041[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+
+========================== Start of MACRO TABLE DUMP ===========================
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=1, Pos(L,C)=(7,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Slothtext"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth a"
+Defined?    : No.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth b"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 0 body parts.
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth c"
+Defined?    : No.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth d"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 0 body parts.
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth e"
+Defined?    : Yes.
+Parameters  : 9
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 0 body parts.
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth with 2"
+Defined?    : Yes.
+Parameters  : 2
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=3, Pos(L,C)=(13,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Slothtext"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth with 3"
+Defined?    : Yes.
+Parameters  : 3
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=4, Pos(L,C)=(14,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Slothtext"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth with 4"
+Defined?    : Yes.
+Parameters  : 4
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=5, Pos(L,C)=(15,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Slothtext"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth with 5"
+Defined?    : Yes.
+Parameters  : 5
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=6, Pos(L,C)=(16,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Slothtext"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth with 6"
+Defined?    : Yes.
+Parameters  : 6
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=7, Pos(L,C)=(17,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Slothtext"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth with 7"
+Defined?    : Yes.
+Parameters  : 7
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=8, Pos(L,C)=(18,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Slothtext"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth with 8"
+Defined?    : Yes.
+Parameters  : 8
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=9, Pos(L,C)=(19,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Slothtext"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth with 9"
+Defined?    : Yes.
+Parameters  : 9
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=10, Pos(L,C)=(20,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Slothtext"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth with one"
+Defined?    : Yes.
+Parameters  : 1
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=2, Pos(L,C)=(10,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Slothtext"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+=========================== End of MACRO TABLE DUMP ============================
+
+
+========================= Start of DOCUMENT LIST DUMP ==========================
+
+
+TEXT COMPONENT: Pos(L,C)=(1,1). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="PR05: Test the parsing of formal parameter lists.<010>
+<010>
+First trip the parser so we don't get past the parser.<010>
+"
+--- End of Text Scrap List ---
+
+
+TEXT COMPONENT: Pos(L,C)=(4,3). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+1. Test macro definition with no formal parameters.<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(7,1). 
+Part 1 of macro @<Sloth@>.
+
+TEXT COMPONENT: Pos(L,C)=(7,25). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+2. Test macro definition with one formal parameter.<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(10,1). 
+Part 1 of macro @<Sloth with one@>.
+
+TEXT COMPONENT: Pos(L,C)=(10,40). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+3. Test macro definition with many formal parameters.<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(13,1). 
+Part 1 of macro @<Sloth with 2@>.
+
+TEXT COMPONENT: Pos(L,C)=(13,38). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(14,1). 
+Part 1 of macro @<Sloth with 3@>.
+
+TEXT COMPONENT: Pos(L,C)=(14,38). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(15,1). 
+Part 1 of macro @<Sloth with 4@>.
+
+TEXT COMPONENT: Pos(L,C)=(15,38). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(16,1). 
+Part 1 of macro @<Sloth with 5@>.
+
+TEXT COMPONENT: Pos(L,C)=(16,38). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(17,1). 
+Part 1 of macro @<Sloth with 6@>.
+
+TEXT COMPONENT: Pos(L,C)=(17,38). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(18,1). 
+Part 1 of macro @<Sloth with 7@>.
+
+TEXT COMPONENT: Pos(L,C)=(18,38). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(19,1). 
+Part 1 of macro @<Sloth with 8@>.
+
+TEXT COMPONENT: Pos(L,C)=(19,38). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(20,1). 
+Part 1 of macro @<Sloth with 9@>.
+
+TEXT COMPONENT: Pos(L,C)=(20,38). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+4. Test with syntax errors in the parameter list.<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "1", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(25,27). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "2", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(28,27). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "3", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(31,27). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "4", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(34,27). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "5", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(37,27). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+<010>
+<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+========================== End of DOCUMENT LIST DUMP ===========================
+
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| PR05: Test the parsing of formal parameter lists.
+     2     2| 
+     3     3| First trip the parser so we don't get past the parser.
+     4     4| @>
+       Error|.^The parser was at the top level and was expecting
+            |.^one of: {Directive, Text, Macro definition, EOF}.
+     5     5| 
+     6     6| 1. Test macro definition with no formal parameters.
+     7     7| @$@<Sloth@>@{Slothtext@}
+     8     8| 
+     9     9| 2. Test macro definition with one formal parameter.
+    10    10| @$@<Sloth with one@>@(@1@)@{Slothtext@}
+    11    11| 
+    12    12| 3. Test macro definition with many formal parameters.
+    13    13| @$@<Sloth with 2@>@(@2@)@{Slothtext@}
+    14    14| @$@<Sloth with 3@>@(@3@)@{Slothtext@}
+    15    15| @$@<Sloth with 4@>@(@4@)@{Slothtext@}
+    16    16| @$@<Sloth with 5@>@(@5@)@{Slothtext@}
+    17    17| @$@<Sloth with 6@>@(@6@)@{Slothtext@}
+    18    18| @$@<Sloth with 7@>@(@7@)@{Slothtext@}
+    19    19| @$@<Sloth with 8@>@(@8@)@{Slothtext@}
+    20    20| @$@<Sloth with 9@>@(@9@)@{Slothtext@}
+    21    21| 
+    22    22| 4. Test with syntax errors in the parameter list.
+    23    23| 
+    24    24| @$@<Sloth a@>@(@+@9@)@{Slothtext@}
+       Error|................^Expecting one of [@1..@9].
+            |................^Skipping after error to the next major construct...
+    25    25| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    26    26| 
+    27    27| @$@<Sloth b@>@9@)@{Slothtext@}
+       Error|..............^Expecting '@{'.
+            |..............^Skipping after error to the next major construct...
+    28    28| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    29    29| 
+    30    30| @$@<Sloth c@>@(9@)@{Slothtext@}
+       Error|................^Expecting one of [@1..@9].
+            |................^Skipping after error to the next major construct...
+    31    31| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    32    32| 
+    33    33| @$@<Sloth d@>@9@)@{Slothtext@}
+       Error|..............^Expecting '@{'.
+            |..............^Skipping after error to the next major construct...
+    34    34| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    35    35| 
+    36    36| @$@<Sloth e@>@(@9@)@)@{Slothtext@}
+       Error|....................^Expecting '@{'.
+            |....................^Skipping after error to the next major construct...
+    37    37| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    38    38| 
+    39    39| 
+    40    40| 
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 6 Errors.

@@ -1,0 +1,187 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 53 43 30 37 3A 20 50 72 6F 63 65 73 73 69 6E 67 | SC07: Processing |
+| 20 6F 66 20 6C 6F 6E 67 20 6C 69 6E 65 73 2E 0A |  of long lines.. |
+| 0A 53 43 30 37 2E 31 3A 20 44 65 74 65 63 74 69 | .SC07.1: Detecti |
+| 6F 6E 20 6F 66 20 61 20 6C 69 6E 65 20 6C 6F 6E | on of a line lon |
+| 67 65 72 20 74 68 61 6E 20 74 68 65 20 64 65 66 | ger than the def |
+| 61 75 6C 74 20 6C 69 6D 69 74 2E 0A 0A 54 68 65 | ault limit...The |
+| 20 64 65 66 61 75 6C 74 20 6C 69 6D 69 74 20 69 |  default limit i |
+| 73 20 38 30 20 63 68 61 72 61 63 74 65 72 73 20 | s 80 characters  |
+| 73 6F 20 77 65 20 77 69 6C 6C 20 74 65 73 74 20 | so we will test  |
+| 6F 6E 20 65 69 74 68 65 72 20 73 69 64 65 20 6F | on either side o |
+| 66 0A 74 68 61 74 3A 0A 20 20 20 20 20 20 20 20 | f.that:.         |
+| 20 31 20 20 20 20 20 20 20 20 20 32 20 20 20 20 |  1         2     |
+| 20 20 20 20 20 33 20 20 20 20 20 20 20 20 20 34 |      3         4 |
+| 20 20 20 20 20 20 20 20 20 35 20 20 20 20 20 20 |          5       |
+| 20 20 20 36 20 20 20 20 20 20 20 20 20 37 20 20 |    6         7   |
+| 20 20 20 20 20 20 20 38 0A 31 32 33 34 35 36 37 |        8.1234567 |
+| 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 | 8901234567890123 |
+| 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 | 4567890123456789 |
+| 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 | 0123456789012345 |
+| 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 | 6789012345678901 |
+| 32 33 34 35 36 37 38 39 30 0A 54 68 65 20 61 62 | 234567890.The ab |
+| 6F 76 65 20 73 68 6F 75 6C 64 20 6E 6F 74 20 74 | ove should not t |
+| 72 69 67 67 65 72 20 61 20 22 6C 69 6E 65 20 74 | rigger a "line t |
+| 6F 6F 20 6C 6F 6E 67 20 65 72 72 6F 72 22 2E 20 | oo long error".  |
+| 42 75 74 20 74 68 69 73 20 6C 69 6E 65 20 73 68 | But this line sh |
+| 6F 75 6C 64 21 2D 2D 2D 2D 2D 2D 0A 0A 53 43 30 | ould!------..SC0 |
+| 37 2E 33 3A 20 54 65 73 74 20 74 68 65 20 6C 69 | 7.3: Test the li |
+| 6D 69 74 20 73 65 74 20 61 74 20 69 6E 66 69 6E | mit set at infin |
+| 69 74 79 2E 0A 0A 40 70 20 6D 61 78 69 6D 75 6D | ity...@p maximum |
+| 5F 69 6E 70 75 74 5F 6C 69 6E 65 5F 6C 65 6E 67 | _input_line_leng |
+| 74 68 20 3D 20 69 6E 66 69 6E 69 74 79 0A 0A 20 | th = infinity..  |
+| 20 20 20 20 20 20 20 20 31 20 20 20 20 20 20 20 |         1        |
+| 20 20 32 20 20 20 20 20 20 20 20 20 33 20 20 20 |   2         3    |
+| 20 20 20 20 20 20 34 20 20 20 20 20 20 20 20 20 |       4          |
+| 35 20 20 20 20 20 20 20 20 20 36 20 20 20 20 20 | 5         6      |
+| 20 20 20 20 37 20 20 20 20 20 20 20 20 20 38 0A |     7         8. |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 0A 54 68 65 20 61 62 6F 76 65 20 73 68 6F 75 6C | .The above shoul |
+| 64 20 6E 6F 74 20 74 72 69 67 67 65 72 20 61 20 | d not trigger a  |
+| 22 6C 69 6E 65 20 74 6F 6F 20 6C 6F 6E 67 20 65 | "line too long e |
+| 72 72 6F 72 22 2E 20 4E 6F 72 20 73 68 6F 75 6C | rror". Nor shoul |
+| 64 20 74 68 69 73 20 6F 6E 65 21 2D 2D 2D 2D 2D | d this one!----- |
+| 2D 2D 0A 0A 53 43 30 37 2E 33 3A 20 54 65 73 74 | --..SC07.3: Test |
+| 20 74 68 65 20 6C 69 6D 69 74 20 73 65 74 20 6C |  the limit set l |
+| 6F 77 65 72 2E 0A 0A 40 70 20 6D 61 78 69 6D 75 | ower...@p maximu |
+| 6D 5F 69 6E 70 75 74 5F 6C 69 6E 65 5F 6C 65 6E | m_input_line_len |
+| 67 74 68 20 3D 20 35 30 0A 0A 20 20 20 20 20 20 | gth = 50..       |
+| 20 20 20 31 20 20 20 20 20 20 20 20 20 32 20 20 |    1         2   |
+| 20 20 20 20 20 20 20 33 20 20 20 20 20 20 20 20 |        3         |
+| 20 34 20 20 20 20 20 20 20 20 20 35 0A 31 32 33 |  4         5.123 |
+| 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 | 4567890123456789 |
+| 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 | 0123456789012345 |
+| 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 0A | 678901234567890. |
+| 4E 6F 20 65 72 72 6F 72 20 66 6F 72 20 74 68 65 | No error for the |
+| 20 61 62 6F 76 65 20 62 75 74 20 74 68 69 73 20 |  above but this  |
+| 6C 69 6E 65 20 77 69 6C 6C 21 2D 2D 2D 2D 2D 2D | line will!------ |
+| 2D 2D 2D 0A                                     | ---.             |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| SC07: Processing of long lines.<010>
+00002 00002| <010>
+00003 00003| SC07.1: Detection of a line longer than the default limit.<010>
+00004 00004| <010>
+00005 00005| The default limit is 80 characters so we will test on either side of<010>
+00006 00006| that:<010>
+00007 00007|          1         2         3         4         5         6         7         8<010>
+00008 00008| 12345678901234567890123456789012345678901234567890123456789012345678901234567890<010>
+00009 00009| The above should not trigger a "line too long error". But this line should!------<010>
+00010 00010| <010>
+00011 00011| SC07.3: Test the limit set at infinity.<010>
+00012 00012| <010>
+00013 00013| @p maximum_input_line_length = infinity<010>
+00014 00014| <010>
+00015 00015|          1         2         3         4         5         6         7         8<010>
+00016 00016| 12345678901234567890123456789012345678901234567890123456789012345678901234567890<010>
+00017 00017| The above should not trigger a "line too long error". Nor should this one!-------<010>
+00018 00018| <010>
+00019 00019| SC07.3: Test the limit set lower.<010>
+00020 00020| <010>
+00021 00021| @p maximum_input_line_length = 50<010>
+00022 00022| <010>
+00023 00023|          1         2         3         4         5<010>
+00024 00024| 12345678901234567890123456789012345678901234567890<010>
+00025 00025| No error for the above but this line will!---------<010>
+00026 00026| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 4 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="SC07: Processing of long lines.<010>
+<010>
+SC07.1: Detection of a line longer than the default limit.<010>
+<010>
+The default limit is 80 characters so we will test on either side of<010>
+that:<010>
+         1         2         3         4         5         6         7         8<010>
+12345678901234567890123456789012345678901234567890123456789012345678901234567890<010>
+The above should not trigger a "line too long error". But this line should!------<010>
+<010>
+SC07.3: Test the limit set at infinity.<010>
+<010>
+"
+0014[01]: Text. Text scrap[Grey]="<010>
+         1         2         3         4         5         6         7         8<010>
+12345678901234567890123456789012345678901234567890123456789012345678901234567890<010>
+The above should not trigger a "line too long error". Nor should this one!-------<010>
+<010>
+SC07.3: Test the limit set lower.<010>
+<010>
+"
+0022[01]: Text. Text scrap[Grey]="<010>
+         1         2         3         4         5<010>
+12345678901234567890123456789012345678901234567890<010>
+No error for the above but this line will!---------<010>
+"
+0026[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+Macro table dump skipped (Parser was not invoked).
+Document list dump skipped (Parser was not invoked).
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| SC07: Processing of long lines.
+     2     2| 
+     3     3| SC07.1: Detection of a line longer than the default limit.
+     4     4| 
+     5     5| The default limit is 80 characters so we will test on either side of
+     6     6| that:
+     7     7|          1         2         3         4         5         6         7         8
+     8     8| 12345678901234567890123456789012345678901234567890123456789012345678901234567890
+     9     9| The above should not trigger a "line too long error". But this line should!------
+       Error|.................................................................................^Input line is too long (this character is the first offender).
+            |.................................................................................^Currently, the maximum allowable input line length is 80.
+            |.................................................................................^Note: You can change this using a pragma directive (@p).
+    10    10| 
+    11    11| SC07.3: Test the limit set at infinity.
+    12    12| 
+    13    13| @p maximum_input_line_length = infinity
+    14    14| 
+    15    15|          1         2         3         4         5         6         7         8
+    16    16| 12345678901234567890123456789012345678901234567890123456789012345678901234567890
+    17    17| The above should not trigger a "line too long error". Nor should this one!-------
+    18    18| 
+    19    19| SC07.3: Test the limit set lower.
+    20    20| 
+    21    21| @p maximum_input_line_length = 50
+    22    22| 
+    23    23|          1         2         3         4         5
+    24    24| 12345678901234567890123456789012345678901234567890
+    25    25| No error for the above but this line will!---------
+       Error|...................................................^Input line is too long (this character is the first offender).
+            |...................................................^Currently, the maximum allowable input line length is 50.
+            |...................................................^Note: You can change this using a pragma directive (@p).
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 2 Errors.

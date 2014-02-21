@@ -1,0 +1,72 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 53 43 30 35 3A 20 54 68 69 73 20 69 6E 70 75 74 | SC05: This input |
+| 20 66 69 6C 65 20 63 6F 6E 74 61 69 6E 73 20 61 |  file contains a |
+| 20 73 69 6E 67 6C 65 20 6C 69 6E 65 20 63 6F 6E |  single line con |
+| 74 61 69 6E 69 6E 67 20 74 68 69 73 20 74 65 78 | taining this tex |
+| 74 21 0A                                        | t!.              |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| SC05: This input file contains a single line containing this text!<010>
+00002 00002| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 2 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="SC05: This input file contains a single line containing this text!<010>
+"
+0002[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+
+========================== Start of MACRO TABLE DUMP ===========================
+
+
+=========================== End of MACRO TABLE DUMP ============================
+
+
+========================= Start of DOCUMENT LIST DUMP ==========================
+
+
+TEXT COMPONENT: Pos(L,C)=(1,1). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="SC05: This input file contains a single line containing this text!<010>
+"
+--- End of Text Scrap List ---
+
+
+========================== End of DOCUMENT LIST DUMP ===========================
+
+E: No macros defined.
+E: No output files specified.
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+.................
+------------+-------------------------------------------------------------------
+
+There were 2 Errors.

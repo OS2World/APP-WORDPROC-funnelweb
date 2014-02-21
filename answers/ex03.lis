@@ -1,0 +1,50 @@
+FUNNELWEB LISTING FILE
+======================
+
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| EX03: An example containing errors to do with the number of times
+     2     2|       that macros are called.
+     3     3| 
+     4     4| @O@<ex03.out@>==@{@-
+     5     5| @<Include Files@>
+     6     6| @<Include Files@>
+     7     7| @<Main Program@>
+     8     8| @}
+     9     9| 
+    10    10| @$@<Main Program@>==@{@-
+    11    11| main()
+    12    12| {
+    13    13|  doit();
+    14    14| }
+    15    15| @}
+    16    16| 
+    17    17| @$@<Subroutine@>==@{@-
+       Error|.^This macro is never used (and has no @Z).
+    18    18| void doit()
+    19    19| {
+    20    20|  int i;
+    21    21|  for (i=0;i<10;i++)
+    22    22|    {
+    23    23|     @<Print@>
+    24    24|     @<Print@>
+    25    25|    }
+    26    26| }@}
+    27    27| 
+    28    28| @$@<Print@>==@{@-
+       Error|.^This macro is used more than once (and has no @M).
+    29    29| printf("Hello World!");
+    30    30| printf("\n");@}
+    31    31| 
+    32    32| @$@<Scan@>==@{scanf@}
+       Error|.^This macro is never used (and has no @Z).
+    33    33| 
+    34    34| @$@<Include Files@>==@{@-
+       Error|.^This macro is used more than once (and has no @M).
+    35    35| #include <stdio.h>
+    36    36| #include <stdlib.h>@}
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 4 Errors.

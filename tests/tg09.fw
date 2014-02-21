@@ -1,0 +1,37 @@
+TG09: Test some special sequences.
+1. <special>^
+2. <special>-
+3. <special>!
+
+@O@<tg09.out@>@{@-
+@! This line and the next line should not come out in the output file.
+@! This line is a comment line.
+A Megastar's Mantras
+--------------------
+(Things that Mean a Lot to Me)
+
+@^D(065) is for Austr@-
+alia
+The land I adore;
+It's so spot@-
+less and clean
+You can eat off the floor.
+
+@^X(42) is for Boomerang,
+Which our qua@-
+int Abos launch
+In the hope it will bring back
+A roast quok@-
+ka's haunch.
+
+@^B(01000011) is for Culture
+Which blossoms unch@-
+ecked,
+You can't move in my homeland
+for Beckett and Brecht.
+
+...more...
+
+- Dame Edna Everage,
+"Neglected Poems and Other Creatures" by Barry Humphries, 1991.
+@}

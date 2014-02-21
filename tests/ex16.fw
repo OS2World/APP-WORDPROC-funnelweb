@@ -1,0 +1,66 @@
+@!---------------------------------------!
+@!  Start of FunnelWeb Example .fw File  !
+@!---------------------------------------!
+
+@t vskip 40 mm
+@t title titlefont centre "Powers:"
+@t title titlefont centre "An Example of"
+@t title titlefont centre "A Short"
+@t title titlefont centre "FunnelWeb .fw File"
+@t vskip 10 mm
+@t title smalltitlefont centre "by Ross Williams"
+@t title smalltitlefont centre "26 January 1992"
+@t vskip 20 mm
+@t table_of_contents
+
+@A@<FunnelWeb Example Program@>
+
+This  program writes  out each  of the  first @{p@}  powers of  the first  @{n@}
+integers. These  constant parameters are located  here so that they  are easy to
+change.
+
+@$@<Constants@>==@{@-
+n : constant natural := 10;     -- How many numbers? (Ans: [1,n]).
+p : constant natural :=  5;     -- How many powers?  (Ans: [1,p]).@}
+
+@B Here is  the outline of the  program. This FunnelWeb file  generates a single
+Ada output file  called @{Power.ada@}. The main program consists  of a loop that
+iterates once for each number to be written out.
+
+@O@<ex16.out@>==@{@-
+@<Pull in packages@>
+
+procedure example is
+   @<Constants@>
+begin -- example
+   for i in 1..n loop
+      @<Write out the first p powers of i on a single line@>
+   end loop;
+end example;
+@}
+
+@B In this section,  we pull in the packages that this program  needs to run. In
+fact, all we need is the IO package so that we can write out the results. To use
+the IO package, we first of all need  to haul it in (@{with text_io@}) and then
+we need to make all its identifiers visible at the top level (@{use text_io@}).
+
+@$@<Pull in packages@>==@{with text_io; use text_io;@}
+
+@B Here is  the bit that writes out  the first @{p@} powers of  @{i@}. The power
+values  are  calculated  incrementally  in  @{ip@}  to  avoid  the  use  of  the
+exponentiation operator.
+
+@$@<Write out the first p powers of i on a single line@>==@{@-
+declare
+   ip : natural := 1;
+begin
+   for power in 1..p loop
+      ip:=ip*i;
+      put(natural'image(ip) & " ");
+   end loop;
+   new_line;
+end;@}
+
+@!---------------------------------------!
+@!   End of FunnelWeb Example .fw File   !
+@!---------------------------------------!

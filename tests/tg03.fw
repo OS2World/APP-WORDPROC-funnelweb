@@ -1,0 +1,69 @@
+TG03: Test expansions with indentation.
+
+@p indentation = blank
+
+@O@<tg03.out@>@{@-
+@<Poem@>
+
+@<Indentation test@>
+@}
+
+@!******************************************************************************
+
+@A@<Poem Section@>
+
+@$@<Poem@>@{@-
+The other day upon the stair,
+@<Middle@>
+I think he's from the CIA.@}
+
+@$@<Middle@>@{@-
+I met a man who wasn't there.
+@<Second line of middle@>@}
+
+@$@<Second line of middle@>@{He wasn't there @<again@> today,@}
+
+@$@<again@>@{again@}
+
+@!******************************************************************************
+
+@A@<Program Section@>
+
+@$@<Indentation test@>@{@-
+The following nest of begin and ends should be indented in a nest.
+
+begin0
+   @<A@>
+end0@}
+
+
+@$@<A@>@{@-
+begin1
+   @<B@>
+end1@}
+
+@$@<B@>@{@-
+begin2
+   @<C@>
+end2@}
+
+@$@<C@>@{@-
+begin3
+   @<D@>
+end3@}
+
+@$@<D@>@{@-
+begin4
+   @<E@>
+end4@}
+
+@$@<E@>@{@-
+begin wayout----------V
+                      @<wayout@>
+end   wayout----------^@}
+
+@$@<wayout@>@{@-
+It's scary out here
+So far from the left margin.@}
+
+@!******************************************************************************

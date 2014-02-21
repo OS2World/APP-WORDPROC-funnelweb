@@ -1,0 +1,92 @@
+PR09: Test calls and actual parameter lists.
+
+First trip up the parser so we don't get any further.
+@>
+
+Now define some macros to call. No error.
+
+@$@<Zero@>@{@}
+@$@<One@>@(@1@)@{@}
+@$@<Two@>@(@2@)@{@}
+@$@<Three@>@(@3@)@{@}
+@$@<Nine@>@(@9@)@{@}
+@$@#"@{@}
+
+The following test calls should NOT generate any errors.
+
+@$@<Macro containing the test macro calls.@>==@{
+1. Test macro call with no parameter list.
+@<Zero@>
+
+2. Test macro call with quick name.
+@#"
+
+3. Test macro call with one parameter.
+@<One@>@(Toucan@)
+
+4. Test macro call with many parameters.
+@<Two@>@(Toucan@,Teapot@)
+@<Three@>@(Toucan@,Teapot@,Walrus@)
+@<Nine@>@(Toucan@,Teapot@,Walrus@,
+          Toucan@,Teapot@,Walrus@,
+          Toucan@,Teapot@,Walrus@)
+
+5. Test macro calls with double quotes on parameters.
+@<One@>@( @"Toucan@"@)
+@<Two@>@(@"Toucan@"   @,   @"Teapot@"@)
+@<Three@>@(@"Toucan@" @,
+           @"Teapot@" @,
+           @"Walrus@" @)
+@<Nine@>@( @"Toucan@" @, @"Teapot@" @, @"Walrus@" @,
+           @"Toucan@" @, @"Teapot@" @, @"Walrus@" @,
+           @"Toucan@" @, @"Teapot@" @, @"Walrus@" @)
+
+7. Test macro calls with mixed double quotes on parameters.
+@<Two@>@(@"Toucan@"   @,Teapot@)
+@<Three@>@(@"Toucan@" @,
+           @"Teapot@" @,Walrus@)
+@<Nine@>@( @"Toucan@" @, @"Teapot@" @,   Walrus   @,
+           @"Toucan@" @,   Teapot   @, @"Walrus@" @,
+           @"Toucan@" @, @"Teapot@" @, @"Walrus@" @)
+
+@} @! End of macro definition enclosing all these legal tests.
+
+8. Test macro calls with a variety of syntax errors in parameter list.
+@$@<Error1@>@{
+@<Zero@>@(
+@}
+@A@<Error recovery point@>
+
+@$@<Error2@>@{
+@<Zero@>@)
+@}
+@A@<Error recovery point@>
+
+@$@<Error3@>@{
+@<One@>@(@"Toucan@)
+@}
+@A@<Error recovery point@>
+
+@$@<Error4@>@{
+@<One@>@(@"Toucan@"@"Sloth@"@)
+@}
+@A@<Error recovery point@>
+
+@$@<Error5@>@{
+@<Two@>@(@"Toucan@"Teapot@)
+@}
+@A@<Error recovery point@>
+
+@$@<Error6@>@{
+@<Two@>@(@"Toucan@"Teapot
+@}
+@A@<Error recovery point@>
+
+@$@<Error7@>@{
+@<Two@>@(@"Toucan@"Teapot
+@<Three@>@(Toucan@,
+           @"Teapot@,Walrus
+
+@}
+@A@<Error recovery point@>
+

@@ -1,0 +1,34 @@
+SC28: Test syntax checking of title typesetting directive.
+
+1. Test less than four arguments (includes title).
+Note: The title command pulls a hack treating the rest of the line after
+two arguments as the string. So it can't detect an EXCESS of arguments!
+@t title
+@t title two
+@t title two three
+
+2. Test out bad font.
+@t title slothfont left "Sloth"
+
+3. Test out bad alignment.
+@t title titlefont westward "Sloth"
+
+4. Test out funny strings.
+@t title titlefont left "
+@t title titlefont left ""
+@! Note: The following, believe it or not, is actually LEGAL!
+@t title titlefont left "sloth"sloth"
+
+5. Test out all combinations of font and alignment.
+@t title titlefont      left   "Sloth"
+@t title titlefont      centre "Sloth"
+@t title titlefont      right  "Sloth"
+@t title smalltitlefont left   "Sloth"
+@t title smalltitlefont centre "Sloth"
+@t title smalltitlefont right  "Sloth"
+@t title normalfont     left   "Sloth"
+@t title normalfont     centre "Sloth"
+@t title normalfont     right  "Sloth"
+
+6. Test misspelling of centre (Ross's revenge).
+@t title normalfont     center "Sloth"

@@ -1,0 +1,4 @@
+This is the include file for test SC13e. The test is to see how FunnelWeb
+copes with an include file that has an improperly terminated last line.
+
+Here is the improper termination!---->

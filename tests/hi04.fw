@@ -1,0 +1,23 @@
+HI04: This example shows how FunnelWeb's macro facility can be used to
+      fudge a multi-way conditional.
+
+@O@<hi04.out@>==@{@<Main code@>@}
+
+@A This module contains non-portable code that must execute on Hewlett
+Packard, Sun, and DEC workstations. The following FunnelWeb macro is
+defined to choose between these three. The first parameter is the HP code,
+the second is the Sun code, and the third is the DEC code. Whichever
+parameter constitutes the body of this macro determines which
+machine the code is being targetted for.
+
+@$@<Machine specific code@>@(@3@)@M==@{@1@}  @! Configure for HP.
+
+@$@<Main code@>==@{@-
+-------
+@<Machine specific code@>@(
+@"get_command_line(comline)@"           @, @! HP.
+@"scan_command_line(128,comline);@"     @, @! Sun.
+@"dcl_get_command_line(comline,256);@"  @) @! DEC.
+
+-------
+@}

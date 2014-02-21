@@ -1,0 +1,8 @@
+SC26: Test syntax checking of table of contents typesetting pragma.
+
+1. Make sure that a legal table of contents directive is OK.
+@t table_of_contents
+
+2. Check that it doesn't stand for any nonsense.
+@t table_of_contents nonsense
+

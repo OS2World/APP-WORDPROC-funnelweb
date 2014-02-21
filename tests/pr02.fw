@@ -1,0 +1,14 @@
+PR02: Test the parsing of typesetter directives.
+
+1. Test parsing of new page directive.
+@t new_page
+
+2. Test parsing of table of contents directive.
+@t table_of_contents
+
+3. Test parsing of vskip directive.
+@t vskip 32 mm
+
+4. Test parsing of title directive.
+@t title titlefont left "Sloth"
+

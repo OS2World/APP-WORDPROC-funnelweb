@@ -1,0 +1,7 @@
+EX14: This example demonstrates the literal and emphasis typesetting constructs.
+
+The following procedure @{put_sloth@} writes the @{sloth@} variable to
+the output file. Note: @/The output file must be opened for writing
+at this point or the program will crash!@/
+
+@O@<ex14.out@>==@{dummy@+@}

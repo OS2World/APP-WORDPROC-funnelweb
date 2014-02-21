@@ -1,0 +1,11 @@
+TG06: Test the setting of the line length limit.
+
+@p maximum_output_line_length = 60
+@O@<tg06.out@>@{@-
+We test the user-set limit of 60 characters.
+Only the third of the following three lines
+should provoke an error.
+         1         2         3         4         5         6
+123456789012345678901234567890123456789012345678901234567890
+1234567890123456789012345678901234567890123456789012345678901
+@}

@@ -1,0 +1,83 @@
+HI10: This example gives examples of heavily and lightly documented pieces
+      of code.
+
+@O@<hi10.out@>==@{
+@<Set p to the length of the longest plateau in sorted array b[1..N]@>
+
+@<Function comp@>
+@}
+
+@A@<Calculation of the longest plateau in array b@>
+
+This section contains a solution to a problem outlined in section 16.3 of
+the book @/The Science of Programming@/ by David Gries[Gries81].
+
+@B Given a sorted array @{b[1..N]@} of integers, we wish to determine the
+@/length@/ of the longest run of identically valued elements in the array.
+This problem is defined by the following precondition and postcondition.
+
+@$@<Precondition@>==@{/* Pre: sorted(b). */@}
+@$@<Postcondition@>==@{@-
+/* Post: sorted(b) and p is the length of the longest run in b[1..N]. */@}
+
+@B We approach a solution to the problem by deciding to try the approach of
+scanning through the array one element at a time maintaining a useful
+invariant through each iteration. A loop variable
+array index @{i@} is created for this purpose. The bound function is
+@{N-i@}. Here is the invariant.
+
+@$@<Invariant@>==@{@-
+/* Invariant: sorted(b) and 1<=i<=N and           */
+/*            p is len of longest run in b[1..i]. */@}
+
+@B Establishing the invariant above in the initial, degenerate case is easy.
+
+@$@<Establish the plateau loop invariant initially@>==@{i=1; p=1;@}
+
+@B At this stage, we have the following loop structure. Note that when both
+the invariant and @{i != N@} are true, the postcondition holds and the loop
+can terminate.
+
+@$@<Set p to the length of the longest plateau in sorted array b[1..N]@>==@{@-
+@<Precondition@>
+@<Establish the plateau loop invariant initially@>
+while (i != N)
+  {
+   @<Invariant@>
+   @<Loop body@>
+  }
+@<Postcondition@>
+@}
+
+@B Now there remains only the loop body whose sole task is to increase @{i@}
+(and so decrease the value of the bound function) while maintaining the
+invariant. If @{p@} is the length of the longest run
+seen so far (i.e. in b[1..i]), then, because the array is sorted,
+the extension of our array range to
+@{b[1..i+1]@} can only result in an increase in @{p@} if the new element
+terminates a run of length @{p+1@}. The increase can be at most 1. Because
+the array is sorted, we need
+only compare the endpoints of this possible run to see if it exists. This
+is performed as shown below.
+
+@$@<Loop body@>==@{i++; if (b[i] != b[i-p]) p++;@}
+
+
+
+
+
+@A The following function compares two C~strings and returns TRUE iff they
+are identical.
+
+@$@<Function comp@>==@{@-
+bool comp(p,q)
+char *p,*q;
+{
+ while (TRUE)
+   {
+    if (*p != *q  ) return FALSE;
+    if (*p == '\0') return TRUE;
+    p++; q++;
+   }
+}
+@}

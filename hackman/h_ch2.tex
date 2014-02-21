@@ -1,0 +1,443 @@
+%==============================================================================%
+%                              Start of Ch2.tex                                %
+%==============================================================================%
+%
+% Copyright
+% ---------
+% Copyright (C) 1992 Ross N. Williams.
+% This file contains a chapter of the FunnelWeb Hacker's Manual.
+% See the main TeX file for this manual for further information.
+%
+%==============================================================================%
+
+\chapter{FunnelWeb Implementation}
+\label{chapimplementation}\xx{FunnelWeb}{implementation}
+
+\section{Introduction}
+
+This chapter contains notes on the actual C code that implements
+FunnelWeb~V3. This chapter is rather patchy. It has acted mainly as
+a dumping ground for ideas that I bothered to write about during
+development.
+
+\section{History of FunnelWeb Implementations}
+\xx{FunnelWeb}{history}\x{FunnelWeb version 1}\x{FunnelWeb version 2}%
+\x{FunnelWeb version 3}
+
+The first implementation of FunnelWeb (FunnelWeb~V1) was written in
+Ada\x{Ada}
+in December 1986. The project was initially canned as requiring too
+much time, but was resurrected when I decided to commit to
+Ada\paper{USDOD83} and
+realized that I needed a program to write to help me to learn Ada.
+FunnelWeb~V1 was, in fact, my first Ada program. It took about one
+month to write.
+
+FunnelWeb~V1 was used intensively by myself to write Ada programs
+from January~1986 to July~1989 at which time
+I finished my Ph.D.\x{Ph.D.} and lost access to
+the VAX. During this time at least twenty thousand lines of code were generated
+using FunnelWeb. Hardly anyone but myself used
+FunnelWeb.\xx{FunnelWeb}{past use}
+
+After losing access to Ada and the Vax (and hence to FunnelWeb), I was forced
+back to programming the non-literate way. From time to time I found that I
+needed to use some of my old programs that I had written using Ada and
+FunnelWeb. I knew that Ada would become available on more machines, but
+certainly FunnelWeb wouldn't. I recognised a strong need for a portable
+version of FunnelWeb written in~C but didn't have the time or energy
+to create one.
+
+About this time (late 1989), David Hulse,\xn{David}{Hulse}
+at the time a student in
+Computer Science at the University of Adelaide,\xx{University}{Adelaide}
+volunteered to translate the 4000 line Ada version of FunnelWeb into~C.
+To my knowledge this translation process took about three weeks
+(in December 1989). The result was called FunnelWeb~V2 and was
+formally signed into the public domain on 5~May 1992.
+
+In general, David Hulse did a good job. However, the resultant code
+suffered from one or few serious defects, the most serious of which was
+a lack of portability.
+
+Lack of portability of the C~code, combined with the need for a rather
+solid design review, combined with the need to
+strengthen the program to bring it up to production standard, resulted
+in my performing a complete reworking of the code. The C code was
+entirely, but incrementally, replaced or reformatted.
+The code was also strengthened and new features were added.
+This process took about two months (November and December 1991).
+A further two months (approx) were spent writing documentation, constructing
+a regression test suite, porting the program to different machines,
+and sorting out the legal issues involved in its release.
+
+I would like to take this opportunity to record a debt of gratitude to
+David Hulse who translated FunnelWeb from Ada to~C. Although my
+reworking of his C~code obliterated most of his code,
+his translation was pivotal to the development process.
+Without his effort in moving from Ada to~C, I'm not sure that I
+would have mustered the energy and time to complete the process and
+bring FunnelWeb up to its current standard.
+
+\section{Why FunnelWeb Wasn't Used to Write Itself}
+\xx{FunnelWeb}{writing itself}
+
+After Knuth created the Web literate preprocessing system, he
+re-wrote it using Web and distributed the source code in Web source form.
+To allow the Web source code to be tangled by users not yet having a
+copy of Web, he also included the tangled Pascal code for the Tangler.
+
+While this approach is heroic and serves to convey a commitment and
+a confidence in literate programming, it seemed to me that writing FunnelWeb
+in FunnelWeb would simply be asking for trouble.\xx{trouble}{asking for}
+For a start, it would be
+very hard to modify any feature of FunnelWeb that had been used to write
+FunnelWeb, and the thought of what would happen if the working executable
+became inoperative for some reason does not bear thinking upon.
+
+One million billion computer programs were written in the non-literate
+style before FunnelWeb was created. Why not one more?
+
+\section{Coding Style}
+\xx{coding}{style}
+
+Although FunnelWeb wasn't coded under any particular coding standard,
+it was coded in accordance with a fairly strict personal style of C
+which developed during the development of FunnelWeb. This style was
+subsequently embodied in a real C coding standard prepared for the
+South\x{South Australian Government Department of Lands}
+Australian Government
+Department of Lands.\footnote{The standard
+is currently unavailable, but is likely to be released or
+published eventually.} Unfortunately, FunnelWeb was not
+formally developed under the standard and so some holes remain in
+FunnelWeb's coding style. This section aims to describe some of the more
+important aspects of the coding style.
+
+\thing{Portability:} This\x{portability}
+was a major goal of the FunnelWeb implementation.
+Two excellent books guided this move to portability.
+They were \paper{Rabinowitz90} (which deals with C code itself)
+and \paper{Horton90} (which deals with the portability of various library
+calls). Other works such as \paper{Kernighan88} and
+\paper{ANSI} were also helpful.
+
+\thing{Identifiers:} \paper{Rabinowitz90}\x{identifier}{length}
+specifies that for
+wide portability, identifiers of block and file scope should be unique to
+eight characters, and identifiers of program scope should be unique to
+six characters. I have gone further in FunnelWeb and actually made these
+restrictions actual limits on identifier length.
+
+Because names must be so short, a system of abbreviations was developed to
+organize the identifiers used within FunnelWeb. Each abbreviation consists
+of a letter pair. Here are \i{some} of the abbreviations
+used:\xx{identifier}{abbreviations}
+
+\begin{verbatim}
+bp - Body Part.
+cm - Compare. Used to prefix comparison routines that return [-1,0,1].
+dc - Document component.
+dm - Dump package.
+el - Element.
+eq - Equal. Used to prefix comparison routines that return a boolean.
+ex - Expression.
+f  - Global files.
+ll - List of lists.
+ln - Line record.
+ls - List Package.
+lr - Lister package.
+ma - Macro.
+mc - Macro Call.
+mn - Macro Name.
+op - Options package.
+pr - Parser.
+ps - Position record.
+sc - Scrap record.
+sn - Section.
+tb - Table package.
+ty - Typesetter directive.
+wf - Write file package.
+wl - Write with EOL (misc.c).
+wr - Write          (misc.c).
+\end{verbatim}
+
+\thing{Pointers:} Variables or types denoting
+pointers\xx{pointers}{naming} start with \dqp{p\_}.
+
+\thing{Types:} Names denoting types end in \dqp{\_t}.
+Thus, a type for a pointer to a table would be named
+\p{p\_tb\_t}.\xx{types}{naming}
+
+\thing{File names:} All files\xx{filenames}{length}
+used in FunnelWeb have file names that are
+from one to eight characters long and file extensions that are from one to
+three characters long. This ensures that the files can be portably moved
+to all kinds of machines, even MSDOS!\x{MSDOS}
+
+\section{Use of Memory}
+\xx{use of}{memory}
+
+FunnelWeb is not a memory-stressed program. However, during its development,
+problems with the management of memory seemed to crop up again and again.
+This section documents some of these problems and the solutions adopted.
+
+There are three places where memory can be obtained: the heap, the stack,
+and from static variables. The following three sections deal with each
+of these areas.
+
+\section{The Heap}
+\xx{heap}{memory}
+
+One of the great frustrations of being a user is to find that a computer
+program is complaining about lack of memory when one knows full well that
+one has allocated at least ten times as much memory to the program as it
+would ever need to do its job. The reason for such error messages usually
+has to do with the programmer setting a fixed \dq{reasonable} limit to
+a particular data structure and then locking it up into an array whose
+bound is specified by a constant. While the use of arrays can increase the
+speed of a program, it also means that the user cannot increase the capacity
+of the program without obtaining the source code and recompiling it,
+which is usually a daunting option.
+
+The alternative is to use the heap for all data structures that can
+grow in proportion to the size of the user's input. This rule has been
+followed rigorously in FunnelWeb. This means that as memory spaces
+increase, users will be able to hand their version of FunnelWeb more
+memory without having to recompile it.
+
+\topicbreak
+
+Some problems arose early on the Macintosh\x{Macintosh}
+in the use of the heap. It seems
+that some of the allocations I was attempting to make were failing for some
+obscure reason, possibly my fault. Whatever it was, it went away when I
+replaced direct calls to \p{malloc}\x{malloc}
+with calls to a mini package I wrote
+(called \p{memory}) that allocated large chunks of memory and then doled out
+small pieces as required by the rest of the
+program.\xx{memory}{package}
+
+Having a package to manage all the memory allocation had two other benefits.
+
+First, only one check was required in the entire program to see if memory
+had run out (in the memory package), and if that failed, the program could
+be brought to a screaming halt. This organization was far preferable to
+having each piece of code that needed to allocate memory having to check
+to see if \p{malloc} had failed.
+
+Second, the decision to construct a mini-shell within FunnelWeb to
+support regression testing meant that FunnelWeb proper could be run
+many times in any given invocation of FunnelWeb. As a consequence it was
+necessary to make sure that there was no memory
+leakage\xx{memory}{leakage} between invocations
+of FunnelWeb proper. This was accomplished by reworking the memory package
+to operate a watermark system. The user of the package, when requesting
+memory, could request \dq{temporary} or \dq{permanent}. If permanent, the
+memory package forgot that it had allocated the memory. If temporary, the
+memory package places the allocated block on a list. There was then a
+function in the memory package that could be called to deallocate all the
+temporary memory. Thus, so long as all requests for memory within FunnelWeb
+proper were for temporary memory, and that memory was freed at the end of
+every run, one could be sure that there was no memory leakage.
+
+\section{The Stack}
+\xx{stack}{memory}\xx{stack}{size}
+
+For a while during the development of FunnelWeb a particularly nasty bug
+proved extremely hard to find. The symptom was that FunnelWeb would crash,
+sometimes at random, but more often upon entering a particular function.
+In the end about a day of specific debugging was required before the problem
+was tracked down to a stack problem. It turned out that somehow
+(either the fault of the Macintosh or the THINK~C language system), only
+6K was being allocated for stack space!!!!!!!
+
+This experience led me immediately to go through the entire program and
+eliminate (or remove to the heap) any automatic variable declarations that
+used more than one hundred or so bytes.
+
+The lesson is clearly that C~programs that use more than a few thousand bytes of
+stack space are risking their portability. All large data structures should be
+placed in the heap.
+
+\section{Static Variables}
+\xx{memory}{static}\xx{static}{variables}
+
+Static variables also proved a problem on the Macintosh.
+It turns out that
+the Macintosh\x{Macintosh} THINK~C compiler\xx{ThinkC}{compiler}
+does not allow more than 32K of statics
+\i{in the entire program}. For a while this restriction was
+a serious threat to the program as it was discovered that constant strings
+were included in this total! However, some searching revealed a compiler
+option that removed the strings from the static category.
+
+Nevertheless, the 32K limit is rather severe. Again, it seems that for
+portability reasons, C~programs that use a lot of static variables are risking
+their portability. As a result, the FunnelWeb code avoids static variables
+where possible in favour of the heap.
+
+\section{Implementing Text Indentation}
+\xx{text}{indentation}
+
+At one point during the development of FunnelWeb, text indentation was
+fully implemented. However, it was subsequently removed because it was
+considered a dangerous feature. This section records the way in which
+text indentation was implemented so that if the feature ever has to be put
+back, this technique can be used again.
+
+
+1. Create a new field in the \p{sc\_t} record call \p{sc\_postn}.
+
+\begin{verbatim}
+      char *sc_postn; /* Pointer in the range [sc_first,sc_last+1].           */
+                      /* It is the minimum possible value of sc_postn for     */
+                      /* which EOL does not appear in *sc_postn..*sc_last.    */
+                      /* i.e. Points to the byte following the first EOL in   */
+                      /* the scrap or sc_first if EOL does not appear.        */
+\end{verbatim}
+
+2. Modify the scanner so that it generates this field.
+Sendtext should be modified so that
+it accepts an argument for the \p{p\_postn} value.
+
+\begin{verbatim}
+LOCAL void sendtext P_((p_ps_t,char *,char *,char *,bool));
+LOCAL void sendtext(p_tkps,p_first,p_last,p_postn,is_white)
+/* Appends a text token to the end of the token list.                         */
+/* IN: p_ps is a pointer to a position structure giving the position of the   */
+/*     first character of the token.                                          */
+/* IN: p_first and p_last point to the first and last byte of the text scrap. */
+/* IN: p_postn has the same definition as sc_postn (see fwdata.h).            */
+/* IN: is_white should be set to TRUE iff scrap is entirely whitespace.       */
+p_ps_t p_tkps;
+char  *p_first;
+char  *p_last;
+char  *p_postn;
+bool   is_white;
+{
+ tk_t token;
+ 
+ /* Empty text scraps should never be generated. */
+ assert(p_first<=p_last,"sendtext: Text scrap bounds are bad.");
+ 
+ /* If ch=EOL then we should be scanning more text, not shipping it! */
+ assert(ch!=EOL,"senttext: Shipping text while still more to scan.");
+
+ /* Check that p_postn is in range. See definition in fwdata.h. */
+ assert(p_first<=p_postn && p_postn<=p_last+1,
+        "sendtext: p_postn is out of range.");
+ 
+ /* Debug: Check the p_postn field using a brute force check. */
+ {
+  char *i,*j;
+  j=p_first;
+  for (i=p_first;i<=p_last;i++)
+     if (*i==EOL)
+        j=i+1;
+  assert(j==p_postn,"sendtext: sc_postn field is incorrect.");
+ }
+
+ /* Load the text token. */
+ token.tk_kind        = TK_TEXT;
+ ASSIGN(token.tk_ps,*p_tkps);
+ token.tk_sc.sc_first = p_first;
+ token.tk_sc.sc_last  = p_last;
+ token.tk_sc.sc_postn = p_postn;
+ token.tk_white       = is_white;
+ token.tk_parno       = 0;
+ ls_add(token_list,PV &token);   
+}
+\end{verbatim}
+
+Then all the calls to sendtext have to be changed:
+
+\begin{verbatim}
+/* @ instructs FunnelWeb to replace the special construct with the */
+/* special character. Luckily one appears just before the @ !!     */
+/* Note: FALSE is OK because space is not a legal specialch.       */
+/* Note: Setting parameter p_postn to p_ch-1 is OK as EOL is not a */
+/*       legal specialch.                                          */
+sendtext(&ps_spec,p_ch-1,p_ch-1,p_ch-1,FALSE);
+break;
+
+/* + instructs FunnelWeb to insert an EOL. We can't look to the end of */
+/* the previous line to find an EOL as this might be the first line.   */
+/* Running ahead to the end of the line is expensive, and having the   */
+/* liner mini-package maintain a variable for it would be extra        */
+/* housekeeping. Instead of all this, we just point to a static.       */
+{CONST static char stateol = EOL;
+ sendtext(&ps_spec,&stateol,&stateol,(&stateol)+1,TRUE);}
+break;
+
+/* If we hit something that ends a text token */
+/* then we can transmit a white text token.   */
+if (ch==specialch || ch==EOFCH)
+   {sendtext(&ps_start,p_first,p_ch-1,MAX(p_sol,p_first),TRUE); return;}
+    
+/* Otherwise we have some more (non-white) text to scan. */
+/* We can then send a non-white text token.              */
+while (ch!=specialch && ch!=EOFCH)
+   NEXTCH;
+sendtext(&ps_start,p_first,p_ch-1,MAX(p_sol,p_first),FALSE);
+\end{verbatim}
+
+The dump code needs to be changed too!
+
+\begin{verbatim}
+        wf_str(p_wf,"\"");
+assert(token->tk_sc.sc_first !=NULL,"dm_tkls: NULL ptr1.");
+assert(token->tk_sc.sc_last  !=NULL,"dm_tkls: NULL ptr2.");
+for (i=token->tk_sc.sc_first; i<=token->tk_sc.sc_last; i++)
+  {
+   if (i==token->tk_sc.sc_postn)
+      wf_str(p_wf,"<postn>");
+   if (*i=='\n')
+      wf_wl(p_wf,"");
+   else
+      dm_byte(p_wf,*((ubyte_ *) i));
+  }
+if (i==token->tk_sc.sc_postn)
+   wf_str(p_wf,"<postn>");
+wf_str(p_wf,"\"");
+}
+\end{verbatim}
+
+3. Over in the Tangle module, create a massive array of pointers to scraps
+to be used as a stack. Maintain pointers into the stack called \p{current} and
+\i{base} (similar to the blank indentation variables). Implement the following:
+
+\begin{itemize}
+
+\item To write out a scrap, scan it byte by byte. Output each byte. When
+you hit an EOL, pop the stack back to \p{base}. Then write out an EOL
+followed by the stack contents but writing each scrap only from \p{postn} to
+end end of each scrap.
+When you have finished the new scrap, push it on the stack.
+
+\item When you hit a new macro to expand, save \p{base}. Restore it later.   
+
+\end{itemize}
+
+The \p{postn} field solves the big problem of
+how to cope with something like this:
+
+\begin{verbatim}
+The rain in Spain
+falls mainly @<on the plain@>
+\end{verbatim}
+
+The trouble is that we want to text indent the lines in
+\p{@<on the plain@>} with
+just \dqp{falls mainly~}. However, this string is only part of a scrap. The
+solution is to get the scanner to record, in the \p{postn} field of each scrap,
+the position of the first byte with a EOL-free run to the end of the scrap.
+
+This scheme is very efficient because all we are doing is pushing and popping
+pointers to scraps on a stack array. The main disadvantage is that the
+array must necessarily be finite and would impose a limit on the depth
+of indentation nesting (not a big problem).
+
+%==============================================================================%
+%                              Start of Ch2.tex                                %
+%==============================================================================%

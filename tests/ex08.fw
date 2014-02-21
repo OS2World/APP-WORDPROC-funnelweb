@@ -1,0 +1,39 @@
+EX08: This example demonstrates the use of parameterized macros.
+
+@O@<ex08.out@>==@{@-
+The Twelve Bugs of Christmas
+----------------------------
+@<Verse@>@(@"first@"    @,@<1@>@)
+@<Verse@>@(@"second@"   @,@<2@>@)
+@<Verse@>@(@"third@"    @,@<3@>@)
+@<Verse@>@(@"fourth@"   @,@<4@>@)
+@<Verse@>@(@"fifth@"    @,@<5@>@)
+@<Verse@>@(@"sixth@"    @,@<6@>@)
+@<Verse@>@(@"seventh@"  @,@<7@>@)
+@<Verse@>@(@"eighth@"   @,@<8@>@)
+@<Verse@>@(@"ninth@"    @,@<9@>@)
+@<Verse@>@(@"tenth@"    @,@<A@>@)
+@<Verse@>@(@"eleventh@" @,@<B@>@)
+@<Verse@>@(@"twelfth@"  @,@<C@>@)
+
+This song appeared in the internet newsgroup rec.humor.funny on 24-Dec-1991.
+It was contributed by Pat Scannell (scannell@@darkstar.ma30.bull.com).
+@}
+
+@$@<Verse@>@(@2@)@M==@{@-
+For the @1 bug of Christmas, my manager said to me
+     @2
+@}
+
+@$@<1@>@M==@{See if they can do it again.@}
+@$@<2@>@M==@{Ask them how they did it and@+@<1@>@}
+@$@<3@>@M==@{Try to reproduce it@+@<2@>@}
+@$@<4@>@M==@{Run with the debugger@+@<3@>@}
+@$@<5@>@M==@{Ask for a dump@+@<4@>@}
+@$@<6@>@M==@{Reinstall the software@+@<5@>@}
+@$@<7@>@M==@{Say they need an upgrade@+@<6@>@}
+@$@<8@>@M==@{Find a way around it@+@<7@>@}
+@$@<9@>@M==@{Blame it on the hardware@+@<8@>@}
+@$@<A@>@M==@{Change the documentation@+@<9@>@}
+@$@<B@>@M==@{Say it's not supported@+@<A@>@}
+@$@<C@>@M==@{Tell them it's a feature@+@<B@>@}

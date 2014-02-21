@@ -1,0 +1,16 @@
+HI07: This example demonstrates how FunnelWeb can be used to allow text
+sharing between documents.
+
+@O@<hi07a.out@>==@{@<M1@>@+@}
+@O@<hi07b.out@>==@{@<M2@>@+@}
+
+@$@<M1@>+=@{@<T1@>@}
+@$@<M2@>+=@{@<T1@>@}
+@$@<T1@>@M==@{First lump of text shared by both documents.@+@}
+
+@$@<M1@>+=@{Text for first document@+@}
+@$@<M2@>+=@{Text for second document@+@}
+
+@$@<M1@>+=@{@<T2@>@}
+@$@<M2@>+=@{@<T2@>@}
+@$@<T2@>@M==@{Second lump of text shared by both documents.@+@}

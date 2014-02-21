@@ -1,0 +1,36 @@
+EX03: An example containing errors to do with the number of times
+      that macros are called.
+
+@O@<ex03.out@>==@{@-
+@<Include Files@>
+@<Include Files@>
+@<Main Program@>
+@}
+
+@$@<Main Program@>==@{@-
+main()
+{
+ doit();
+}
+@}
+
+@$@<Subroutine@>==@{@-
+void doit()
+{
+ int i;
+ for (i=0;i<10;i++)
+   {
+    @<Print@>
+    @<Print@>
+   }
+}@}
+
+@$@<Print@>==@{@-
+printf("Hello World!");
+printf("\n");@}
+
+@$@<Scan@>==@{scanf@}
+
+@$@<Include Files@>==@{@-
+#include <stdio.h>
+#include <stdlib.h>@}

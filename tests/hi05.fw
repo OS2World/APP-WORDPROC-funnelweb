@@ -1,0 +1,23 @@
+HI05: This example shows how FunnelWeb can be used to dissect a file.
+
+@O@<hi05.out@>==@{@-
+Unreadable Postscript code
+@<Print routine@>
+Unreadable Postscript code
+@<Zap routine@>
+Unreadable Postscript code
+@}
+
+@A This routine looks as if it does this, but really is does that,
+blah, blah blah.
+
+@$@<Print routine@>==@{@-
+/print { push pop pop push turn around and jump up and down and print it} def
+@}
+
+@A This routine zaps the...
+
+@$@<Zap routine@>==@{@-
+/zap { push pop pop push turn around and jump up and down and print it} def
+@}
+

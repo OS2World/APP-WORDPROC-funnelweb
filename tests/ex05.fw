@@ -1,0 +1,50 @@
+EX05: An example in which Pascal program text is rearranged to form an ADT.
+      This example demonstrates the use of additive macros.
+
+@!******************************
+
+@O@<ex05.out@>==@{@-
+program adt(input,output);
+@<Types@>
+@<Variables@>
+@<Procedures@>
+begin startproc; end.
+@}
+
+@!******************************
+
+@$@<Types@>+=@{@-
+type buffer_type =
+   record
+   length : integer;
+   buf : array[1..100] of char;
+   end;
+@}
+
+@$@<Variables@>+=@{@-
+bigbuf : buffer_type;
+@}
+
+@$@<Procedures@>+=@{@-
+procedure buf_init (var b : buffer_type               ) {Body of buf_init}
+procedure buf_add  (var b : buffer_type;     ch : char) {Body of buf_add}
+procedure buf_get  (var b : buffer_type; var ch : char) {Body of buf_get}
+@}
+
+@!******************************
+
+@$@<Types@>+=@{@-
+type complex_type = record r,i : real; end;
+@}
+
+@$@<Procedures@>+=@{@-
+procedure cm_set (var c: complex_type; a,b: real)         {Body of cm_set}
+procedure cm_add (a,b: complex_type; var c: complex_type) {Body of cm_add}
+{Other procedures and functions}
+@}
+
+@!******************************
+
+{...more pieces of program...}
+
+@!******************************

@@ -1,0 +1,83 @@
+WV05: Test processing of ugly strings as ordinary and protected text
+with no typesetter set.
+
+@! We need this to keep the analyser happy.
+@O@<wv05.out@>@{@}
+
+A paragraph in ordinary mode.
+
+33 con!text
+34 con"text
+35 con#text
+36 con$text
+37 con%text
+38 con&text
+39 con'text
+40 con(text
+41 con)text
+42 con*text
+43 con+text
+44 con,text
+45 con-text
+46 con.text
+47 con/text
+48-57 con0123456789text
+58 con:text
+59 con;text
+60 con<text
+61 con=text
+62 con>text
+63 con?text
+64 con@@text
+65-90 conABCDEFGHIJKLMNOPQRSTUVWXYZtext
+91 con[text
+92 con\text
+93 con]text
+94 con^text
+95 con_text
+96 con`text
+97-122 conabcdefghijklmnopqrstuvwxyztext
+123 con{text
+124 con|text
+125 con}text
+126 con~text
+
+Now again, but this time inside protective braces.
+
+@{
+33 con!text
+34 con"text
+35 con#text
+36 con$text
+37 con%text
+38 con&text
+39 con'text
+40 con(text
+41 con)text
+42 con*text
+43 con+text
+44 con,text
+45 con-text
+46 con.text
+47 con/text
+48-57 con0123456789text
+58 con:text
+59 con;text
+60 con<text
+61 con=text
+62 con>text
+63 con?text
+64 con@@text
+65-90 conABCDEFGHIJKLMNOPQRSTUVWXYZtext
+91 con[text
+92 con\text
+93 con]text
+94 con^text
+95 con_text
+96 con`text
+97-122 conabcdefghijklmnopqrstuvwxyztext
+123 con{text
+124 con|text
+125 con}text
+126 con~text
+@}

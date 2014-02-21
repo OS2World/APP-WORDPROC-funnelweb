@@ -1,0 +1,6 @@
+SC08: Detection of trailing spaces.
+
+This line has zero  trailing spaces |
+This line has one   trailing space  | 
+This line has two   trailing spaces |  
+This line has three trailing spaces |   

@@ -1,0 +1,20 @@
+HI08: This example shows how parameterized macros can be used to choose
+ between alternative texts.
+
+@! Set the definition of @#D to
+@!    @1 to create the shareholders report.
+@!    @2 to create the customers report.
+@$@#D@(@2@)@M==@{@1@}
+
+@O@<hi08.out@>==@{@-
+1992 ANNUAL REPORT TO @#D@(Shareholders@,Customers@)
+======================@#D@(============@,=========@)
+This has been a very good year for The Very Big Corporation of America.
+With your help, we have been able to successfully
+@#D@(@"screw the customers for every cent they have@"@,
+     @"knock the shareholders into submission to bring you lower prices@"@).
+With gross earnings approaching six trillion dollars, we have been able to
+@#D@(@"increase dividends@"@,
+     @"lower prices@"@).
+We expect to have an even better year next year.
+@}

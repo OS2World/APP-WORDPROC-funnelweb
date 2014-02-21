@@ -1,0 +1,36 @@
+PR07: Test the parsing of == and += in macro definitions.
+
+Trip the parser so we don't get any further.
+@>
+
+1. Test with no equals.
+@$@<Sloth@>@{No equals in this macro definition.@}
+
+2. Test with ==.
+@$@<Sloth with equals@>==@{No equals in this macro definition.@}
+
+3. Test with +=.
+@$@<Sloth with plus@>+=@{No equals in this macro definition.@}
+
+4. Test with syntax errors.
+
+@$@<Error1@>++@{No equals in this macro definition.@}
+@A@<Error recovery point@>
+
+@$@<Error2@>@+=@{No equals in this macro definition.@}
+@A@<Error recovery point@>
+
+@$@<Error3@>+==+@{No equals in this macro definition.@}
+@A@<Error recovery point@>
+
+@$@<Error4@>=+@{No equals in this macro definition.@}
+@A@<Error recovery point@>
+
+@$@<Error4@>@=@=@{No equals in this macro definition.@}
+@A@<Error recovery point@>
+
+@$@<Error4@>@+@=@{No equals in this macro definition.@}
+@A@<Error recovery point@>
+
+
+

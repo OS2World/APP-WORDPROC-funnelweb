@@ -1,0 +1,61 @@
+PR08: Test semantic checking of macro definitions.
+
+Trip parser to be sure that we won't get any output files!
+@>
+
+1. File macro has parameters. Error.
+@O@<Sloth 1@>@(@3@)@{Walrus@}
+@A@<Error recovery point@>
+
+2. File macro is additive. Error.
+@O@<Sloth 2@>+=@{Walrus@}
+@A@<Error recovery point@>
+
+3. File macro has too long a name. The test name has 1200 characters. Err.
+Note: This test can't test the error message if the maximum length of a
+macro name is less than the maximum length of a file name as the name
+error is caught first.
+@p maximum_input_line_length = infinity
+@O@<123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890@>@{@}
+@A@<Error recovery point@>
+
+4. File macro has zero or many attributes. Error.
+@O@<Sloth 3@>@Z@{Walrus@}
+@A@<Error recovery point@>
+
+@O@<Sloth 4@>@M@{Walrus@}
+@A@<Error recovery point@>
+
+@O@<Sloth 5@>@Z@M@{Walrus@}
+@A@<Error recovery point@>
+
+5. Previous definition is full, current is additive.
+@$@<Walrus 1@>==@{Sloth@}
+@$@<Walrus 1@>+=@{Aardvark@}
+@A@<Error recovery point@>
+
+6. Previous definition is additive, current is full.
+@$@<Walrus 2@>+=@{Sloth@}
+@$@<Walrus 2@>==@{Aardvark@}
+@A@<Error recovery point@>
+
+7. Non-first body part of partial has parameter.
+@$@<Unicorn@>@(@3@)+=@{Turkey@}
+@$@<Unicorn@>@(@3@)+=@{Turkey@}
+@A@<Error recovery point@>
+
+8. Zero or many attributes on non-first body part of additive.
+@$@<Elephant@>@Z@M+=@{Turkey@}
+@$@<Elephant@>@Z@M+=@{Turkey@}
+@A@<Error recovery point@>
+
+9. Check that non-existent formal parameters are caught.
+
+@$@<Zero@>@Z@{Sloth@1Walrus@}
+@A@<Error recovery point@>
+
+@$@<One@>@(@1@)@Z@{Sloth@2Walrus@}
+@A@<Error recovery point@>
+
+@$@<Many@>@(@7@)@Z@{Sloth@8Walrus@}
+@A@<Error recovery point@>

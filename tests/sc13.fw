@@ -1,0 +1,38 @@
+SC13: Various kinds of include file.
+
+1. Include file is empty.
+Before include
+@i sc13a
+After include
+
+2. Include file contains a single blank line.
+Before include
+@i sc13b
+After include
+
+3. Include file contains two blank lines.
+Before include
+@i sc13c
+After include
+
+4. Include file contains a single line with text on it.
+Before include
+@i sc13d
+After include
+
+5. Include file's last line is not properly terminated.
+Before include
+@i sc13e
+After include
+
+6. Include file is ordinary.
+Before include
+@i sc13f
+After include
+
+7. Test upper case I and file extension inheritance.
+Before include
+@I sc13f
+After include
+
+End of test File.

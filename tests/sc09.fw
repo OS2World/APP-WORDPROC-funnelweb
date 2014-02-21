@@ -1,0 +1,11 @@
+SC09: Detection of control characters.
+
+SC09.1 Test that control characters are detected and replaced by "?".
+SC09.2 Test non printable that has a mnemonic.
+
+There is a tab between these two bars |	| which should come out as "?".
+The above error message should contain the mnemonic "HT".
+
+SC09.3 Test non printable that has no mnemonic.
+
+There is a non-mnemonic control character between these bars |ê|.

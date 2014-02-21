@@ -1,0 +1,112 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 53 43 32 30 3A 20 54 65 73 74 20 40 21 0A 0A 31 | SC20: Test @!..1 |
+| 2E 20 54 65 73 74 20 61 74 20 74 68 65 20 73 74 | . Test at the st |
+| 61 72 74 20 6F 66 20 61 20 6C 69 6E 65 2E 0A 0A | art of a line... |
+| 40 21 20 54 68 69 73 20 69 73 20 61 20 63 6F 6D | @! This is a com |
+| 6D 65 6E 74 20 61 6E 64 20 77 65 20 63 61 6E 20 | ment and we can  |
+| 73 74 69 63 6B 20 61 6E 79 20 73 6F 72 74 20 6F | stick any sort o |
+| 66 20 72 75 62 62 69 73 68 20 69 6E 20 69 74 2E | f rubbish in it. |
+| 0A 40 21 20 40 23 20 40 69 20 40 5E 64 73 3B 61 | .@! @# @i @^ds;a |
+| 66 3B 6C 73 64 6D 66 3B 6C 61 6E 64 20 6F 74 68 | f;lsdmf;land oth |
+| 65 72 20 40 20 72 75 62 62 69 73 68 2E 0A 0A 32 | er @ rubbish...2 |
+| 2E 20 54 65 73 74 20 68 61 6C 66 77 61 79 20 74 | . Test halfway t |
+| 68 72 6F 75 67 68 20 61 20 6C 69 6E 65 2E 0A 0A | hrough a line... |
+| 54 68 69 73 20 69 73 20 61 20 6C 69 6E 65 20 40 | This is a line @ |
+| 21 20 77 68 6F 73 65 20 73 65 63 6F 6E 64 20 68 | ! whose second h |
+| 61 6C 66 20 6E 65 76 65 72 20 73 65 65 73 20 74 | alf never sees t |
+| 68 65 20 64 61 79 6C 69 67 68 74 2E 20 40 69 20 | he daylight. @i  |
+| 40 3C 0A 0A                                     | @<..             |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| SC20: Test @!<010>
+00002 00002| <010>
+00003 00003| 1. Test at the start of a line.<010>
+00004 00004| <010>
+00005 00005| @! This is a comment and we can stick any sort of rubbish in it.<010>
+00006 00006| @! @# @i @^ds;af;lsdmf;land other @ rubbish.<010>
+00007 00007| <010>
+00008 00008| 2. Test halfway through a line.<010>
+00009 00009| <010>
+00010 00010| This is a line @! whose second half never sees the daylight. @i @<<010>
+00011 00011| <010>
+00012 00012| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 5 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="SC20: Test "
+0002[01]: Text. Text scrap[Grey]="<010>
+1. Test at the start of a line.<010>
+<010>
+"
+0007[01]: Text. Text scrap[Grey]="<010>
+2. Test halfway through a line.<010>
+<010>
+This is a line "
+0011[01]: Text. Text scrap[White]="<010>
+"
+0012[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+
+========================== Start of MACRO TABLE DUMP ===========================
+
+
+=========================== End of MACRO TABLE DUMP ============================
+
+
+========================= Start of DOCUMENT LIST DUMP ==========================
+
+
+TEXT COMPONENT: Pos(L,C)=(1,1). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="SC20: Test "
+Text scrap[Grey]="<010>
+1. Test at the start of a line.<010>
+<010>
+"
+Text scrap[Grey]="<010>
+2. Test halfway through a line.<010>
+<010>
+This is a line "
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+========================== End of DOCUMENT LIST DUMP ===========================
+
+E: No macros defined.
+E: No output files specified.
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+.................
+------------+-------------------------------------------------------------------
+
+There were 2 Errors.

@@ -1,0 +1,10 @@
+TG05: Checking of the output line length.
+
+@$@<Ten@>@M@{1234567890@}
+
+@O@<tg05.out@>@{@-
+We test the default limit of 80 characters.
+Only the second of the following two lines should provoke an error.
+@<Ten@>@<Ten@>@<Ten@>@<Ten@>@<Ten@>@<Ten@>@<Ten@>@<Ten@>
+@<Ten@>@<Ten@>@<Ten@>@<Ten@>@<Ten@>@<Ten@>@<Ten@>@<Ten@>1
+@}

@@ -1,0 +1,253 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 53 43 32 38 3A 20 54 65 73 74 20 73 79 6E 74 61 | SC28: Test synta |
+| 78 20 63 68 65 63 6B 69 6E 67 20 6F 66 20 74 69 | x checking of ti |
+| 74 6C 65 20 74 79 70 65 73 65 74 74 69 6E 67 20 | tle typesetting  |
+| 64 69 72 65 63 74 69 76 65 2E 0A 0A 31 2E 20 54 | directive...1. T |
+| 65 73 74 20 6C 65 73 73 20 74 68 61 6E 20 66 6F | est less than fo |
+| 75 72 20 61 72 67 75 6D 65 6E 74 73 20 28 69 6E | ur arguments (in |
+| 63 6C 75 64 65 73 20 74 69 74 6C 65 29 2E 0A 4E | cludes title)..N |
+| 6F 74 65 3A 20 54 68 65 20 74 69 74 6C 65 20 63 | ote: The title c |
+| 6F 6D 6D 61 6E 64 20 70 75 6C 6C 73 20 61 20 68 | ommand pulls a h |
+| 61 63 6B 20 74 72 65 61 74 69 6E 67 20 74 68 65 | ack treating the |
+| 20 72 65 73 74 20 6F 66 20 74 68 65 20 6C 69 6E |  rest of the lin |
+| 65 20 61 66 74 65 72 0A 74 77 6F 20 61 72 67 75 | e after.two argu |
+| 6D 65 6E 74 73 20 61 73 20 74 68 65 20 73 74 72 | ments as the str |
+| 69 6E 67 2E 20 53 6F 20 69 74 20 63 61 6E 27 74 | ing. So it can't |
+| 20 64 65 74 65 63 74 20 61 6E 20 45 58 43 45 53 |  detect an EXCES |
+| 53 20 6F 66 20 61 72 67 75 6D 65 6E 74 73 21 0A | S of arguments!. |
+| 40 74 20 74 69 74 6C 65 0A 40 74 20 74 69 74 6C | @t title.@t titl |
+| 65 20 74 77 6F 0A 40 74 20 74 69 74 6C 65 20 74 | e two.@t title t |
+| 77 6F 20 74 68 72 65 65 0A 0A 32 2E 20 54 65 73 | wo three..2. Tes |
+| 74 20 6F 75 74 20 62 61 64 20 66 6F 6E 74 2E 0A | t out bad font.. |
+| 40 74 20 74 69 74 6C 65 20 73 6C 6F 74 68 66 6F | @t title slothfo |
+| 6E 74 20 6C 65 66 74 20 22 53 6C 6F 74 68 22 0A | nt left "Sloth". |
+| 0A 33 2E 20 54 65 73 74 20 6F 75 74 20 62 61 64 | .3. Test out bad |
+| 20 61 6C 69 67 6E 6D 65 6E 74 2E 0A 40 74 20 74 |  alignment..@t t |
+| 69 74 6C 65 20 74 69 74 6C 65 66 6F 6E 74 20 77 | itle titlefont w |
+| 65 73 74 77 61 72 64 20 22 53 6C 6F 74 68 22 0A | estward "Sloth". |
+| 0A 34 2E 20 54 65 73 74 20 6F 75 74 20 66 75 6E | .4. Test out fun |
+| 6E 79 20 73 74 72 69 6E 67 73 2E 0A 40 74 20 74 | ny strings..@t t |
+| 69 74 6C 65 20 74 69 74 6C 65 66 6F 6E 74 20 6C | itle titlefont l |
+| 65 66 74 20 22 0A 40 74 20 74 69 74 6C 65 20 74 | eft ".@t title t |
+| 69 74 6C 65 66 6F 6E 74 20 6C 65 66 74 20 22 22 | itlefont left "" |
+| 0A 40 21 20 4E 6F 74 65 3A 20 54 68 65 20 66 6F | .@! Note: The fo |
+| 6C 6C 6F 77 69 6E 67 2C 20 62 65 6C 69 65 76 65 | llowing, believe |
+| 20 69 74 20 6F 72 20 6E 6F 74 2C 20 69 73 20 61 |  it or not, is a |
+| 63 74 75 61 6C 6C 79 20 4C 45 47 41 4C 21 0A 40 | ctually LEGAL!.@ |
+| 74 20 74 69 74 6C 65 20 74 69 74 6C 65 66 6F 6E | t title titlefon |
+| 74 20 6C 65 66 74 20 22 73 6C 6F 74 68 22 73 6C | t left "sloth"sl |
+| 6F 74 68 22 0A 0A 35 2E 20 54 65 73 74 20 6F 75 | oth"..5. Test ou |
+| 74 20 61 6C 6C 20 63 6F 6D 62 69 6E 61 74 69 6F | t all combinatio |
+| 6E 73 20 6F 66 20 66 6F 6E 74 20 61 6E 64 20 61 | ns of font and a |
+| 6C 69 67 6E 6D 65 6E 74 2E 0A 40 74 20 74 69 74 | lignment..@t tit |
+| 6C 65 20 74 69 74 6C 65 66 6F 6E 74 20 20 20 20 | le titlefont     |
+| 20 20 6C 65 66 74 20 20 20 22 53 6C 6F 74 68 22 |   left   "Sloth" |
+| 0A 40 74 20 74 69 74 6C 65 20 74 69 74 6C 65 66 | .@t title titlef |
+| 6F 6E 74 20 20 20 20 20 20 63 65 6E 74 72 65 20 | ont      centre  |
+| 22 53 6C 6F 74 68 22 0A 40 74 20 74 69 74 6C 65 | "Sloth".@t title |
+| 20 74 69 74 6C 65 66 6F 6E 74 20 20 20 20 20 20 |  titlefont       |
+| 72 69 67 68 74 20 20 22 53 6C 6F 74 68 22 0A 40 | right  "Sloth".@ |
+| 74 20 74 69 74 6C 65 20 73 6D 61 6C 6C 74 69 74 | t title smalltit |
+| 6C 65 66 6F 6E 74 20 6C 65 66 74 20 20 20 22 53 | lefont left   "S |
+| 6C 6F 74 68 22 0A 40 74 20 74 69 74 6C 65 20 73 | loth".@t title s |
+| 6D 61 6C 6C 74 69 74 6C 65 66 6F 6E 74 20 63 65 | malltitlefont ce |
+| 6E 74 72 65 20 22 53 6C 6F 74 68 22 0A 40 74 20 | ntre "Sloth".@t  |
+| 74 69 74 6C 65 20 73 6D 61 6C 6C 74 69 74 6C 65 | title smalltitle |
+| 66 6F 6E 74 20 72 69 67 68 74 20 20 22 53 6C 6F | font right  "Slo |
+| 74 68 22 0A 40 74 20 74 69 74 6C 65 20 6E 6F 72 | th".@t title nor |
+| 6D 61 6C 66 6F 6E 74 20 20 20 20 20 6C 65 66 74 | malfont     left |
+| 20 20 20 22 53 6C 6F 74 68 22 0A 40 74 20 74 69 |    "Sloth".@t ti |
+| 74 6C 65 20 6E 6F 72 6D 61 6C 66 6F 6E 74 20 20 | tle normalfont   |
+| 20 20 20 63 65 6E 74 72 65 20 22 53 6C 6F 74 68 |    centre "Sloth |
+| 22 0A 40 74 20 74 69 74 6C 65 20 6E 6F 72 6D 61 | ".@t title norma |
+| 6C 66 6F 6E 74 20 20 20 20 20 72 69 67 68 74 20 | lfont     right  |
+| 20 22 53 6C 6F 74 68 22 0A 0A 36 2E 20 54 65 73 |  "Sloth"..6. Tes |
+| 74 20 6D 69 73 73 70 65 6C 6C 69 6E 67 20 6F 66 | t misspelling of |
+| 20 63 65 6E 74 72 65 20 28 52 6F 73 73 27 73 20 |  centre (Ross's  |
+| 72 65 76 65 6E 67 65 29 2E 0A 40 74 20 74 69 74 | revenge)..@t tit |
+| 6C 65 20 6E 6F 72 6D 61 6C 66 6F 6E 74 20 20 20 | le normalfont    |
+| 20 20 63 65 6E 74 65 72 20 22 53 6C 6F 74 68 22 |   center "Sloth" |
+| 0A                                              | .                |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| SC28: Test syntax checking of title typesetting directive.<010>
+00002 00002| <010>
+00003 00003| 1. Test less than four arguments (includes title).<010>
+00004 00004| Note: The title command pulls a hack treating the rest of the line after<010>
+00005 00005| two arguments as the string. So it can't detect an EXCESS of arguments!<010>
+00006 00006| @t title<010>
+00007 00007| @t title two<010>
+00008 00008| @t title two three<010>
+00009 00009| <010>
+00010 00010| 2. Test out bad font.<010>
+00011 00011| @t title slothfont left "Sloth"<010>
+00012 00012| <010>
+00013 00013| 3. Test out bad alignment.<010>
+00014 00014| @t title titlefont westward "Sloth"<010>
+00015 00015| <010>
+00016 00016| 4. Test out funny strings.<010>
+00017 00017| @t title titlefont left "<010>
+00018 00018| @t title titlefont left ""<010>
+00019 00019| @! Note: The following, believe it or not, is actually LEGAL!<010>
+00020 00020| @t title titlefont left "sloth"sloth"<010>
+00021 00021| <010>
+00022 00022| 5. Test out all combinations of font and alignment.<010>
+00023 00023| @t title titlefont      left   "Sloth"<010>
+00024 00024| @t title titlefont      centre "Sloth"<010>
+00025 00025| @t title titlefont      right  "Sloth"<010>
+00026 00026| @t title smalltitlefont left   "Sloth"<010>
+00027 00027| @t title smalltitlefont centre "Sloth"<010>
+00028 00028| @t title smalltitlefont right  "Sloth"<010>
+00029 00029| @t title normalfont     left   "Sloth"<010>
+00030 00030| @t title normalfont     centre "Sloth"<010>
+00031 00031| @t title normalfont     right  "Sloth"<010>
+00032 00032| <010>
+00033 00033| 6. Test misspelling of centre (Ross's revenge).<010>
+00034 00034| @t title normalfont     center "Sloth"<010>
+00035 00035| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 18 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="SC28: Test syntax checking of title typesetting directive.<010>
+<010>
+1. Test less than four arguments (includes title).<010>
+Note: The title command pulls a hack treating the rest of the line after<010>
+two arguments as the string. So it can't detect an EXCESS of arguments!<010>
+"
+0009[01]: Text. Text scrap[Grey]="<010>
+2. Test out bad font.<010>
+"
+0012[01]: Text. Text scrap[Grey]="<010>
+3. Test out bad alignment.<010>
+"
+0015[01]: Text. Text scrap[Grey]="<010>
+4. Test out funny strings.<010>
+"
+0018[01]: @t.. Title. Font=Title, Alignment=Left. Title text follows:
+Text scrap[Grey]=""
+0020[01]: @t.. Title. Font=Title, Alignment=Left. Title text follows:
+Text scrap[Grey]="sloth"sloth"
+0021[01]: Text. Text scrap[Grey]="<010>
+5. Test out all combinations of font and alignment.<010>
+"
+0023[01]: @t.. Title. Font=Title, Alignment=Left. Title text follows:
+Text scrap[Grey]="Sloth"
+0024[01]: @t.. Title. Font=Title, Alignment=Centre. Title text follows:
+Text scrap[Grey]="Sloth"
+0025[01]: @t.. Title. Font=Title, Alignment=Right. Title text follows:
+Text scrap[Grey]="Sloth"
+0026[01]: @t.. Title. Font=Small Title, Alignment=Left. Title text follows:
+Text scrap[Grey]="Sloth"
+0027[01]: @t.. Title. Font=Small Title, Alignment=Centre. Title text follows:
+Text scrap[Grey]="Sloth"
+0028[01]: @t.. Title. Font=Small Title, Alignment=Right. Title text follows:
+Text scrap[Grey]="Sloth"
+0029[01]: @t.. Title. Font=Normal, Alignment=Left. Title text follows:
+Text scrap[Grey]="Sloth"
+0030[01]: @t.. Title. Font=Normal, Alignment=Centre. Title text follows:
+Text scrap[Grey]="Sloth"
+0031[01]: @t.. Title. Font=Normal, Alignment=Right. Title text follows:
+Text scrap[Grey]="Sloth"
+0032[01]: Text. Text scrap[Grey]="<010>
+6. Test misspelling of centre (Ross's revenge).<010>
+"
+0035[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+Macro table dump skipped (Parser was not invoked).
+Document list dump skipped (Parser was not invoked).
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| SC28: Test syntax checking of title typesetting directive.
+     2     2| 
+     3     3| 1. Test less than four arguments (includes title).
+     4     4| Note: The title command pulls a hack treating the rest of the line after
+     5     5| two arguments as the string. So it can't detect an EXCESS of arguments!
+     6     6| @t title
+       Error|.^This directive has too few arguments.
+            |.^The correct format is: "@t title <font> <align> <text>".
+            |.^   where <font>  = titlefont | smalltitlefont | normalfont.
+            |.^   and   <align> = left | centre | right.
+            |.^   and   <text>  = text delimited by double quotes.
+            |.^Directive ignored.
+     7     7| @t title two
+       Error|.^This directive has too few arguments.
+            |.^The correct format is: "@t title <font> <align> <text>".
+            |.^   where <font>  = titlefont | smalltitlefont | normalfont.
+            |.^   and   <align> = left | centre | right.
+            |.^   and   <text>  = text delimited by double quotes.
+            |.^Directive ignored.
+     8     8| @t title two three
+       Error|.^This directive has too few arguments.
+            |.^The correct format is: "@t title <font> <align> <text>".
+            |.^   where <font>  = titlefont | smalltitlefont | normalfont.
+            |.^   and   <align> = left | centre | right.
+            |.^   and   <text>  = text delimited by double quotes.
+            |.^Directive ignored.
+     9     9| 
+    10    10| 2. Test out bad font.
+    11    11| @t title slothfont left "Sloth"
+       Error|..........^Expecting one of {titlefont,smalltitlefont,normalfont}.
+            |..........^Directive ignored.
+    12    12| 
+    13    13| 3. Test out bad alignment.
+    14    14| @t title titlefont westward "Sloth"
+       Error|....................^Expecting one of {left,right,centre}.
+            |....................^Directive ignored.
+    15    15| 
+    16    16| 4. Test out funny strings.
+    17    17| @t title titlefont left "
+       Error|.........................^Text argument must be delimited by double quotes.
+            |.........................^Directive ignored.
+    18    18| @t title titlefont left ""
+    19    19| @! Note: The following, believe it or not, is actually LEGAL!
+    20    20| @t title titlefont left "sloth"sloth"
+    21    21| 
+    22    22| 5. Test out all combinations of font and alignment.
+    23    23| @t title titlefont      left   "Sloth"
+    24    24| @t title titlefont      centre "Sloth"
+    25    25| @t title titlefont      right  "Sloth"
+    26    26| @t title smalltitlefont left   "Sloth"
+    27    27| @t title smalltitlefont centre "Sloth"
+    28    28| @t title smalltitlefont right  "Sloth"
+    29    29| @t title normalfont     left   "Sloth"
+    30    30| @t title normalfont     centre "Sloth"
+    31    31| @t title normalfont     right  "Sloth"
+    32    32| 
+    33    33| 6. Test misspelling of centre (Ross's revenge).
+    34    34| @t title normalfont     center "Sloth"
+       Error|.........................^Expecting one of {left,right,centre}.
+            |.........................^Note: Centre is spelt centRE, not centER.
+            |.........................^      This is my revenge for years of getting error messages
+            |.........................^      from TeX whenever I accidentally wrote \centreline - Ross Williams.
+            |.........................^Directive ignored.
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 7 Errors.

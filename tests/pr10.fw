@@ -1,0 +1,28 @@
+PR10: Test syntactic error recovery.
+
+1. Test recovery at top parsing level.
+@<
+
+@A@<Error recovery point@>
+
+2. Test recovery inside macro definition.
+
+@$@<Sloth1@>@>==@{
+Walrus@}
+
+@$@<Sloth2@>==@{
+@<Walrus@<
+@}
+@A@<Error recovery point@>
+
+3. Test recovery inside actual parameter list in macro definition.
+@$@<Sloth3@>==@{
+@<Walrus@>@(@"aardvark@>
+@}
+@A@<Error recovery point@>
+
+4. Test EOF in the middle of a complicated construct.
+The following makes the end of the file looked chopped off, but it is
+actually intentional.
+@$@<Sloth4@>==@{
+@<Walrus@>@(@"aardva

@@ -1,0 +1,6 @@
+SC12: Include file cannot be found.
+Test person: DONT create sc12a.inc. It is not supposed to exist!
+The following include should yield a "file not found error."
+
+@i sc12a.inc
+

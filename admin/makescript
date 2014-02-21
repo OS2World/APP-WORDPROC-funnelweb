@@ -1,0 +1,5 @@
+#!/bin/csh
+# Choose betwen GNU C (gcc), or the default C (cc) on your system.
+gcc -o fw -g -Wall *.c
+#
+#cc -o fw -g *.c

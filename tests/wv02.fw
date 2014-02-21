@@ -1,0 +1,43 @@
+WV05: Test typesetting features.
+
+@O@<wv05.out@>@{
+@}
+
+1. Test all five levels of headings with explicit titles.
+
+@A@<One@>
+@B@<Two@>
+@C@<Three@>
+@D@<Four@>
+@E@<Five@>
+
+2. Test all five levels of headings with implicit titles.
+
+@A
+@$@<Macro at level one@>@Z@{Sloth@}
+
+@B
+@$@<Macro at level two@>@Z@{Walrus@}
+
+@C
+@$@<Macro at level three@>@Z@{Aardvark@}
+
+@D
+@$@<Macro at level four@>@Z@{Teapot@}
+
+@E
+@$@<Macro at level five@>@Z@{Emu@}
+
+3. Test the table of contents directive.
+@t table_of_contents
+
+4. Test the newpage directive.
+@t new_page
+
+5. Test the vskip directive.
+@t vskip 50 mm
+
+6. Test the title directive.
+@t title titlefont centre "This is a test Title"
+
+

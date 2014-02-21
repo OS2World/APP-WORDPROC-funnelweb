@@ -1,0 +1,58 @@
+!===========================<Start of test_ld Script>===========================
+!
+! Test With Listing File and Scanner Dumps
+! ----------------------------------------
+! Inputs:
+!    $1 = Name of the .fw file to be tested (e.g. $1="sc01").
+!    $2 = Empty ("") or "!" to suppress FIXEOLing and existence check
+!            of input file.
+!    $I = Directory containing .fw   files.
+!    $A = Directory containing Answer files.
+!    $O = Directory to place   Result files.
+!    $D = Name of the differences file.
+! Outputs:
+!    Listing file containing dumps.
+!    Appendage to differences file.
+
+! Announce this test.
+write ""
+write ""
+writeu "Performing Test $1"
+
+! Delete any previous output files.
+eneo $O$1.log
+eneo $O$1.lis
+eneo $O$1.tex
+eneo $O$1.out
+
+! Check input and answer files.
+$2exists $I$1.fw
+exists $A$1.lis
+absent $A$1.out
+absent $A$1.tex
+
+! Clean input and answer files.
+$2fixeols $I$1.fw
+fixeols $A$1.lis
+
+! Perform the actual FunnelWeb run.
+! Tolerate means "don't abort on warning, error, or severe".
+! Options:
+!    +b1 Dump input file map.
+!    +b2 Dump line list.
+!    +b3 Dump token list.
+!    +b4 Dump macro table.
+!    +b5 Dump document list.
+tolerate
+fw $I$1.fw +l$O$1.lis +b12345
+
+! Ensure that only a listing file was generated.
+absent $O$1.log
+absent $O$1.tex
+absent $O$1.out
+exists $O$1.lis
+
+! Compare the listing file with the answer file.
+diff $O$1.lis $A$1.lis $D
+
+!============================<End of test_ld Script>============================

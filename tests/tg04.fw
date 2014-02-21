@@ -1,0 +1,30 @@
+TG04: Test macro expansions.
+
+@$@<Teapot@>@{Teapot@}
+@$@<One@>@(@1@)@M@{Left @1 Right@}
+@$@<Two@>@(@2@)@M@{Left @1 Middle @2 Right@}
+@$@<A@>@(@1@)@M@{[@1]@}
+
+@O@<tg04.out@>@{
+
+1. Test macro call with no parameters.
+"Teapot" =
+"@<Teapot@>"
+
+2. Test macro call with one parameter.
+"Left Testing Right" =
+"@<One@>@(@"Testing@"@)"
+
+3. Test macro call with many parameters.
+"Left x Middle y Right" =
+"@<Two@>@(x@,y@)"
+
+4. Test macro call as a parameter of another macro call.
+"Left Ostrich Middle Left Wombat Right Right" =
+"@<Two@>@(Ostrich@,@<One@>@(Wombat@)@)"
+
+5. Test expression recursive macro call.
+"[X[[Walrus]]Y]" =
+"@<A@>@(X@<A@>@(@<A@>@(Walrus@)@)Y@)"
+
+@}

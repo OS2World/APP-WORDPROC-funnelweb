@@ -1,0 +1,62 @@
+\contentsline {chapter}{Preface}{5}
+\contentsline {chapter}{Acknowledgements}{7}
+\contentsline {chapter}{Presentation Notes}{9}
+\contentsline {chapter}{\numberline {1}FunnelWeb Design}{11}
+\contentsline {section}{\numberline {1.1}Motivation for FunnelWeb}{11}
+\contentsline {section}{\numberline {1.2}Indentation}{12}
+\contentsline {section}{\numberline {1.3}Review of FunnelWeb Syntax}{14}
+\contentsline {subsection}{\numberline {1.3.1}Review of Macro Definition Syntax}{14}
+\contentsline {subsection}{\numberline {1.3.2}Review of Macro Call Syntax}{16}
+\contentsline {subsection}{\numberline {1.3.3}Review of Parameterized Macro Call Syntax}{16}
+\contentsline {section}{\numberline {1.4}Document Structuring}{16}
+\contentsline {section}{\numberline {1.5}Discussion of Some Miscellaneous Issues}{18}
+\contentsline {section}{\numberline {1.6}Automated Regression Testing}{18}
+\contentsline {section}{\numberline {1.7}Command Line Interface}{18}
+\contentsline {section}{\numberline {1.8}File Name Management}{19}
+\contentsline {subsection}{\numberline {1.8.1}Filename Extensions}{20}
+\contentsline {subsection}{\numberline {1.8.2}Filename Inheritance}{20}
+\contentsline {subsection}{\numberline {1.8.3}Portable Structure of File Names}{21}
+\contentsline {section}{\numberline {1.9}Specifying Constraints on the Number of Instantiations}{22}
+\contentsline {section}{\numberline {1.10}The Relationship Between Document Structure and Macro Structure}{23}
+\contentsline {section}{\numberline {1.11}Diagnostic Messages}{25}
+\contentsline {section}{\numberline {1.12}Summary}{25}
+\contentsline {chapter}{\numberline {2}FunnelWeb Implementation}{27}
+\contentsline {section}{\numberline {2.1}Introduction}{27}
+\contentsline {section}{\numberline {2.2}History of FunnelWeb Implementations}{27}
+\contentsline {section}{\numberline {2.3}Why FunnelWeb Wasn't Used to Write Itself}{28}
+\contentsline {section}{\numberline {2.4}Coding Style}{28}
+\contentsline {section}{\numberline {2.5}Use of Memory}{29}
+\contentsline {section}{\numberline {2.6}The Heap}{29}
+\contentsline {section}{\numberline {2.7}The Stack}{30}
+\contentsline {section}{\numberline {2.8}Static Variables}{30}
+\contentsline {section}{\numberline {2.9}Implementing Text Indentation}{30}
+\contentsline {chapter}{\numberline {3}FunnelWeb Modification}{35}
+\contentsline {section}{\numberline {3.1}Introduction}{35}
+\contentsline {section}{\numberline {3.2}The Danger of Modifying Languages}{35}
+\contentsline {section}{\numberline {3.3}Authority vs User Security}{36}
+\contentsline {section}{\numberline {3.4}What I Want to Protect}{37}
+\contentsline {section}{\numberline {3.5}Modifying the Manuals}{38}
+\contentsline {section}{\numberline {3.6}How Copyright Law Works}{38}
+\contentsline {section}{\numberline {3.7}Management of the Official FunnelWeb}{39}
+\contentsline {section}{\numberline {3.8}A GNU Version?}{41}
+\contentsline {section}{\numberline {3.9}Summary}{41}
+\contentsline {chapter}{\numberline {4}FunnelWeb Future}{43}
+\contentsline {section}{\numberline {4.1}Documentation}{43}
+\contentsline {section}{\numberline {4.2}Command Line Interface}{43}
+\contentsline {section}{\numberline {4.3}Shell Interpreter}{43}
+\contentsline {section}{\numberline {4.4}Language Design}{44}
+\contentsline {section}{\numberline {4.5}Scanner/Mapper}{44}
+\contentsline {section}{\numberline {4.6}Parser}{45}
+\contentsline {section}{\numberline {4.7}Analyser}{45}
+\contentsline {section}{\numberline {4.8}Tangle}{45}
+\contentsline {section}{\numberline {4.9}Weave}{45}
+\contentsline {section}{\numberline {4.10}Lister}{46}
+\contentsline {section}{\numberline {4.11}Diagnostics}{47}
+\contentsline {section}{\numberline {4.12}Speed}{47}
+\contentsline {section}{\numberline {4.13}Correctness}{47}
+\contentsline {section}{\numberline {4.14}Test Suite}{47}
+\contentsline {section}{\numberline {4.15}Machine-Specific Changes}{48}
+\contentsline {section}{\numberline {4.16}Summary}{48}
+\contentsline {chapter}{\numberline {A}GNU General Public License Version 2}{49}
+\contentsline {chapter}{\numberline {B}References}{57}
+\contentsline {chapter}{Index}{57}

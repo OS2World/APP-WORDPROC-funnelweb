@@ -1,0 +1,400 @@
+Only in .: analyse.c
+Only in .: analyse.h
+Only in .: as.c
+Only in .: as.h
+Only in .: clock.c
+Only in .: clock.h
+diff -w -C2 new/command.c ./command.c
+*** new/command.c	Sun Aug 23 14:31:20 1992
+--- ./command.c	Wed May 27 06:02:17 1992
+***************
+*** 80,86 ****
+  /* copies of each argument.                                                   */
+  /* Note: The first argument is placed in arr_arg[0].                          */
+! #define FW_ARG_MAX 5
+  LOCVAR uword arg_num;
+! LOCVAR char *arg_arr[FW_ARG_MAX+1]; /* Is this +1 necessary? */
+  
+  /* The FunnelWeb command interpreter allows 10 substitution strings.          */
+--- 80,86 ----
+  /* copies of each argument.                                                   */
+  /* Note: The first argument is placed in arr_arg[0].                          */
+! #define ARG_MAX 5
+  LOCVAR uword arg_num;
+! LOCVAR char *arg_arr[ARG_MAX+1]; /* Is this +1 necessary? */
+  
+  /* The FunnelWeb command interpreter allows 10 substitution strings.          */
+***************
+*** 222,226 ****
+  {
+   uword i;
+!  for (i=0;i<=FW_ARG_MAX;i++)
+      arg_arr[i]=(char *) mm_perm(sizeof(cl_t));
+  
+--- 222,226 ----
+  {
+   uword i;
+!  for (i=0;i<=ARG_MAX;i++)
+      arg_arr[i]=(char *) mm_perm(sizeof(cl_t));
+  
+***************
+*** 284,288 ****
+  
+      /* Exit if we are already full up with arguments. */
+!     if (arg_num==FW_ARG_MAX) break;
+  
+      /* Copy the next argument. */
+--- 284,288 ----
+  
+      /* Exit if we are already full up with arguments. */
+!     if (arg_num==ARG_MAX) break;
+  
+      /* Copy the next argument. */
+Only in .: command.h
+Only in .: data.c
+Only in .: data.h
+Only in .: dump.c
+Only in .: dump.h
+diff -w -C2 new/environ.h ./environ.h
+*** new/environ.h	Sat Aug 22 12:39:04 1992
+--- ./environ.h	Wed May 27 06:00:18 1992
+***************
+*** 94,104 ****
+  
+  #define MAC 0
+! #define SUN 0
+  #define VMS 0
+  #define PC  0
+- #define OS2 1
+  
+  /* Ensure that exactly one environment has been selected.                     */
+! #if MAC+SUN+VMS+PC+OS2 != 1
+     #error Error: You must choose exactly one machine in ENVIRON.H.
+  #endif
+--- 94,103 ----
+  
+  #define MAC 0
+! #define SUN 1
+  #define VMS 0
+  #define PC  0
+  
+  /* Ensure that exactly one environment has been selected.                     */
+! #if MAC+SUN+VMS+PC != 1
+     #error Error: You must choose exactly one machine in ENVIRON.H.
+  #endif
+***************
+*** 141,150 ****
+  #define STDC 0
+  #endif
+- 
+- #ifdef __GNUC__
+- #undef STDC
+- #define STDC 1
+- #endif
+- 
+  
+  /* Note: If THINK_C is predefined, it is predefined to be 1. */
+--- 140,143 ----
+Only in new: funnel.rsp
+Only in new: fw.def
+Only in .: help.c
+Only in .: help.h
+Only in .: help_gnu.c
+Only in .: help_gnu.ctx
+Only in .: help_gnu.h
+Only in .: help_gnu.txt
+Only in .: list.c
+Only in .: list.h
+Only in .: lister.c
+Only in .: lister.h
+diff -w -C2 new/machin.c ./machin.c
+*** new/machin.c	Sat Aug 22 20:55:12 1992
+--- ./machin.c	Wed May 27 04:45:05 1992
+***************
+*** 93,97 ****
+  /******************************************************************************/
+  
+! #if MAC | SUN | PC | OS2
+  LOCAL void fn_split P_((p_fn_t,p_fn_t,p_fn_t,p_fn_t));
+  LOCAL void fn_split(p_fn,p_path,p_name,p_ext)
+--- 93,97 ----
+  /******************************************************************************/
+  
+! #if MAC | SUN | PC
+  LOCAL void fn_split P_((p_fn_t,p_fn_t,p_fn_t,p_fn_t));
+  LOCAL void fn_split(p_fn,p_path,p_name,p_ext)
+***************
+*** 142,146 ****
+  /******************************************************************************/
+  
+! #if MAC | SUN | PC | OS2
+  LOCAL void fn_join P_((p_fn_t,p_fn_t,p_fn_t,p_fn_t));
+  LOCAL void fn_join(p_fn,p_path,p_name,p_ext)
+--- 142,146 ----
+  /******************************************************************************/
+  
+! #if MAC | SUN | PC
+  LOCAL void fn_join P_((p_fn_t,p_fn_t,p_fn_t,p_fn_t));
+  LOCAL void fn_join(p_fn,p_path,p_name,p_ext)
+***************
+*** 165,169 ****
+  /******************************************************************************/
+  
+! #if MAC | SUN | PC | OS2
+  EXPORT void fn_ins(p_cur,p_add)
+  p_fn_t p_cur;
+--- 165,169 ----
+  /******************************************************************************/
+  
+! #if MAC | SUN | PC
+  EXPORT void fn_ins(p_cur,p_add)
+  p_fn_t p_cur;
+***************
+*** 269,273 ****
+  
+  /* The other systems work like Unix. */
+! #if SUN | VMS | PC | OS2
+  argc2=argc;
+  argv2=argv;
+--- 269,273 ----
+  
+  /* The other systems work like Unix. */
+! #if SUN | VMS | PC
+  argc2=argc;
+  argv2=argv;
+***************
+*** 301,305 ****
+  
+  /* Macintosh, VMS, and PC have difftime. */
+! #if MAC | VMS | PC | OS2
+   if (base == -1)
+      return 0.0;
+--- 301,305 ----
+  
+  /* Macintosh, VMS, and PC have difftime. */
+! #if MAC | VMS | PC
+   if (base == -1)
+      return 0.0;
+diff -w -C2 new/machin.h ./machin.h
+*** new/machin.h	Sat Aug 22 13:39:26 1992
+--- ./machin.h	Wed May 27 05:51:02 1992
+***************
+*** 63,74 ****
+  #include "style.h"
+  
+- #ifndef OS2
+-    #error machine.h: os2 is not defined
+- #endif
+- 
+- #if !OS2 
+-    #error machine.h: os2 is not defined to be 1
+- #endif
+- 
+  /******************************************************************************/
+  
+--- 63,66 ----
+***************
+*** 93,97 ****
+  /* The VMS VAX doesn't care about alignment, but operates more efficiently on */
+  /* longword boundaries.                                                       */
+! #if SUN | VMS | OS2
+  #define ALIGN_POWER (2L)
+  #endif
+--- 85,89 ----
+  /* The VMS VAX doesn't care about alignment, but operates more efficiently on */
+  /* longword boundaries.                                                       */
+! #if SUN | VMS
+  #define ALIGN_POWER (2L)
+  #endif
+***************
+*** 121,125 ****
+  #endif
+  
+! #if PC | OS2
+  #define FN_DELIM '\\'
+  #endif
+--- 113,117 ----
+  #endif
+  
+! #if PC
+  #define FN_DELIM '\\'
+  #endif
+***************
+*** 178,186 ****
+  
+  /* On a PC, we assume this is enough. */
+! #if PC | OS2
+  #define COMLINE_MAX 300
+  #endif
+  
+- 
+  /* Make sure that the value is not too low. */
+  /* The value 300 is guaranteed by the command interpreter. */
+--- 170,177 ----
+  
+  /* On a PC, we assume this is enough. */
+! #if PC
+  #define COMLINE_MAX 300
+  #endif
+  
+  /* Make sure that the value is not too low. */
+  /* The value 300 is guaranteed by the command interpreter. */
+***************
+*** 210,214 ****
+  /* to be non-Unix, as non-Unix will work on ALL systems (including Unix).     */
+  
+! #if MAC | VMS | PC | OS2
+  /* These systems do NOT use Unix EOLs. */
+  #define UNIX_EOL 0
+--- 201,205 ----
+  /* to be non-Unix, as non-Unix will work on ALL systems (including Unix).     */
+  
+! #if MAC | VMS | PC
+  /* These systems do NOT use Unix EOLs. */
+  #define UNIX_EOL 0
+Only in new: make.report
+Only in new: makefile
+Only in .: mapper.c
+Only in .: mapper.h
+Only in .: memory.c
+Only in .: memory.h
+diff -w -C2 new/misc.c ./misc.c
+*** new/misc.c	Sun Aug 23 14:33:02 1992
+--- ./misc.c	Wed May 27 04:45:06 1992
+***************
+*** 51,59 ****
+  /******************************************************************************/
+  
+! EXPORT void wr_s  (s) char *s; {wf_wr(&f_s,s); fflush(stdout); }
+  EXPORT void wr_j  (s) char *s; {wf_wr(&f_j,s);}
+  EXPORT void wr_l  (s) char *s; {wf_wr(&f_l,s);}
+  
+! EXPORT void wl_s  (s) char *s; {wf_wr(&f_s,s); wf_wr(&f_s,"\n"); fflush(stdout);}
+  EXPORT void wl_j  (s) char *s; {wf_wr(&f_j,s); wf_wr(&f_j,"\n");}
+  EXPORT void wl_l  (s) char *s; {wf_wr(&f_l,s); wf_wr(&f_l,"\n");}
+--- 51,59 ----
+  /******************************************************************************/
+  
+! EXPORT void wr_s  (s) char *s; {wf_wr(&f_s,s);}
+  EXPORT void wr_j  (s) char *s; {wf_wr(&f_j,s);}
+  EXPORT void wr_l  (s) char *s; {wf_wr(&f_l,s);}
+  
+! EXPORT void wl_s  (s) char *s; {wf_wr(&f_s,s); wf_wr(&f_s,"\n");}
+  EXPORT void wl_j  (s) char *s; {wf_wr(&f_j,s); wf_wr(&f_j,"\n");}
+  EXPORT void wl_l  (s) char *s; {wf_wr(&f_l,s); wf_wr(&f_l,"\n");}
+Only in .: misc.h
+Only in .: new
+Only in .: obj
+Only in .: option.c
+Only in .: option.h
+Only in .: parser.c
+Only in .: parser.h
+Only in .: patches.os2
+Only in .: scanner.c
+Only in .: scanner.h
+Only in .: section.c
+Only in .: section.h
+diff -w -C2 new/style.h ./style.h
+*** new/style.h	Thu Dec 10 14:30:19 1992
+--- ./style.h	Wed May 27 04:45:08 1992
+***************
+*** 247,286 ****
+  /* that I really wanted the function argument to be a character, while       */
+  /* actually supplying an integer.                                            */
+- 
+  typedef int intchar;
+  
+! /*****************************************************************************/
+! /* The toupper() and tolower() macros in the ctype.h file that comes with    */
+! /* current gcc/2 distribution do not work properly with the code for funnel- */
+! /* web, since they do not confine their action to lowercase or uppercase     */
+! /* letters, as appropriate. The following macros fix the problem.            */
+! /* WARNING: this fix depends on the fact that this header file is ALWAYS     */
+! /* included AFTER ctype.h in the funnelweb source files. Change that order   */
+! /* and the fix will fail. I do not think that this kludge is all that awful, */
+! /* even so, since, sooner or later (one hopes sooner), the libc library for  */
+! /* gcc/2 will be changed to glibc, which is a proper ANSI standard library.  */
+! /* The fix is a temporary kludge because one expects the problem to be       */
+! /* temporary. (Yeah, I know, "famous last words".)                           */
+! 
+! #ifdef OS2
+! #ifdef toupper
+! #undef toupper
+! #define	toupper(c)	((((c) >= 'a') && ((c) <= 'z')) ? ((c) - 'a' + 'A') : (c))
+! #endif
+! 
+! #ifdef tolower
+! #undef tolower
+! #define	tolower(c)	((((c) >= 'A') && ((c) <= 'Z')) ? ((c) - 'A' + 'a') : (c))
+! #endif
+! #endif
+! 
+! 
+! /*****************************************************************************/
+  /* For #ifndef preventing multiple inclusion of the body of this header file.*/
+  #endif
+  
+! 
+! /*****************************************************************************/
+  /*                               End of STYLE.H                              */
+! /*****************************************************************************/
+  
+--- 247,258 ----
+  /* that I really wanted the function argument to be a character, while        */
+  /* actually supplying an integer.                                             */
+  typedef int intchar;
+  
+! /******************************************************************************/
+  /* For #ifndef preventing multiple inclusion of the body of this header file. */
+  #endif
+  
+! /******************************************************************************/
+  /*                                End of STYLE.H                              */
+! /******************************************************************************/
+  
+Only in .: table.c
+Only in .: table.h
+Only in .: tangle.c
+Only in .: tangle.h
+Only in .: texhead.c
+diff -w -C2 new/texhead.ctx ./texhead.ctx
+*** new/texhead.ctx	Sat Sep 12 21:12:15 1992
+--- ./texhead.ctx	Wed May 27 04:45:09 1992
+***************
+*** 123,128 ****
+   WX("% so as to allow the user to fiddle this stuff to taste without having to");
+   WX("% modify the FunnelWeb C code.");
+!  WX("\\def\\fwodef{\\vskip0pt$\\lceil$\\parindent=20pt}");
+!  WX("\\def\\fwcdef{\\parindent=0pt\\vskip0pt$\\lfloor$}");
+   WX("\\def\\fwoquote{`}");
+   WX("\\def\\fwcquote{'}");
+--- 123,128 ----
+   WX("% so as to allow the user to fiddle this stuff to taste without having to");
+   WX("% modify the FunnelWeb C code.");
+!  WX("\\def\\fwodef{\\parindent=15pt\\vskip0pt$\\lbrace$\\parindent=20pt}");
+!  WX("\\def\\fwcdef{$\\rbrace$\\vskip0pt\\parindent=0pt}");
+   WX("\\def\\fwoquote{`}");
+   WX("\\def\\fwcquote{'}");
+Only in .: texhead.h
+diff -w -C2 new/texhead.tex ./texhead.tex
+*** new/texhead.tex	Sat Sep 12 21:10:15 1992
+--- ./texhead.tex	Wed May 27 04:45:09 1992
+***************
+*** 123,128 ****
+  % so as to allow the user to fiddle this stuff to taste without having to
+  % modify the FunnelWeb C code.
+! \def\fwodef{\vskip0pt$\lceil$\parindent=20pt}
+! \def\fwcdef{\parindent=0pt\vskip0pt$\lfloor$}
+  \def\fwoquote{`}
+  \def\fwcquote{'}
+--- 123,128 ----
+  % so as to allow the user to fiddle this stuff to taste without having to
+  % modify the FunnelWeb C code.
+! \def\fwodef{\parindent=15pt\vskip0pt$\lbrace$\parindent=20pt}
+! \def\fwcdef{$\rbrace$\vskip0pt\parindent=0pt}
+  \def\fwoquote{`}
+  \def\fwcquote{'}
+Only in .: weave.c
+Only in .: weave.h
+Only in .: writfile.c
+Only in .: writfile.h

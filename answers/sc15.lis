@@ -1,0 +1,355 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 53 43 31 35 3A 20 54 65 73 74 20 74 68 61 74 20 | SC15: Test that  |
+| 63 65 72 74 61 69 6E 20 61 74 74 72 69 62 75 74 | certain attribut |
+| 65 73 20 61 72 65 20 73 61 76 65 64 20 61 63 72 | es are saved acr |
+| 6F 73 73 20 69 6E 63 6C 75 73 69 6F 6E 73 2E 0A | oss inclusions.. |
+| 0A 31 2E 20 4D 61 78 69 6D 75 6D 20 69 6E 70 75 | .1. Maximum inpu |
+| 74 20 6C 69 6E 65 20 6C 65 6E 67 74 68 2E 0A 32 | t line length..2 |
+| 2E 20 53 70 65 63 69 61 6C 20 63 68 61 72 61 63 | . Special charac |
+| 74 65 72 2E 0A 33 2E 20 4C 6F 63 61 6C 20 6C 69 | ter..3. Local li |
+| 6E 65 20 6E 75 6D 62 65 72 2E 0A 0A 54 6F 20 74 | ne number...To t |
+| 65 73 74 20 74 68 69 73 2C 20 77 65 20 66 69 72 | est this, we fir |
+| 73 74 20 73 65 74 20 74 68 65 20 66 69 72 73 74 | st set the first |
+| 20 74 77 6F 20 61 74 74 72 69 62 75 74 65 73 20 |  two attributes  |
+| 61 77 61 79 20 66 72 6F 6D 20 74 68 65 0A 64 65 | away from the.de |
+| 66 61 75 6C 74 2E 20 54 68 69 73 20 77 69 6C 6C | fault. This will |
+| 20 65 6E 61 62 6C 65 20 75 73 20 74 6F 20 62 65 |  enable us to be |
+| 20 73 75 72 65 20 74 68 61 74 20 77 68 65 6E 20 |  sure that when  |
+| 74 68 65 79 20 61 72 65 20 72 65 73 74 6F 72 65 | they are restore |
+| 64 20 74 68 61 74 0A 74 68 65 79 20 61 72 65 20 | d that.they are  |
+| 62 65 69 6E 67 20 72 65 73 74 6F 72 65 64 20 74 | being restored t |
+| 6F 20 74 68 65 69 72 20 66 6F 72 6D 65 72 20 76 | o their former v |
+| 61 6C 75 65 73 20 61 6E 64 20 6E 6F 74 20 6A 75 | alues and not ju |
+| 73 74 20 73 65 74 20 74 6F 20 74 68 65 0A 64 65 | st set to the.de |
+| 66 61 75 6C 74 2E 0A 0A 40 3D 2A 20 20 20 2A 21 | fault...@=*   *! |
+| 20 43 68 61 6E 67 65 20 74 68 65 20 73 70 65 63 |  Change the spec |
+| 69 61 6C 20 63 68 61 72 61 63 74 65 72 2E 0A 2A | ial character..* |
+| 70 20 6D 61 78 69 6D 75 6D 5F 69 6E 70 75 74 5F | p maximum_input_ |
+| 6C 69 6E 65 5F 6C 65 6E 67 74 68 20 3D 20 37 35 | line_length = 75 |
+| 0A 0A 42 65 66 6F 72 65 20 69 6E 63 6C 75 64 65 | ..Before include |
+| 2E 0A 2A 69 20 73 63 31 35 61 0A 41 66 74 65 72 | ..*i sc15a.After |
+| 20 69 6E 63 6C 75 64 65 2E 0A 0A 49 66 20 74 68 |  include...If th |
+| 65 20 6D 61 78 69 6D 75 6D 20 69 6E 70 75 74 20 | e maximum input  |
+| 6C 69 6E 65 20 6C 65 6E 67 74 68 20 68 61 73 20 | line length has  |
+| 62 65 65 6E 20 63 6F 72 72 65 63 74 6C 79 20 72 | been correctly r |
+| 65 73 74 6F 72 65 64 20 74 68 65 6E 20 74 68 65 | estored then the |
+| 0A 73 65 63 6F 6E 64 20 6F 66 20 74 68 65 20 66 | .second of the f |
+| 6F 6C 6C 6F 77 69 6E 67 20 74 77 6F 20 6C 69 6E | ollowing two lin |
+| 65 73 20 73 68 6F 75 6C 64 20 67 69 76 65 20 61 | es should give a |
+| 6E 20 65 72 72 6F 72 2C 20 62 75 74 20 6E 6F 74 | n error, but not |
+| 20 74 68 65 20 66 69 72 73 74 2E 0A 31 32 33 34 |  the first..1234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 0A 31 32 33 34 35 36 37 38 | 9012345.12345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 0A 0A 49 66 20 74 68 65 20 73 70 65 | 3456..If the spe |
+| 63 69 61 6C 20 63 68 61 72 61 63 74 65 72 20 68 | cial character h |
+| 61 73 20 62 65 65 6E 20 70 72 65 73 65 72 76 65 | as been preserve |
+| 64 2C 20 74 68 65 6E 20 74 68 65 20 66 6F 6C 6C | d, then the foll |
+| 6F 77 69 6E 67 20 73 68 6F 75 6C 64 0A 67 65 6E | owing should.gen |
+| 65 72 61 74 65 20 61 6E 20 65 72 72 6F 72 2E 0A | erate an error.. |
+| 0A 2A 20 20 20 2D 20 54 68 69 73 20 73 68 6F 75 | .*   - This shou |
+| 6C 64 20 67 65 6E 65 72 61 74 65 20 61 6E 20 65 | ld generate an e |
+| 72 72 6F 72 20 69 66 20 61 6C 6C 20 69 73 20 77 | rror if all is w |
+| 65 6C 6C 2E 0A 0A 50 72 65 73 65 72 76 61 74 69 | ell...Preservati |
+| 6F 6E 20 6F 66 20 74 68 65 20 6C 6F 63 61 6C 20 | on of the local  |
+| 6C 69 6E 65 20 6E 75 6D 62 65 72 20 63 61 6E 20 | line number can  |
+| 62 65 20 63 68 65 63 6B 65 64 20 62 79 20 6C 6F | be checked by lo |
+| 6F 6B 69 6E 67 20 61 74 20 74 68 65 0A 6C 69 73 | oking at the.lis |
+| 74 69 6E 67 20 66 69 6C 65 2E 0A                | ting file..      |
++-------------------------------------------------+------------------+
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 54 68 69 73 20 69 73 20 74 68 65 20 69 6E 63 6C | This is the incl |
+| 75 64 65 20 66 69 6C 65 20 66 6F 72 20 74 65 73 | ude file for tes |
+| 74 20 53 43 31 35 2E 20 54 68 65 20 53 43 31 35 | t SC15. The SC15 |
+| 20 74 65 73 74 20 63 68 65 63 6B 73 20 74 6F 20 |  test checks to  |
+| 6D 61 6B 65 0A 73 75 72 65 20 74 68 61 74 20 46 | make.sure that F |
+| 75 6E 6E 65 6C 57 65 62 20 69 73 20 73 61 76 69 | unnelWeb is savi |
+| 6E 67 20 61 6E 64 20 72 65 73 74 6F 72 69 6E 67 | ng and restoring |
+| 20 74 68 72 65 65 20 73 63 61 6E 6E 69 6E 67 0A |  three scanning. |
+| 61 74 74 72 69 62 75 74 65 73 20 61 63 72 6F 73 | attributes acros |
+| 73 20 69 6E 63 6C 75 64 65 20 66 69 6C 65 73 2E | s include files. |
+| 20 57 65 20 61 6C 73 6F 20 77 61 6E 74 20 74 6F |  We also want to |
+| 20 6D 61 6B 65 20 73 75 72 65 0A 74 68 61 74 20 |  make sure.that  |
+| 74 68 65 20 73 63 61 6E 6E 65 72 20 69 73 20 69 | the scanner is i |
+| 6E 69 74 69 61 6C 69 7A 69 6E 67 20 74 68 65 73 | nitializing thes |
+| 65 20 61 74 74 72 69 62 75 74 65 73 20 63 6F 72 | e attributes cor |
+| 72 65 63 74 6C 79 20 77 69 74 68 69 6E 0A 74 68 | rectly within.th |
+| 65 20 69 6E 63 6C 75 64 65 20 66 69 6C 65 2E 0A | e include file.. |
+| 0A 53 43 31 35 2E 34 3A 20 4D 61 6B 65 20 73 75 | .SC15.4: Make su |
+| 72 65 20 74 68 61 74 20 74 68 65 20 73 70 65 63 | re that the spec |
+| 69 61 6C 20 63 68 61 72 61 63 74 65 72 20 69 73 | ial character is |
+| 20 41 54 20 61 74 20 74 68 65 20 73 74 61 72 74 |  AT at the start |
+| 20 6F 66 0A 69 6E 63 6C 75 64 65 20 66 69 6C 65 |  of.include file |
+| 73 2E 0A 0A 40 20 20 20 20 2D 20 54 68 69 73 20 | s...@    - This  |
+| 73 68 6F 75 6C 64 20 79 69 65 6C 64 20 61 6E 20 | should yield an  |
+| 65 72 72 6F 72 2E 0A 0A 53 43 31 35 2E 35 20 45 | error...SC15.5 E |
+| 6E 73 75 72 65 20 74 68 61 74 20 74 68 65 20 6D | nsure that the m |
+| 61 78 69 6D 75 6D 20 69 6E 70 75 74 20 6C 69 6E | aximum input lin |
+| 65 20 6C 65 6E 67 74 68 20 69 73 20 38 30 20 61 | e length is 80 a |
+| 74 20 74 68 65 20 73 74 61 72 74 0A 6F 66 20 61 | t the start.of a |
+| 6E 20 69 6E 63 6C 75 64 65 20 66 69 6C 65 2E 20 | n include file.  |
+| 49 66 20 61 6C 6C 20 69 73 20 77 65 6C 6C 2C 20 | If all is well,  |
+| 6F 6E 6C 79 20 74 68 65 20 73 65 63 6F 6E 64 20 | only the second  |
+| 6F 66 20 74 68 65 20 66 6F 6C 6C 6F 77 69 6E 67 | of the following |
+| 20 74 77 6F 0A 6C 69 6E 65 73 20 77 69 6C 6C 20 |  two.lines will  |
+| 70 72 6F 76 6F 6B 65 20 61 20 22 6C 69 6E 65 20 | provoke a "line  |
+| 74 6F 6F 20 6C 6F 6E 67 22 20 65 72 72 6F 72 2E | too long" error. |
+| 0A 0A 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | ..12345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 0A 31 32 33 34 35 36 37 38 39 30 31 32 33 | 90.1234567890123 |
+| 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 | 4567890123456789 |
+| 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 | 0123456789012345 |
+| 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 | 6789012345678901 |
+| 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 | 2345678901234567 |
+| 38 39 30 31 0A 0A 4E 6F 77 20 74 68 61 74 20 77 | 8901..Now that w |
+| 65 20 68 61 76 65 20 63 68 65 63 6B 65 64 20 74 | e have checked t |
+| 68 65 20 64 65 66 61 75 6C 74 20 61 74 74 72 69 | he default attri |
+| 62 75 74 65 73 20 6F 6E 20 65 6E 74 65 72 69 6E | butes on enterin |
+| 67 20 61 6E 20 69 6E 63 6C 75 64 65 20 66 69 6C | g an include fil |
+| 65 2C 0A 77 65 20 77 61 6E 74 20 74 6F 20 73 74 | e,.we want to st |
+| 75 66 66 20 74 68 65 6D 20 75 70 20 73 6F 20 61 | uff them up so a |
+| 73 20 74 6F 20 6D 61 6B 65 20 73 75 72 65 20 74 | s to make sure t |
+| 68 61 74 20 74 68 65 20 61 74 74 72 69 62 75 74 | hat the attribut |
+| 65 73 0A 70 72 65 76 61 69 6C 69 6E 67 20 77 68 | es.prevailing wh |
+| 65 6E 20 74 68 65 20 69 6E 63 6C 75 64 65 20 77 | en the include w |
+| 61 73 20 68 69 74 20 61 72 65 20 72 65 73 74 6F | as hit are resto |
+| 72 65 64 2E 0A 0A 40 70 20 6D 61 78 69 6D 75 6D | red...@p maximum |
+| 5F 69 6E 70 75 74 5F 6C 69 6E 65 5F 6C 65 6E 67 | _input_line_leng |
+| 74 68 20 3D 20 36 35 0A 40 3D 2B 0A 0A          | th = 65.@=+..    |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| SC15: Test that certain attributes are saved across inclusions.<010>
+00002 00002| <010>
+00003 00003| 1. Maximum input line length.<010>
+00004 00004| 2. Special character.<010>
+00005 00005| 3. Local line number.<010>
+00006 00006| <010>
+00007 00007| To test this, we first set the first two attributes away from the<010>
+00008 00008| default. This will enable us to be sure that when they are restored that<010>
+00009 00009| they are being restored to their former values and not just set to the<010>
+00010 00010| default.<010>
+00011 00011| <010>
+00012 00012| @=*   *! Change the special character.<010>
+00013 00013| *p maximum_input_line_length = 75<010>
+00014 00014| <010>
+00015 00015| Before include.<010>
+00016 00016| *i sc15a<010>
+00017 00001| This is the include file for test SC15. The SC15 test checks to make<010>
+00018 00002| sure that FunnelWeb is saving and restoring three scanning<010>
+00019 00003| attributes across include files. We also want to make sure<010>
+00020 00004| that the scanner is initializing these attributes correctly within<010>
+00021 00005| the include file.<010>
+00022 00006| <010>
+00023 00007| SC15.4: Make sure that the special character is AT at the start of<010>
+00024 00008| include files.<010>
+00025 00009| <010>
+00026 00010| @    - This should yield an error.<010>
+00027 00011| <010>
+00028 00012| SC15.5 Ensure that the maximum input line length is 80 at the start<010>
+00029 00013| of an include file. If all is well, only the second of the following two<010>
+00030 00014| lines will provoke a "line too long" error.<010>
+00031 00015| <010>
+00032 00016| 12345678901234567890123456789012345678901234567890123456789012345678901234567890<010>
+00033 00017| 123456789012345678901234567890123456789012345678901234567890123456789012345678901<010>
+00034 00018| <010>
+00035 00019| Now that we have checked the default attributes on entering an include file,<010>
+00036 00020| we want to stuff them up so as to make sure that the attributes<010>
+00037 00021| prevailing when the include was hit are restored.<010>
+00038 00022| <010>
+00039 00023| @p maximum_input_line_length = 65<010>
+00040 00024| @=+<010>
+00041 00025| <010>
+00042 00017| After include.<010>
+00043 00018| <010>
+00044 00019| If the maximum input line length has been correctly restored then the<010>
+00045 00020| second of the following two lines should give an error, but not the first.<010>
+00046 00021| 123456789012345678901234567890123456789012345678901234567890123456789012345<010>
+00047 00022| 1234567890123456789012345678901234567890123456789012345678901234567890123456<010>
+00048 00023| <010>
+00049 00024| If the special character has been preserved, then the following should<010>
+00050 00025| generate an error.<010>
+00051 00026| <010>
+00052 00027| *   - This should generate an error if all is well.<010>
+00053 00028| <010>
+00054 00029| Preservation of the local line number can be checked by looking at the<010>
+00055 00030| listing file.<010>
+00056 00031| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 9 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="SC15: Test that certain attributes are saved across inclusions.<010>
+<010>
+1. Maximum input line length.<010>
+2. Special character.<010>
+3. Local line number.<010>
+<010>
+To test this, we first set the first two attributes away from the<010>
+default. This will enable us to be sure that when they are restored that<010>
+they are being restored to their former values and not just set to the<010>
+default.<010>
+<010>
+"
+0012[04]: Text. Text scrap[White]="   "
+0014[01]: Text. Text scrap[Grey]="<010>
+Before include.<010>
+"
+0017[01]: Text. Text scrap[Grey]="This is the include file for test SC15. The SC15 test checks to make<010>
+sure that FunnelWeb is saving and restoring three scanning<010>
+attributes across include files. We also want to make sure<010>
+that the scanner is initializing these attributes correctly within<010>
+the include file.<010>
+<010>
+SC15.4: Make sure that the special character is AT at the start of<010>
+include files.<010>
+<010>
+"
+0026[03]: Text. Text scrap[Grey]="   - This should yield an error.<010>
+<010>
+SC15.5 Ensure that the maximum input line length is 80 at the start<010>
+of an include file. If all is well, only the second of the following two<010>
+lines will provoke a "line too long" error.<010>
+<010>
+12345678901234567890123456789012345678901234567890123456789012345678901234567890<010>
+123456789012345678901234567890123456789012345678901234567890123456789012345678901<010>
+<010>
+Now that we have checked the default attributes on entering an include file,<010>
+we want to stuff them up so as to make sure that the attributes<010>
+prevailing when the include was hit are restored.<010>
+<010>
+"
+0040[04]: Text. Text scrap[White]="<010>
+<010>
+"
+0042[01]: Text. Text scrap[Grey]="After include.<010>
+<010>
+If the maximum input line length has been correctly restored then the<010>
+second of the following two lines should give an error, but not the first.<010>
+123456789012345678901234567890123456789012345678901234567890123456789012345<010>
+1234567890123456789012345678901234567890123456789012345678901234567890123456<010>
+<010>
+If the special character has been preserved, then the following should<010>
+generate an error.<010>
+<010>
+"
+0052[03]: Text. Text scrap[Grey]="  - This should generate an error if all is well.<010>
+<010>
+Preservation of the local line number can be checked by looking at the<010>
+listing file.<010>
+"
+0056[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+Macro table dump skipped (Parser was not invoked).
+Document list dump skipped (Parser was not invoked).
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| SC15: Test that certain attributes are saved across inclusions.
+     2     2| 
+     3     3| 1. Maximum input line length.
+     4     4| 2. Special character.
+     5     5| 3. Local line number.
+     6     6| 
+     7     7| To test this, we first set the first two attributes away from the
+     8     8| default. This will enable us to be sure that when they are restored that
+     9     9| they are being restored to their former values and not just set to the
+    10    10| default.
+    11    11| 
+    12    12| @=*   *! Change the special character.
+    13    13| *p maximum_input_line_length = 75
+    14    14| 
+    15    15| Before include.
+    16    16| *i sc15a
+    17     1| This is the include file for test SC15. The SC15 test checks to make
+    18     2| sure that FunnelWeb is saving and restoring three scanning
+    19     3| attributes across include files. We also want to make sure
+    20     4| that the scanner is initializing these attributes correctly within
+    21     5| the include file.
+    22     6| 
+    23     7| SC15.4: Make sure that the special character is AT at the start of
+    24     8| include files.
+    25     9| 
+    26    10| @    - This should yield an error.
+       Error|.^<special><space> is not a legal special sequence.
+    27    11| 
+    28    12| SC15.5 Ensure that the maximum input line length is 80 at the start
+    29    13| of an include file. If all is well, only the second of the following two
+    30    14| lines will provoke a "line too long" error.
+    31    15| 
+    32    16| 12345678901234567890123456789012345678901234567890123456789012345678901234567890
+    33    17| 123456789012345678901234567890123456789012345678901234567890123456789012345678901
+       Error|.................................................................................^Input line is too long (this character is the first offender).
+            |.................................................................................^Currently, the maximum allowable input line length is 80.
+            |.................................................................................^Note: You can change this using a pragma directive (@p).
+    34    18| 
+    35    19| Now that we have checked the default attributes on entering an include file,
+    36    20| we want to stuff them up so as to make sure that the attributes
+    37    21| prevailing when the include was hit are restored.
+    38    22| 
+    39    23| @p maximum_input_line_length = 65
+    40    24| @=+
+    41    25| 
+    42    17| After include.
+    43    18| 
+    44    19| If the maximum input line length has been correctly restored then the
+    45    20| second of the following two lines should give an error, but not the first.
+    46    21| 123456789012345678901234567890123456789012345678901234567890123456789012345
+    47    22| 1234567890123456789012345678901234567890123456789012345678901234567890123456
+       Error|............................................................................^Input line is too long (this character is the first offender).
+            |............................................................................^Currently, the maximum allowable input line length is 75.
+            |............................................................................^Note: You can change this using a pragma directive (@p).
+    48    23| 
+    49    24| If the special character has been preserved, then the following should
+    50    25| generate an error.
+    51    26| 
+    52    27| *   - This should generate an error if all is well.
+       Error|.^<special><space> is not a legal special sequence.
+    53    28| 
+    54    29| Preservation of the local line number can be checked by looking at the
+    55    30| listing file.
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 4 Errors.

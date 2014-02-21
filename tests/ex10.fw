@@ -1,0 +1,6 @@
+EX10: This example demonstrates the level at which include files are included.
+
+@O@<ex10.out@>==@{@-
+@i ex10a
+This is the text of the sloth macro.
+@}

@@ -1,0 +1,27 @@
+PR03: Test the parsing and semantics of sections.
+
+4. Test first section of document is not <special>A.
+@B@<This section is out of order (and so is this test!)@>
+
+1. Test section with no name.
+@A This section has no name.
+@$@<The section name inherits the name of this macro@>@{Walrus@}
+
+2. Test section with a name
+@A@<This section has no name.@>
+
+3. Test the entire hierarchy.
+@A@<One@>
+@B@<Two@>
+@C@<Three@>
+@D@<Four@>
+@E@<Five@>
+
+5. Test detection of discontinuity in levels.
+@A@<One@>
+@C@<Three@>
+@E@<Five@>
+
+@A@<One@>
+@B@<Three@>
+@D@<Five@>

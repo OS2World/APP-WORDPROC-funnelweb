@@ -1,0 +1,422 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 53 43 31 33 3A 20 56 61 72 69 6F 75 73 20 6B 69 | SC13: Various ki |
+| 6E 64 73 20 6F 66 20 69 6E 63 6C 75 64 65 20 66 | nds of include f |
+| 69 6C 65 2E 0A 0A 31 2E 20 49 6E 63 6C 75 64 65 | ile...1. Include |
+| 20 66 69 6C 65 20 69 73 20 65 6D 70 74 79 2E 0A |  file is empty.. |
+| 42 65 66 6F 72 65 20 69 6E 63 6C 75 64 65 0A 40 | Before include.@ |
+| 69 20 73 63 31 33 61 0A 41 66 74 65 72 20 69 6E | i sc13a.After in |
+| 63 6C 75 64 65 0A 0A 32 2E 20 49 6E 63 6C 75 64 | clude..2. Includ |
+| 65 20 66 69 6C 65 20 63 6F 6E 74 61 69 6E 73 20 | e file contains  |
+| 61 20 73 69 6E 67 6C 65 20 62 6C 61 6E 6B 20 6C | a single blank l |
+| 69 6E 65 2E 0A 42 65 66 6F 72 65 20 69 6E 63 6C | ine..Before incl |
+| 75 64 65 0A 40 69 20 73 63 31 33 62 0A 41 66 74 | ude.@i sc13b.Aft |
+| 65 72 20 69 6E 63 6C 75 64 65 0A 0A 33 2E 20 49 | er include..3. I |
+| 6E 63 6C 75 64 65 20 66 69 6C 65 20 63 6F 6E 74 | nclude file cont |
+| 61 69 6E 73 20 74 77 6F 20 62 6C 61 6E 6B 20 6C | ains two blank l |
+| 69 6E 65 73 2E 0A 42 65 66 6F 72 65 20 69 6E 63 | ines..Before inc |
+| 6C 75 64 65 0A 40 69 20 73 63 31 33 63 0A 41 66 | lude.@i sc13c.Af |
+| 74 65 72 20 69 6E 63 6C 75 64 65 0A 0A 34 2E 20 | ter include..4.  |
+| 49 6E 63 6C 75 64 65 20 66 69 6C 65 20 63 6F 6E | Include file con |
+| 74 61 69 6E 73 20 61 20 73 69 6E 67 6C 65 20 6C | tains a single l |
+| 69 6E 65 20 77 69 74 68 20 74 65 78 74 20 6F 6E | ine with text on |
+| 20 69 74 2E 0A 42 65 66 6F 72 65 20 69 6E 63 6C |  it..Before incl |
+| 75 64 65 0A 40 69 20 73 63 31 33 64 0A 41 66 74 | ude.@i sc13d.Aft |
+| 65 72 20 69 6E 63 6C 75 64 65 0A 0A 35 2E 20 49 | er include..5. I |
+| 6E 63 6C 75 64 65 20 66 69 6C 65 27 73 20 6C 61 | nclude file's la |
+| 73 74 20 6C 69 6E 65 20 69 73 20 6E 6F 74 20 70 | st line is not p |
+| 72 6F 70 65 72 6C 79 20 74 65 72 6D 69 6E 61 74 | roperly terminat |
+| 65 64 2E 0A 42 65 66 6F 72 65 20 69 6E 63 6C 75 | ed..Before inclu |
+| 64 65 0A 40 69 20 73 63 31 33 65 0A 41 66 74 65 | de.@i sc13e.Afte |
+| 72 20 69 6E 63 6C 75 64 65 0A 0A 36 2E 20 49 6E | r include..6. In |
+| 63 6C 75 64 65 20 66 69 6C 65 20 69 73 20 6F 72 | clude file is or |
+| 64 69 6E 61 72 79 2E 0A 42 65 66 6F 72 65 20 69 | dinary..Before i |
+| 6E 63 6C 75 64 65 0A 40 69 20 73 63 31 33 66 0A | nclude.@i sc13f. |
+| 41 66 74 65 72 20 69 6E 63 6C 75 64 65 0A 0A 37 | After include..7 |
+| 2E 20 54 65 73 74 20 75 70 70 65 72 20 63 61 73 | . Test upper cas |
+| 65 20 49 20 61 6E 64 20 66 69 6C 65 20 65 78 74 | e I and file ext |
+| 65 6E 73 69 6F 6E 20 69 6E 68 65 72 69 74 61 6E | ension inheritan |
+| 63 65 2E 0A 42 65 66 6F 72 65 20 69 6E 63 6C 75 | ce..Before inclu |
+| 64 65 0A 40 49 20 73 63 31 33 66 0A 41 66 74 65 | de.@I sc13f.Afte |
+| 72 20 69 6E 63 6C 75 64 65 0A 0A 45 6E 64 20 6F | r include..End o |
+| 66 20 74 65 73 74 20 46 69 6C 65 2E 0A          | f test File..    |
++-------------------------------------------------+------------------+
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
++-------------------------------------------------+------------------+
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 0A                                              | .                |
++-------------------------------------------------+------------------+
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 0A 0A                                           | ..               |
++-------------------------------------------------+------------------+
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 54 68 69 73 20 69 73 20 74 68 65 20 69 6E 63 6C | This is the incl |
+| 75 64 65 20 66 69 6C 65 20 66 6F 72 20 74 65 73 | ude file for tes |
+| 74 20 53 43 31 33 64 2E 20 4A 75 73 74 20 61 20 | t SC13d. Just a  |
+| 66 69 6C 65 20 63 6F 6E 74 61 69 6E 69 6E 67 20 | file containing  |
+| 6F 6E 65 20 6C 69 6E 65 2E 0A                   | one line..       |
++-------------------------------------------------+------------------+
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 54 68 69 73 20 69 73 20 74 68 65 20 69 6E 63 6C | This is the incl |
+| 75 64 65 20 66 69 6C 65 20 66 6F 72 20 74 65 73 | ude file for tes |
+| 74 20 53 43 31 33 65 2E 20 54 68 65 20 74 65 73 | t SC13e. The tes |
+| 74 20 69 73 20 74 6F 20 73 65 65 20 68 6F 77 20 | t is to see how  |
+| 46 75 6E 6E 65 6C 57 65 62 0A 63 6F 70 65 73 20 | FunnelWeb.copes  |
+| 77 69 74 68 20 61 6E 20 69 6E 63 6C 75 64 65 20 | with an include  |
+| 66 69 6C 65 20 74 68 61 74 20 68 61 73 20 61 6E | file that has an |
+| 20 69 6D 70 72 6F 70 65 72 6C 79 20 74 65 72 6D |  improperly term |
+| 69 6E 61 74 65 64 20 6C 61 73 74 20 6C 69 6E 65 | inated last line |
+| 2E 0A 0A 48 65 72 65 20 69 73 20 74 68 65 20 69 | ...Here is the i |
+| 6D 70 72 6F 70 65 72 20 74 65 72 6D 69 6E 61 74 | mproper terminat |
+| 69 6F 6E 21 2D 2D 2D 2D 3E                      | ion!---->        |
++-------------------------------------------------+------------------+
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 54 68 69 73 20 69 73 20 74 68 65 20 69 6E 63 6C | This is the incl |
+| 75 64 65 20 66 69 6C 65 20 66 6F 72 20 74 65 73 | ude file for tes |
+| 74 73 20 53 43 31 33 2E 36 20 61 6E 64 20 53 43 | ts SC13.6 and SC |
+| 31 33 2E 37 2E 0A 54 68 65 72 65 20 61 72 65 20 | 13.7..There are  |
+| 6F 6E 6C 79 20 74 77 6F 20 6C 69 6E 65 73 2C 20 | only two lines,  |
+| 61 6E 64 20 74 68 69 73 20 69 73 20 74 68 65 20 | and this is the  |
+| 73 65 63 6F 6E 64 20 6F 6E 65 2E 0A             | second one..     |
++-------------------------------------------------+------------------+
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 54 68 69 73 20 69 73 20 74 68 65 20 69 6E 63 6C | This is the incl |
+| 75 64 65 20 66 69 6C 65 20 66 6F 72 20 74 65 73 | ude file for tes |
+| 74 73 20 53 43 31 33 2E 36 20 61 6E 64 20 53 43 | ts SC13.6 and SC |
+| 31 33 2E 37 2E 0A 54 68 65 72 65 20 61 72 65 20 | 13.7..There are  |
+| 6F 6E 6C 79 20 74 77 6F 20 6C 69 6E 65 73 2C 20 | only two lines,  |
+| 61 6E 64 20 74 68 69 73 20 69 73 20 74 68 65 20 | and this is the  |
+| 73 65 63 6F 6E 64 20 6F 6E 65 2E 0A             | second one..     |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| SC13: Various kinds of include file.<010>
+00002 00002| <010>
+00003 00003| 1. Include file is empty.<010>
+00004 00004| Before include<010>
+00005 00005| @i sc13a<010>
+00006 00006| After include<010>
+00007 00007| <010>
+00008 00008| 2. Include file contains a single blank line.<010>
+00009 00009| Before include<010>
+00010 00010| @i sc13b<010>
+00011 00001| <010>
+00012 00011| After include<010>
+00013 00012| <010>
+00014 00013| 3. Include file contains two blank lines.<010>
+00015 00014| Before include<010>
+00016 00015| @i sc13c<010>
+00017 00001| <010>
+00018 00002| <010>
+00019 00016| After include<010>
+00020 00017| <010>
+00021 00018| 4. Include file contains a single line with text on it.<010>
+00022 00019| Before include<010>
+00023 00020| @i sc13d<010>
+00024 00001| This is the include file for test SC13d. Just a file containing one line.<010>
+00025 00021| After include<010>
+00026 00022| <010>
+00027 00023| 5. Include file's last line is not properly terminated.<010>
+00028 00024| Before include<010>
+00029 00025| @i sc13e<010>
+00030 00001| This is the include file for test SC13e. The test is to see how FunnelWeb<010>
+00031 00002| copes with an include file that has an improperly terminated last line.<010>
+00032 00003| <010>
+00033 00004| Here is the improper termination!----><010>
+00034 00026| After include<010>
+00035 00027| <010>
+00036 00028| 6. Include file is ordinary.<010>
+00037 00029| Before include<010>
+00038 00030| @i sc13f<010>
+00039 00001| This is the include file for tests SC13.6 and SC13.7.<010>
+00040 00002| There are only two lines, and this is the second one.<010>
+00041 00031| After include<010>
+00042 00032| <010>
+00043 00033| 7. Test upper case I and file extension inheritance.<010>
+00044 00034| Before include<010>
+00045 00035| @I sc13f<010>
+00046 00001| This is the include file for tests SC13.6 and SC13.7.<010>
+00047 00002| There are only two lines, and this is the second one.<010>
+00048 00036| After include<010>
+00049 00037| <010>
+00050 00038| End of test File.<010>
+00051 00039| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 15 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="SC13: Various kinds of include file.<010>
+<010>
+1. Include file is empty.<010>
+Before include<010>
+"
+0006[01]: Text. Text scrap[Grey]="After include<010>
+<010>
+2. Include file contains a single blank line.<010>
+Before include<010>
+"
+0011[01]: Text. Text scrap[White]="<010>
+"
+0012[01]: Text. Text scrap[Grey]="After include<010>
+<010>
+3. Include file contains two blank lines.<010>
+Before include<010>
+"
+0017[01]: Text. Text scrap[White]="<010>
+<010>
+"
+0019[01]: Text. Text scrap[Grey]="After include<010>
+<010>
+4. Include file contains a single line with text on it.<010>
+Before include<010>
+"
+0024[01]: Text. Text scrap[Grey]="This is the include file for test SC13d. Just a file containing one line.<010>
+"
+0025[01]: Text. Text scrap[Grey]="After include<010>
+<010>
+5. Include file's last line is not properly terminated.<010>
+Before include<010>
+"
+0030[01]: Text. Text scrap[Grey]="This is the include file for test SC13e. The test is to see how FunnelWeb<010>
+copes with an include file that has an improperly terminated last line.<010>
+<010>
+Here is the improper termination!----><010>
+"
+0034[01]: Text. Text scrap[Grey]="After include<010>
+<010>
+6. Include file is ordinary.<010>
+Before include<010>
+"
+0039[01]: Text. Text scrap[Grey]="This is the include file for tests SC13.6 and SC13.7.<010>
+There are only two lines, and this is the second one.<010>
+"
+0041[01]: Text. Text scrap[Grey]="After include<010>
+<010>
+7. Test upper case I and file extension inheritance.<010>
+Before include<010>
+"
+0046[01]: Text. Text scrap[Grey]="This is the include file for tests SC13.6 and SC13.7.<010>
+There are only two lines, and this is the second one.<010>
+"
+0048[01]: Text. Text scrap[Grey]="After include<010>
+<010>
+End of test File.<010>
+"
+0051[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+
+========================== Start of MACRO TABLE DUMP ===========================
+
+
+=========================== End of MACRO TABLE DUMP ============================
+
+
+========================= Start of DOCUMENT LIST DUMP ==========================
+
+
+TEXT COMPONENT: Pos(L,C)=(1,1). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="SC13: Various kinds of include file.<010>
+<010>
+1. Include file is empty.<010>
+Before include<010>
+"
+Text scrap[Grey]="After include<010>
+<010>
+2. Include file contains a single blank line.<010>
+Before include<010>
+"
+Text scrap[White]="<010>
+"
+Text scrap[Grey]="After include<010>
+<010>
+3. Include file contains two blank lines.<010>
+Before include<010>
+"
+Text scrap[White]="<010>
+<010>
+"
+Text scrap[Grey]="After include<010>
+<010>
+4. Include file contains a single line with text on it.<010>
+Before include<010>
+"
+Text scrap[Grey]="This is the include file for test SC13d. Just a file containing one line.<010>
+"
+Text scrap[Grey]="After include<010>
+<010>
+5. Include file's last line is not properly terminated.<010>
+Before include<010>
+"
+Text scrap[Grey]="This is the include file for test SC13e. The test is to see how FunnelWeb<010>
+copes with an include file that has an improperly terminated last line.<010>
+<010>
+Here is the improper termination!----><010>
+"
+Text scrap[Grey]="After include<010>
+<010>
+6. Include file is ordinary.<010>
+Before include<010>
+"
+Text scrap[Grey]="This is the include file for tests SC13.6 and SC13.7.<010>
+There are only two lines, and this is the second one.<010>
+"
+Text scrap[Grey]="After include<010>
+<010>
+7. Test upper case I and file extension inheritance.<010>
+Before include<010>
+"
+Text scrap[Grey]="This is the include file for tests SC13.6 and SC13.7.<010>
+There are only two lines, and this is the second one.<010>
+"
+Text scrap[Grey]="After include<010>
+<010>
+End of test File.<010>
+"
+--- End of Text Scrap List ---
+
+
+========================== End of DOCUMENT LIST DUMP ===========================
+
+E: No macros defined.
+E: No output files specified.
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| SC13: Various kinds of include file.
+     2     2| 
+     3     3| 1. Include file is empty.
+     4     4| Before include
+     5     5| @i sc13a
+     Warning|.^Include file is empty (not a byte in syte)!
+     6     6| After include
+     7     7| 
+     8     8| 2. Include file contains a single blank line.
+     9     9| Before include
+    10    10| @i sc13b
+    11     1| 
+    12    11| After include
+    13    12| 
+    14    13| 3. Include file contains two blank lines.
+    15    14| Before include
+    16    15| @i sc13c
+    17     1| 
+    18     2| 
+    19    16| After include
+    20    17| 
+    21    18| 4. Include file contains a single line with text on it.
+    22    19| Before include
+    23    20| @i sc13d
+    24     1| This is the include file for test SC13d. Just a file containing one line.
+    25    21| After include
+    26    22| 
+    27    23| 5. Include file's last line is not properly terminated.
+    28    24| Before include
+    29    25| @i sc13e
+    30     1| This is the include file for test SC13e. The test is to see how FunnelWeb
+    31     2| copes with an include file that has an improperly terminated last line.
+    32     3| 
+    33     4| Here is the improper termination!---->
+    34    26| After include
+     Warning|.^The last line of the include file was terminated by EOF.
+            |.^An EOL was inserted at the end of the last line.
+    35    27| 
+    36    28| 6. Include file is ordinary.
+    37    29| Before include
+    38    30| @i sc13f
+    39     1| This is the include file for tests SC13.6 and SC13.7.
+    40     2| There are only two lines, and this is the second one.
+    41    31| After include
+    42    32| 
+    43    33| 7. Test upper case I and file extension inheritance.
+    44    34| Before include
+    45    35| @I sc13f
+    46     1| This is the include file for tests SC13.6 and SC13.7.
+    47     2| There are only two lines, and this is the second one.
+    48    36| After include
+    49    37| 
+    50    38| End of test File.
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 2 Errors and 2 Warnings.

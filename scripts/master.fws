@@ -1,0 +1,292 @@
+!============================<Start of Master Script>===========================
+!
+! FUNNELWEB MASTER TEST SCRIPT
+! ============================
+! This is the master FunnelWeb test script.
+! To test FunnelWeb:
+!    1. Create the following directory tree:
+!       <anyname>
+!          scripts - A directory containing .fws scripts.
+!          tests   - A directory containing .fw test files.
+!          results - An empty directory to receive results of testing.
+!          answers - A directory containing the correct answers.
+!    2. Modify the "root test directory" section of this script as described.
+!    3. Ensure that all of the directories and files are on Read/Write access.
+!    4. Set default to the "scripts" directory.
+!    5. Invoke FunnelWeb with the "+k" option.
+!    6. Give the command "execute master.fws".
+!    7. The test should last for a few minutes.
+!    8. Read the test summary on the console at the end of the test.
+!
+! Notes on Script Mechanics
+! -------------------------
+! * FunnelWeb predefines "$/" to be the character that separates
+!   directory specifications from file names on whatever machine it is
+!   running on. (e.g. Mac=":", Sun="/", Vax="]", PC="\").
+
+write ""
+write "FUNNELWEB TEST SCRIPT"
+write "====================="
+write "This FunnelWeb shellscript applies FunnelWeb to a suite of test files."
+write "The result is a differences report comparing the result files of this"
+write "run with a predefined set of correct "answer" files."
+write ""
+write "Do not be alarmed by errors occurring during the testing as these"
+write "are a consequence of tests of FunnelWeb's detection of various errors."
+write ""
+write "This script cleans up files lying around before testing, so if"
+write "it fails for some reason, you can run it again without having."
+write "to worry about cleaning up after the results of the previous run."
+write ""
+write "This script takes about 10 minutes to run on a 1 MIP machine."
+write "Here we go!"
+write ""
+!
+! Define Symbol For The Root Test Directory
+! -----------------------------------------
+! IMPORTANT: THIS DEFINITION IS ALL YOU HAVE TO CHANGE TO GET THIS
+!            SCRIPT WORKING ON YOUR MACHINE.
+! The script substitution variable <dollar>R must point to the root
+! directory <anyname> (see above). Here are some examples of definitions
+! of <dollar>R on various machines onto which FunnelWeb has been ported.
+
+!SUN: define R "/usr2/users/ross/fwdir/"
+!VMS: define R "$$USERS:[ROSS.FWDIR."
+!PC : define R "\fwdir\"
+!Mac: define R "fatdisk:fwdir:"
+
+! Place your definition here.
+define R "/usr2/users/ross/fwdir/"
+
+! Define Symbols for Test Directories
+! -----------------------------------
+!      S - The directory containing the .fws FunnelWeb test scripts.
+!      I - The directory containing the .fw input files.
+!      O - The directory where all the test output goes.
+!      A - The directory containing all the correct answers.
+!      D - The differences file.
+define S "$Rscripts$/"
+define I "$Rtests$/"
+define O "$Rresults$/"
+define A "$Ranswers$/"
+define D "$Rresults$/0testres.dif"
+
+! Set FunnelWeb Options Default
+! -----------------------------
+! The following options remain as default for all the runs.
+! The only two options turned on are +c100 and +b7.
+! The sub-scripts turn on the options they need explicitly.
+!    -f  No input file specified.
+!    -j  No journal file.
+!    =i..Include files come from the input directory.
+!    -o  No product file(s).
+!    -t  No typeset file.
+!    -l  No Listing file.
+!    -d  No deletion of output files.
+!    +c100 No suppression of listing in listing file.
+!    -q  Messages to screen.
+!    -x  No default script file to execute.
+!    -w  No limit on product file line length imposed by command line.
+!    -k  No interactive mode.
+!    -b1 No dump of input file map.
+!    -b2 No dump of line list.
+!    -b3 No dump of token list.
+!    -b4 No dump of macro table.
+!    -b5 No dump of document list.
+!    -b6 No dump of timing results.
+!    +b7 DONT write anything non-deterministic.
+set -f -j =i$I -o -t -l -d +c100 -q -x -w -k -b123456 +b7
+
+! Delete any Old Differences File
+! -------------------------------
+eneo $D
+
+! Zero the Difference Summary Counters
+! ------------------------------------
+! This is necessary in case the user runs this script twice in one session.
+diffzero
+
+! Clean Test Scripts
+! ------------------
+! When text files are copied from one machine to another, they can sometimes
+! end up with end-of-line characters that are incorrect for the target machine.
+! The following commands clean up the sub-scripts that we are about to invoke.
+fixeols $Stest_ld.fws
+fixeols $Stest_l.fws
+fixeols $Stest_lo.fws
+fixeols $Stest_lt.fws
+fixeols $Stest_lot.fws
+fixeols $Stest_lo2.fws
+
+! Generate Tricky Test Files
+! --------------------------
+! This process is a bit messy and requires operations similar to those in the
+! other sub-scripts (test_ld.fws...), and so I have placed it all in
+! test_gen.fws.
+execute $Stest_gen.fws
+
+! Clean up the Include Files
+! --------------------------
+! The test scripts all "purify" their file arguments by running them through
+! the "fixeols" command. However, the include files aren't automated in this
+! way, so we have to do them here explicitly.
+fixeols $Isc13a.fwi
+fixeols $Isc13b.fwi
+fixeols $Isc13c.fwi
+fixeols $Isc13d.fwi
+fixeols $Isc13e.fwi
+fixeols $Isc13f.fwi
+fixeols $Isc15a.fwi
+fixeols $Itg08a.fwi
+fixeols $Iex09a.fwi
+fixeols $Iex10a.fwi
+
+! Skip Some Tests
+! ---------------
+! If you are debugging some tests, you may wish to move the "here" command
+! further down in the testing so as to skip to the desired tests.
+! X must be defined because FunnelWeb expands command lines even while skipping
+! and generates a "leading spaces" error if X is not defined to be non-blank.
+define X "!"
+skipto
+here
+
+! Test Scanner and Parser
+! -----------------------
+define X "execute $Stest_ld.fws"
+! Special cases:
+!    sc01 does not exist (test of non-existence input file).
+!    sc09 contains control characters that we don't want FIXEOLS to frob.
+$X sc01 !
+$X sc02
+$X sc03
+$X sc04
+$X sc05
+$X sc06
+$X sc07
+$X sc08
+$X sc09 !
+$X sc10
+$X sc11
+$X sc12
+$X sc13
+$X sc14
+$X sc15
+$X sc16
+$X sc17
+$X sc18
+$X sc19
+$X sc20
+$X sc21
+$X sc22
+$X sc23
+$X sc24
+$X sc25
+$X sc26
+$X sc27
+$X sc28
+$X sc29
+
+$X pr01
+$X pr02
+$X pr03
+$X pr04
+$X pr05
+$X pr06
+$X pr07
+$X pr08
+$X pr09
+$X pr10
+
+! Test Analyser
+! -------------
+define X "execute $Stest_l.fws"
+$X an01
+$X an02
+$X an03
+$X an04
+
+! Test Tangle
+! -----------
+define X "execute $Stest_lo.fws"
+$X tg01
+$X tg02
+$X tg03
+$X tg04
+$X tg05
+$X tg06
+$X tg07
+$X tg08
+$X tg09
+
+! Test Weave
+! ----------
+define X "execute $Stest_lt.fws"
+$X wv01
+$X wv02
+$X wv03
+$X wv04
+$X wv05
+$X wv06
+
+! Examples in User Manual Tutorial
+! --------------------------------
+define X "execute $Stest_lo.fws"
+$X ex01
+$X ex02
+define X "execute $Stest_l.fws"
+$X ex03
+define X "execute $Stest_lo.fws"
+$X ex04
+$X ex05
+$X ex06
+$X ex07
+$X ex08
+$X ex09
+$X ex10
+
+define X "execute $Stest_lt.fws"
+$X ex11
+$X ex12
+$X ex13
+$X ex14
+$X ex15
+
+define X "execute $Stest_lot.fws"
+$X ex16
+
+! Examples in Hints Chapter
+! -------------------------
+define X "execute $Stest_lo.fws"
+$X hi01
+$X hi02
+$X hi03
+$X hi04
+$X hi05
+define X "execute $Stest_lo2.fws"
+$X hi06
+$X hi07
+define X "execute $Stest_lo.fws"
+$X hi08
+$X hi09
+$X hi10
+
+! Final Test Summary
+! ------------------
+write ""
+write ""
+write "The FunnelWeb test suite script has successfully completed."
+write ""
+diffsummary
+write ""
+write "If the differences summary above gives Different=0, then FunnelWeb"
+write "has passed the test suite and is ready for use."
+write ""
+write "If not, you should examine the file"
+write "   "$D""
+write "to see what went wrong."
+write ""
+write "By the way, there should be 1 Severe, 277 Errors, and 12 Warnings."
+write ""
+!=============================<End of Master Script>============================
+

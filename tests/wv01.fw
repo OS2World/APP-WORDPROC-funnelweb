@@ -1,0 +1,7 @@
+WV01: Test basic typeset file output mechanism.
+
+@A@<A section for no particular reason@>
+
+@O@<wv01.out@>@{@-
+Some text for no particular reason.
+@}

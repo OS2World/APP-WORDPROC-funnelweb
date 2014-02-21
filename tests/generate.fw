@@ -1,0 +1,61 @@
+Generate.Web
+============
+Some of the FunnelWeb tests require input files that contain control
+characters, improperly terminated lines, and other special constructs
+designed to test FunnelWeb's capacity to deal with anything that could
+arise in an input text file.
+
+Unfortunately, by their very nature, these constructs tend to be vulnerable
+to file transfer programs and other utilities (e.g. FIXEOLS!) that take it
+upon themselves to "fix up" various problems with text files.
+
+The solution adopted here is to totally avoid the problem by using FunnelWeb
+itself to generate these awkward test files. The following output file
+macro definitions achieve this.
+
+This FunnelWeb file should be fed into FunnelWeb before testing begins.
+
+@!------------------------------------------------------------------------------
+
+@O@<sc06.fw@>==@{@-
+SC06: Test FunnelWeb on a file whose last line is not terminated properly
+with an end of line marker.
+
+Here is the improper termination!---->@}
+
+@!------------------------------------------------------------------------------
+
+@O@<sc08.fw@>==@{@-
+SC08: Detection of trailing spaces.
+
+This line has zero  trailing spaces |
+This line has one   trailing space  | @+@-
+This line has two   trailing spaces |  @+@-
+This line has three trailing spaces |   @+@-
+@}
+
+@!------------------------------------------------------------------------------
+
+@O@<sc09.fw@>==@{@-
+SC09: Detection of control characters.
+
+SC09.1 Test that control characters are detected and replaced by "?".
+SC09.2 Test non printable that has a mnemonic.
+
+There is a tab between these two bars |@^D(009)| which should come out as "?".
+The above error message should contain the mnemonic "HT".
+
+SC09.3 Test non printable that has no mnemonic.
+
+There is a non-mnemonic control character between these bars |@^D(234)|.
+@}
+
+@!------------------------------------------------------------------------------
+
+@O@<sc13e.fwi@>==@{@-
+This is the include file for test SC13e. The test is to see how FunnelWeb
+copes with an include file that has an improperly terminated last line.
+
+Here is the improper termination!---->@}
+
+@!------------------------------------------------------------------------------

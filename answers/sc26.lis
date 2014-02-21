@@ -1,0 +1,87 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 53 43 32 36 3A 20 54 65 73 74 20 73 79 6E 74 61 | SC26: Test synta |
+| 78 20 63 68 65 63 6B 69 6E 67 20 6F 66 20 74 61 | x checking of ta |
+| 62 6C 65 20 6F 66 20 63 6F 6E 74 65 6E 74 73 20 | ble of contents  |
+| 74 79 70 65 73 65 74 74 69 6E 67 20 70 72 61 67 | typesetting prag |
+| 6D 61 2E 0A 0A 31 2E 20 4D 61 6B 65 20 73 75 72 | ma...1. Make sur |
+| 65 20 74 68 61 74 20 61 20 6C 65 67 61 6C 20 74 | e that a legal t |
+| 61 62 6C 65 20 6F 66 20 63 6F 6E 74 65 6E 74 73 | able of contents |
+| 20 64 69 72 65 63 74 69 76 65 20 69 73 20 4F 4B |  directive is OK |
+| 2E 0A 40 74 20 74 61 62 6C 65 5F 6F 66 5F 63 6F | ..@t table_of_co |
+| 6E 74 65 6E 74 73 0A 0A 32 2E 20 43 68 65 63 6B | ntents..2. Check |
+| 20 74 68 61 74 20 69 74 20 64 6F 65 73 6E 27 74 |  that it doesn't |
+| 20 73 74 61 6E 64 20 66 6F 72 20 61 6E 79 20 6E |  stand for any n |
+| 6F 6E 73 65 6E 73 65 2E 0A 40 74 20 74 61 62 6C | onsense..@t tabl |
+| 65 5F 6F 66 5F 63 6F 6E 74 65 6E 74 73 20 6E 6F | e_of_contents no |
+| 6E 73 65 6E 73 65 0A 0A                         | nsense..         |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| SC26: Test syntax checking of table of contents typesetting pragma.<010>
+00002 00002| <010>
+00003 00003| 1. Make sure that a legal table of contents directive is OK.<010>
+00004 00004| @t table_of_contents<010>
+00005 00005| <010>
+00006 00006| 2. Check that it doesn't stand for any nonsense.<010>
+00007 00007| @t table_of_contents nonsense<010>
+00008 00008| <010>
+00009 00009| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 5 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="SC26: Test syntax checking of table of contents typesetting pragma.<010>
+<010>
+1. Make sure that a legal table of contents directive is OK.<010>
+"
+0004[01]: @t.. TOC. 
+0005[01]: Text. Text scrap[Grey]="<010>
+2. Check that it doesn't stand for any nonsense.<010>
+"
+0008[01]: Text. Text scrap[White]="<010>
+"
+0009[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+Macro table dump skipped (Parser was not invoked).
+Document list dump skipped (Parser was not invoked).
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| SC26: Test syntax checking of table of contents typesetting pragma.
+     2     2| 
+     3     3| 1. Make sure that a legal table of contents directive is OK.
+     4     4| @t table_of_contents
+     5     5| 
+     6     6| 2. Check that it doesn't stand for any nonsense.
+     7     7| @t table_of_contents nonsense
+       Error|......................^The table_of_contents directive does not take arguments.
+            |......................^Directive ignored.
+     8     8| 
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There was 1 Error.

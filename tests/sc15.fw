@@ -1,0 +1,30 @@
+SC15: Test that certain attributes are saved across inclusions.
+
+1. Maximum input line length.
+2. Special character.
+3. Local line number.
+
+To test this, we first set the first two attributes away from the
+default. This will enable us to be sure that when they are restored that
+they are being restored to their former values and not just set to the
+default.
+
+@=*   *! Change the special character.
+*p maximum_input_line_length = 75
+
+Before include.
+*i sc15a
+After include.
+
+If the maximum input line length has been correctly restored then the
+second of the following two lines should give an error, but not the first.
+123456789012345678901234567890123456789012345678901234567890123456789012345
+1234567890123456789012345678901234567890123456789012345678901234567890123456
+
+If the special character has been preserved, then the following should
+generate an error.
+
+*   - This should generate an error if all is well.
+
+Preservation of the local line number can be checked by looking at the
+listing file.

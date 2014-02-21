@@ -1,0 +1,4 @@
+SC06: Test FunnelWeb on a file whose last line is not terminated properly
+with an end of line marker.
+
+Here is the improper termination!---->

@@ -1,0 +1,22 @@
+The files in this directory were those used to build funnelweb using
+gcc/2 for OS/2 2.0. The header and source files are the modified
+versions that I made in order to get a working version of fw.exe, the
+funnelweb executable, using gcc/2 for OS/2 2.0, whereas the header and
+source files in the sources directory are the originals from Ross
+William's funnelweb distribution. You can recreate the patched files
+using patch and the diffs in the patches.os2 file, but I include them
+here anyway. The other files are as follows:
+
+   makefile.os2 : the makefile I used to build fw.exe; it was written
+                  for use with GNU make.
+
+   fw.rsp : the link386 response file giving the object file names for
+            the link step.
+
+   fw.def : the link386 definition file for the link step in the compilation.
+
+   make.rep : the output from GNU make for the compilation; this shows the
+              warnings issued by gcc during the compilation.
+
+Paul Lyon
+10 December, 1992

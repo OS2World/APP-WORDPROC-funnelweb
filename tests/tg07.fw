@@ -1,0 +1,10 @@
+TG07: Checking the setting of the maximum line length to infinity.
+
+@p maximum_output_line_length = infinity
+
+@$@<A@>@M@{1234567890123456789012345678901234567890@}
+
+@O@<tg07.out@>@{@-
+The following long line should not blow the line length limit.
+@<A@>@<A@>@<A@>@<A@>@<A@>@<A@>@<A@>@<A@>@<A@>@<A@>@<A@>@<A@>@<A@>@<A@>
+@}

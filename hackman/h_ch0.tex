@@ -1,0 +1,180 @@
+%==============================================================================%
+%                                 Start of Ch0.tex                             %
+%==============================================================================%
+%
+% Copyright
+% ---------
+% Copyright (C) 1992 Ross N. Williams.
+% This file contains a chapter of the FunnelWeb Hacker's Manual.
+% See the main TeX file for this manual for further information.
+%
+%==============================================================================%
+
+\vbox{\relax}
+\vfill
+
+\hrule
+
+\medskip
+
+Copyright \copyright{} 1992 Ross~N.~Williams.
+\xn{Ross}{Williams}\xx{copyright}{notice}
+
+Permission is granted to make and distribute verbatim copies of this manual
+provided that the copyright notice and this permission notice are preserved
+on all copies.\note{This paragraph was copied from the GNU Emacs manual to
+avoid my having to get a legal opinion on something I could cook up.}
+
+\medskip
+
+\hrule
+
+\newpage
+
+%==============================================================================
+
+\tableofcontents
+
+\newpage
+
+%==============================================================================
+
+%I am not using LaTeX's figures and tables numbering so these are commented out.
+%\pseudochapter{List of Figures}
+%\pseudochapter{List of Tables}
+
+%==============================================================================
+
+% No forward.
+%\pseudochapter{Foreword}
+%\x{foreword}
+
+%==============================================================================
+
+\pseudochapter{Preface}
+\x{preface}
+
+This manual is for hackers! Anyone who wants to
+bash,
+diddle,
+frob,
+grind,
+mangle,
+patch,
+poke,
+toggle,
+twiddle,
+zap,
+or generally hack FunnelWeb should at least take a look at this manual.
+
+This document has been created to serve two purposes:
+
+\begin{enumerate}
+
+\item To act as a repository for specific design and implementation
+information not appropriate to be included in program comments.
+
+\item To guide those interested in modifying the program.
+
+\end{enumerate}
+
+As a result, this document has grown in fits and starts.
+This manual is not a particularly polished or well-balanced document
+but it should be of assistance to those (including myself) involved with
+modifying FunnelWeb.
+
+\bigskip
+
+\leftline{\b{Ross~N.~Williams}}
+\leftline{\b{Adelaide, Australia}}
+\leftline{\b{May~1992}}
+
+%==============================================================================
+
+\pseudochapter{Acknowledgements}
+\x{acknowledgements}
+
+Many thanks to \b{David Hulse}\xn{David}{Hulse}
+(\p{dave@cs.adelaide.edu.au}) for
+translating the original version of FunnelWeb
+(FunnelWeb~V1) from Ada\x{Ada} into~C
+and getting it to work on Unix and a PC.
+The C code written by David (FunnelWeb~V2) formed
+the basis of FunnelWeb~V3, but was
+entirely rewritten during the intensive refinement and feature-injection
+period leading up to this release (FunnelWeb~V3 is about three times
+the size of FunnelWeb~V2).
+Nevertheless, without this important first translation step,
+I would probably not have found the motivation to develop FunnelWeb to its
+present state.
+
+Thanks go to \b{Simon Hackett}\xn{Simon}{Hackett}
+(\p{simon@internode.com.au}) of Internode Systems
+Pty Ltd for the use of his Sun, Mac, and PC, for assistance in porting
+FunnelWeb to the Sun and PC, and for helpful discussions.
+
+Thanks go to \b{Jeremy Begg}\xn{Jeremy}{Begg}
+(\p{jeremy@vsm.com.au}) of VSM Software Services
+for the use of his VAX, and for assistance with the VMS-specific code.
+
+Thanks to \b{Barry Dwyer}\xn{Barry}{Dwyer} (\p{dwyer@cs.adelaide.edu.au})
+and \b{Roger Brissenden}\xn{Roger}{Brissenden} (\p{rjb@koala.harvard.edu})
+for trying out FunnelWeb Version~1 in 1987 and providing valuable feedback.
+
+Thanks to Donald Knuth\xn{Donald}{Knuth}
+for establishing the idea of literate programming in the first place.
+
+\bigskip
+
+\leftline{\b{Ross~N.~Williams}}
+\leftline{\b{Adelaide, Australia}}
+\leftline{\b{May~1992}}
+
+%==============================================================================
+
+\pseudochapter{Presentation Notes}
+\x{presentation notes}
+
+\thing{References:} All references are set in bold and are
+cited in square brackets in the form
+\b{[}$<$\i{firstauthor}$><$\i{year}$>$\b{]}.
+All references cited in the text appear in the reference list and the index.
+
+\thing{Special terms:} New or important terminology has been set in bold
+face and appears in the index.
+
+\thing{Typesetting:} This\x{typesetting}
+document was prepared by the author using Andrew
+Trevorrow's\xn{Andrew}{Trevorrow} (\p{akt150@cscgpo.anu.edu.au})\checked{}
+implementation (OzTeX\x{OzTeX}) of the
+\TeX{}/\LaTeX{}\paper{Knuth84}\paper{Lamport86}\x{TeX}\x{LaTeX}
+typesetting system running on a Macintosh-SE.\x{Macintosh}
+
+\thing{Graphics:} All diagrams have been constructed out of text using
+the \LaTeX{}\x{LaTeX} \p{verbatim} environment so as to allow this document to
+be disseminated electronically and printed using \LaTeX{} without access
+to the author's drawing tools.
+
+% I think I've got rid of all the fix-it-up footnotes.
+%\thing{Correction footnotes:} Footnotes\x{footnotes}
+%commencing with dots ($\bullet$) are
+%notes to remind the author about something in the document that must be
+%attended to.\fix{This is an example of such a footnote.} These footnotes
+%will be attended to and eliminated in later versions.
+
+\thing{Known typesetting problems:} While every attempt has been made
+to give a good presentation within the
+time available, some shortcuts have had to be taken. In particular, the author
+has
+been unable to work out how to get \LaTeX{} to suppress blank pages at the
+start of chapters.
+
+%==============================================================================
+
+% No abstract.
+%\pseudochapter{Abstract}
+%\x{abstract}
+
+%==============================================================================%
+%                                End of Ch0.tex                                %
+%==============================================================================%

@@ -1,0 +1,104 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 53 43 30 38 3A 20 44 65 74 65 63 74 69 6F 6E 20 | SC08: Detection  |
+| 6F 66 20 74 72 61 69 6C 69 6E 67 20 73 70 61 63 | of trailing spac |
+| 65 73 2E 0A 0A 54 68 69 73 20 6C 69 6E 65 20 68 | es...This line h |
+| 61 73 20 7A 65 72 6F 20 20 74 72 61 69 6C 69 6E | as zero  trailin |
+| 67 20 73 70 61 63 65 73 20 7C 0A 54 68 69 73 20 | g spaces |.This  |
+| 6C 69 6E 65 20 68 61 73 20 6F 6E 65 20 20 20 74 | line has one   t |
+| 72 61 69 6C 69 6E 67 20 73 70 61 63 65 20 20 7C | railing space  | |
+| 20 0A 54 68 69 73 20 6C 69 6E 65 20 68 61 73 20 |  .This line has  |
+| 74 77 6F 20 20 20 74 72 61 69 6C 69 6E 67 20 73 | two   trailing s |
+| 70 61 63 65 73 20 7C 20 20 0A 54 68 69 73 20 6C | paces |  .This l |
+| 69 6E 65 20 68 61 73 20 74 68 72 65 65 20 74 72 | ine has three tr |
+| 61 69 6C 69 6E 67 20 73 70 61 63 65 73 20 7C 20 | ailing spaces |  |
+| 20 20 0A                                        |   .              |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| SC08: Detection of trailing spaces.<010>
+00002 00002| <010>
+00003 00003| This line has zero  trailing spaces |<010>
+00004 00004| This line has one   trailing space  | <010>
+00005 00005| This line has two   trailing spaces |  <010>
+00006 00006| This line has three trailing spaces |   <010>
+00007 00007| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 2 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="SC08: Detection of trailing spaces.<010>
+<010>
+This line has zero  trailing spaces |<010>
+This line has one   trailing space  | <010>
+This line has two   trailing spaces |  <010>
+This line has three trailing spaces |   <010>
+"
+0007[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+
+========================== Start of MACRO TABLE DUMP ===========================
+
+
+=========================== End of MACRO TABLE DUMP ============================
+
+
+========================= Start of DOCUMENT LIST DUMP ==========================
+
+
+TEXT COMPONENT: Pos(L,C)=(1,1). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="SC08: Detection of trailing spaces.<010>
+<010>
+This line has zero  trailing spaces |<010>
+This line has one   trailing space  | <010>
+This line has two   trailing spaces |  <010>
+This line has three trailing spaces |   <010>
+"
+--- End of Text Scrap List ---
+
+
+========================== End of DOCUMENT LIST DUMP ===========================
+
+E: No macros defined.
+E: No output files specified.
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| SC08: Detection of trailing spaces.
+     2     2| 
+     3     3| This line has zero  trailing spaces |
+     4     4| This line has one   trailing space  | 
+     Warning|......................................^Line has trailing spaces up to and including this space.
+     5     5| This line has two   trailing spaces |  
+     Warning|.......................................^Line has trailing spaces up to and including this space.
+     6     6| This line has three trailing spaces |   
+     Warning|........................................^Line has trailing spaces up to and including this space.
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 2 Errors and 3 Warnings.

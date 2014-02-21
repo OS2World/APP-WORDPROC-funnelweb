@@ -1,0 +1,22 @@
+EX11: This example shows how FunnelWeb typesets macros, typesetter commands
+      and free text.
+
+You are reading some free text before the macro. Free text can consist
+of any text (not containing the FunnelWeb special character) including
+typesetter commands
+such as $, %, #, and \TeX{} which
+will be typeset to appear exactly as they do in the input file!
+Look out! Here comes a macro!
+
+@O@<ex11.out@>==@{@-
+This text is part of
+a macro definition.
+@}
+
+This is free text following the macro. This sentence contains
+two @{inline@} typesetter @/directives@/.
+Now here is a non-inline typesetting directive.
+
+@t new_page
+
+This sentence will appear on the next page.

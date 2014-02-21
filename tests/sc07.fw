@@ -1,0 +1,25 @@
+SC07: Processing of long lines.
+
+SC07.1: Detection of a line longer than the default limit.
+
+The default limit is 80 characters so we will test on either side of
+that:
+         1         2         3         4         5         6         7         8
+12345678901234567890123456789012345678901234567890123456789012345678901234567890
+The above should not trigger a "line too long error". But this line should!------
+
+SC07.3: Test the limit set at infinity.
+
+@p maximum_input_line_length = infinity
+
+         1         2         3         4         5         6         7         8
+12345678901234567890123456789012345678901234567890123456789012345678901234567890
+The above should not trigger a "line too long error". Nor should this one!-------
+
+SC07.3: Test the limit set lower.
+
+@p maximum_input_line_length = 50
+
+         1         2         3         4         5
+12345678901234567890123456789012345678901234567890
+No error for the above but this line will!---------

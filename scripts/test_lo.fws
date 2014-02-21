@@ -1,0 +1,53 @@
+!===========================<Start of test_lo Script>===========================
+!
+! Test With Listing File and Product File
+! ---------------------------------------
+! Inputs:
+!    $1 = Name of the .fw file to be tested (e.g. $1="sc01").
+!    $I = Directory containing .fw   files.
+!    $A = Directory containing Answer files.
+!    $O = Directory to place   Result files.
+!    $D = Name of the differences file.
+! Outputs:
+!    Listing file.
+!    Product file.
+!    Appendage to differences file.
+
+! Announce this test.
+write ""
+write ""
+writeu "Performing Test $1"
+
+! Delete any previous output files.
+eneo $O$1.log
+eneo $O$1.lis
+eneo $O$1.tex
+eneo $O$1.out
+
+! Check input and answer files.
+exists $I$1.fw
+exists $A$1.lis
+exists $A$1.out
+absent $A$1.tex
+
+! Clean input and answer files.
+fixeols $I$1.fw
+fixeols $A$1.lis
+fixeols $A$1.out
+
+! Perform the actual FunnelWeb run.
+! Tolerate means "don't abort on warning, error, or severe".
+tolerate
+fw $I$1.fw +l$O$1.lis +o$O$1.out
+
+! Ensure that only a listing and an product file were generated.
+absent $O$1.log
+absent $O$1.tex
+exists $O$1.lis
+exists $O$1.out
+
+! Compare the results with the answers.
+diff $O$1.lis $A$1.lis $D
+diff $O$1.out $A$1.out $D
+
+!============================<End of test_lo Script>============================

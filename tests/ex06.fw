@@ -1,0 +1,57 @@
+EX06: An example in which Pascal program text is rearranged to form an ADT.
+      This example achieves what EX05 does, but without additive macros.
+
+@!******************************
+
+@O@<ex06.out@>==@{@-
+program adt(input,output);
+@<Types@>
+@<Variables@>
+@<Procedures@>
+begin startproc; end.
+@}
+
+@$@<Types@>==@{@-
+@<Buffer type@>
+@<Complex type@>
+@}
+
+@$@<Variables@>==@{@-
+@<Buffer variable@>
+@}
+
+@$@<Procedures@>==@{@-
+@<Buffer procedures@>
+@<Complex procedures@>
+@}
+
+@!******************************
+
+@$@<Buffer type@>==@{@-
+type buffer_type = record
+                   length : integer;
+                   buf : array[1..100] of char;
+                   end;
+@}
+
+@$@<Buffer variable@>==@{@-
+bigbuf : buffer_type;
+@}
+
+@$@<Buffer procedures@>==@{@-
+procedure buf_init(var b : buffer_type) {Body of buf_init}
+procedure buf_add(var b : buffer_type; ch : char) {Body of buf_add}
+procedure buf_get(var b : buffer_type; var ch : char) {Body of buf_get}
+@}
+
+@!******************************
+
+@$@<Complex type@>==@{@-
+type complex_type = record r,i : real; end;
+@}
+
+@$@<Complex procedures@>+=@{@-
+procedure cm_set(var c: complex_type; a,b : real)  {Body of cm_set}
+procedure cm_add(a,b : complex_type; var c: complex_type) {Body of cm_add}
+{Other procedures and functions}
+@}

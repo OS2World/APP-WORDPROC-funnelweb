@@ -1,0 +1,396 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 50 52 31 30 3A 20 54 65 73 74 20 73 79 6E 74 61 | PR10: Test synta |
+| 63 74 69 63 20 65 72 72 6F 72 20 72 65 63 6F 76 | ctic error recov |
+| 65 72 79 2E 0A 0A 31 2E 20 54 65 73 74 20 72 65 | ery...1. Test re |
+| 63 6F 76 65 72 79 20 61 74 20 74 6F 70 20 70 61 | covery at top pa |
+| 72 73 69 6E 67 20 6C 65 76 65 6C 2E 0A 40 3C 0A | rsing level..@<. |
+| 0A 40 41 40 3C 45 72 72 6F 72 20 72 65 63 6F 76 | .@A@<Error recov |
+| 65 72 79 20 70 6F 69 6E 74 40 3E 0A 0A 32 2E 20 | ery point@>..2.  |
+| 54 65 73 74 20 72 65 63 6F 76 65 72 79 20 69 6E | Test recovery in |
+| 73 69 64 65 20 6D 61 63 72 6F 20 64 65 66 69 6E | side macro defin |
+| 69 74 69 6F 6E 2E 0A 0A 40 24 40 3C 53 6C 6F 74 | ition...@$@<Slot |
+| 68 31 40 3E 40 3E 3D 3D 40 7B 0A 57 61 6C 72 75 | h1@>@>==@{.Walru |
+| 73 40 7D 0A 0A 40 24 40 3C 53 6C 6F 74 68 32 40 | s@}..@$@<Sloth2@ |
+| 3E 3D 3D 40 7B 0A 40 3C 57 61 6C 72 75 73 40 3C | >==@{.@<Walrus@< |
+| 0A 40 7D 0A 40 41 40 3C 45 72 72 6F 72 20 72 65 | .@}.@A@<Error re |
+| 63 6F 76 65 72 79 20 70 6F 69 6E 74 40 3E 0A 0A | covery point@>.. |
+| 33 2E 20 54 65 73 74 20 72 65 63 6F 76 65 72 79 | 3. Test recovery |
+| 20 69 6E 73 69 64 65 20 61 63 74 75 61 6C 20 70 |  inside actual p |
+| 61 72 61 6D 65 74 65 72 20 6C 69 73 74 20 69 6E | arameter list in |
+| 20 6D 61 63 72 6F 20 64 65 66 69 6E 69 74 69 6F |  macro definitio |
+| 6E 2E 0A 40 24 40 3C 53 6C 6F 74 68 33 40 3E 3D | n..@$@<Sloth3@>= |
+| 3D 40 7B 0A 40 3C 57 61 6C 72 75 73 40 3E 40 28 | =@{.@<Walrus@>@( |
+| 40 22 61 61 72 64 76 61 72 6B 40 3E 0A 40 7D 0A | @"aardvark@>.@}. |
+| 40 41 40 3C 45 72 72 6F 72 20 72 65 63 6F 76 65 | @A@<Error recove |
+| 72 79 20 70 6F 69 6E 74 40 3E 0A 0A 34 2E 20 54 | ry point@>..4. T |
+| 65 73 74 20 45 4F 46 20 69 6E 20 74 68 65 20 6D | est EOF in the m |
+| 69 64 64 6C 65 20 6F 66 20 61 20 63 6F 6D 70 6C | iddle of a compl |
+| 69 63 61 74 65 64 20 63 6F 6E 73 74 72 75 63 74 | icated construct |
+| 2E 0A 54 68 65 20 66 6F 6C 6C 6F 77 69 6E 67 20 | ..The following  |
+| 6D 61 6B 65 73 20 74 68 65 20 65 6E 64 20 6F 66 | makes the end of |
+| 20 74 68 65 20 66 69 6C 65 20 6C 6F 6F 6B 65 64 |  the file looked |
+| 20 63 68 6F 70 70 65 64 20 6F 66 66 2C 20 62 75 |  chopped off, bu |
+| 74 20 69 74 20 69 73 0A 61 63 74 75 61 6C 6C 79 | t it is.actually |
+| 20 69 6E 74 65 6E 74 69 6F 6E 61 6C 2E 0A 40 24 |  intentional..@$ |
+| 40 3C 53 6C 6F 74 68 34 40 3E 3D 3D 40 7B 0A 40 | @<Sloth4@>==@{.@ |
+| 3C 57 61 6C 72 75 73 40 3E 40 28 40 22 61 61 72 | <Walrus@>@(@"aar |
+| 64 76 61 0A                                     | dva.             |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| PR10: Test syntactic error recovery.<010>
+00002 00002| <010>
+00003 00003| 1. Test recovery at top parsing level.<010>
+00004 00004| @<<010>
+00005 00005| <010>
+00006 00006| @A@<Error recovery point@><010>
+00007 00007| <010>
+00008 00008| 2. Test recovery inside macro definition.<010>
+00009 00009| <010>
+00010 00010| @$@<Sloth1@>@>==@{<010>
+00011 00011| Walrus@}<010>
+00012 00012| <010>
+00013 00013| @$@<Sloth2@>==@{<010>
+00014 00014| @<Walrus@<<010>
+00015 00015| @}<010>
+00016 00016| @A@<Error recovery point@><010>
+00017 00017| <010>
+00018 00018| 3. Test recovery inside actual parameter list in macro definition.<010>
+00019 00019| @$@<Sloth3@>==@{<010>
+00020 00020| @<Walrus@>@(@"aardvark@><010>
+00021 00021| @}<010>
+00022 00022| @A@<Error recovery point@><010>
+00023 00023| <010>
+00024 00024| 4. Test EOF in the middle of a complicated construct.<010>
+00025 00025| The following makes the end of the file looked chopped off, but it is<010>
+00026 00026| actually intentional.<010>
+00027 00027| @$@<Sloth4@>==@{<010>
+00028 00028| @<Walrus@>@(@"aardva<010>
+00029 00029| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 72 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="PR10: Test syntactic error recovery.<010>
+<010>
+1. Test recovery at top parsing level.<010>
+"
+0004[01]: @< Open name. 
+0004[03]: Text. Text scrap[White]="<010>
+<010>
+"
+0006[01]: @A New section (Level 1). 
+0006[03]: @< Open name. 
+0006[05]: Text. Text scrap[Grey]="Error recovery point"
+0006[25]: @> Close name. 
+0006[27]: Text. Text scrap[Grey]="<010>
+<010>
+2. Test recovery inside macro definition.<010>
+<010>
+"
+0010[01]: @$ Macro defn. 
+0010[03]: @< Open name. 
+0010[05]: Text. Text scrap[Grey]="Sloth1"
+0010[11]: @> Close name. 
+0010[13]: @> Close name. 
+0010[15]: Text. Text scrap[Grey]="=="
+0010[17]: @{ Open defn. 
+0010[19]: Text. Text scrap[Grey]="<010>
+Walrus"
+0011[07]: @} Close defn. 
+0011[09]: Text. Text scrap[White]="<010>
+<010>
+"
+0013[01]: @$ Macro defn. 
+0013[03]: @< Open name. 
+0013[05]: Text. Text scrap[Grey]="Sloth2"
+0013[11]: @> Close name. 
+0013[13]: Text. Text scrap[Grey]="=="
+0013[15]: @{ Open defn. 
+0013[17]: Text. Text scrap[White]="<010>
+"
+0014[01]: @< Open name. 
+0014[03]: Text. Text scrap[Grey]="Walrus"
+0014[09]: @< Open name. 
+0014[11]: Text. Text scrap[White]="<010>
+"
+0015[01]: @} Close defn. 
+0015[03]: Text. Text scrap[White]="<010>
+"
+0016[01]: @A New section (Level 1). 
+0016[03]: @< Open name. 
+0016[05]: Text. Text scrap[Grey]="Error recovery point"
+0016[25]: @> Close name. 
+0016[27]: Text. Text scrap[Grey]="<010>
+<010>
+3. Test recovery inside actual parameter list in macro definition.<010>
+"
+0019[01]: @$ Macro defn. 
+0019[03]: @< Open name. 
+0019[05]: Text. Text scrap[Grey]="Sloth3"
+0019[11]: @> Close name. 
+0019[13]: Text. Text scrap[Grey]="=="
+0019[15]: @{ Open defn. 
+0019[17]: Text. Text scrap[White]="<010>
+"
+0020[01]: @< Open name. 
+0020[03]: Text. Text scrap[Grey]="Walrus"
+0020[09]: @> Close name. 
+0020[11]: @( Open param. 
+0020[13]: @" Quote. 
+0020[15]: Text. Text scrap[Grey]="aardvark"
+0020[23]: @> Close name. 
+0020[25]: Text. Text scrap[White]="<010>
+"
+0021[01]: @} Close defn. 
+0021[03]: Text. Text scrap[White]="<010>
+"
+0022[01]: @A New section (Level 1). 
+0022[03]: @< Open name. 
+0022[05]: Text. Text scrap[Grey]="Error recovery point"
+0022[25]: @> Close name. 
+0022[27]: Text. Text scrap[Grey]="<010>
+<010>
+4. Test EOF in the middle of a complicated construct.<010>
+The following makes the end of the file looked chopped off, but it is<010>
+actually intentional.<010>
+"
+0027[01]: @$ Macro defn. 
+0027[03]: @< Open name. 
+0027[05]: Text. Text scrap[Grey]="Sloth4"
+0027[11]: @> Close name. 
+0027[13]: Text. Text scrap[Grey]="=="
+0027[15]: @{ Open defn. 
+0027[17]: Text. Text scrap[White]="<010>
+"
+0028[01]: @< Open name. 
+0028[03]: Text. Text scrap[Grey]="Walrus"
+0028[09]: @> Close name. 
+0028[11]: @( Open param. 
+0028[13]: @" Quote. 
+0028[15]: Text. Text scrap[Grey]="aardva<010>
+"
+0029[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+
+========================== Start of MACRO TABLE DUMP ===========================
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth1"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 0 body parts.
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth2"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 0 body parts.
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth3"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 0 body parts.
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth4"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 0 body parts.
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+=========================== End of MACRO TABLE DUMP ============================
+
+
+========================= Start of DOCUMENT LIST DUMP ==========================
+
+
+TEXT COMPONENT: Pos(L,C)=(1,1). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="PR10: Test syntactic error recovery.<010>
+<010>
+1. Test recovery at top parsing level.<010>
+"
+--- End of Text Scrap List ---
+
+
+TEXT COMPONENT: Pos(L,C)=(4,3). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "1", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(6,27). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+2. Test recovery inside macro definition.<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "2", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(16,27). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+3. Test recovery inside actual parameter list in macro definition.<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "3", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(22,27). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+4. Test EOF in the middle of a complicated construct.<010>
+The following makes the end of the file looked chopped off, but it is<010>
+actually intentional.<010>
+"
+--- End of Text Scrap List ---
+
+
+========================== End of DOCUMENT LIST DUMP ===========================
+
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| PR10: Test syntactic error recovery.
+     2     2| 
+     3     3| 1. Test recovery at top parsing level.
+     4     4| @<
+       Error|.^The parser was at the top level and was expecting
+            |.^one of: {Directive, Text, Macro definition, EOF}.
+     5     5| 
+     6     6| @A@<Error recovery point@>
+     7     7| 
+     8     8| 2. Test recovery inside macro definition.
+     9     9| 
+    10    10| @$@<Sloth1@>@>==@{
+       Error|.............^Expecting '@{'.
+            |.............^Skipping after error to the next major construct...
+    11    11| Walrus@}
+    12    12| 
+    13    13| @$@<Sloth2@>==@{
+            |.^...skipped to here after the error.
+    14    14| @<Walrus@<
+       Error|.........^Illegal character or symbol in name.
+            |.........^Skipping after error to the next major construct...
+    15    15| @}
+    16    16| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    17    17| 
+    18    18| 3. Test recovery inside actual parameter list in macro definition.
+    19    19| @$@<Sloth3@>==@{
+    20    20| @<Walrus@>@(@"aardvark@>
+       Error|.......................^Expecting '@"'.
+            |.......................^Skipping after error to the next major construct...
+    21    21| @}
+    22    22| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    23    23| 
+    24    24| 4. Test EOF in the middle of a complicated construct.
+    25    25| The following makes the end of the file looked chopped off, but it is
+    26    26| actually intentional.
+    27    27| @$@<Sloth4@>==@{
+    28    28| @<Walrus@>@(@"aardva
+            | <End-Of-File>
+       Error|.^Expecting '@"'.
+            |.^Skipping after error to the next major construct...
+            |.^...skipped to here after the error.
+------------+-------------------------------------------------------------------
+
+There were 5 Errors.

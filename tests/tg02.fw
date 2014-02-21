@@ -1,0 +1,71 @@
+TG02: Test expansions with no indentation.
+
+@p indentation = none
+
+@O@<tg02.out@>@{@-
+@<Poem@>
+
+@<Indentation test@>
+@}
+
+@!******************************************************************************
+
+@A@<Poem Section@>
+
+@$@<Poem@>@{@-
+The other day upon the stair,
+@<Middle@>
+I think he's from the CIA.@}
+
+@$@<Middle@>@{@-
+I met a man who wasn't there.
+@<Second line of middle@>@}
+
+@$@<Second line of middle@>@{He wasn't there @<again@> today,@}
+
+@$@<again@>@{again@}
+
+@!******************************************************************************
+
+@A@<Program Section@>
+
+@$@<Indentation test@>@{@-
+In the output begin0 should be at the left margin, then begin1 to begin wayout
+should be indented by three spaces. Then the "It's scary" should be
+positioned over the "a" ofd margin. The rest should be at the left margin.
+
+begin0
+   @<A@>
+end0@}
+
+
+@$@<A@>@{@-
+begin1
+   @<B@>
+end1@}
+
+@$@<B@>@{@-
+begin2
+   @<C@>
+end2@}
+
+@$@<C@>@{@-
+begin3
+   @<D@>
+end3@}
+
+@$@<D@>@{@-
+begin4
+   @<E@>
+end4@}
+
+@$@<E@>@{@-
+begin wayout----------V
+                      @<wayout@>
+end   wayout----------^@}
+
+@$@<wayout@>@{@-
+It's scary out here
+So far from the left margin.@}
+
+@!******************************************************************************

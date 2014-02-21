@@ -1,0 +1,25 @@
+This is the include file for test SC15. The SC15 test checks to make
+sure that FunnelWeb is saving and restoring three scanning
+attributes across include files. We also want to make sure
+that the scanner is initializing these attributes correctly within
+the include file.
+
+SC15.4: Make sure that the special character is AT at the start of
+include files.
+
+@    - This should yield an error.
+
+SC15.5 Ensure that the maximum input line length is 80 at the start
+of an include file. If all is well, only the second of the following two
+lines will provoke a "line too long" error.
+
+12345678901234567890123456789012345678901234567890123456789012345678901234567890
+123456789012345678901234567890123456789012345678901234567890123456789012345678901
+
+Now that we have checked the default attributes on entering an include file,
+we want to stuff them up so as to make sure that the attributes
+prevailing when the include was hit are restored.
+
+@p maximum_input_line_length = 65
+@=+
+

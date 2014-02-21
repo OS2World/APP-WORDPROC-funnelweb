@@ -1,0 +1,49 @@
+# Simple GNU makefile for funnelweb using gcc/2 under OS/2 2.0. 
+# The distribution of gcc/2 and its libraries used was that current
+# as of 1 December, 1992.
+# This makefile was written for use with GNU make.
+
+CFLAGS = -O2 -Wall
+
+CC = gcc
+
+LINK_OPTS = /A:16 /NOI
+
+FW_OBJS = analyse.obj as.obj clock.obj command.obj data.obj dump.obj help.obj \
+	help_gnu.obj list.obj lister.obj machin.obj main.obj mapper.obj \
+	memory.obj misc.obj option.obj parser.obj scanner.obj section.obj \
+	table.obj tangle.obj texhead.obj weave.obj writfile.obj
+
+all : fw.exe
+.PHONY : all
+
+fw.exe : $(FW_OBJS)
+	link386 $(LINK_OPTS) @funnel.rsp, fw.exe, fw.map, libc, fw
+
+%.obj : %.c
+	$(CC) -c $(CFLAGS) $< -o $@
+
+analyse.obj : style.h environ.h analyse.h as.h data.h clock.h list.h table.h option.h machin.h help.h section.h writfile.h lister.h misc.h analyse.c
+as.obj : style.h environ.h as.h machin.h as.c
+clock.obj : style.h environ.h as.h clock.h machin.h clock.c
+command.obj : style.h environ.h analyse.h as.h command.h machin.h data.h clock.h list.h table.h option.h help.h section.h writfile.h dump.h lister.h memory.h mapper.h misc.h parser.h scanner.h tangle.h weave.h command.c
+data.obj : data.h style.h environ.h clock.h list.h table.h option.h machin.h help.h section.h writfile.h data.c
+dump.obj : style.h environ.h as.h clock.h data.h list.h table.h option.h machin.h help.h section.h writfile.h dump.h misc.h dump.c
+help.obj : style.h environ.h as.h help.h help_gnu.h misc.h data.h clock.h list.h table.h option.h machin.h section.h writfile.h help.c
+help_gnu.obj : style.h environ.h help_gnu.h help_gnu.ctx help_gnu.c
+list.obj : style.h environ.h as.h machin.h memory.h list.h list.c
+lister.obj : style.h environ.h as.h data.h clock.h list.h table.h option.h machin.h help.h section.h writfile.h lister.h misc.h lister.c
+machin.obj : style.h environ.h as.h machin.h machin.c
+main.obj : style.h environ.h as.h command.h machin.h data.h clock.h list.h table.h option.h help.h section.h writfile.h memory.h main.c
+mapper.obj : style.h environ.h as.h machin.h mapper.h memory.h mapper.c
+memory.obj : style.h environ.h as.h machin.h memory.h memory.c
+misc.obj : style.h environ.h as.h data.h clock.h list.h table.h option.h machin.h help.h section.h writfile.h memory.h misc.h misc.c
+option.obj : style.h environ.h as.h data.h clock.h list.h table.h option.h machin.h help.h section.h writfile.h misc.h option.c
+parser.obj : style.h environ.h as.h data.h clock.h list.h table.h option.h machin.h help.h section.h writfile.h lister.h mapper.h memory.h misc.h parser.h parser.c
+scanner.obj : style.h environ.h as.h clock.h data.h list.h table.h option.h machin.h help.h section.h writfile.h dump.h lister.h mapper.h memory.h misc.h scanner.h scanner.c
+section.obj : style.h environ.h as.h section.h section.c
+table.obj : style.h environ.h as.h machin.h memory.h table.h table.c
+tangle.obj : style.h environ.h as.h data.h clock.h list.h table.h option.h machin.h help.h section.h writfile.h lister.h memory.h misc.h tangle.h tangle.c
+texhead.obj : style.h environ.h texhead.h writfile.h texhead.ctx texhead.c
+weave.obj : style.h environ.h as.h data.h clock.h list.h table.h option.h machin.h help.h section.h writfile.h lister.h misc.h texhead.h weave.h weave.c
+writfile.obj : style.h environ.h as.h machin.h writfile.h writfile.c

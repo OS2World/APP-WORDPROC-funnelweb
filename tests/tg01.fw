@@ -1,0 +1,8 @@
+TG01: Test basic output file mechanism and filename inheritance.
+
+The file written will be directory:tg01.out
+@O@<.out@>==@{@-
+Patterson's prayer:
+   "There is nothing I would rather be, than chairman of the ABC."
+      - Les Patterson
+@}

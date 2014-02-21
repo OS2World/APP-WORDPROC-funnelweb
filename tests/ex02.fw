@@ -1,0 +1,8 @@
+EX02: An example that demonstrates the use of simple macros.
+
+@O@<ex02.out@>@{@<Greetings@>@+@}
+
+@$@<H@>==@{Hello@}
+@$@<W@>==@{World@}
+
+@$@<Greetings@>==@{@<H@> @<W@>@}

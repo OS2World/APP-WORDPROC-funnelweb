@@ -1,0 +1,8 @@
+EX09: This example demonstrates the use of include files.
+
+@O@<ex09.out@>==@{
+I like to go shooting, it's a whole lot of fun,
+@i ex09a.fwi
+Cos they know my camera isn't loaded with lead.
+- RNW, 04-Jan-1991.
+@}

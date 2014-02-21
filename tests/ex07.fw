@@ -1,0 +1,30 @@
+EX07: This example demonstrates the use of macro parameters.
+
+@O@<ex07.out@>==@{@<While user code@>@+@}
+
+@$@<While loop@>@(@3@)@M==@{@-
+@1
+while (@2)
+  {
+   @3
+  }
+@}
+
+@$@<While user code@>==@{
+
+@! First form of actual parameters without whitespace and double quotes.
+@<While loop@>@(x=1;@,x<=10@,printf("X=%u\n",x);@)
+
+@! Second form of actual parameters. The double quotes allow non-active
+@! whitespace that helps to lay out the actual parameters neatly.
+@! This call is functionally identical to the one above.
+@<While loop@>@(
+   @"x:=1;@" @,
+   @"x<=10@" @,
+   @"printf("X=%u\n",x);@" @)
+
+@! The two forms can be mixed in a single call.
+@<While loop@>@(x=1;@,x<=10@,
+              @"printf("X=%u\n",x);@" @)
+
+@}

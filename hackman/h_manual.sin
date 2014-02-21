@@ -1,0 +1,326 @@
+\indexentry{.cld file}{18}
+\indexentry{==}{14}
+\indexentry{@M}{23}
+\indexentry{@Z}{23}
+\indexentry{abbreviations identifier}{28}
+\indexentry{acknowledgements}{7}
+\indexentry{Ada}{18}
+\indexentry{Ada}{27}
+\indexentry{Ada}{7}
+\indexentry{adding features}{36}
+\indexentry{Adelaide University}{27}
+\indexentry{analyser}{45}
+\indexentry{Andrew Trevorrow}{9}
+\indexentry{ANSI}{28}
+\indexentry{ANSI}{57}
+\indexentry{antiquated features}{43}
+\indexentry{ASCII mnemonics}{45}
+\indexentry{asking for trouble}{28}
+\indexentry{authority design}{36}
+\indexentry{authority security}{36}
+\indexentry{availability program}{37}
+\indexentry{backwards compatibility}{11}
+\indexentry{Barry Dwyer}{7}
+\indexentry{Begg Jeremy}{7}
+\indexentry{Bentley Jon}{11}
+\indexentry{Bentley86}{11}
+\indexentry{Bentley86}{57}
+\indexentry{blank indentation}{12}
+\indexentry{blank indentation}{12}
+\indexentry{breakout, GNU}{41}
+\indexentry{Brissenden Roger}{7}
+\indexentry{changes dangers}{35}
+\indexentry{coding style}{28}
+\indexentry{command interface}{43}
+\indexentry{command interpreter}{43}
+\indexentry{command line interface design goals}{19}
+\indexentry{command line interface}{18}
+\indexentry{command setall}{43}
+\indexentry{comment duplication}{18}
+\indexentry{Communications of the ACM}{11}
+\indexentry{compatibility backwards}{11}
+\indexentry{compiler ThinkC}{30}
+\indexentry{compiler}{35}
+\indexentry{conditionals}{44}
+\indexentry{contiguous memory}{45}
+\indexentry{copyright law}{38}
+\indexentry{copyright notice}{1}
+\indexentry{copyright}{38}
+\indexentry{correctness}{47}
+\indexentry{counting diagnostic}{43}
+\indexentry{cross references}{46}
+\indexentry{dangers changes}{35}
+\indexentry{dangers indentation}{13}
+\indexentry{dangers languages}{35}
+\indexentry{David Hulse}{27}
+\indexentry{David Hulse}{7}
+\indexentry{DCL}{13}
+\indexentry{derived work}{38}
+\indexentry{design authority}{36}
+\indexentry{design FunnelWeb}{11}
+\indexentry{design goals command line interface}{19}
+\indexentry{design language}{44}
+\indexentry{detection recursion}{45}
+\indexentry{diagnostic counting}{43}
+\indexentry{diagnostic messages}{25}
+\indexentry{diagnostics}{47}
+\indexentry{document structure macro structure}{23}
+\indexentry{document structure}{16}
+\indexentry{document structure}{23}
+\indexentry{documentation out of date}{18}
+\indexentry{documentation}{43}
+\indexentry{Donald Knuth}{11}
+\indexentry{Donald Knuth}{7}
+\indexentry{duplication comment}{18}
+\indexentry{Dwyer Barry}{7}
+\indexentry{efficiency}{47}
+\indexentry{EOL representation}{45}
+\indexentry{example official}{43}
+\indexentry{extensions filename}{20}
+\indexentry{factor glue}{46}
+\indexentry{features adding}{36}
+\indexentry{features antiquated}{43}
+\indexentry{features modification}{35}
+\indexentry{features removing}{35}
+\indexentry{file .cld}{18}
+\indexentry{file extension protection}{37}
+\indexentry{file markers}{44}
+\indexentry{file names}{19}
+\indexentry{file names}{21}
+\indexentry{file signature}{44}
+\indexentry{filename extensions}{20}
+\indexentry{filename inheritance}{20}
+\indexentry{filenames length}{29}
+\indexentry{filenames portable}{21}
+\indexentry{formal parameter list}{44}
+\indexentry{FunnelWeb design}{11}
+\indexentry{FunnelWeb future}{43}
+\indexentry{FunnelWeb history}{27}
+\indexentry{FunnelWeb implementation}{27}
+\indexentry{FunnelWeb management}{39}
+\indexentry{FunnelWeb modification}{35}
+\indexentry{FunnelWeb motivation}{11}
+\indexentry{FunnelWeb official}{39}
+\indexentry{FunnelWeb past use}{27}
+\indexentry{FunnelWeb protection}{37}
+\indexentry{FunnelWeb syntax}{14}
+\indexentry{FunnelWeb V1}{11}
+\indexentry{FunnelWeb version 1}{27}
+\indexentry{FunnelWeb version 2}{27}
+\indexentry{FunnelWeb version 3}{27}
+\indexentry{FunnelWeb writing itself}{28}
+\indexentry{future FunnelWeb}{43}
+\indexentry{genealogy program}{36}
+\indexentry{generic typesetter}{46}
+\indexentry{glue factor}{46}
+\indexentry{GNU breakout}{41}
+\indexentry{GNU license}{35}
+\indexentry{GNU license}{39}
+\indexentry{GNU License}{49}
+\indexentry{GNU version}{41}
+\indexentry{Hackett Simon}{7}
+\indexentry{headings}{16}
+\indexentry{heap memory}{29}
+\indexentry{hierarchical structure}{23}
+\indexentry{history FunnelWeb}{27}
+\indexentry{Hoare80}{36}
+\indexentry{Hoare80}{57}
+\indexentry{Horton90}{28}
+\indexentry{Horton90}{57}
+\indexentry{Hulse David}{27}
+\indexentry{Hulse David}{7}
+\indexentry{identifier abbreviations}{28}
+\indexentry{identifier}{28}
+\indexentry{implementation FunnelWeb}{27}
+\indexentry{include file suppression}{46}
+\indexentry{indentation blank}{12}
+\indexentry{indentation dangers}{13}
+\indexentry{indentation no}{12}
+\indexentry{indentation text}{12}
+\indexentry{indentation text}{30}
+\indexentry{indentation text}{45}
+\indexentry{indentation}{12}
+\indexentry{indentation}{12}
+\indexentry{indented macro call}{12}
+\indexentry{index program}{43}
+\indexentry{inheritance filename}{20}
+\indexentry{interface command line}{18}
+\indexentry{interface command}{43}
+\indexentry{interpreter command}{43}
+\indexentry{interpreter shell}{43}
+\indexentry{invocations number}{22}
+\indexentry{issues miscellaneous}{18}
+\indexentry{Jeremy Begg}{7}
+\indexentry{Jon Bentley}{11}
+\indexentry{Kernighan88}{28}
+\indexentry{Kernighan88}{57}
+\indexentry{Knuth Donald}{11}
+\indexentry{Knuth Donald}{7}
+\indexentry{Knuth83}{11}
+\indexentry{Knuth83}{57}
+\indexentry{Knuth84}{57}
+\indexentry{Knuth84}{9}
+\indexentry{Lamport86}{57}
+\indexentry{Lamport86}{9}
+\indexentry{language design}{44}
+\indexentry{languages dangers}{35}
+\indexentry{LaTeX}{9}
+\indexentry{LaTeX}{9}
+\indexentry{law copyright}{38}
+\indexentry{leakage memory}{30}
+\indexentry{length filenames}{29}
+\indexentry{license GNU}{35}
+\indexentry{license GNU}{39}
+\indexentry{License GNU}{49}
+\indexentry{license}{38}
+\indexentry{lister}{46}
+\indexentry{Macintosh}{29}
+\indexentry{Macintosh}{30}
+\indexentry{Macintosh}{9}
+\indexentry{macro call syntax}{16}
+\indexentry{macro definition syntax}{14}
+\indexentry{macro structure document structure}{23}
+\indexentry{macro structure}{23}
+\indexentry{make}{44}
+\indexentry{malloc}{29}
+\indexentry{management FunnelWeb}{39}
+\indexentry{manuals modifying}{38}
+\indexentry{mapper}{44}
+\indexentry{markers file}{44}
+\indexentry{memory contiguous}{45}
+\indexentry{memory heap}{29}
+\indexentry{memory leakage}{30}
+\indexentry{memory package}{29}
+\indexentry{memory stack}{30}
+\indexentry{memory static}{30}
+\indexentry{memory use of}{29}
+\indexentry{messages diagnostic}{25}
+\indexentry{miscellaneous issues}{18}
+\indexentry{mnemonics ASCII}{45}
+\indexentry{modification features}{35}
+\indexentry{modification FunnelWeb}{35}
+\indexentry{modifying manuals}{38}
+\indexentry{motivation FunnelWeb}{11}
+\indexentry{MSDOS}{29}
+\indexentry{names file}{19}
+\indexentry{names file}{21}
+\indexentry{naming pointers}{29}
+\indexentry{naming types}{29}
+\indexentry{no indentation}{12}
+\indexentry{no indentation}{12}
+\indexentry{notice copyright}{1}
+\indexentry{number invocations}{22}
+\indexentry{number output files}{12}
+\indexentry{numbering section}{23}
+\indexentry{Occam's razor}{12}
+\indexentry{official example}{43}
+\indexentry{official FunnelWeb}{39}
+\indexentry{options}{43}
+\indexentry{out of date documentation}{18}
+\indexentry{output files number}{12}
+\indexentry{OzTeX}{9}
+\indexentry{package memory}{29}
+\indexentry{parameter list formal}{44}
+\indexentry{parameterized macro call syntax}{16}
+\indexentry{parameterized macro definitions syntax}{15}
+\indexentry{parser}{45}
+\indexentry{Pascal}{12}
+\indexentry{past use FunnelWeb}{27}
+\indexentry{Ph.D.}{27}
+\indexentry{pointers naming}{29}
+\indexentry{portability}{28}
+\indexentry{portable filenames}{21}
+\indexentry{pragma syntax}{44}
+\indexentry{pragma version}{45}
+\indexentry{preface}{5}
+\indexentry{presentation notes}{9}
+\indexentry{program availability}{37}
+\indexentry{program genealogy}{36}
+\indexentry{program index}{43}
+\indexentry{programming pearls}{11}
+\indexentry{protection file extension}{37}
+\indexentry{protection FunnelWeb}{37}
+\indexentry{Rabinowitz90}{28}
+\indexentry{Rabinowitz90}{28}
+\indexentry{Rabinowitz90}{57}
+\indexentry{Ramsey89}{46}
+\indexentry{Ramsey89}{57}
+\indexentry{recursion detection}{45}
+\indexentry{recursion test}{43}
+\indexentry{references cross}{46}
+\indexentry{references}{57}
+\indexentry{regression testing}{18}
+\indexentry{removing features}{35}
+\indexentry{representation EOL}{45}
+\indexentry{Robert Endre Tarjan}{45}
+\indexentry{Roger Brissenden}{7}
+\indexentry{Ross Williams}{1}
+\indexentry{scanner}{44}
+\indexentry{section numbering}{23}
+\indexentry{section syntax}{44}
+\indexentry{sections}{16}
+\indexentry{security authority}{36}
+\indexentry{setall command}{43}
+\indexentry{shell interpreter}{43}
+\indexentry{signature file}{44}
+\indexentry{Simon Hackett}{7}
+\indexentry{size stack}{30}
+\indexentry{South Australian Government Department of Lands}{28}
+\indexentry{speed}{47}
+\indexentry{spider}{46}
+\indexentry{stack memory}{30}
+\indexentry{stack size}{30}
+\indexentry{static memory}{30}
+\indexentry{static variables}{30}
+\indexentry{strength typesetting}{46}
+\indexentry{structure document}{16}
+\indexentry{structure document}{23}
+\indexentry{structure hierarchical}{23}
+\indexentry{structure macro}{23}
+\indexentry{style coding}{28}
+\indexentry{suite test}{47}
+\indexentry{suppression include file}{46}
+\indexentry{syntax FunnelWeb}{14}
+\indexentry{syntax macro call}{16}
+\indexentry{syntax macro definition}{14}
+\indexentry{syntax parameterized macro call}{16}
+\indexentry{syntax parameterized macro definitions}{15}
+\indexentry{syntax pragma}{44}
+\indexentry{syntax section}{44}
+\indexentry{table of contents}{45}
+\indexentry{tangle}{45}
+\indexentry{Tarjan Robert Endre}{45}
+\indexentry{Tarjan72}{45}
+\indexentry{Tarjan72}{57}
+\indexentry{test recursion}{43}
+\indexentry{test suite}{47}
+\indexentry{testing regression}{18}
+\indexentry{text indentation}{12}
+\indexentry{text indentation}{12}
+\indexentry{text indentation}{30}
+\indexentry{text indentation}{45}
+\indexentry{TeX}{23}
+\indexentry{TeX}{9}
+\indexentry{ThinkC compiler}{30}
+\indexentry{trademark}{36}
+\indexentry{Trevorrow Andrew}{9}
+\indexentry{trouble asking for}{28}
+\indexentry{types naming}{29}
+\indexentry{typesetter generic}{46}
+\indexentry{typesetting strength}{46}
+\indexentry{typesetting}{9}
+\indexentry{University Adelaide}{27}
+\indexentry{Unix}{36}
+\indexentry{USDOD83}{27}
+\indexentry{USDOD83}{57}
+\indexentry{use of memory}{29}
+\indexentry{variables static}{30}
+\indexentry{vax vms}{18}
+\indexentry{version GNU}{41}
+\indexentry{version pragma}{45}
+\indexentry{video game}{35}
+\indexentry{vms vax}{18}
+\indexentry{weave}{45}
+\indexentry{Williams Ross}{1}
+\indexentry{work}{38}
+\indexentry{writing itself FunnelWeb}{28}

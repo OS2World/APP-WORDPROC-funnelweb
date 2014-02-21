@@ -1,0 +1,26 @@
+SC23: Test syntax checking of output line length pragma.
+
+1. Test not three arguments.
+@p maximum_output_line_length
+@p maximum_output_line_length =
+@p maximum_output_line_length = xxx yyy
+
+2. Test second argument not "=".
+@p maximum_output_line_length x sloth
+
+3. Test value of infinity.
+@p maximum_output_line_length = infinity
+
+4. Test non-decimal digit in number.
+@p maximum_output_line_length = 2ef
+
+5. Test number is more than eight digits long.
+@p maximum_output_line_length = 123456789
+
+6. Test number is exactly eight digits long.
+7. Test pragma opposing earlier pragma.
+@p maximum_output_line_length = 12345678
+
+8. Test pragma not opposing earlier pragma.
+@p maximum_output_line_length = infinity
+

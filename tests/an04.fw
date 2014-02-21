@@ -1,0 +1,14 @@
+AN04: Test document list checks.
+
+1. Test for sections with no names.
+
+@A@<This section has both a name and a macro@>
+@$@<Sloth@>@Z@{@}
+
+@A@<This section has an explicit name but no macro@>
+
+@A
+@$@<This section has no explicit name but does have a macro@>@Z@{@}
+
+@A This section has no name and no macro to inherit one from.
+

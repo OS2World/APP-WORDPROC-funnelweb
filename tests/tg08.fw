@@ -1,0 +1,14 @@
+TG08: Test include files and output generation.
+
+@O@<tg08.out@>@{@-
+@<Macbeth ripoff@>
+
+@<Hamlet ripoff@>
+@}
+
+@$@<Hamlet ripoff@>@{@-
+Now might I drink hot jolt cola
+@i tg08a
+Its contours moulded for my hand?
+Come, let me clutch thee!@}
+

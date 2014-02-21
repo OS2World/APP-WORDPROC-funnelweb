@@ -1,0 +1,23 @@
+SC22: Test syntax checking of input line length pragma.
+
+1. Test not three arguments.
+@p maximum_input_line_length
+@p maximum_input_line_length =
+@p maximum_input_line_length = xxx yyy
+
+2. Test second argument not "=".
+@p maximum_input_line_length x sloth
+
+3. Test value of infinity.
+@p maximum_input_line_length = infinity
+
+4. Test non-decimal digit in number.
+@p maximum_input_line_length = 2ef
+
+5. Test number is more than eight digits long.
+@p maximum_input_line_length = 123456789
+
+6. Test number is exactly eight digits long.
+@p maximum_input_line_length = 12345678
+
+

@@ -1,0 +1,1107 @@
+%==============================================================================%
+%                              Start of Ch1.tex                                %
+%==============================================================================%
+%
+% Copyright
+% ---------
+% Copyright (C) 1992 Ross N. Williams.
+% This file contains a chapter of the FunnelWeb Hacker's Manual.
+% See the main TeX file for this manual for further information.
+%
+%==============================================================================%
+
+\chapter{FunnelWeb Design}
+\label{chapdesign}\xx{FunnelWeb}{design}
+
+This chapter contains notes on the design of FunnelWeb. These notes were
+not created \dq{from scratch}, as the original
+version of FunnelWeb (\newterm{FunnelWeb V1}) was designed
+and constructed in a hurry late in 1986, and no design notes were ever
+recorded.
+These notes are in fact the result of a complete review of the
+FunnelWeb design that took place in late 1991 as part
+of the process of upgrading it for public release.
+
+Throughout the design process I tried to stick to the principles of
+simplicity and clarity. As a rule, it was considered more important
+that a feature be simple and not allow the user to outsmart himself than it
+was for the feature to be particularly crisp. For example, the FunnelWeb
+macro calling syntax is not as crisp as the C syntax, but is
+more visible.
+
+To some extent the design review was influenced by the requirements of
+backward compatibility.\xx{backwards}{compatibility}
+During the review it was hard not to think about
+all the source files in FunnelWeb~V1 format that I have written over the
+years that would have to be
+converted were I to significantly deviate from the old input language.
+Luckily it turned out that there was little clash between these
+interests, and the resulting design is both clean and does not require
+much conversion of old source files.
+The main revision is in the document structuring facility.
+FunnelWeb~V1 had just two levels of heading indicated by \p{@*@*}
+(for major headings) and
+\p{@*} (for minor headings). This scheme (which was copied from Knuth's
+Web) has been replaced by a hierarchical scheme of five heading levels
+levels (\p{@A}$\ldots$\p{@E}).
+
+This chapter is rather unstructured, acting as it has, mainly as a
+dumping ground for random ideas about FunnelWeb.
+
+\section{Motivation for FunnelWeb}
+\xx{FunnelWeb}{motivation}
+
+During 1986, I was exposed to Donald Knuth's\xn{Donald}{Knuth}
+\p{WEB} literate
+programming system in the
+form of Jon Bentley's\xn{Jon}{Bentley}
+\i{Programming  Pearls}\x{programming pearls}
+column in \i{Communications\x{Communications of the ACM} of
+the ACM}\/\paper{Bentley86}.\footnote{As it happens, this was somewhat of a
+lucky encounter. I had only just joined the ACM and
+the May 1986 issue of CACM in which the column appeared was the first
+issue I received.} This  prompted me to obtain  a copy of the
+report on the Web system\paper{Knuth83}
+and to try out the program which had been installed on the local Vaxen.
+
+Web was  the best system that I had seen  for producing printed and
+online, inline  documentation. To me
+the most  extraordinary aspect of the  system was
+its success despite the fact that it had been built into the horribly antiquated
+file/batch processing systems that we all know  and love (and use). I had
+imagined sophisticated documentation systems before this time, but had always
+assumed that they would be parts of complex programming environments.
+Knuth showed that, to some extent, it can be done using 1960s
+software technology (excluding the 1980s typesetting technology).
+This was exciting.
+
+The Web  system was  enticing and promising  but to me suffered  from many
+drawbacks, many of which Knuth had  promoted as advantages. The following highly
+subjective list  of disadvantages formed  a springboard for the  construction of
+FunnelWeb.
+
+\begin{itemize}
+
+\item Web can only process Pascal\x{Pascal} programs.
+
+\item Web can produce only one output file. In many instances it is
+desirable to generate  more than one output file. For  example, when programming
+in Ada,  it is  desirable to write  a package specification  and a  package body
+together in the same file.\xx{number}{output files}
+
+\item  Web  enforces  Knuth's  individual style  of  indentation.  Web  supplies
+commands to over-ride  the automatic indentation but it is  an uphill battle and
+the code becomes clogged up with format directives.\x{indentation}
+
+\item Web  does not cater for  non-standard Pascal programs. In  particular, all
+identifiers are truncated to about eight characters.
+
+\item Web  formats the  program output file  into a form  that is  unreadable to
+humans.
+
+\item  Web does  not  provide an include facility.
+This  was considered a feature essential for supporting macro libraries.
+
+\item Web provides macros with at most one parameter. Knuth
+describes a hack that can
+extract a multiple parameter macro facility  from a single parameter one,
+but it is hardly satisfactory.
+
+\item Web does not provide conditionals.
+
+\end{itemize}
+
+Most  of these  objections boiled  down  to two points:
+that Web  is far  too
+specialized, and that Knuth's \dq{Occam's Razor}\x{Occam's razor}
+had cut too far.
+What I wanted was
+a documentation system that employed  all the same principles as Web
+but was far
+more  general. The  result  was FunnelWeb~V1,  which can
+process  programs in  any
+language or any combination of languages at  the cost of typesetting the text in
+\p{tt font}.
+
+Originally, it  was intended that  FunnelWeb would be typesetter  independent as
+well as language independent. It was intended that a format file consisting of a
+set of productions describing how the document file was to be formatted would be
+handed to FunnelWeb along with the input file. In the end, time pressures forced
+me to take the back door and hack up a \TeX{} document file generator. This
+compromise has found its way into FunnelWeb~V3.0 which is still reliant
+on \TeX{}, although V3.0 at least encourages input files to be typesetter
+independent. It is hoped that future versions of FunnelWeb will include
+more sophisticated typesetting facilities.
+
+\section{Indentation}
+\x{indentation}\xx{indentation}{no}%
+\xx{indentation}{blank}\xx{indentation}{text}
+
+A macro call that does not appear at the left margin is called an
+\newterm{indented macro call} and seems to lead to three different
+alternatives for its expansion: \newterm{no indentation}, \newterm{blank
+indentation}, and \newterm{text indentation}. Here are examples of each kind
+of indentation. First the example problem.
+
+\begin{verbatim}
+@$@<Sloth@>==@{@-
+Aardvark
+Walrus@}
+
+@O@<Output@>==@{@-
+Zebra@<Sloth@>
+Giraffe
+@}
+\end{verbatim}
+
+There are three ways that the second line of the \p{Sloth} macro
+can be indented.
+
+\thing{No indentation:}
+\begin{verbatim}
+     ZebraAardvark
+     Walrus
+     Giraffe
+\end{verbatim}
+
+\thing{Blank indentation:}
+\begin{verbatim}
+     ZebraAardvark
+          Walrus
+     Giraffe
+\end{verbatim}
+
+\thing{Text indentation:}
+\begin{verbatim}
+     ZebraAardvark
+     ZebraWalrus
+     Giraffe
+\end{verbatim}
+
+No indentation is useful where the user wishes to deal with the output
+stream as a pure output stream. Blank indentation is useful when the user
+wishes to generate indented computer programs.
+Text indentation is useful where the user wishes to prefix each line of an
+entire macro invocation with a string. This can be useful for
+commenting out code (\eg{}in Ada using \p{--}), and for prepending things
+like a dollar sign at the start of each line an a VAX VMS DCL script
+command file.\x{DCL}
+
+FunnelWeb~V1 provided a choice of no indentation or blank indentation.
+The choice was made in the command line and could not be overridden.
+
+The design questions are as follows:
+
+\begin{enumerate}
+\item Which of the three kinds of indentation should FunnelWeb support?
+\item What should be the granularity of swapping between indentation modes?
+\item Are particular indentation modes dangerous?
+\item Is the presence of particular combinations of indentation modes
+      confusing to the user?
+\item How and when should the choice of indentation be specified?
+\end{enumerate}
+
+All sorts of schemes were considered, including a finely grained system in
+which the user could specify at the point of call which indentation mode
+should be used for the called macro expansion.
+
+After a lot of thought, the dominant factor that should affect the design
+was decided to be the \i{clarity} in the user's mind of the indentation facility
+and the \i{danger} associated with misunderstanding it. Here are two 
+examples that show how easily a confusion or
+misunderstanding of the indenting being used can cause danger.
+The first example shows how blank or no indentation might be
+misused.
+
+\begin{verbatim}
+--Misuse of blank (and no) indentation.
+--@<Sloth@>
+\end{verbatim}
+
+Here the user has assumed that text indentation is in action and has
+placed an Ada comment symbol \dqp{--} before the invocation of the macro
+\p{@<Sloth@>} in the hope that the entire text of the macro would be prefixed by
+\dqp{--}. The result could be passed by the compiler which would activate all
+but the first statement in the expansion of macro \p{@<Sloth@>}.
+
+The next example demonstrates how text indentation could be
+misused.\xx{indentation}{dangers}
+
+\begin{verbatim}
+--Misuse of text indentation:
+a++; @<Sloth@>
+\end{verbatim}
+
+Here the user has placed the call to \p{@<Sloth@>} after the incrementing of
+variable
+\p{a}. The result is that there is a good chance that the \dqp{a++;}
+prepended to
+each line of the expansion of \p{@<Sloth@>} will be passed by the compiler and
+will cause \p{a} to be overincremented.
+
+These examples are not to be laughed at. It is possible that FunnelWeb will
+be used widely, and the problems above may cause problems in critical systems.
+The examples above are particularly scary because they are reflexive. One cannot
+simply pin the blame on one particular indentation form. A little thought
+reveals that the greatest danger lies in \i{confusion} in the user's mind.
+If the
+user is confused between text or blank indenting, problems will arise.
+
+There seem to be two ways to solve the problem. The first is to ban all
+macro calls that are preceded by non-blank text. This is not a good option
+because there are so many cases where it is desirable to expand more than one
+single line macros on the same line. A second option is to eliminate one of
+the two forms so as to reduce the potential for ambiguity in the user's
+mind. I choose the latter option. Of the two forms, the clear choice for
+elimination is text indenting for the following reasons:
+
+\begin{enumerate}
+\item It actually introduces extra text which gives it an a priori
+      potential for problems.
+\item It is harder to implement and would slow down Tangle.
+\item It would not be compatible with FunnelWeb~V1 which uses blank
+      indentation.
+\end{enumerate}
+
+The only other decision is the level of granularity of choice between the
+remaining options: no indentation and blank indentation. FunnelWeb~V1
+allowed this choice to be made in the command line. In retrospect, this
+was bad design because the user might unwittingly code certain macro calls
+relying on one or the other mode. A better system is to allow the user
+to specify which mode in the input file itself. This has been done in
+FunnelWeb~V3.
+
+Again, to avoid confusion, it seems sensible to allow the user only
+one indentation mode per FunnelWeb input file. In most cases, the user
+will be happy with blank indentation (the default) and there will be
+no need for change anyway.
+
+\thing{Decision:} Implement only \dq{no indentation} and \dq{blank indentation}.
+Make the
+choice of indentation a static attribute of a particular FunnelWeb run
+that is specified in the input file. This solution is the same as FunnelWeb~V1
+except that the choice has been moved from the command line to the
+input file.
+
+\section{Review of FunnelWeb Syntax}
+\xx{FunnelWeb}{syntax}
+
+One of the distressing aspects of FunnelWeb~V1 was its clumsy macro
+definition and calling syntax.
+Compared to (say) the C preprocessor, FunnelWeb's macro call syntax is
+like a freight train in a china show.
+During the FunnelWeb redesign, a complete review of this syntax took place to
+try to neaten it up. Surprisingly, the V1 syntax survived unscathed
+with the exception that \dqp{==}\x{==} in macro definitions was made optional.
+The survival of this clumsy syntax was a product of the design goal of
+making everything simple, explicit, and not subject to subtle errors.
+
+\subsection{Review of Macro Definition Syntax}
+\xx{macro definition}{syntax}
+
+FunnelWeb~V1 used a macro definition syntax that resulted in macro
+definitions such as the following.
+
+\begin{verbatim}
+@$@<Put out the cat@>==@{@-
+Open the door
+Say out
+Close the door@}
+\end{verbatim}
+
+This is messy, but I couldn't think of anything better at the time.
+The \p{@\$} is necessary to cue a definition. Without it, the definition
+might somehow be mistaken for an invocation.
+The \p{@<} and \p{@>} delimit the name.
+The \p{@$\{$} and \p{@$\}$} delimit the text.
+The \p{@-} is a product of the rule
+\dq{exactly the text between the \p{@$\{$} and \p{@$\}$}}.
+
+The only real target is the \dqp{+=} and \dqp{==} which really break all
+the rules
+and should be changed. Unfortunately I couldn't
+think of anything to change them
+to. If there was no \p{+=} mechanism, we could use:
+
+\begin{verbatim}
+@$@<Put out the cat@>@{
+Open the door
+Say out
+Close the door@}
+\end{verbatim}
+
+In fact, eliminating \p{+=} is thinkable because it does not appear in
+many of my existing FunnelWeb source files. This indicates at least that
+it was not needed much by myself.
+
+A minimalist construct could be
+
+\begin{verbatim}
+@<Put out the cat@>
+Open the door
+Say out
+Close the door@}
+\end{verbatim}
+
+but this is too dangerous for my tastes.
+
+\thing{Decision:} For compatibility reasons,
+retain the old \p{+=} and \p{==} constructs, but make them optional.
+The new syntax for defining macros is:
+
+\begin{verbatim}
+@$@<Put out the cat@>@{
+Open the door
+Say out
+Close the door@}
+\end{verbatim}
+
+Next we turn to parameterized macro
+definitions.\xx{parameterized macro definitions}{syntax}
+A conventional FunnelWeb parameterized macro definition looks like this:
+
+\begin{verbatim}
+@$@<Put out the cat@>@(@3@)==@{@-
+Open the door
+Say out
+Close the door@}
+\end{verbatim}
+
+which is a bit messy. The natural alternative is even worse:
+
+\begin{verbatim}
+@$@<Put out the cat@>@(@1@,@2@,@3@)==@{@-
+Open the door
+Say out
+Close the door@}
+\end{verbatim}
+
+Thus, just specifying the number of parameters seems sensible. However,
+perhaps the syntax could be trimmed to
+
+\begin{verbatim}
+@$@<Put out the cat@>@3==@{@-
+Open the door
+Say out
+Close the door@}
+\end{verbatim}
+
+I decided to reject this in favour of the old syntax.
+
+\thing{Decision:} Retain the old syntax of $\ldots$\p{@(@3@)}$\ldots$
+
+\subsection{Review of Macro Call Syntax}
+\xx{macro call}{syntax}
+
+Here are some ideas for alternatives to the FunnelWeb~V1 macro call syntax.
+
+\begin{verbatim}
+Open the door
+@<Say Out@>         @! FunnelWeb~V1 style.
+Close the door
+
+Open the door
+@<Say out>@
+Close the door
+
+Open the door
+@"Say out@"
+Close the door
+
+Open the door
+@(Say out@)
+Close the door
+
+Open the door
+@<Say out>
+Close the door
+\end{verbatim}
+
+\thing{Decision:} Continue with the old notation. It may not be neat, but at
+least it is clear and consistent. The main temptation is the format
+\p{@<say out>@}
+which looks rather good. However, it breaks the special sequence
+rational and hence is too confusing.
+
+\subsection{Review of Parameterized Macro Call Syntax}
+\xx{parameterized macro call}{syntax}
+
+FunnelWeb~V1 provided a messy parameterized macro call syntax:
+
+\begin{verbatim}
+@<Say Out@>@(@"firstparam@" @, @"Secondparam@" @, @"thirdparam@" @)
+\end{verbatim}
+
+This syntax can be cleaned up considerably by making the \p{@"} symbols
+optional. This results in calls such as the following:
+
+\begin{verbatim}
+@<Say Out@>@(firstparam@,Secondparam@,thirdparam@)
+\end{verbatim}
+
+As the first form allows the alignment of complicated parameters by
+allowing white space to be inserted outside the \p{@"}, and the second
+form is cleaner, both are retained simply by making the quotes optional.
+
+\thing{Decision:} Make the double quotes optional.
+
+\section{Document Structuring}
+\xx{document}{structure}\x{headings}\x{sections}
+
+Experience with FunnelWeb~V1, which provided only two levels of
+headings (major and minor)
+proved that there was a strong need for fully hierarchical
+multiple-level headings.
+The only question was how it should be done.
+
+Here are some ideas that were considered.
+
+\begin{verbatim}
+@*@<Main Program@>
+@**@<Read the Message@>
+@***@<Encrypt the Buffer@>
+
+@*@<Main Program@>
+@*@*@<Read the Message@>
+@*@*@*@<Encrypt the Buffer@>
+
+@s@<Main Program@>
+@ss@<Read the Message@>
+@sss@<Encrypt the Buffer@>
+
+@s@<Main Program@>
+@s@s@<Read the Message@>
+@s@s@s@<Encrypt the Buffer@>
+
+@S@<Main Program@>
+@SS@<Read the Message@>
+@SSS@<Encrypt the Buffer@>
+
+@S@<Main Program@>
+@S@S@<Read the Message@>
+@S@S@S@<Encrypt the Buffer@>
+
+@A@<Main Program@>           -- The syntax finally chosen.
+@B@<Read the Message@>
+@C@<Encrypt the Buffer@>
+
+@A Main Program
+@B Read the Message
+@C Encrypt the Buffer
+
+@*A Main Program
+@*B Read the Message
+@*C Encrypt the Buffer
+
+@1@<Main Program@>
+@2@<Read the Message@>
+@3@<Encrypt the Buffer@>
+(using @A..@I@ as macro parameters or overload @1..@9)
+
+@*@1@<Main Program@>
+@*@2@<Read the Message@>
+@*@3@<Encrypt the Buffer@>
+(using @A..@I@ as macro parameters or overload @1..@9)
+\end{verbatim}
+
+Choosing between these alternatives was not easy. The following thoughts
+contributed to the decision.
+
+\begin{itemize}
+
+\item Syntaxes that require visual counting are probably not a good idea.
+
+\item Syntaxes that do not delimit the heading name somehow are likely
+to cause problems where heading names are omitted. Users will be
+tempted to start paragraphs after the start of heading symbol and the
+result is that the first line of the paragraph will be sucked into the
+heading.
+
+\item Overloading the \p{@1}, $\ldots$, \p{@9} sequences is undesirable.
+
+
+\end{itemize}
+
+\thing{Decision:} Use \p{@A}$\ldots$\p{@E} with optional following
+macro name syntax for the section name.
+Note: We stop at \p{@E} because five levels is probably sufficient, and we
+may wish later to use \p{@F} for \b{F}ile (to augment or replace \p{@O}).
+
+
+\section{Discussion of Some Miscellaneous Issues}
+\xx{miscellaneous}{issues}
+
+\thing{Comment duplication:} If\xx{comment}{duplication}
+the FunnelWeb user inserts
+comments into the target code (in the \p{.fw} file) as well as into the
+documentation (free text)
+part of the \p{.fw} file, then it is possible for the
+situation to get a bit silly. \b{Decision:} This is a problem for the
+programmer, not for FunnelWeb.
+
+\thing{Out-of-date documentation:} Sometimes\xx{out of date}{documentation}
+it is all too easy for the
+programmer to modify the code without updating the surrounding documentation.
+\b{Decision:} This is a serious and major problem. In an automated environment,
+it may be possible to create a system of dependencies between scraps of
+code and scraps of documentation. However, it is hard to see how a tool
+such as FunnelWeb could provide support for prevention of this sort of error.
+
+\thing{Meta-macro-level parameterization:} Sometimes, when using FunnelWeb,
+the facility to use one macro to construct the name of another has been
+needed. \b{Decision:} Allowing macro names
+to be constructed would lose the simple
+nature of the preprocessor and so this suggestion is rejected.
+
+\thing{Clumsy notation:} The \p{@} notation can be clumsy.
+\b{Decision:} This is necessary to maintain the simplicity of the translation.
+
+\section{Automated Regression Testing}
+\xx{regression}{testing}
+
+Automated regression testing is extremely important for two reasons:
+
+\begin{enumerate}
+
+\item It provides confidence that changes made to the program have
+not introduced bugs.
+
+\item It allows portability problems to be pinpointed when the program is
+moved to a new machine.
+
+\end{enumerate}
+
+The simplest way to set up automated regression testing is to construct
+a suite of test cases (and their solutions) and then write a
+script in the target machine's command language to run through the suite.
+Unfortunately, there is no command language that is shared among the
+machines to which FunnelWeb must be ported. These machines are at least:
+Macintosh, IBM-PC, Sun, VMS Vax.
+
+One option is simply to rewrite the script in each machine's particular
+command language. This would be a feasible option were it not for the fact
+that the Macintosh (the machine upon which FunnelWeb was developed) does
+not have a command language!
+
+After some thought, I decided that the best solution to the problem was
+to create a command language \i{within FunnelWeb}. FunnelWeb could then
+be invoked in two modes, one-shot command line or interactive/script. This
+approach had the benefit of providing total control over the command
+language and its complete portability.
+
+The result is described in the \i{FunnelWeb User's Manual}.
+
+\section{Command Line Interface}
+\xx{command line}{interface}
+
+FunnelWeb~V1 was implemented in Ada\x{Ada} and runs on a VMS VAX.\xx{vms}{vax}
+As such it
+has a full VMS DCL command line interface. Here is the \dqp{.CLD}
+file\xx{.cld}{file} for the
+DCL command line interface.
+
+\beginsmall
+\begin{verbatim}
+! FUNNELWEB Command Definition
+! ============================
+! Ross Williams. 28 April 1987.
+
+module command_table
+   define verb dummy_command
+   parameter p1           , label=input_file   ,value(required,type=$file)
+   qualifier include_files, label=include_files,value(type=$file) ,default
+   qualifier output_files , label=output_files ,value(type=$file) ,default
+   qualifier delete       , label=delete                          ,default
+   qualifier tex_file     , label=tex_file     ,value(type=$file) ,default
+   qualifier listing_file , label=listing_file ,value(type=$file) ,default
+   qualifier brief        , label=brief,value(type=$number,default=5),default
+   qualifier screen       , label=screen       ,value(type=$number,default=0)
+   qualifier trace        , label=trace
+   qualifier file_spec    , label=file_spec
+   qualifier compare
+\end{verbatim}
+\endsmall
+
+As portability was a key goal of FunnelWeb~V3, it was obvious that the
+command line interface would have to be redesigned. The design goals for the
+new command line interface were:\xx{design goals}{command line interface}
+
+\begin{enumerate}
+
+\item The interface should not \i{depend} on case. However, it must allow
+      case-sensitive filenames to be transmitted on systems that have
+      case-sensitive filenames.
+
+\item Each option must have a symmetric positive and negative form. For
+      example, it is confusing for \p{-X} to turn on a feature and \p{-Q}
+      to turn it off.
+
+\item The interface must be extensible to allow inclusion of more features
+      at a later date.
+
+\item Options should be consistent and memorable.
+
+\end{enumerate}
+
+The result is described in the \i{FunnelWeb User's Manual}.
+
+\section{File Name Management}
+\xx{file}{names}
+
+File names present a host of problems for a program like FunnelWeb.
+First, FunnelWeb can generate so many different kinds of files that
+conventions must be adopted to prevent them from becoming unmanageable.
+Second, the constraints on file names, and even the structure of file
+names themselves varies considerably from machine to machine. These two
+problems have combined to result in the sophisticated and
+rather complicated way in which FunnelWeb~V3 handles filenames.
+
+To summarize, the three problems are:
+
+\begin{enumerate}
+\item What filename extensions should be chosen for various kinds of file?
+\item What filename inheritance should take place?
+\item How should FunnelWeb cope with the variations in filename structure
+between machines?
+\end{enumerate}
+
+The following three sections address these questions.
+
+\subsection{Filename Extensions}
+\xx{filename}{extensions}
+
+FunnelWeb is capable of reading and writing a variety of different kinds
+of files. In particular, FunnelWeb must often operates in an environment where
+the same information is stored in many forms (\eg{}prog.fw, prog.c, proc.exe).
+File extensions are an essential tool in managing this situation.
+The filename extensions chosen for FunnelWeb are:
+
+\begin{verbatim}
+FunnelWeb     : .fw
+Product       : None.
+Documentation : .tex
+Listing       : .lis
+Journal       : .jrn
+\end{verbatim}
+
+Lowercase will be used in systems that are case sensitive.
+
+Readers who are wondering how FunnelWeb copes in environments such as UNIX
+where there are no file extensions should refer to
+Section~\ref{portablefilenames}.
+
+\subsection{Filename Inheritance}
+\xx{filename}{inheritance}
+
+Inheritance in filenames refers to how input and output files inherit parts
+of their name from other filenames and their environment. For example if
+the command
+
+\begin{verbatim}
+   fw sloth +J +L +T
+\end{verbatim}
+
+was issued,
+you would expect to see output files \p{sloth.jrn}, \p{sloth.lis}, and
+\p{sloth.tex}.
+The output file names have inherited the \dqp{sloth}. The following table
+gives the hierarchy devised for FunnelWeb.
+
+\begin{center}
+\begin{tabular}{|l|l|l|l|l|l|l|l|}                                             \hline
+  & Script     & Input     &  Include   &  Journal   &  List      &  Document  & Product \\ \hline
+1 &            &           & \p{@i}     &            &            &            & \p{@o}  \\
+2 & \p{+x}     & \p{+f}    & \p{+i}     & \p{+j}     & \p{+l}     & \p{+t}     & \p{+o}  \\
+3 & \dqp{.fws} & \dqp{.fw} & \dqp{.fwi} & \dqp{.jrn} & \dqp{.lis} & \dqp{.tex} &         \\
+4 &            &           & \p{+f}     & \p{+f}     & \p{+f}     & \p{+f}     &         \\
+5 & DefDir     & Defdir    & Defdir     & Defdir     & Defdir     & Defdir     & Defdir  \\ \hline
+\end{tabular}
+\end{center}
+
+The following notes explain the table.
+
+\begin{enumerate}
+
+\item This scheme is similar to that used in FunnelWeb~V1.
+
+\item The journal, list, and documentation
+files all fall in the same pattern and
+can be considered as a single case.
+
+\item Level~1 has the highest priority because it is a direct specification
+by the user in the input file.
+
+\item Level~2 comes next because this is also a direct specification
+from the user on the command line.
+
+\item Level~3 provides the default file extensions.
+Product files do not inherit an
+extension as they could be of any type.
+
+\item Level~5 is built into most operating systems' file specification systems.
+If I specify file \dqp{x.y}, it is taken to mean on the default disk in the
+default directory.
+
+\item Level~4 looks straightforward, but secretly conceals a difficult design
+decision. By the time we get down to this level of inheritance, we know for
+sure that the filename has already picked up a file extension. So all that
+is left to inherit is the path and the filename proper. Obviously we
+have to inherit the filename proper (e.g. \p{sloth} in \p{sloth.tex}), but
+should we inherit the input file path? If we do inherit the input file
+path, files will be placed in the same directory as the input file. If we
+don't inherit the input file path, files will be placed in the current
+directory. The choice I have made is to send all the logging type files
+into the same directory as the input file. This means, for example,
+that \p{sloth.lis} and \p{sloth.tex} will generally land in the same directory
+as \p{sloth.fw}. However, I have decided that output files should be sent to
+the default directory (if not earlier specified) as this is where the
+action is. In normal use, the main product of FunnelWeb will be product files
+and so the user will expect them to appear in the current directory by
+default.
+
+\end{enumerate}
+
+\subsection{Portable Structure of File Names}
+\label{portablefilenames}\xx{file}{names}\xx{portable}{filenames}
+
+Another problem with file names is the variation of their structure
+between environments. Here are examples of some of the formats that prevail:
+
+\begin{verbatim}
+   UNIX   /device/dir1/dir2/name
+   VMS    node::device:[dir1.dir2]name.ext;vn
+   MSDOS  device:\dir1\dir2\name.ext
+   MAC    device:dir1:dir2:name
+\end{verbatim}
+
+Isn't it amazing that none of these popular systems use the same format?
+
+The solution to dealing with these different formats is to classify them
+as non-portable and hide the functions that manipulate them
+in the machine-specific module of FunnelWeb.
+Luckily there are not many such functions.
+
+The main problem is coping with
+file systems that do not
+explicitly support file extensions.
+With so many possible input and output files, FunnelWeb all but
+needs such extensions. Machines that do not support them pose difficult
+design decisions.
+If the user specifies \dqp{sloth} as an input file on such
+a non-extension-supporting system,
+should FunnelWeb look for \p{sloth}
+or \p{sloth.fw}? If the user specifies \p{walrus} as a listing file, should
+it generate \p{walrus} or \p{walrus.lis}?
+
+Some possible solutions are:
+
+\begin{enumerate}
+
+\item Regard the filename \p{sloth} as having an empty extension. It will then
+default to \p{sloth.fw}.
+
+\item Regard the filename \p{sloth} as having a blank but full extension.
+That is, it cannot be overwritten by inheritance, but it remains blank.
+
+\item Provide an extra syntactic mechanism to allow the user to specify one or
+other of the two options above.
+
+\end{enumerate}
+
+My solution was to choose the first option. Use of FunnelWeb
+results in lots of files lying around (\eg{}\p{sloth.lis}) and it is hard
+to see how
+the user will cope with them all
+without some kind of naming discipline. If a naming discipline
+has to be used, it might as well be the FunnelWeb one.
+
+Thus the names of all files read and written by FunnelWeb will have a file
+extension of from zero to three letters separated from the rest of the filename
+by a \dqp{.}.
+
+The only exception is product files whose extension is left
+undefined. Product files need not
+contain a \dqp{.} and a file extension,
+although they can inherit one if the user wishes.
+
+\section{Specifying Constraints on the Number of Instantiations}
+\xx{invocations}{number}
+
+Experience with FunnelWeb~V1 demonstrated
+the need to be able to specify in
+macro definitions how many times it was expected that the macro would
+be used. FunnelWeb~V1 generates an error if a macro is not used, but
+permits macros to be called more than once. This caused problems for macro
+libraries, which would be included, but whose macros were often not called.
+
+By default, FunnelWeb~V3 requires that each macro (except for the ones
+attached to output files) be called exactly once.
+However, it also provides
+syntax that allows the user to specify that a macro be allowed
+to be called zero times or many times.
+This allows a macro to be specified with the following permissible ranges
+of numbers of calls depending on the presence or absence of \dqp{@Z} and
+\dqp{@M}:
+
+\begin{verbatim}
+   0..1          @$@<Sloth@>@Z==...
+      1          @$@<Sloth@>==...
+      1..n       @$@<Sloth@>@M==...
+   0.....n       @$@<Sloth@>@Z@M==...
+\end{verbatim}
+
+The only two problems with this scheme are:
+
+\begin{enumerate}
+
+\item It is incompatible with
+FunnelWeb~V1 files, as the default in FunnelWeb~V1 is $1 \ldots n$
+whereas the default in new FunnelWeb is $1$. This is not a big problem because
+most macros in the old files were used exactly once. Only a few macros will
+have to be changed.
+
+\item What should the syntax be? (above is a sneak preview only!)
+
+\end{enumerate}
+
+The initial proposal for syntax was to allow the user to insert zero, one,
+or both of \p{@?} and \p{@M} just after the \p{@\$} of a macro definition.
+However, this has the following drawbacks:
+
+\begin{enumerate}
+
+\item It uses two sequences that are desirable to reserve
+      (\p{@?} for conditionals and \p{@M} for macro).
+
+\item It stops the user from searching for the string \p{@\$@<name} to find
+      the definition of a macro.
+      
+\end{enumerate}
+
+These are significant problems.
+Here are some alternative
+ideas for where to position the modifiers in the macro definition:
+
+\begin{verbatim}
+@?@M@$@<Slothy dogs@>@(@5@)==@{@-
+This is a short macro.
+With only a line or two@}
+
+@$@<Slothy dogs@>@?@M@(@5@)==@{@-
+This is a short macro.
+With only a line or two@}
+
+@$@<Slothy dogs@>@(@5@)@?@M==@{@-
+This is a short macro.
+With only a line or two@
+\end{verbatim}
+
+The first form puts me off because I think that it is a good visual rule
+to start all the macros with \p{@\$}. The second form puts me off because it
+detaches the macro name from the parameter list, thus making it look
+less like a call, which is desirable syntactic resonance. The third form
+is messy but probably workable. Because we are right next to the tested
+constant string (either \p{==} or \p{+=}) we could augment it further. For
+example, \p{01==} could allow a macro to be called from 0 to 1 times.
+The main problem with this is that we are trying to phase out \p{==} anyway!
+
+Nevertheless, all the logic points to after the parameter list as the best
+place to locate this information.
+
+After some thought, it was decided that the \dqp{@?} sequence be reserved
+for a possible future conditional facility, and so \p{@Z} was used
+instead.
+
+\thing{Decision:} The position is after the parameter list. The notation
+is \p{@Z} for zero, and \p{@M} for many.\x{@Z}\x{@M}
+
+Example of final syntax:
+
+\begin{verbatim}
+@$@<Slothy dogs@>@(@5@)@Z@M+=@{@-
+This is a short macro.
+With only a line or two@}
+\end{verbatim}
+
+\section{The Relationship Between Document Structure and Macro Structure}
+\xx{document structure}{macro structure}%
+\xx{document}{structure}\xx{macro}{structure}\note{01-Dec-1991}%
+\xx{hierarchical}{structure}
+
+Having already decided upon a fully hierarchical document
+structure, I determined to refine the details.
+The issues to be addressed were as follows:
+
+\begin{itemize}
+
+\item How should the hierarchical structure connect to the macro structure?
+\item How can backwards compatibility be achieved? Should it?
+\item Should the macros be cross referenced by section or by definition?
+\item Should nameless sections inherit macro names as headings?
+\item Should we simply use \TeX{} macros to structure the document?
+
+\end{itemize}
+
+After some thought, I arrived at the following thoughts:
+
+\thing{Basically a \TeX{} file:} One option is simply
+to treat each \p{.fw} file as a \TeX{}\x{TeX} file
+laced with macros. That is, a \p{.fw} file could be
+structured as a real \TeX{} file from which FunnelWeb could
+extract macro definitions. This approach is feasible because 
+\TeX{} could be programmed to
+respond to the \p{@} sequences in the same way that
+FunnelWeb responds to them. Thus, there would be no need for Weave.
+
+I rejected this approach, first because it is too typesetter-dependent,
+and second because it complicates the inclusion of any sort of
+complicated post-processing in the documentation file. This would have to
+be implemented in \TeX{}.
+
+A better approach is
+to use an invented section notation (e.g. \p{@A @B @C}). This maintains
+FunnelWeb's typesetter independence and can easily be
+converted into \TeX{} sectioning macros by Weave.
+
+In the same spirit, it might be worth introducing a few \p{@} sequences for
+certain general typesetting operations such as italics and program code.
+
+\thing{Confusion in FunnelWeb~V1 Heading Numbering:} FunnelWeb~V1
+uses two levels of section headings, but numbers all
+the headings sequentially. In this, it is a little confused. Clearly
+with a fully hierarchical document structure, the headings cannot be
+numbered sequentially --- the numbering must reflect the structure
+(\eg{}3.2.1).
+
+\thing{Hierarchical numbering is messy for macros:} Unfortunately,
+hierarchical numbering\xx{section}{numbering} is messy
+and confusing when applied to macro names.
+In FunnelWeb~V1's typeset output, each macro
+call has appended in square brackets the number of the section in which the
+macro is defined. Use of hierarchical numbering would be somewhat messy.
+For example, a macro call might look like.
+
+\begin{verbatim}
+   Write out the output[6.7.4.3]
+\end{verbatim}
+
+Similarly, cross reference lists would be messy:
+
+\begin{verbatim}
+   This macro is used in 3.4.5, 1.2, 7.8.9, 7.4, 2.2.1.1.
+\end{verbatim}
+
+\thing{Separate numbering for macros and headings:} One
+idea is to use hierarchical numbering for the sections, but to
+number the macros sequentially. This could be a little confusing in
+documents without much structure, but would be very much less messy than
+cross referencing using hierarchical numbering.
+Also, it will be easier to find macros
+indexed by a sequential number than by section,
+which has a less direct relationship
+with page bulk and number. By macro numbering is meant the sequential
+numbering of each macro body part through the whole document.
+
+\thing{Input format matters more than output format:} At this point we
+realize that a distinction should be made between
+the \i{input format} and the \i{typeset output}.
+The critical issue here is not how the
+program should be formatted for printing, but rather the format of its
+\p{.fw} file. The typeset output can always be changed simply by fiddling
+with Weave. However, as soon as the document structuring features of FunnelWeb
+are fixed, they will be used in dozens or hundreds of documents and it will
+be very difficult indeed to change them. Therefore, the important thing is to
+provide as sensible and expressive a \p{.fw} format as possible.
+
+It is therefore a separate decision as to whether we should number macros
+by section or by sequence number. The important thing is to address the
+format and rules for the expression of structure.
+
+\thing{Naming sections:} The naming
+of sections requires some thought. In many cases (especially
+in the case of high-level sections) the writer will provide an explicit
+name for a section. In other cases, provision of such a name will merely
+duplicate the name of the macro contained within the section. It therefore
+makes sense to allow the user to omit the name from a section, with Weave
+naming the section after the first macro definition in the section. If a 
+macro is unnamed and there
+is no macro in the section, an error can be generated.
+
+All these thoughts lead to the following scheme:
+
+\begin{itemize}
+\item Documents will be hierarchically structured using \p{@A}, \p{@B} etc.
+\item Each section can be given a name delimited by \p{@<@>}.
+\item Sections that do not have names inherit the name of their first macro.
+\item If a section does not have a name or a macro, it is erroneous.
+\item Sections will be numbered hierarchically either by FunnelWeb or by \TeX{}.
+\item Macro body parts will be numbered sequentially by FunnelWeb and cross
+  referenced by these numbers.
+\end{itemize}
+
+All this results in a system which:
+
+\begin{itemize}
+
+\item Provides a hierarchical document structuring capability.
+\item Is typesetter independent.
+\item Does not require duplication between heading and macro names.
+\item Separates the heading and macro systems so that Weave can be configured
+  at a later date to cross reference in different ways without requiring
+  input files to be reworked.
+\end{itemize}
+
+\section{Diagnostic Messages}
+\xx{diagnostic}{messages}
+
+In FunnelWeb, all error messages commence with an indicator indicating
+the severity of the error message. Here are some of the formats that
+I investigated before settling on the final format:
+
+\begin{verbatim}
+W--Error creating sloth.
+E--Error opening output file.
+S--I'm a teapot.
+F--Can't open output file.
+
+W-Error creating sloth.
+E-Error opening output file.
+S-I'm a teapot.
+F-Can't open output file.
+
+W:Error creating sloth.
+E:Error opening output file.
+S:I'm a teapot.
+F:Can't open output file.
+
+W: Error creating sloth.       -- Format chosen.
+E: Error opening output file.
+S: I'm a teapot.
+F: Can't open output file.
+
+War-Error creating sloth.
+Err-Error opening output file.
+Sev-I'm a teapot.
+Fat-Can't open output file.
+
+W-Old fashioned feature.
+
+W-Old fashioned feature.
+
+W--Old fashioned feature.
+
+W: Old fashioned feature.
+
+W:Old fashioned feature.
+\end{verbatim}
+
+\section{Summary}
+
+This rather unstructured chapter has addressed some of the key design
+decisions of FunnelWeb. In many cases, the alternatives have been
+unpleasant, but I am confident that in all cases, a fully workable solution
+has been found.
+
+%==============================================================================%
+%                              Start of Ch1.tex                                %
+%==============================================================================%

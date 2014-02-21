@@ -1,0 +1,339 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 53 43 32 31 3A 20 54 65 73 74 20 67 65 6E 65 72 | SC21: Test gener |
+| 69 63 20 73 79 6E 74 61 78 20 63 68 65 63 6B 69 | ic syntax checki |
+| 6E 67 20 6F 66 20 70 72 61 67 6D 61 73 20 61 6E | ng of pragmas an |
+| 64 20 74 79 70 65 73 65 74 74 65 72 20 64 69 72 | d typesetter dir |
+| 65 63 74 69 76 65 73 2E 0A 0A 31 2E 20 54 65 73 | ectives...1. Tes |
+| 74 20 70 72 61 67 6D 61 20 6E 6F 74 20 61 74 20 | t pragma not at  |
+| 74 68 65 20 73 74 61 72 74 20 6F 66 20 6C 69 6E | the start of lin |
+| 65 2E 0A 20 20 20 40 70 0A 20 20 20 40 74 0A 0A | e..   @p.   @t.. |
+| 32 2E 20 54 65 73 74 20 63 68 61 72 61 63 74 65 | 2. Test characte |
+| 72 20 66 6F 6C 6C 6F 77 69 6E 67 20 3C 73 70 65 | r following <spe |
+| 63 69 61 6C 3E 70 20 69 73 20 6E 6F 74 20 61 20 | cial>p is not a  |
+| 62 6C 61 6E 6B 2E 0A 40 70 78 0A 40 74 78 0A 40 | blank..@px.@tx.@ |
+| 70 0A 40 74 0A 0A 33 2E 20 54 65 73 74 20 70 72 | p.@t..3. Test pr |
+| 61 67 6D 61 20 6C 69 6E 65 20 69 73 20 74 6F 6F | agma line is too |
+| 20 6C 6F 6E 67 20 28 6C 69 6D 69 74 20 69 73 20 |  long (limit is  |
+| 31 30 30 29 0A 20 20 20 20 20 20 20 20 20 31 20 | 100).         1  |
+| 20 20 20 20 20 20 20 20 32 20 20 20 20 20 20 20 |         2        |
+| 20 20 33 20 20 20 20 20 20 20 20 20 34 20 20 20 |   3         4    |
+| 20 20 20 20 20 20 35 20 20 20 20 20 20 20 20 20 |       5          |
+| 36 20 20 20 20 20 20 20 20 20 37 20 20 20 20 20 | 6         7      |
+| 20 20 20 20 38 20 20 20 20 20 20 20 20 20 39 20 |     8         9  |
+| 20 20 20 20 20 20 20 20 31 0A 40 70 20 34 35 36 |         1.@p 456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 0A 40 | 78901234567890.@ |
+| 70 20 34 35 36 37 38 39 30 31 32 33 34 35 36 37 | p 45678901234567 |
+| 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 | 8901234567890123 |
+| 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 | 4567890123456789 |
+| 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 | 0123456789012345 |
+| 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 | 6789012345678901 |
+| 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 | 2345678901234567 |
+| 38 39 30 31 0A 40 74 20 34 35 36 37 38 39 30 31 | 8901.@t 45678901 |
+| 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 | 2345678901234567 |
+| 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 | 8901234567890123 |
+| 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 | 4567890123456789 |
+| 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 | 0123456789012345 |
+| 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 | 6789012345678901 |
+| 32 33 34 35 36 37 38 39 30 0A 40 74 20 34 35 36 | 234567890.@t 456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 0A | 789012345678901. |
+| 0A 34 2E 20 54 65 73 74 20 76 61 72 69 6F 75 73 | .4. Test various |
+| 20 64 69 66 66 65 72 65 6E 74 20 70 72 61 67 6D |  different pragm |
+| 61 20 6C 69 6E 65 73 2E 0A 40 70 20 24 23 25 40 | a lines..@p $#%@ |
+| 20 32 35 32 35 20 20 73 6C 6F 74 68 0A 40 74 20 |  2525  sloth.@t  |
+| 24 23 25 40 20 32 35 32 35 20 20 73 6C 6F 74 68 | $#%@ 2525  sloth |
+| 0A 0A 35 2E 20 54 65 73 74 20 70 72 61 67 6D 61 | ..5. Test pragma |
+| 20 77 69 74 68 20 6E 6F 20 61 72 67 75 6D 65 6E |  with no argumen |
+| 74 73 2E 20 28 57 69 6C 6C 20 67 65 74 20 61 20 | ts. (Will get a  |
+| 74 72 61 69 6C 69 6E 67 20 62 6C 61 6E 6B 73 20 | trailing blanks  |
+| 65 72 72 6F 72 2E 29 2E 0A 40 70 20 20 20 20 0A | error.)..@p    . |
+| 40 74 20 20 20 20 0A 0A 36 2E 20 54 65 73 74 20 | @t    ..6. Test  |
+| 70 72 61 67 6D 61 20 77 69 74 68 20 74 6F 6F 20 | pragma with too  |
+| 6D 61 6E 79 20 61 72 67 75 6D 65 6E 74 73 2E 0A | many arguments.. |
+| 40 70 20 61 20 62 20 63 20 64 20 65 20 66 20 67 | @p a b c d e f g |
+| 20 68 20 69 20 6A 20 6B 20 6C 20 6D 20 6E 20 6F |  h i j k l m n o |
+| 20 70 20 71 20 72 20 73 20 74 20 75 20 76 20 77 |  p q r s t u v w |
+| 20 78 20 79 20 7A 0A 40 74 20 61 20 62 20 63 20 |  x y z.@t a b c  |
+| 64 20 65 20 66 20 67 20 68 20 69 20 6A 20 6B 20 | d e f g h i j k  |
+| 6C 20 6D 20 6E 20 6F 20 70 20 71 20 72 20 73 20 | l m n o p q r s  |
+| 74 20 75 20 76 20 77 20 78 20 79 20 7A 0A 0A    | t u v w x y z..  |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| SC21: Test generic syntax checking of pragmas and typesetter directives.<010>
+00002 00002| <010>
+00003 00003| 1. Test pragma not at the start of line.<010>
+00004 00004|    @p<010>
+00005 00005|    @t<010>
+00006 00006| <010>
+00007 00007| 2. Test character following <special>p is not a blank.<010>
+00008 00008| @px<010>
+00009 00009| @tx<010>
+00010 00010| @p<010>
+00011 00011| @t<010>
+00012 00012| <010>
+00013 00013| 3. Test pragma line is too long (limit is 100)<010>
+00014 00014|          1         2         3         4         5         6         7         8         9         1<010>
+00015 00015| @p 4567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890<010>
+00016 00016| @p 45678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901<010>
+00017 00017| @t 4567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890<010>
+00018 00018| @t 45678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901<010>
+00019 00019| <010>
+00020 00020| 4. Test various different pragma lines.<010>
+00021 00021| @p $#%@ 2525  sloth<010>
+00022 00022| @t $#%@ 2525  sloth<010>
+00023 00023| <010>
+00024 00024| 5. Test pragma with no arguments. (Will get a trailing blanks error.).<010>
+00025 00025| @p    <010>
+00026 00026| @t    <010>
+00027 00027| <010>
+00028 00028| 6. Test pragma with too many arguments.<010>
+00029 00029| @p a b c d e f g h i j k l m n o p q r s t u v w x y z<010>
+00030 00030| @t a b c d e f g h i j k l m n o p q r s t u v w x y z<010>
+00031 00031| <010>
+00032 00032| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 9 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="SC21: Test generic syntax checking of pragmas and typesetter directives.<010>
+<010>
+1. Test pragma not at the start of line.<010>
+   "
+0005[01]: Text. Text scrap[White]="   "
+0006[01]: Text. Text scrap[Grey]="<010>
+2. Test character following <special>p is not a blank.<010>
+"
+0012[01]: Text. Text scrap[Grey]="<010>
+3. Test pragma line is too long (limit is 100)<010>
+         1         2         3         4         5         6         7         8         9         1<010>
+"
+0019[01]: Text. Text scrap[Grey]="<010>
+4. Test various different pragma lines.<010>
+"
+0023[01]: Text. Text scrap[Grey]="<010>
+5. Test pragma with no arguments. (Will get a trailing blanks error.).<010>
+"
+0027[01]: Text. Text scrap[Grey]="<010>
+6. Test pragma with too many arguments.<010>
+"
+0031[01]: Text. Text scrap[White]="<010>
+"
+0032[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+Macro table dump skipped (Parser was not invoked).
+Document list dump skipped (Parser was not invoked).
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| SC21: Test generic syntax checking of pragmas and typesetter directives.
+     2     2| 
+     3     3| 1. Test pragma not at the start of line.
+     4     4|    @p
+       Error|....^Pragma sequence @p must be at the start of a line.
+            |....^The rest of this line will be ignored.
+       Error|....^Unrecognised pragma. Possible legal pragmas are:
+            |....^   @p indentation = none | blank
+            |....^   @p maximum_input_line_length  = <num>|infinity
+            |....^   @p maximum_output_line_length = <num>|infinity
+            |....^   @p typesetter = none | tex
+            |....^The blanks between arguments are important.
+            |....^Pragma ignored.
+     5     5|    @t
+       Error|....^Typesetter directive @t must be at the start of a line.
+            |....^The rest of this line will be ignored.
+       Error|....^Unrecognised typesetter directive. Legal ones are:
+            |....^   @t new_page
+            |....^   @t table_of_contents
+            |....^   @t title <font> <align> <string>
+            |....^   @t vskip <num> mm
+            |....^The blanks between arguments are important.
+            |....^Typesetter directive ignored.
+     6     6| 
+     7     7| 2. Test character following <special>p is not a blank.
+     8     8| @px
+       Error|.^Pragma sequence @p must be followed by a blank.
+       Error|.^Unrecognised pragma. Possible legal pragmas are:
+            |.^   @p indentation = none | blank
+            |.^   @p maximum_input_line_length  = <num>|infinity
+            |.^   @p maximum_output_line_length = <num>|infinity
+            |.^   @p typesetter = none | tex
+            |.^The blanks between arguments are important.
+            |.^Pragma ignored.
+     9     9| @tx
+       Error|.^Typesetter directive @t must be followed by a blank.
+       Error|.^Unrecognised typesetter directive. Legal ones are:
+            |.^   @t new_page
+            |.^   @t table_of_contents
+            |.^   @t title <font> <align> <string>
+            |.^   @t vskip <num> mm
+            |.^The blanks between arguments are important.
+            |.^Typesetter directive ignored.
+    10    10| @p
+       Error|.^Pragma sequence @p must be followed by a blank.
+       Error|.^Unrecognised pragma. Possible legal pragmas are:
+            |.^   @p indentation = none | blank
+            |.^   @p maximum_input_line_length  = <num>|infinity
+            |.^   @p maximum_output_line_length = <num>|infinity
+            |.^   @p typesetter = none | tex
+            |.^The blanks between arguments are important.
+            |.^Pragma ignored.
+    11    11| @t
+       Error|.^Typesetter directive @t must be followed by a blank.
+       Error|.^Unrecognised typesetter directive. Legal ones are:
+            |.^   @t new_page
+            |.^   @t table_of_contents
+            |.^   @t title <font> <align> <string>
+            |.^   @t vskip <num> mm
+            |.^The blanks between arguments are important.
+            |.^Typesetter directive ignored.
+    12    12| 
+    13    13| 3. Test pragma line is too long (limit is 100)
+    14    14|          1         2         3         4         5         6         7         8         9         1
+       Error|.................................................................................^Input line is too long (this character is the first offender).
+            |.................................................................................^Currently, the maximum allowable input line length is 80.
+            |.................................................................................^Note: You can change this using a pragma directive (@p).
+    15    15| @p 4567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+       Error|.^Unrecognised pragma. Possible legal pragmas are:
+            |.^   @p indentation = none | blank
+            |.^   @p maximum_input_line_length  = <num>|infinity
+            |.^   @p maximum_output_line_length = <num>|infinity
+            |.^   @p typesetter = none | tex
+            |.^The blanks between arguments are important.
+            |.^Pragma ignored.
+       Error|.................................................................................^Input line is too long (this character is the first offender).
+            |.................................................................................^Currently, the maximum allowable input line length is 80.
+            |.................................................................................^Note: You can change this using a pragma directive (@p).
+    16    16| @p 45678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901
+       Error|.^This pragma line is too long.
+            |.^The maximum pragma line length is 100 characters.
+       Error|.^Unrecognised pragma. Possible legal pragmas are:
+            |.^   @p indentation = none | blank
+            |.^   @p maximum_input_line_length  = <num>|infinity
+            |.^   @p maximum_output_line_length = <num>|infinity
+            |.^   @p typesetter = none | tex
+            |.^The blanks between arguments are important.
+            |.^Pragma ignored.
+       Error|.................................................................................^Input line is too long (this character is the first offender).
+            |.................................................................................^Currently, the maximum allowable input line length is 80.
+            |.................................................................................^Note: You can change this using a pragma directive (@p).
+    17    17| @t 4567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+       Error|.^Unrecognised typesetter directive. Legal ones are:
+            |.^   @t new_page
+            |.^   @t table_of_contents
+            |.^   @t title <font> <align> <string>
+            |.^   @t vskip <num> mm
+            |.^The blanks between arguments are important.
+            |.^Typesetter directive ignored.
+       Error|.................................................................................^Input line is too long (this character is the first offender).
+            |.................................................................................^Currently, the maximum allowable input line length is 80.
+            |.................................................................................^Note: You can change this using a pragma directive (@p).
+    18    18| @t 45678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901
+       Error|.^This typestter directive line is too long.
+            |.^The maximum typesetter directive line length is 100 characters.
+       Error|.^Unrecognised typesetter directive. Legal ones are:
+            |.^   @t new_page
+            |.^   @t table_of_contents
+            |.^   @t title <font> <align> <string>
+            |.^   @t vskip <num> mm
+            |.^The blanks between arguments are important.
+            |.^Typesetter directive ignored.
+       Error|.................................................................................^Input line is too long (this character is the first offender).
+            |.................................................................................^Currently, the maximum allowable input line length is 80.
+            |.................................................................................^Note: You can change this using a pragma directive (@p).
+    19    19| 
+    20    20| 4. Test various different pragma lines.
+    21    21| @p $#%@ 2525  sloth
+       Error|.^Unrecognised pragma. Possible legal pragmas are:
+            |.^   @p indentation = none | blank
+            |.^   @p maximum_input_line_length  = <num>|infinity
+            |.^   @p maximum_output_line_length = <num>|infinity
+            |.^   @p typesetter = none | tex
+            |.^The blanks between arguments are important.
+            |.^Pragma ignored.
+    22    22| @t $#%@ 2525  sloth
+       Error|.^Unrecognised typesetter directive. Legal ones are:
+            |.^   @t new_page
+            |.^   @t table_of_contents
+            |.^   @t title <font> <align> <string>
+            |.^   @t vskip <num> mm
+            |.^The blanks between arguments are important.
+            |.^Typesetter directive ignored.
+    23    23| 
+    24    24| 5. Test pragma with no arguments. (Will get a trailing blanks error.).
+    25    25| @p    
+       Error|.^Pragma sequence @p must be followed by a keyword.
+       Error|.^Unrecognised pragma. Possible legal pragmas are:
+            |.^   @p indentation = none | blank
+            |.^   @p maximum_input_line_length  = <num>|infinity
+            |.^   @p maximum_output_line_length = <num>|infinity
+            |.^   @p typesetter = none | tex
+            |.^The blanks between arguments are important.
+            |.^Pragma ignored.
+     Warning|......^Line has trailing spaces up to and including this space.
+    26    26| @t    
+       Error|.^Typesetter directive @t must be followed by a keyword.
+       Error|.^Unrecognised typesetter directive. Legal ones are:
+            |.^   @t new_page
+            |.^   @t table_of_contents
+            |.^   @t title <font> <align> <string>
+            |.^   @t vskip <num> mm
+            |.^The blanks between arguments are important.
+            |.^Typesetter directive ignored.
+     Warning|......^Line has trailing spaces up to and including this space.
+    27    27| 
+    28    28| 6. Test pragma with too many arguments.
+    29    29| @p a b c d e f g h i j k l m n o p q r s t u v w x y z
+       Error|.^Unrecognised pragma. Possible legal pragmas are:
+            |.^   @p indentation = none | blank
+            |.^   @p maximum_input_line_length  = <num>|infinity
+            |.^   @p maximum_output_line_length = <num>|infinity
+            |.^   @p typesetter = none | tex
+            |.^The blanks between arguments are important.
+            |.^Pragma ignored.
+    30    30| @t a b c d e f g h i j k l m n o p q r s t u v w x y z
+       Error|.^Unrecognised typesetter directive. Legal ones are:
+            |.^   @t new_page
+            |.^   @t table_of_contents
+            |.^   @t title <font> <align> <string>
+            |.^   @t vskip <num> mm
+            |.^The blanks between arguments are important.
+            |.^Typesetter directive ignored.
+    31    31| 
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 31 Errors and 2 Warnings.

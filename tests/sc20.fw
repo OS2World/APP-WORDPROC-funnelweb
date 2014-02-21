@@ -1,0 +1,11 @@
+SC20: Test @!
+
+1. Test at the start of a line.
+
+@! This is a comment and we can stick any sort of rubbish in it.
+@! @# @i @^ds;af;lsdmf;land other @ rubbish.
+
+2. Test halfway through a line.
+
+This is a line @! whose second half never sees the daylight. @i @<
+

@@ -1,0 +1,10 @@
+SC19: Test <special>-
+
+1. Test that error is flagged if sequence is not at the end of a line.
+
+This is a line containing @- the end of line suppressor.
+
+2. Test the sequence followed by trailing blanks.
+
+     @-   
+

@@ -1,0 +1,39 @@
+PR06: Test the parsing on invocation number constraints.
+
+Trip the parser so we don't get past it.
+@>
+
+1. Test with no zero and no many.
+@$@<Sloth@>@{No zero and no many in this macro@}
+
+2. Test with a zero.
+@$@<Sloth zero@>@Z@{Can be called from 0 to 1 times.@}
+
+3. Test with a many.
+@$@<Sloth many@>@M@{Can be called from 1 to infinity times.@}
+
+4. Test with a zero and a many.
+@$@<Sloth zeromany@>@Z@M@{Can be called from 0 to infinity times.@}
+
+5. Test with a zero and a many but out of order (should give error).
+@$@<Sloth manyzero@>@M@Z@{Oops.@}
+@A@<Error recovery point@>
+
+6. Test with syntactic errors.
+
+@$@<Sloth a@> @M @Z @{Oops.@}
+@A@<Error recovery point@>
+
+@$@<Sloth b@>@Z@Z@{Oops.@}
+@A@<Error recovery point@>
+
+@$@<Sloth c@Z@>@{Oops.@}
+@A@<Error recovery point@>
+
+@$@<Sloth d@>Z@{Oops.@}
+@A@<Error recovery point@>
+
+@$@<Sloth d@>@ZM@{Oops.@}
+@A@<Error recovery point@>
+
+

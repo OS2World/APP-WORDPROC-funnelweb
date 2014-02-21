@@ -1,0 +1,64 @@
+WV03: Test the typesetting of various kinds of macros.
+
+First create an output file to keep the analyser happy.
+@O@<wv03.out@>@{@}
+
+1. Test macro never used.
+@$@<Never Used@>@Z@{@}
+
+2. Test a macro used once.
+@$@<Used Once@>@{@}
+
+3. Test a macro used twice.
+@$@<Used Twice@>@M@{@}
+
+4. Test a macro used three times.
+@$@<Used Thrice@>@M@{@}
+
+5. Test a macro used five times.
+@$@<Used Quice@>@M@{@}
+
+Here is the macro that does all the calling for the above.
+@$@<Dummy1@>@Z@{@-
+@<Used Once@>
+@<Used Twice@>
+@<Used Thrice@>
+@<Used Quice@>
+@}
+
+@$@<Dummy2@>@Z@{@-
+@<Used Twice@>
+@<Used Thrice@>
+@<Used Quice@>
+@}
+
+@$@<Dummy3@>@Z@{@-
+@<Used Thrice@>
+@<Used Quice@>
+@}
+
+@$@<Dummy4@>@Z@{@-
+@<Used Quice@>
+@}
+
+@$@<Dummy5@>@Z@{@-
+@<Used Quice@>
+@}
+
+6. Test a macro with two body parts.
+@$@<Two body parts@>@Z+=@{Sloth@}
+@$@<Two body parts@>+=@{Walrus@}
+
+7. Test a macro with three body parts.
+@$@<Three body parts@>@Z+=@{Sloth@}
+@$@<Three body parts@>+=@{Walrus@}
+@$@<Three body parts@>+=@{Aardvaark@}
+
+8. Test a macro with five body parts.
+@$@<Five body parts@>@Z+=@{Sloth@}
+@$@<Five body parts@>+=@{Walrus@}
+@$@<Five body parts@>+=@{@<Three body parts@>@}
+@$@<Five body parts@>+=@{Aardvaark@}
+@$@<Five body parts@>+=@{@<Two body parts@>@}
+
+

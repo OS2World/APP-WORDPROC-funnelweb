@@ -1,0 +1,28 @@
+FUNNELWEB LISTING FILE
+======================
+
+E: No output files specified.
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| AN04: Test document list checks.
+     2     2| 
+     3     3| 1. Test for sections with no names.
+     4     4| 
+     5     5| @A@<This section has both a name and a macro@>
+     6     6| @$@<Sloth@>@Z@{@}
+     7     7| 
+     8     8| @A@<This section has an explicit name but no macro@>
+     9     9| 
+    10    10| @A
+    11    11| @$@<This section has no explicit name but does have a macro@>@Z@{@}
+    12    12| 
+    13    13| @A This section has no name and no macro to inherit one from.
+       Error|.^This section has no name.
+            |.^You can give it one explicitly (As in @A@<Sloth@>) or implicitly by
+            |.^defining a macro (whose name will be inherited) within the section.
+    14    14| 
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 2 Errors.

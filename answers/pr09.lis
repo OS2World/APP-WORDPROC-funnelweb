@@ -1,0 +1,2133 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 50 52 30 39 3A 20 54 65 73 74 20 63 61 6C 6C 73 | PR09: Test calls |
+| 20 61 6E 64 20 61 63 74 75 61 6C 20 70 61 72 61 |  and actual para |
+| 6D 65 74 65 72 20 6C 69 73 74 73 2E 0A 0A 46 69 | meter lists...Fi |
+| 72 73 74 20 74 72 69 70 20 75 70 20 74 68 65 20 | rst trip up the  |
+| 70 61 72 73 65 72 20 73 6F 20 77 65 20 64 6F 6E | parser so we don |
+| 27 74 20 67 65 74 20 61 6E 79 20 66 75 72 74 68 | 't get any furth |
+| 65 72 2E 0A 40 3E 0A 0A 4E 6F 77 20 64 65 66 69 | er..@>..Now defi |
+| 6E 65 20 73 6F 6D 65 20 6D 61 63 72 6F 73 20 74 | ne some macros t |
+| 6F 20 63 61 6C 6C 2E 20 4E 6F 20 65 72 72 6F 72 | o call. No error |
+| 2E 0A 0A 40 24 40 3C 5A 65 72 6F 40 3E 40 7B 40 | ...@$@<Zero@>@{@ |
+| 7D 0A 40 24 40 3C 4F 6E 65 40 3E 40 28 40 31 40 | }.@$@<One@>@(@1@ |
+| 29 40 7B 40 7D 0A 40 24 40 3C 54 77 6F 40 3E 40 | )@{@}.@$@<Two@>@ |
+| 28 40 32 40 29 40 7B 40 7D 0A 40 24 40 3C 54 68 | (@2@)@{@}.@$@<Th |
+| 72 65 65 40 3E 40 28 40 33 40 29 40 7B 40 7D 0A | ree@>@(@3@)@{@}. |
+| 40 24 40 3C 4E 69 6E 65 40 3E 40 28 40 39 40 29 | @$@<Nine@>@(@9@) |
+| 40 7B 40 7D 0A 40 24 40 23 22 40 7B 40 7D 0A 0A | @{@}.@$@#"@{@}.. |
+| 54 68 65 20 66 6F 6C 6C 6F 77 69 6E 67 20 74 65 | The following te |
+| 73 74 20 63 61 6C 6C 73 20 73 68 6F 75 6C 64 20 | st calls should  |
+| 4E 4F 54 20 67 65 6E 65 72 61 74 65 20 61 6E 79 | NOT generate any |
+| 20 65 72 72 6F 72 73 2E 0A 0A 40 24 40 3C 4D 61 |  errors...@$@<Ma |
+| 63 72 6F 20 63 6F 6E 74 61 69 6E 69 6E 67 20 74 | cro containing t |
+| 68 65 20 74 65 73 74 20 6D 61 63 72 6F 20 63 61 | he test macro ca |
+| 6C 6C 73 2E 40 3E 3D 3D 40 7B 0A 31 2E 20 54 65 | lls.@>==@{.1. Te |
+| 73 74 20 6D 61 63 72 6F 20 63 61 6C 6C 20 77 69 | st macro call wi |
+| 74 68 20 6E 6F 20 70 61 72 61 6D 65 74 65 72 20 | th no parameter  |
+| 6C 69 73 74 2E 0A 40 3C 5A 65 72 6F 40 3E 0A 0A | list..@<Zero@>.. |
+| 32 2E 20 54 65 73 74 20 6D 61 63 72 6F 20 63 61 | 2. Test macro ca |
+| 6C 6C 20 77 69 74 68 20 71 75 69 63 6B 20 6E 61 | ll with quick na |
+| 6D 65 2E 0A 40 23 22 0A 0A 33 2E 20 54 65 73 74 | me..@#"..3. Test |
+| 20 6D 61 63 72 6F 20 63 61 6C 6C 20 77 69 74 68 |  macro call with |
+| 20 6F 6E 65 20 70 61 72 61 6D 65 74 65 72 2E 0A |  one parameter.. |
+| 40 3C 4F 6E 65 40 3E 40 28 54 6F 75 63 61 6E 40 | @<One@>@(Toucan@ |
+| 29 0A 0A 34 2E 20 54 65 73 74 20 6D 61 63 72 6F | )..4. Test macro |
+| 20 63 61 6C 6C 20 77 69 74 68 20 6D 61 6E 79 20 |  call with many  |
+| 70 61 72 61 6D 65 74 65 72 73 2E 0A 40 3C 54 77 | parameters..@<Tw |
+| 6F 40 3E 40 28 54 6F 75 63 61 6E 40 2C 54 65 61 | o@>@(Toucan@,Tea |
+| 70 6F 74 40 29 0A 40 3C 54 68 72 65 65 40 3E 40 | pot@).@<Three@>@ |
+| 28 54 6F 75 63 61 6E 40 2C 54 65 61 70 6F 74 40 | (Toucan@,Teapot@ |
+| 2C 57 61 6C 72 75 73 40 29 0A 40 3C 4E 69 6E 65 | ,Walrus@).@<Nine |
+| 40 3E 40 28 54 6F 75 63 61 6E 40 2C 54 65 61 70 | @>@(Toucan@,Teap |
+| 6F 74 40 2C 57 61 6C 72 75 73 40 2C 0A 20 20 20 | ot@,Walrus@,.    |
+| 20 20 20 20 20 20 20 54 6F 75 63 61 6E 40 2C 54 |        Toucan@,T |
+| 65 61 70 6F 74 40 2C 57 61 6C 72 75 73 40 2C 0A | eapot@,Walrus@,. |
+| 20 20 20 20 20 20 20 20 20 20 54 6F 75 63 61 6E |           Toucan |
+| 40 2C 54 65 61 70 6F 74 40 2C 57 61 6C 72 75 73 | @,Teapot@,Walrus |
+| 40 29 0A 0A 35 2E 20 54 65 73 74 20 6D 61 63 72 | @)..5. Test macr |
+| 6F 20 63 61 6C 6C 73 20 77 69 74 68 20 64 6F 75 | o calls with dou |
+| 62 6C 65 20 71 75 6F 74 65 73 20 6F 6E 20 70 61 | ble quotes on pa |
+| 72 61 6D 65 74 65 72 73 2E 0A 40 3C 4F 6E 65 40 | rameters..@<One@ |
+| 3E 40 28 20 40 22 54 6F 75 63 61 6E 40 22 40 29 | >@( @"Toucan@"@) |
+| 0A 40 3C 54 77 6F 40 3E 40 28 40 22 54 6F 75 63 | .@<Two@>@(@"Touc |
+| 61 6E 40 22 20 20 20 40 2C 20 20 20 40 22 54 65 | an@"   @,   @"Te |
+| 61 70 6F 74 40 22 40 29 0A 40 3C 54 68 72 65 65 | apot@"@).@<Three |
+| 40 3E 40 28 40 22 54 6F 75 63 61 6E 40 22 20 40 | @>@(@"Toucan@" @ |
+| 2C 0A 20 20 20 20 20 20 20 20 20 20 20 40 22 54 | ,.           @"T |
+| 65 61 70 6F 74 40 22 20 40 2C 0A 20 20 20 20 20 | eapot@" @,.      |
+| 20 20 20 20 20 20 40 22 57 61 6C 72 75 73 40 22 |       @"Walrus@" |
+| 20 40 29 0A 40 3C 4E 69 6E 65 40 3E 40 28 20 40 |  @).@<Nine@>@( @ |
+| 22 54 6F 75 63 61 6E 40 22 20 40 2C 20 40 22 54 | "Toucan@" @, @"T |
+| 65 61 70 6F 74 40 22 20 40 2C 20 40 22 57 61 6C | eapot@" @, @"Wal |
+| 72 75 73 40 22 20 40 2C 0A 20 20 20 20 20 20 20 | rus@" @,.        |
+| 20 20 20 20 40 22 54 6F 75 63 61 6E 40 22 20 40 |     @"Toucan@" @ |
+| 2C 20 40 22 54 65 61 70 6F 74 40 22 20 40 2C 20 | , @"Teapot@" @,  |
+| 40 22 57 61 6C 72 75 73 40 22 20 40 2C 0A 20 20 | @"Walrus@" @,.   |
+| 20 20 20 20 20 20 20 20 20 40 22 54 6F 75 63 61 |          @"Touca |
+| 6E 40 22 20 40 2C 20 40 22 54 65 61 70 6F 74 40 | n@" @, @"Teapot@ |
+| 22 20 40 2C 20 40 22 57 61 6C 72 75 73 40 22 20 | " @, @"Walrus@"  |
+| 40 29 0A 0A 37 2E 20 54 65 73 74 20 6D 61 63 72 | @)..7. Test macr |
+| 6F 20 63 61 6C 6C 73 20 77 69 74 68 20 6D 69 78 | o calls with mix |
+| 65 64 20 64 6F 75 62 6C 65 20 71 75 6F 74 65 73 | ed double quotes |
+| 20 6F 6E 20 70 61 72 61 6D 65 74 65 72 73 2E 0A |  on parameters.. |
+| 40 3C 54 77 6F 40 3E 40 28 40 22 54 6F 75 63 61 | @<Two@>@(@"Touca |
+| 6E 40 22 20 20 20 40 2C 54 65 61 70 6F 74 40 29 | n@"   @,Teapot@) |
+| 0A 40 3C 54 68 72 65 65 40 3E 40 28 40 22 54 6F | .@<Three@>@(@"To |
+| 75 63 61 6E 40 22 20 40 2C 0A 20 20 20 20 20 20 | ucan@" @,.       |
+| 20 20 20 20 20 40 22 54 65 61 70 6F 74 40 22 20 |      @"Teapot@"  |
+| 40 2C 57 61 6C 72 75 73 40 29 0A 40 3C 4E 69 6E | @,Walrus@).@<Nin |
+| 65 40 3E 40 28 20 40 22 54 6F 75 63 61 6E 40 22 | e@>@( @"Toucan@" |
+| 20 40 2C 20 40 22 54 65 61 70 6F 74 40 22 20 40 |  @, @"Teapot@" @ |
+| 2C 20 20 20 57 61 6C 72 75 73 20 20 20 40 2C 0A | ,   Walrus   @,. |
+| 20 20 20 20 20 20 20 20 20 20 20 40 22 54 6F 75 |            @"Tou |
+| 63 61 6E 40 22 20 40 2C 20 20 20 54 65 61 70 6F | can@" @,   Teapo |
+| 74 20 20 20 40 2C 20 40 22 57 61 6C 72 75 73 40 | t   @, @"Walrus@ |
+| 22 20 40 2C 0A 20 20 20 20 20 20 20 20 20 20 20 | " @,.            |
+| 40 22 54 6F 75 63 61 6E 40 22 20 40 2C 20 40 22 | @"Toucan@" @, @" |
+| 54 65 61 70 6F 74 40 22 20 40 2C 20 40 22 57 61 | Teapot@" @, @"Wa |
+| 6C 72 75 73 40 22 20 40 29 0A 0A 40 7D 20 40 21 | lrus@" @)..@} @! |
+| 20 45 6E 64 20 6F 66 20 6D 61 63 72 6F 20 64 65 |  End of macro de |
+| 66 69 6E 69 74 69 6F 6E 20 65 6E 63 6C 6F 73 69 | finition enclosi |
+| 6E 67 20 61 6C 6C 20 74 68 65 73 65 20 6C 65 67 | ng all these leg |
+| 61 6C 20 74 65 73 74 73 2E 0A 0A 38 2E 20 54 65 | al tests...8. Te |
+| 73 74 20 6D 61 63 72 6F 20 63 61 6C 6C 73 20 77 | st macro calls w |
+| 69 74 68 20 61 20 76 61 72 69 65 74 79 20 6F 66 | ith a variety of |
+| 20 73 79 6E 74 61 78 20 65 72 72 6F 72 73 20 69 |  syntax errors i |
+| 6E 20 70 61 72 61 6D 65 74 65 72 20 6C 69 73 74 | n parameter list |
+| 2E 0A 40 24 40 3C 45 72 72 6F 72 31 40 3E 40 7B | ..@$@<Error1@>@{ |
+| 0A 40 3C 5A 65 72 6F 40 3E 40 28 0A 40 7D 0A 40 | .@<Zero@>@(.@}.@ |
+| 41 40 3C 45 72 72 6F 72 20 72 65 63 6F 76 65 72 | A@<Error recover |
+| 79 20 70 6F 69 6E 74 40 3E 0A 0A 40 24 40 3C 45 | y point@>..@$@<E |
+| 72 72 6F 72 32 40 3E 40 7B 0A 40 3C 5A 65 72 6F | rror2@>@{.@<Zero |
+| 40 3E 40 29 0A 40 7D 0A 40 41 40 3C 45 72 72 6F | @>@).@}.@A@<Erro |
+| 72 20 72 65 63 6F 76 65 72 79 20 70 6F 69 6E 74 | r recovery point |
+| 40 3E 0A 0A 40 24 40 3C 45 72 72 6F 72 33 40 3E | @>..@$@<Error3@> |
+| 40 7B 0A 40 3C 4F 6E 65 40 3E 40 28 40 22 54 6F | @{.@<One@>@(@"To |
+| 75 63 61 6E 40 29 0A 40 7D 0A 40 41 40 3C 45 72 | ucan@).@}.@A@<Er |
+| 72 6F 72 20 72 65 63 6F 76 65 72 79 20 70 6F 69 | ror recovery poi |
+| 6E 74 40 3E 0A 0A 40 24 40 3C 45 72 72 6F 72 34 | nt@>..@$@<Error4 |
+| 40 3E 40 7B 0A 40 3C 4F 6E 65 40 3E 40 28 40 22 | @>@{.@<One@>@(@" |
+| 54 6F 75 63 61 6E 40 22 40 22 53 6C 6F 74 68 40 | Toucan@"@"Sloth@ |
+| 22 40 29 0A 40 7D 0A 40 41 40 3C 45 72 72 6F 72 | "@).@}.@A@<Error |
+| 20 72 65 63 6F 76 65 72 79 20 70 6F 69 6E 74 40 |  recovery point@ |
+| 3E 0A 0A 40 24 40 3C 45 72 72 6F 72 35 40 3E 40 | >..@$@<Error5@>@ |
+| 7B 0A 40 3C 54 77 6F 40 3E 40 28 40 22 54 6F 75 | {.@<Two@>@(@"Tou |
+| 63 61 6E 40 22 54 65 61 70 6F 74 40 29 0A 40 7D | can@"Teapot@).@} |
+| 0A 40 41 40 3C 45 72 72 6F 72 20 72 65 63 6F 76 | .@A@<Error recov |
+| 65 72 79 20 70 6F 69 6E 74 40 3E 0A 0A 40 24 40 | ery point@>..@$@ |
+| 3C 45 72 72 6F 72 36 40 3E 40 7B 0A 40 3C 54 77 | <Error6@>@{.@<Tw |
+| 6F 40 3E 40 28 40 22 54 6F 75 63 61 6E 40 22 54 | o@>@(@"Toucan@"T |
+| 65 61 70 6F 74 0A 40 7D 0A 40 41 40 3C 45 72 72 | eapot.@}.@A@<Err |
+| 6F 72 20 72 65 63 6F 76 65 72 79 20 70 6F 69 6E | or recovery poin |
+| 74 40 3E 0A 0A 40 24 40 3C 45 72 72 6F 72 37 40 | t@>..@$@<Error7@ |
+| 3E 40 7B 0A 40 3C 54 77 6F 40 3E 40 28 40 22 54 | >@{.@<Two@>@(@"T |
+| 6F 75 63 61 6E 40 22 54 65 61 70 6F 74 0A 40 3C | oucan@"Teapot.@< |
+| 54 68 72 65 65 40 3E 40 28 54 6F 75 63 61 6E 40 | Three@>@(Toucan@ |
+| 2C 0A 20 20 20 20 20 20 20 20 20 20 20 40 22 54 | ,.           @"T |
+| 65 61 70 6F 74 40 2C 57 61 6C 72 75 73 0A 0A 40 | eapot@,Walrus..@ |
+| 7D 0A 40 41 40 3C 45 72 72 6F 72 20 72 65 63 6F | }.@A@<Error reco |
+| 76 65 72 79 20 70 6F 69 6E 74 40 3E 0A 0A       | very point@>..   |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| PR09: Test calls and actual parameter lists.<010>
+00002 00002| <010>
+00003 00003| First trip up the parser so we don't get any further.<010>
+00004 00004| @><010>
+00005 00005| <010>
+00006 00006| Now define some macros to call. No error.<010>
+00007 00007| <010>
+00008 00008| @$@<Zero@>@{@}<010>
+00009 00009| @$@<One@>@(@1@)@{@}<010>
+00010 00010| @$@<Two@>@(@2@)@{@}<010>
+00011 00011| @$@<Three@>@(@3@)@{@}<010>
+00012 00012| @$@<Nine@>@(@9@)@{@}<010>
+00013 00013| @$@#"@{@}<010>
+00014 00014| <010>
+00015 00015| The following test calls should NOT generate any errors.<010>
+00016 00016| <010>
+00017 00017| @$@<Macro containing the test macro calls.@>==@{<010>
+00018 00018| 1. Test macro call with no parameter list.<010>
+00019 00019| @<Zero@><010>
+00020 00020| <010>
+00021 00021| 2. Test macro call with quick name.<010>
+00022 00022| @#"<010>
+00023 00023| <010>
+00024 00024| 3. Test macro call with one parameter.<010>
+00025 00025| @<One@>@(Toucan@)<010>
+00026 00026| <010>
+00027 00027| 4. Test macro call with many parameters.<010>
+00028 00028| @<Two@>@(Toucan@,Teapot@)<010>
+00029 00029| @<Three@>@(Toucan@,Teapot@,Walrus@)<010>
+00030 00030| @<Nine@>@(Toucan@,Teapot@,Walrus@,<010>
+00031 00031|           Toucan@,Teapot@,Walrus@,<010>
+00032 00032|           Toucan@,Teapot@,Walrus@)<010>
+00033 00033| <010>
+00034 00034| 5. Test macro calls with double quotes on parameters.<010>
+00035 00035| @<One@>@( @"Toucan@"@)<010>
+00036 00036| @<Two@>@(@"Toucan@"   @,   @"Teapot@"@)<010>
+00037 00037| @<Three@>@(@"Toucan@" @,<010>
+00038 00038|            @"Teapot@" @,<010>
+00039 00039|            @"Walrus@" @)<010>
+00040 00040| @<Nine@>@( @"Toucan@" @, @"Teapot@" @, @"Walrus@" @,<010>
+00041 00041|            @"Toucan@" @, @"Teapot@" @, @"Walrus@" @,<010>
+00042 00042|            @"Toucan@" @, @"Teapot@" @, @"Walrus@" @)<010>
+00043 00043| <010>
+00044 00044| 7. Test macro calls with mixed double quotes on parameters.<010>
+00045 00045| @<Two@>@(@"Toucan@"   @,Teapot@)<010>
+00046 00046| @<Three@>@(@"Toucan@" @,<010>
+00047 00047|            @"Teapot@" @,Walrus@)<010>
+00048 00048| @<Nine@>@( @"Toucan@" @, @"Teapot@" @,   Walrus   @,<010>
+00049 00049|            @"Toucan@" @,   Teapot   @, @"Walrus@" @,<010>
+00050 00050|            @"Toucan@" @, @"Teapot@" @, @"Walrus@" @)<010>
+00051 00051| <010>
+00052 00052| @} @! End of macro definition enclosing all these legal tests.<010>
+00053 00053| <010>
+00054 00054| 8. Test macro calls with a variety of syntax errors in parameter list.<010>
+00055 00055| @$@<Error1@>@{<010>
+00056 00056| @<Zero@>@(<010>
+00057 00057| @}<010>
+00058 00058| @A@<Error recovery point@><010>
+00059 00059| <010>
+00060 00060| @$@<Error2@>@{<010>
+00061 00061| @<Zero@>@)<010>
+00062 00062| @}<010>
+00063 00063| @A@<Error recovery point@><010>
+00064 00064| <010>
+00065 00065| @$@<Error3@>@{<010>
+00066 00066| @<One@>@(@"Toucan@)<010>
+00067 00067| @}<010>
+00068 00068| @A@<Error recovery point@><010>
+00069 00069| <010>
+00070 00070| @$@<Error4@>@{<010>
+00071 00071| @<One@>@(@"Toucan@"@"Sloth@"@)<010>
+00072 00072| @}<010>
+00073 00073| @A@<Error recovery point@><010>
+00074 00074| <010>
+00075 00075| @$@<Error5@>@{<010>
+00076 00076| @<Two@>@(@"Toucan@"Teapot@)<010>
+00077 00077| @}<010>
+00078 00078| @A@<Error recovery point@><010>
+00079 00079| <010>
+00080 00080| @$@<Error6@>@{<010>
+00081 00081| @<Two@>@(@"Toucan@"Teapot<010>
+00082 00082| @}<010>
+00083 00083| @A@<Error recovery point@><010>
+00084 00084| <010>
+00085 00085| @$@<Error7@>@{<010>
+00086 00086| @<Two@>@(@"Toucan@"Teapot<010>
+00087 00087| @<Three@>@(Toucan@,<010>
+00088 00088|            @"Teapot@,Walrus<010>
+00089 00089| <010>
+00090 00090| @}<010>
+00091 00091| @A@<Error recovery point@><010>
+00092 00092| <010>
+00093 00093| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 467 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="PR09: Test calls and actual parameter lists.<010>
+<010>
+First trip up the parser so we don't get any further.<010>
+"
+0004[01]: @> Close name. 
+0004[03]: Text. Text scrap[Grey]="<010>
+<010>
+Now define some macros to call. No error.<010>
+<010>
+"
+0008[01]: @$ Macro defn. 
+0008[03]: @< Open name. 
+0008[05]: Text. Text scrap[Grey]="Zero"
+0008[09]: @> Close name. 
+0008[11]: @{ Open defn. 
+0008[13]: @} Close defn. 
+0008[15]: Text. Text scrap[White]="<010>
+"
+0009[01]: @$ Macro defn. 
+0009[03]: @< Open name. 
+0009[05]: Text. Text scrap[Grey]="One"
+0009[08]: @> Close name. 
+0009[10]: @( Open param. 
+0009[12]: @n Parameter. Parameterno=1.
+0009[14]: @} Close param. 
+0009[16]: @{ Open defn. 
+0009[18]: @} Close defn. 
+0009[20]: Text. Text scrap[White]="<010>
+"
+0010[01]: @$ Macro defn. 
+0010[03]: @< Open name. 
+0010[05]: Text. Text scrap[Grey]="Two"
+0010[08]: @> Close name. 
+0010[10]: @( Open param. 
+0010[12]: @n Parameter. Parameterno=2.
+0010[14]: @} Close param. 
+0010[16]: @{ Open defn. 
+0010[18]: @} Close defn. 
+0010[20]: Text. Text scrap[White]="<010>
+"
+0011[01]: @$ Macro defn. 
+0011[03]: @< Open name. 
+0011[05]: Text. Text scrap[Grey]="Three"
+0011[10]: @> Close name. 
+0011[12]: @( Open param. 
+0011[14]: @n Parameter. Parameterno=3.
+0011[16]: @} Close param. 
+0011[18]: @{ Open defn. 
+0011[20]: @} Close defn. 
+0011[22]: Text. Text scrap[White]="<010>
+"
+0012[01]: @$ Macro defn. 
+0012[03]: @< Open name. 
+0012[05]: Text. Text scrap[Grey]="Nine"
+0012[09]: @> Close name. 
+0012[11]: @( Open param. 
+0012[13]: @n Parameter. Parameterno=9.
+0012[15]: @} Close param. 
+0012[17]: @{ Open defn. 
+0012[19]: @} Close defn. 
+0012[21]: Text. Text scrap[White]="<010>
+"
+0013[01]: @$ Macro defn. 
+0013[03]: @# Name. Character='"'.
+0013[06]: @{ Open defn. 
+0013[08]: @} Close defn. 
+0013[10]: Text. Text scrap[Grey]="<010>
+<010>
+The following test calls should NOT generate any errors.<010>
+<010>
+"
+0017[01]: @$ Macro defn. 
+0017[03]: @< Open name. 
+0017[05]: Text. Text scrap[Grey]="Macro containing the test macro calls."
+0017[43]: @> Close name. 
+0017[45]: Text. Text scrap[Grey]="=="
+0017[47]: @{ Open defn. 
+0017[49]: Text. Text scrap[Grey]="<010>
+1. Test macro call with no parameter list.<010>
+"
+0019[01]: @< Open name. 
+0019[03]: Text. Text scrap[Grey]="Zero"
+0019[07]: @> Close name. 
+0019[09]: Text. Text scrap[Grey]="<010>
+<010>
+2. Test macro call with quick name.<010>
+"
+0022[01]: @# Name. Character='"'.
+0022[04]: Text. Text scrap[Grey]="<010>
+<010>
+3. Test macro call with one parameter.<010>
+"
+0025[01]: @< Open name. 
+0025[03]: Text. Text scrap[Grey]="One"
+0025[06]: @> Close name. 
+0025[08]: @( Open param. 
+0025[10]: Text. Text scrap[Grey]="Toucan"
+0025[16]: @} Close param. 
+0025[18]: Text. Text scrap[Grey]="<010>
+<010>
+4. Test macro call with many parameters.<010>
+"
+0028[01]: @< Open name. 
+0028[03]: Text. Text scrap[Grey]="Two"
+0028[06]: @> Close name. 
+0028[08]: @( Open param. 
+0028[10]: Text. Text scrap[Grey]="Toucan"
+0028[16]: @, Comma. 
+0028[18]: Text. Text scrap[Grey]="Teapot"
+0028[24]: @} Close param. 
+0028[26]: Text. Text scrap[White]="<010>
+"
+0029[01]: @< Open name. 
+0029[03]: Text. Text scrap[Grey]="Three"
+0029[08]: @> Close name. 
+0029[10]: @( Open param. 
+0029[12]: Text. Text scrap[Grey]="Toucan"
+0029[18]: @, Comma. 
+0029[20]: Text. Text scrap[Grey]="Teapot"
+0029[26]: @, Comma. 
+0029[28]: Text. Text scrap[Grey]="Walrus"
+0029[34]: @} Close param. 
+0029[36]: Text. Text scrap[White]="<010>
+"
+0030[01]: @< Open name. 
+0030[03]: Text. Text scrap[Grey]="Nine"
+0030[07]: @> Close name. 
+0030[09]: @( Open param. 
+0030[11]: Text. Text scrap[Grey]="Toucan"
+0030[17]: @, Comma. 
+0030[19]: Text. Text scrap[Grey]="Teapot"
+0030[25]: @, Comma. 
+0030[27]: Text. Text scrap[Grey]="Walrus"
+0030[33]: @, Comma. 
+0030[35]: Text. Text scrap[Grey]="<010>
+          Toucan"
+0031[17]: @, Comma. 
+0031[19]: Text. Text scrap[Grey]="Teapot"
+0031[25]: @, Comma. 
+0031[27]: Text. Text scrap[Grey]="Walrus"
+0031[33]: @, Comma. 
+0031[35]: Text. Text scrap[Grey]="<010>
+          Toucan"
+0032[17]: @, Comma. 
+0032[19]: Text. Text scrap[Grey]="Teapot"
+0032[25]: @, Comma. 
+0032[27]: Text. Text scrap[Grey]="Walrus"
+0032[33]: @} Close param. 
+0032[35]: Text. Text scrap[Grey]="<010>
+<010>
+5. Test macro calls with double quotes on parameters.<010>
+"
+0035[01]: @< Open name. 
+0035[03]: Text. Text scrap[Grey]="One"
+0035[06]: @> Close name. 
+0035[08]: @( Open param. 
+0035[10]: Text. Text scrap[White]=" "
+0035[11]: @" Quote. 
+0035[13]: Text. Text scrap[Grey]="Toucan"
+0035[19]: @" Quote. 
+0035[21]: @} Close param. 
+0035[23]: Text. Text scrap[White]="<010>
+"
+0036[01]: @< Open name. 
+0036[03]: Text. Text scrap[Grey]="Two"
+0036[06]: @> Close name. 
+0036[08]: @( Open param. 
+0036[10]: @" Quote. 
+0036[12]: Text. Text scrap[Grey]="Toucan"
+0036[18]: @" Quote. 
+0036[20]: Text. Text scrap[White]="   "
+0036[23]: @, Comma. 
+0036[25]: Text. Text scrap[White]="   "
+0036[28]: @" Quote. 
+0036[30]: Text. Text scrap[Grey]="Teapot"
+0036[36]: @" Quote. 
+0036[38]: @} Close param. 
+0036[40]: Text. Text scrap[White]="<010>
+"
+0037[01]: @< Open name. 
+0037[03]: Text. Text scrap[Grey]="Three"
+0037[08]: @> Close name. 
+0037[10]: @( Open param. 
+0037[12]: @" Quote. 
+0037[14]: Text. Text scrap[Grey]="Toucan"
+0037[20]: @" Quote. 
+0037[22]: Text. Text scrap[White]=" "
+0037[23]: @, Comma. 
+0037[25]: Text. Text scrap[White]="<010>
+           "
+0038[12]: @" Quote. 
+0038[14]: Text. Text scrap[Grey]="Teapot"
+0038[20]: @" Quote. 
+0038[22]: Text. Text scrap[White]=" "
+0038[23]: @, Comma. 
+0038[25]: Text. Text scrap[White]="<010>
+           "
+0039[12]: @" Quote. 
+0039[14]: Text. Text scrap[Grey]="Walrus"
+0039[20]: @" Quote. 
+0039[22]: Text. Text scrap[White]=" "
+0039[23]: @} Close param. 
+0039[25]: Text. Text scrap[White]="<010>
+"
+0040[01]: @< Open name. 
+0040[03]: Text. Text scrap[Grey]="Nine"
+0040[07]: @> Close name. 
+0040[09]: @( Open param. 
+0040[11]: Text. Text scrap[White]=" "
+0040[12]: @" Quote. 
+0040[14]: Text. Text scrap[Grey]="Toucan"
+0040[20]: @" Quote. 
+0040[22]: Text. Text scrap[White]=" "
+0040[23]: @, Comma. 
+0040[25]: Text. Text scrap[White]=" "
+0040[26]: @" Quote. 
+0040[28]: Text. Text scrap[Grey]="Teapot"
+0040[34]: @" Quote. 
+0040[36]: Text. Text scrap[White]=" "
+0040[37]: @, Comma. 
+0040[39]: Text. Text scrap[White]=" "
+0040[40]: @" Quote. 
+0040[42]: Text. Text scrap[Grey]="Walrus"
+0040[48]: @" Quote. 
+0040[50]: Text. Text scrap[White]=" "
+0040[51]: @, Comma. 
+0040[53]: Text. Text scrap[White]="<010>
+           "
+0041[12]: @" Quote. 
+0041[14]: Text. Text scrap[Grey]="Toucan"
+0041[20]: @" Quote. 
+0041[22]: Text. Text scrap[White]=" "
+0041[23]: @, Comma. 
+0041[25]: Text. Text scrap[White]=" "
+0041[26]: @" Quote. 
+0041[28]: Text. Text scrap[Grey]="Teapot"
+0041[34]: @" Quote. 
+0041[36]: Text. Text scrap[White]=" "
+0041[37]: @, Comma. 
+0041[39]: Text. Text scrap[White]=" "
+0041[40]: @" Quote. 
+0041[42]: Text. Text scrap[Grey]="Walrus"
+0041[48]: @" Quote. 
+0041[50]: Text. Text scrap[White]=" "
+0041[51]: @, Comma. 
+0041[53]: Text. Text scrap[White]="<010>
+           "
+0042[12]: @" Quote. 
+0042[14]: Text. Text scrap[Grey]="Toucan"
+0042[20]: @" Quote. 
+0042[22]: Text. Text scrap[White]=" "
+0042[23]: @, Comma. 
+0042[25]: Text. Text scrap[White]=" "
+0042[26]: @" Quote. 
+0042[28]: Text. Text scrap[Grey]="Teapot"
+0042[34]: @" Quote. 
+0042[36]: Text. Text scrap[White]=" "
+0042[37]: @, Comma. 
+0042[39]: Text. Text scrap[White]=" "
+0042[40]: @" Quote. 
+0042[42]: Text. Text scrap[Grey]="Walrus"
+0042[48]: @" Quote. 
+0042[50]: Text. Text scrap[White]=" "
+0042[51]: @} Close param. 
+0042[53]: Text. Text scrap[Grey]="<010>
+<010>
+7. Test macro calls with mixed double quotes on parameters.<010>
+"
+0045[01]: @< Open name. 
+0045[03]: Text. Text scrap[Grey]="Two"
+0045[06]: @> Close name. 
+0045[08]: @( Open param. 
+0045[10]: @" Quote. 
+0045[12]: Text. Text scrap[Grey]="Toucan"
+0045[18]: @" Quote. 
+0045[20]: Text. Text scrap[White]="   "
+0045[23]: @, Comma. 
+0045[25]: Text. Text scrap[Grey]="Teapot"
+0045[31]: @} Close param. 
+0045[33]: Text. Text scrap[White]="<010>
+"
+0046[01]: @< Open name. 
+0046[03]: Text. Text scrap[Grey]="Three"
+0046[08]: @> Close name. 
+0046[10]: @( Open param. 
+0046[12]: @" Quote. 
+0046[14]: Text. Text scrap[Grey]="Toucan"
+0046[20]: @" Quote. 
+0046[22]: Text. Text scrap[White]=" "
+0046[23]: @, Comma. 
+0046[25]: Text. Text scrap[White]="<010>
+           "
+0047[12]: @" Quote. 
+0047[14]: Text. Text scrap[Grey]="Teapot"
+0047[20]: @" Quote. 
+0047[22]: Text. Text scrap[White]=" "
+0047[23]: @, Comma. 
+0047[25]: Text. Text scrap[Grey]="Walrus"
+0047[31]: @} Close param. 
+0047[33]: Text. Text scrap[White]="<010>
+"
+0048[01]: @< Open name. 
+0048[03]: Text. Text scrap[Grey]="Nine"
+0048[07]: @> Close name. 
+0048[09]: @( Open param. 
+0048[11]: Text. Text scrap[White]=" "
+0048[12]: @" Quote. 
+0048[14]: Text. Text scrap[Grey]="Toucan"
+0048[20]: @" Quote. 
+0048[22]: Text. Text scrap[White]=" "
+0048[23]: @, Comma. 
+0048[25]: Text. Text scrap[White]=" "
+0048[26]: @" Quote. 
+0048[28]: Text. Text scrap[Grey]="Teapot"
+0048[34]: @" Quote. 
+0048[36]: Text. Text scrap[White]=" "
+0048[37]: @, Comma. 
+0048[39]: Text. Text scrap[Grey]="   Walrus   "
+0048[51]: @, Comma. 
+0048[53]: Text. Text scrap[White]="<010>
+           "
+0049[12]: @" Quote. 
+0049[14]: Text. Text scrap[Grey]="Toucan"
+0049[20]: @" Quote. 
+0049[22]: Text. Text scrap[White]=" "
+0049[23]: @, Comma. 
+0049[25]: Text. Text scrap[Grey]="   Teapot   "
+0049[37]: @, Comma. 
+0049[39]: Text. Text scrap[White]=" "
+0049[40]: @" Quote. 
+0049[42]: Text. Text scrap[Grey]="Walrus"
+0049[48]: @" Quote. 
+0049[50]: Text. Text scrap[White]=" "
+0049[51]: @, Comma. 
+0049[53]: Text. Text scrap[White]="<010>
+           "
+0050[12]: @" Quote. 
+0050[14]: Text. Text scrap[Grey]="Toucan"
+0050[20]: @" Quote. 
+0050[22]: Text. Text scrap[White]=" "
+0050[23]: @, Comma. 
+0050[25]: Text. Text scrap[White]=" "
+0050[26]: @" Quote. 
+0050[28]: Text. Text scrap[Grey]="Teapot"
+0050[34]: @" Quote. 
+0050[36]: Text. Text scrap[White]=" "
+0050[37]: @, Comma. 
+0050[39]: Text. Text scrap[White]=" "
+0050[40]: @" Quote. 
+0050[42]: Text. Text scrap[Grey]="Walrus"
+0050[48]: @" Quote. 
+0050[50]: Text. Text scrap[White]=" "
+0050[51]: @} Close param. 
+0050[53]: Text. Text scrap[White]="<010>
+<010>
+"
+0052[01]: @} Close defn. 
+0052[03]: Text. Text scrap[White]=" "
+0053[01]: Text. Text scrap[Grey]="<010>
+8. Test macro calls with a variety of syntax errors in parameter list.<010>
+"
+0055[01]: @$ Macro defn. 
+0055[03]: @< Open name. 
+0055[05]: Text. Text scrap[Grey]="Error1"
+0055[11]: @> Close name. 
+0055[13]: @{ Open defn. 
+0055[15]: Text. Text scrap[White]="<010>
+"
+0056[01]: @< Open name. 
+0056[03]: Text. Text scrap[Grey]="Zero"
+0056[07]: @> Close name. 
+0056[09]: @( Open param. 
+0056[11]: Text. Text scrap[White]="<010>
+"
+0057[01]: @} Close defn. 
+0057[03]: Text. Text scrap[White]="<010>
+"
+0058[01]: @A New section (Level 1). 
+0058[03]: @< Open name. 
+0058[05]: Text. Text scrap[Grey]="Error recovery point"
+0058[25]: @> Close name. 
+0058[27]: Text. Text scrap[White]="<010>
+<010>
+"
+0060[01]: @$ Macro defn. 
+0060[03]: @< Open name. 
+0060[05]: Text. Text scrap[Grey]="Error2"
+0060[11]: @> Close name. 
+0060[13]: @{ Open defn. 
+0060[15]: Text. Text scrap[White]="<010>
+"
+0061[01]: @< Open name. 
+0061[03]: Text. Text scrap[Grey]="Zero"
+0061[07]: @> Close name. 
+0061[09]: @} Close param. 
+0061[11]: Text. Text scrap[White]="<010>
+"
+0062[01]: @} Close defn. 
+0062[03]: Text. Text scrap[White]="<010>
+"
+0063[01]: @A New section (Level 1). 
+0063[03]: @< Open name. 
+0063[05]: Text. Text scrap[Grey]="Error recovery point"
+0063[25]: @> Close name. 
+0063[27]: Text. Text scrap[White]="<010>
+<010>
+"
+0065[01]: @$ Macro defn. 
+0065[03]: @< Open name. 
+0065[05]: Text. Text scrap[Grey]="Error3"
+0065[11]: @> Close name. 
+0065[13]: @{ Open defn. 
+0065[15]: Text. Text scrap[White]="<010>
+"
+0066[01]: @< Open name. 
+0066[03]: Text. Text scrap[Grey]="One"
+0066[06]: @> Close name. 
+0066[08]: @( Open param. 
+0066[10]: @" Quote. 
+0066[12]: Text. Text scrap[Grey]="Toucan"
+0066[18]: @} Close param. 
+0066[20]: Text. Text scrap[White]="<010>
+"
+0067[01]: @} Close defn. 
+0067[03]: Text. Text scrap[White]="<010>
+"
+0068[01]: @A New section (Level 1). 
+0068[03]: @< Open name. 
+0068[05]: Text. Text scrap[Grey]="Error recovery point"
+0068[25]: @> Close name. 
+0068[27]: Text. Text scrap[White]="<010>
+<010>
+"
+0070[01]: @$ Macro defn. 
+0070[03]: @< Open name. 
+0070[05]: Text. Text scrap[Grey]="Error4"
+0070[11]: @> Close name. 
+0070[13]: @{ Open defn. 
+0070[15]: Text. Text scrap[White]="<010>
+"
+0071[01]: @< Open name. 
+0071[03]: Text. Text scrap[Grey]="One"
+0071[06]: @> Close name. 
+0071[08]: @( Open param. 
+0071[10]: @" Quote. 
+0071[12]: Text. Text scrap[Grey]="Toucan"
+0071[18]: @" Quote. 
+0071[20]: @" Quote. 
+0071[22]: Text. Text scrap[Grey]="Sloth"
+0071[27]: @" Quote. 
+0071[29]: @} Close param. 
+0071[31]: Text. Text scrap[White]="<010>
+"
+0072[01]: @} Close defn. 
+0072[03]: Text. Text scrap[White]="<010>
+"
+0073[01]: @A New section (Level 1). 
+0073[03]: @< Open name. 
+0073[05]: Text. Text scrap[Grey]="Error recovery point"
+0073[25]: @> Close name. 
+0073[27]: Text. Text scrap[White]="<010>
+<010>
+"
+0075[01]: @$ Macro defn. 
+0075[03]: @< Open name. 
+0075[05]: Text. Text scrap[Grey]="Error5"
+0075[11]: @> Close name. 
+0075[13]: @{ Open defn. 
+0075[15]: Text. Text scrap[White]="<010>
+"
+0076[01]: @< Open name. 
+0076[03]: Text. Text scrap[Grey]="Two"
+0076[06]: @> Close name. 
+0076[08]: @( Open param. 
+0076[10]: @" Quote. 
+0076[12]: Text. Text scrap[Grey]="Toucan"
+0076[18]: @" Quote. 
+0076[20]: Text. Text scrap[Grey]="Teapot"
+0076[26]: @} Close param. 
+0076[28]: Text. Text scrap[White]="<010>
+"
+0077[01]: @} Close defn. 
+0077[03]: Text. Text scrap[White]="<010>
+"
+0078[01]: @A New section (Level 1). 
+0078[03]: @< Open name. 
+0078[05]: Text. Text scrap[Grey]="Error recovery point"
+0078[25]: @> Close name. 
+0078[27]: Text. Text scrap[White]="<010>
+<010>
+"
+0080[01]: @$ Macro defn. 
+0080[03]: @< Open name. 
+0080[05]: Text. Text scrap[Grey]="Error6"
+0080[11]: @> Close name. 
+0080[13]: @{ Open defn. 
+0080[15]: Text. Text scrap[White]="<010>
+"
+0081[01]: @< Open name. 
+0081[03]: Text. Text scrap[Grey]="Two"
+0081[06]: @> Close name. 
+0081[08]: @( Open param. 
+0081[10]: @" Quote. 
+0081[12]: Text. Text scrap[Grey]="Toucan"
+0081[18]: @" Quote. 
+0081[20]: Text. Text scrap[Grey]="Teapot<010>
+"
+0082[01]: @} Close defn. 
+0082[03]: Text. Text scrap[White]="<010>
+"
+0083[01]: @A New section (Level 1). 
+0083[03]: @< Open name. 
+0083[05]: Text. Text scrap[Grey]="Error recovery point"
+0083[25]: @> Close name. 
+0083[27]: Text. Text scrap[White]="<010>
+<010>
+"
+0085[01]: @$ Macro defn. 
+0085[03]: @< Open name. 
+0085[05]: Text. Text scrap[Grey]="Error7"
+0085[11]: @> Close name. 
+0085[13]: @{ Open defn. 
+0085[15]: Text. Text scrap[White]="<010>
+"
+0086[01]: @< Open name. 
+0086[03]: Text. Text scrap[Grey]="Two"
+0086[06]: @> Close name. 
+0086[08]: @( Open param. 
+0086[10]: @" Quote. 
+0086[12]: Text. Text scrap[Grey]="Toucan"
+0086[18]: @" Quote. 
+0086[20]: Text. Text scrap[Grey]="Teapot<010>
+"
+0087[01]: @< Open name. 
+0087[03]: Text. Text scrap[Grey]="Three"
+0087[08]: @> Close name. 
+0087[10]: @( Open param. 
+0087[12]: Text. Text scrap[Grey]="Toucan"
+0087[18]: @, Comma. 
+0087[20]: Text. Text scrap[White]="<010>
+           "
+0088[12]: @" Quote. 
+0088[14]: Text. Text scrap[Grey]="Teapot"
+0088[20]: @, Comma. 
+0088[22]: Text. Text scrap[Grey]="Walrus<010>
+<010>
+"
+0090[01]: @} Close defn. 
+0090[03]: Text. Text scrap[White]="<010>
+"
+0091[01]: @A New section (Level 1). 
+0091[03]: @< Open name. 
+0091[05]: Text. Text scrap[Grey]="Error recovery point"
+0091[25]: @> Close name. 
+0091[27]: Text. Text scrap[White]="<010>
+<010>
+"
+0093[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+
+========================== Start of MACRO TABLE DUMP ===========================
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : """
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+   Call 1: Parameters=0, Sequence num=7, Position(L,C)=(22,1).
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=6, Pos(L,C)=(13,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Error1"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 0 body parts.
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Error2"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 0 body parts.
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Error3"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 0 body parts.
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Error4"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 0 body parts.
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Error5"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=8, Pos(L,C)=(75,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[White]="<010>
+"
+------ End Text Element ------
+
+
+-- Begin Invocation Element --
+Invocation of macro @<Two@>
+This invocation has 1 actual parameters.
+Actual parameter list follows as a sequence of expressions:
+(Text crud before and after parameter has been omitted).
+Expression for parameter number 1:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Toucan"
+------ End Text Element ------
+
+----- End of Expression -----
+
+--- End Invocation Element ---
+
+
+----- Start Text Element -----
+Text scrap[White]="<010>
+"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Error6"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 0 body parts.
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Error7"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 0 body parts.
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Macro containing the test macro calls."
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=7, Pos(L,C)=(17,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="<010>
+1. Test macro call with no parameter list.<010>
+"
+------ End Text Element ------
+
+
+-- Begin Invocation Element --
+Invocation of macro @<Zero@>
+No actual parameters.
+--- End Invocation Element ---
+
+
+----- Start Text Element -----
+Text scrap[Grey]="<010>
+<010>
+2. Test macro call with quick name.<010>
+"
+------ End Text Element ------
+
+
+-- Begin Invocation Element --
+Invocation of macro @<"@>
+No actual parameters.
+--- End Invocation Element ---
+
+
+----- Start Text Element -----
+Text scrap[Grey]="<010>
+<010>
+3. Test macro call with one parameter.<010>
+"
+------ End Text Element ------
+
+
+-- Begin Invocation Element --
+Invocation of macro @<One@>
+This invocation has 1 actual parameters.
+Actual parameter list follows as a sequence of expressions:
+(Text crud before and after parameter has been omitted).
+Expression for parameter number 1:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Toucan"
+------ End Text Element ------
+
+----- End of Expression -----
+
+--- End Invocation Element ---
+
+
+----- Start Text Element -----
+Text scrap[Grey]="<010>
+<010>
+4. Test macro call with many parameters.<010>
+"
+------ End Text Element ------
+
+
+-- Begin Invocation Element --
+Invocation of macro @<Two@>
+This invocation has 2 actual parameters.
+Actual parameter list follows as a sequence of expressions:
+(Text crud before and after parameter has been omitted).
+Expression for parameter number 1:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Toucan"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 2:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Teapot"
+------ End Text Element ------
+
+----- End of Expression -----
+
+--- End Invocation Element ---
+
+
+----- Start Text Element -----
+Text scrap[White]="<010>
+"
+------ End Text Element ------
+
+
+-- Begin Invocation Element --
+Invocation of macro @<Three@>
+This invocation has 3 actual parameters.
+Actual parameter list follows as a sequence of expressions:
+(Text crud before and after parameter has been omitted).
+Expression for parameter number 1:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Toucan"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 2:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Teapot"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 3:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Walrus"
+------ End Text Element ------
+
+----- End of Expression -----
+
+--- End Invocation Element ---
+
+
+----- Start Text Element -----
+Text scrap[White]="<010>
+"
+------ End Text Element ------
+
+
+-- Begin Invocation Element --
+Invocation of macro @<Nine@>
+This invocation has 9 actual parameters.
+Actual parameter list follows as a sequence of expressions:
+(Text crud before and after parameter has been omitted).
+Expression for parameter number 1:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Toucan"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 2:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Teapot"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 3:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Walrus"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 4:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="<010>
+          Toucan"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 5:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Teapot"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 6:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Walrus"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 7:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="<010>
+          Toucan"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 8:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Teapot"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 9:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Walrus"
+------ End Text Element ------
+
+----- End of Expression -----
+
+--- End Invocation Element ---
+
+
+----- Start Text Element -----
+Text scrap[Grey]="<010>
+<010>
+5. Test macro calls with double quotes on parameters.<010>
+"
+------ End Text Element ------
+
+
+-- Begin Invocation Element --
+Invocation of macro @<One@>
+This invocation has 1 actual parameters.
+Actual parameter list follows as a sequence of expressions:
+(Text crud before and after parameter has been omitted).
+Expression for parameter number 1:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Toucan"
+------ End Text Element ------
+
+----- End of Expression -----
+
+--- End Invocation Element ---
+
+
+----- Start Text Element -----
+Text scrap[White]="<010>
+"
+------ End Text Element ------
+
+
+-- Begin Invocation Element --
+Invocation of macro @<Two@>
+This invocation has 2 actual parameters.
+Actual parameter list follows as a sequence of expressions:
+(Text crud before and after parameter has been omitted).
+Expression for parameter number 1:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Toucan"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 2:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Teapot"
+------ End Text Element ------
+
+----- End of Expression -----
+
+--- End Invocation Element ---
+
+
+----- Start Text Element -----
+Text scrap[White]="<010>
+"
+------ End Text Element ------
+
+
+-- Begin Invocation Element --
+Invocation of macro @<Three@>
+This invocation has 3 actual parameters.
+Actual parameter list follows as a sequence of expressions:
+(Text crud before and after parameter has been omitted).
+Expression for parameter number 1:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Toucan"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 2:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Teapot"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 3:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Walrus"
+------ End Text Element ------
+
+----- End of Expression -----
+
+--- End Invocation Element ---
+
+
+----- Start Text Element -----
+Text scrap[White]="<010>
+"
+------ End Text Element ------
+
+
+-- Begin Invocation Element --
+Invocation of macro @<Nine@>
+This invocation has 9 actual parameters.
+Actual parameter list follows as a sequence of expressions:
+(Text crud before and after parameter has been omitted).
+Expression for parameter number 1:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Toucan"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 2:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Teapot"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 3:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Walrus"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 4:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Toucan"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 5:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Teapot"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 6:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Walrus"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 7:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Toucan"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 8:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Teapot"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 9:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Walrus"
+------ End Text Element ------
+
+----- End of Expression -----
+
+--- End Invocation Element ---
+
+
+----- Start Text Element -----
+Text scrap[Grey]="<010>
+<010>
+7. Test macro calls with mixed double quotes on parameters.<010>
+"
+------ End Text Element ------
+
+
+-- Begin Invocation Element --
+Invocation of macro @<Two@>
+This invocation has 2 actual parameters.
+Actual parameter list follows as a sequence of expressions:
+(Text crud before and after parameter has been omitted).
+Expression for parameter number 1:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Toucan"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 2:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Teapot"
+------ End Text Element ------
+
+----- End of Expression -----
+
+--- End Invocation Element ---
+
+
+----- Start Text Element -----
+Text scrap[White]="<010>
+"
+------ End Text Element ------
+
+
+-- Begin Invocation Element --
+Invocation of macro @<Three@>
+This invocation has 3 actual parameters.
+Actual parameter list follows as a sequence of expressions:
+(Text crud before and after parameter has been omitted).
+Expression for parameter number 1:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Toucan"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 2:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Teapot"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 3:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Walrus"
+------ End Text Element ------
+
+----- End of Expression -----
+
+--- End Invocation Element ---
+
+
+----- Start Text Element -----
+Text scrap[White]="<010>
+"
+------ End Text Element ------
+
+
+-- Begin Invocation Element --
+Invocation of macro @<Nine@>
+This invocation has 9 actual parameters.
+Actual parameter list follows as a sequence of expressions:
+(Text crud before and after parameter has been omitted).
+Expression for parameter number 1:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Toucan"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 2:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Teapot"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 3:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="   Walrus   "
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 4:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Toucan"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 5:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="   Teapot   "
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 6:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Walrus"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 7:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Toucan"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 8:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Teapot"
+------ End Text Element ------
+
+----- End of Expression -----
+
+Expression for parameter number 9:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Walrus"
+------ End Text Element ------
+
+----- End of Expression -----
+
+--- End Invocation Element ---
+
+
+----- Start Text Element -----
+Text scrap[White]="<010>
+<010>
+"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Nine"
+Defined?    : Yes.
+Parameters  : 9
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+   Call 1: Parameters=9, Sequence num=7, Position(L,C)=(30,1).
+   Call 2: Parameters=9, Sequence num=7, Position(L,C)=(40,1).
+   Call 3: Parameters=9, Sequence num=7, Position(L,C)=(48,1).
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=5, Pos(L,C)=(12,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "One"
+Defined?    : Yes.
+Parameters  : 1
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+   Call 1: Parameters=1, Sequence num=7, Position(L,C)=(25,1).
+   Call 2: Parameters=1, Sequence num=7, Position(L,C)=(35,1).
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=2, Pos(L,C)=(9,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Three"
+Defined?    : Yes.
+Parameters  : 3
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+   Call 1: Parameters=3, Sequence num=7, Position(L,C)=(29,1).
+   Call 2: Parameters=3, Sequence num=7, Position(L,C)=(37,1).
+   Call 3: Parameters=3, Sequence num=7, Position(L,C)=(46,1).
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=4, Pos(L,C)=(11,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Two"
+Defined?    : Yes.
+Parameters  : 2
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+   Call 1: Parameters=2, Sequence num=7, Position(L,C)=(28,1).
+   Call 2: Parameters=2, Sequence num=7, Position(L,C)=(36,1).
+   Call 3: Parameters=2, Sequence num=7, Position(L,C)=(45,1).
+   Call 4: Parameters=1, Sequence num=8, Position(L,C)=(76,1).
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=3, Pos(L,C)=(10,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Zero"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+   Call 1: Parameters=0, Sequence num=7, Position(L,C)=(19,1).
+   Call 2: Parameters=0, Sequence num=8, Position(L,C)=(61,1).
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=1, Pos(L,C)=(8,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+=========================== End of MACRO TABLE DUMP ============================
+
+
+========================= Start of DOCUMENT LIST DUMP ==========================
+
+
+TEXT COMPONENT: Pos(L,C)=(1,1). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="PR09: Test calls and actual parameter lists.<010>
+<010>
+First trip up the parser so we don't get any further.<010>
+"
+--- End of Text Scrap List ---
+
+
+TEXT COMPONENT: Pos(L,C)=(4,3). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+Now define some macros to call. No error.<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(8,1). 
+Part 1 of macro @<Zero@>.
+
+TEXT COMPONENT: Pos(L,C)=(8,15). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(9,1). 
+Part 1 of macro @<One@>.
+
+TEXT COMPONENT: Pos(L,C)=(9,20). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(10,1). 
+Part 1 of macro @<Two@>.
+
+TEXT COMPONENT: Pos(L,C)=(10,20). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(11,1). 
+Part 1 of macro @<Three@>.
+
+TEXT COMPONENT: Pos(L,C)=(11,22). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(12,1). 
+Part 1 of macro @<Nine@>.
+
+TEXT COMPONENT: Pos(L,C)=(12,21). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(13,1). 
+Part 1 of macro @<"@>.
+
+TEXT COMPONENT: Pos(L,C)=(13,10). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+The following test calls should NOT generate any errors.<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(17,1). 
+Part 1 of macro @<Macro containing the test macro calls.@>.
+
+TEXT COMPONENT: Pos(L,C)=(52,3). 
+
+-- Start of Text Scrap List --
+Text scrap[White]=" "
+Text scrap[Grey]="<010>
+8. Test macro calls with a variety of syntax errors in parameter list.<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "1", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(58,27). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "2", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(63,27). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "3", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(68,27). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "4", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(73,27). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(75,1). 
+Part 1 of macro @<Error5@>.
+
+TEXT COMPONENT: Pos(L,C)=(77,3). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "5", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(78,27). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "6", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(83,27). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "7", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(91,27). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+========================== End of DOCUMENT LIST DUMP ===========================
+
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| PR09: Test calls and actual parameter lists.
+     2     2| 
+     3     3| First trip up the parser so we don't get any further.
+     4     4| @>
+       Error|.^The parser was at the top level and was expecting
+            |.^one of: {Directive, Text, Macro definition, EOF}.
+     5     5| 
+     6     6| Now define some macros to call. No error.
+     7     7| 
+     8     8| @$@<Zero@>@{@}
+     9     9| @$@<One@>@(@1@)@{@}
+    10    10| @$@<Two@>@(@2@)@{@}
+    11    11| @$@<Three@>@(@3@)@{@}
+    12    12| @$@<Nine@>@(@9@)@{@}
+    13    13| @$@#"@{@}
+    14    14| 
+    15    15| The following test calls should NOT generate any errors.
+    16    16| 
+    17    17| @$@<Macro containing the test macro calls.@>==@{
+    18    18| 1. Test macro call with no parameter list.
+    19    19| @<Zero@>
+    20    20| 
+    21    21| 2. Test macro call with quick name.
+    22    22| @#"
+    23    23| 
+    24    24| 3. Test macro call with one parameter.
+    25    25| @<One@>@(Toucan@)
+    26    26| 
+    27    27| 4. Test macro call with many parameters.
+    28    28| @<Two@>@(Toucan@,Teapot@)
+    29    29| @<Three@>@(Toucan@,Teapot@,Walrus@)
+    30    30| @<Nine@>@(Toucan@,Teapot@,Walrus@,
+    31    31|           Toucan@,Teapot@,Walrus@,
+    32    32|           Toucan@,Teapot@,Walrus@)
+    33    33| 
+    34    34| 5. Test macro calls with double quotes on parameters.
+    35    35| @<One@>@( @"Toucan@"@)
+    36    36| @<Two@>@(@"Toucan@"   @,   @"Teapot@"@)
+    37    37| @<Three@>@(@"Toucan@" @,
+    38    38|            @"Teapot@" @,
+    39    39|            @"Walrus@" @)
+    40    40| @<Nine@>@( @"Toucan@" @, @"Teapot@" @, @"Walrus@" @,
+    41    41|            @"Toucan@" @, @"Teapot@" @, @"Walrus@" @,
+    42    42|            @"Toucan@" @, @"Teapot@" @, @"Walrus@" @)
+    43    43| 
+    44    44| 7. Test macro calls with mixed double quotes on parameters.
+    45    45| @<Two@>@(@"Toucan@"   @,Teapot@)
+    46    46| @<Three@>@(@"Toucan@" @,
+    47    47|            @"Teapot@" @,Walrus@)
+    48    48| @<Nine@>@( @"Toucan@" @, @"Teapot@" @,   Walrus   @,
+    49    49|            @"Toucan@" @,   Teapot   @, @"Walrus@" @,
+    50    50|            @"Toucan@" @, @"Teapot@" @, @"Walrus@" @)
+    51    51| 
+    52    52| @} @! End of macro definition enclosing all these legal tests.
+    53    53| 
+    54    54| 8. Test macro calls with a variety of syntax errors in parameter list.
+    55    55| @$@<Error1@>@{
+    56    56| @<Zero@>@(
+    57    57| @}
+       Error|.^Expecting @" or @, or @).
+            |.^Skipping after error to the next major construct...
+    58    58| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    59    59| 
+    60    60| @$@<Error2@>@{
+    61    61| @<Zero@>@)
+       Error|.........^Expecting '@}'.
+            |.........^Skipping after error to the next major construct...
+    62    62| @}
+    63    63| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    64    64| 
+    65    65| @$@<Error3@>@{
+    66    66| @<One@>@(@"Toucan@)
+       Error|..................^Expecting '@"'.
+            |..................^Skipping after error to the next major construct...
+    67    67| @}
+    68    68| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    69    69| 
+    70    70| @$@<Error4@>@{
+    71    71| @<One@>@(@"Toucan@"@"Sloth@"@)
+       Error|....................^Expecting @, or @).
+            |....................^Skipping after error to the next major construct...
+    72    72| @}
+    73    73| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    74    74| 
+    75    75| @$@<Error5@>@{
+    76    76| @<Two@>@(@"Toucan@"Teapot@)
+       Error|....................^Expecting whitespace text.
+    77    77| @}
+    78    78| @A@<Error recovery point@>
+    79    79| 
+    80    80| @$@<Error6@>@{
+    81    81| @<Two@>@(@"Toucan@"Teapot
+       Error|....................^Expecting whitespace text.
+    82    82| @}
+       Error|.^Expecting @, or @).
+            |.^Skipping after error to the next major construct...
+    83    83| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    84    84| 
+    85    85| @$@<Error7@>@{
+    86    86| @<Two@>@(@"Toucan@"Teapot
+       Error|....................^Expecting whitespace text.
+    87    87| @<Three@>@(Toucan@,
+       Error|.^Expecting @, or @).
+            |.^Skipping after error to the next major construct...
+    88    88|            @"Teapot@,Walrus
+    89    89| 
+    90    90| @}
+    91    91| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    92    92| 
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 10 Errors.

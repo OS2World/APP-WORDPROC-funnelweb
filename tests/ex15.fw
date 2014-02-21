@@ -1,0 +1,19 @@
+EX15: This example demonstrates some of FunnelWeb's generic typesetting
+      constructs.
+
+@t vskip 40 mm
+@t title titlefont centre "Hairy Wombat"
+@t title titlefont centre "Simulation"
+@t vskip 10 mm
+@t title smalltitlefont centre "A Program in Six Parts"
+@t title smalltitlefont centre "Simulating the Life of Some Hairy Wombats"
+@t vskip 20 mm
+@t title normalfont left "By Zqitzypbuswapzra Ypongtatoslrtzz"
+@t new_page
+@t table_of_contents
+@t new_page
+
+@A@<Section One@>
+@A@<Section Two@>
+
+@O@<ex15.out@>==@{Dummy@+@}

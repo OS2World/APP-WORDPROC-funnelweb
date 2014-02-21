@@ -1,0 +1,864 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 53 63 61 6E 6E 65 72 20 54 65 73 74 3A 20 53 70 | Scanner Test: Sp |
+| 65 63 69 61 6C 20 53 65 71 75 65 6E 63 65 20 52 | ecial Sequence R |
+| 65 63 6F 67 6E 69 74 69 6F 6E 0A 3D 3D 3D 3D 3D | ecognition.===== |
+| 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D | ================ |
+| 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D 3D | ================ |
+| 3D 3D 3D 3D 3D 0A 54 68 69 73 20 74 65 73 74 20 | =====.This test  |
+| 74 65 73 74 73 20 74 6F 20 73 65 65 20 74 68 61 | tests to see tha |
+| 74 20 46 75 6E 6E 65 6C 57 65 62 20 69 73 20 72 | t FunnelWeb is r |
+| 65 63 6F 67 6E 69 73 69 6E 67 20 74 68 65 20 66 | ecognising the f |
+| 75 6C 6C 20 73 65 74 20 6F 66 20 73 70 65 63 69 | ull set of speci |
+| 61 6C 0A 73 65 71 75 65 6E 63 65 73 2E 0A 0A 54 | al.sequences...T |
+| 75 72 6E 20 4F 66 66 20 74 68 65 20 50 61 72 73 | urn Off the Pars |
+| 65 72 0A 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D | er.------------- |
+| 2D 2D 2D 2D 2D 2D 0A 46 69 72 73 74 20 77 65 20 | ------.First we  |
+| 63 61 75 73 65 20 61 20 64 65 6C 69 62 65 72 61 | cause a delibera |
+| 74 65 20 73 63 61 6E 6E 65 72 20 65 72 72 6F 72 | te scanner error |
+| 20 73 6F 20 61 73 20 74 6F 20 70 72 65 76 65 6E |  so as to preven |
+| 74 20 74 68 65 20 70 61 72 73 65 72 20 66 72 6F | t the parser fro |
+| 6D 0A 67 65 6E 65 72 61 74 69 6E 67 20 6C 6F 74 | m.generating lot |
+| 73 20 6F 66 20 65 72 72 6F 72 73 20 6F 76 65 72 | s of errors over |
+| 20 74 68 65 20 73 79 6E 74 61 63 74 69 63 20 72 |  the syntactic r |
+| 75 62 62 69 73 68 20 70 72 65 73 65 6E 74 65 64 | ubbish presented |
+| 20 68 65 72 65 2E 0A 0A 20 20 20 40 20 0A 0A 4C |  here...   @ ..L |
+| 69 73 74 20 6F 66 20 41 6C 6C 20 50 6F 73 73 69 | ist of All Possi |
+| 62 6C 65 20 53 70 65 63 69 61 6C 20 53 65 71 75 | ble Special Sequ |
+| 65 6E 63 65 73 0A 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D | ences.---------- |
+| 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D | ---------------- |
+| 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 2D 0A 54 68 65 | ------------.The |
+| 20 66 6F 6C 6C 6F 77 69 6E 67 20 69 73 20 61 20 |  following is a  |
+| 6C 69 73 74 20 6F 66 20 74 68 65 20 64 65 66 61 | list of the defa |
+| 75 6C 74 20 73 70 65 63 69 61 6C 20 63 68 61 72 | ult special char |
+| 61 63 74 65 72 20 66 6F 6C 6C 6F 77 65 64 20 62 | acter followed b |
+| 79 20 65 61 63 68 20 6F 66 0A 74 68 65 20 41 53 | y each of.the AS |
+| 43 49 49 20 70 72 69 6E 74 61 62 6C 65 73 2E 0A | CII printables.. |
+| 30 30 30 20 74 6F 20 30 33 31 20 61 72 65 20 75 | 000 to 031 are u |
+| 6E 70 72 69 6E 74 61 62 6C 65 20 63 6F 6E 74 72 | nprintable contr |
+| 6F 6C 20 63 68 61 72 61 63 74 65 72 73 2E 0A 0A | ol characters... |
+| 30 33 32 20 20 40 20 20 20 20 2D 20 49 4C 4C 45 | 032  @    - ILLE |
+| 47 41 4C 2E 20 20 28 4E 6F 74 65 3A 20 48 79 70 | GAL.  (Note: Hyp |
+| 68 65 6E 20 69 73 20 6E 65 65 64 65 64 20 74 6F | hen is needed to |
+| 20 61 76 6F 69 64 20 74 72 61 69 6C 69 6E 67 20 |  avoid trailing  |
+| 62 6C 61 6E 6B 73 20 65 72 72 6F 72 2E 29 0A 30 | blanks error.).0 |
+| 33 33 20 20 40 21 20 20 20 2D 20 43 6F 6D 6D 65 | 33  @!   - Comme |
+| 6E 74 2E 0A 30 33 34 20 20 40 22 20 20 20 2D 20 | nt..034  @"   -  |
+| 50 61 72 61 6D 65 74 65 72 20 64 65 6C 69 6D 65 | Parameter delime |
+| 74 65 72 2E 0A 30 33 35 20 20 40 23 58 20 20 2D | ter..035  @#X  - |
+| 20 53 68 6F 72 74 20 6E 61 6D 65 20 73 65 71 75 |  Short name sequ |
+| 65 6E 63 65 2E 0A 40 24 20 20 20 30 33 36 20 20 | ence..@$   036   |
+| 2D 20 44 65 66 69 6E 65 20 6D 61 63 72 6F 2E 20 | - Define macro.  |
+| 48 61 73 20 74 6F 20 62 65 20 61 74 20 73 74 61 | Has to be at sta |
+| 72 74 20 6F 66 20 6C 69 6E 65 2E 0A 30 33 37 20 | rt of line..037  |
+| 20 40 25 20 20 20 2D 20 49 4C 4C 45 47 41 4C 2E |  @%   - ILLEGAL. |
+| 0A 30 33 38 20 20 40 26 20 20 20 2D 20 49 4C 4C | .038  @&   - ILL |
+| 45 47 41 4C 2E 0A 30 33 39 20 20 40 27 20 20 20 | EGAL..039  @'    |
+| 2D 20 49 4C 4C 45 47 41 4C 2E 0A 30 34 30 20 20 | - ILLEGAL..040   |
+| 40 28 20 20 20 2D 20 4F 70 65 6E 20 70 61 72 61 | @(   - Open para |
+| 6D 65 74 65 72 20 6C 69 73 74 2E 0A 30 34 31 20 | meter list..041  |
+| 20 40 29 20 20 20 2D 20 43 6C 6F 73 65 20 70 61 |  @)   - Close pa |
+| 72 61 6D 65 74 65 72 20 6C 69 73 74 2E 0A 30 34 | rameter list..04 |
+| 32 0A 40 2A 20 20 20 20 20 20 20 20 2D 20 4F 6C | 2.@*        - Ol |
+| 64 20 66 61 73 68 69 6F 6E 65 64 20 73 65 63 74 | d fashioned sect |
+| 69 6F 6E 20 6D 61 72 6B 65 72 20 28 68 61 73 20 | ion marker (has  |
+| 74 6F 20 62 65 20 61 74 20 73 74 61 72 74 20 6F | to be at start o |
+| 66 20 61 20 6C 69 6E 65 2E 29 2E 0A 30 34 33 20 | f a line.)..043  |
+| 20 40 2B 20 20 20 2D 20 49 6E 73 65 72 74 20 6E |  @+   - Insert n |
+| 65 77 6C 69 6E 65 2E 0A 30 34 34 20 20 40 2C 20 | ewline..044  @,  |
+| 20 20 2D 20 50 61 72 61 6D 65 74 65 72 20 73 65 |   - Parameter se |
+| 70 61 72 61 74 6F 72 2E 0A 30 34 35 20 20 40 2D | parator..045  @- |
+| 0A 20 20 20 20 20 20 20 20 20 20 2D 20 49 67 6E | .          - Ign |
+| 6F 72 65 20 65 6E 64 20 6F 66 20 6C 69 6E 65 20 | ore end of line  |
+| 6D 61 72 6B 65 72 20 28 68 61 73 20 74 6F 20 62 | marker (has to b |
+| 65 20 61 74 20 65 6E 64 20 6F 66 20 6C 69 6E 65 | e at end of line |
+| 29 2E 0A 30 34 36 20 20 40 2E 20 20 20 2D 20 49 | )..046  @.   - I |
+| 4C 4C 45 47 41 4C 2E 0A 30 34 37 20 20 40 2F 20 | LLEGAL..047  @/  |
+| 20 20 2D 20 45 6D 70 68 61 73 69 73 65 64 20 74 |   - Emphasised t |
+| 65 78 74 2E 0A 30 34 38 20 20 40 30 20 20 20 2D | ext..048  @0   - |
+| 20 49 4C 4C 45 47 41 4C 2E 0A 30 34 39 20 20 40 |  ILLEGAL..049  @ |
+| 31 20 20 20 2D 20 46 6F 72 6D 61 6C 20 70 61 72 | 1   - Formal par |
+| 61 6D 65 74 65 72 20 31 2E 0A 30 35 30 20 20 40 | ameter 1..050  @ |
+| 32 20 20 20 2D 20 46 6F 72 6D 61 6C 20 70 61 72 | 2   - Formal par |
+| 61 6D 65 74 65 72 20 32 2E 0A 30 35 31 20 20 40 | ameter 2..051  @ |
+| 33 20 20 20 2D 20 46 6F 72 6D 61 6C 20 70 61 72 | 3   - Formal par |
+| 61 6D 65 74 65 72 20 33 2E 0A 30 35 32 20 20 40 | ameter 3..052  @ |
+| 34 20 20 20 2D 20 46 6F 72 6D 61 6C 20 70 61 72 | 4   - Formal par |
+| 61 6D 65 74 65 72 20 34 2E 0A 30 35 33 20 20 40 | ameter 4..053  @ |
+| 35 20 20 20 2D 20 46 6F 72 6D 61 6C 20 70 61 72 | 5   - Formal par |
+| 61 6D 65 74 65 72 20 35 2E 0A 30 35 34 20 20 40 | ameter 5..054  @ |
+| 36 20 20 20 2D 20 46 6F 72 6D 61 6C 20 70 61 72 | 6   - Formal par |
+| 61 6D 65 74 65 72 20 36 2E 0A 30 35 35 20 20 40 | ameter 6..055  @ |
+| 37 20 20 20 2D 20 46 6F 72 6D 61 6C 20 70 61 72 | 7   - Formal par |
+| 61 6D 65 74 65 72 20 37 2E 0A 30 35 36 20 20 40 | ameter 7..056  @ |
+| 38 20 20 20 2D 20 46 6F 72 6D 61 6C 20 70 61 72 | 8   - Formal par |
+| 61 6D 65 74 65 72 20 38 2E 0A 30 35 37 20 20 40 | ameter 8..057  @ |
+| 39 20 20 20 2D 20 46 6F 72 6D 61 6C 20 70 61 72 | 9   - Formal par |
+| 61 6D 65 74 65 72 20 39 2E 0A 30 35 38 20 20 40 | ameter 9..058  @ |
+| 3A 20 20 20 2D 20 49 4C 4C 45 47 41 4C 2E 0A 30 | :   - ILLEGAL..0 |
+| 35 39 20 20 40 3B 20 20 20 2D 20 49 4C 4C 45 47 | 59  @;   - ILLEG |
+| 41 4C 2E 0A 30 36 30 20 20 40 3C 20 20 20 2D 20 | AL..060  @<   -  |
+| 4F 70 65 6E 20 6D 61 63 72 6F 20 6E 61 6D 65 2E | Open macro name. |
+| 0A 30 36 31 20 20 40 3D 40 20 20 2D 20 53 65 74 | .061  @=@  - Set |
+| 20 73 70 65 63 69 61 6C 20 63 68 61 72 61 63 74 |  special charact |
+| 65 72 2E 0A 30 36 32 20 20 40 3E 20 20 20 2D 20 | er..062  @>   -  |
+| 43 6C 6F 73 65 20 6D 61 63 72 6F 20 6E 61 6D 65 | Close macro name |
+| 2E 0A 30 36 33 20 20 40 3F 20 20 20 2D 20 49 4C | ..063  @?   - IL |
+| 4C 45 47 41 4C 2E 0A 30 36 34 20 20 40 40 20 20 | LEGAL..064  @@   |
+| 20 2D 20 49 6E 73 65 72 74 20 73 70 65 63 69 61 |  - Insert specia |
+| 6C 20 63 68 61 72 61 63 74 65 72 20 69 6E 74 6F | l character into |
+| 20 74 65 78 74 2E 0A 40 41 20 20 30 36 35 20 20 |  text..@A  065   |
+| 20 2D 20 4E 65 77 20 73 65 63 74 69 6F 6E 20 28 |  - New section ( |
+| 6C 65 76 65 6C 20 31 29 2E 20 4D 75 73 74 20 62 | level 1). Must b |
+| 65 20 61 74 20 73 74 61 72 74 20 6F 66 20 61 20 | e at start of a  |
+| 6C 69 6E 65 2E 0A 40 42 20 20 30 36 36 20 20 20 | line..@B  066    |
+| 2D 20 4E 65 77 20 73 65 63 74 69 6F 6E 20 28 6C | - New section (l |
+| 65 76 65 6C 20 32 29 2E 20 4D 75 73 74 20 62 65 | evel 2). Must be |
+| 20 61 74 20 73 74 61 72 74 20 6F 66 20 61 20 6C |  at start of a l |
+| 69 6E 65 2E 0A 40 43 20 20 30 36 37 20 20 20 2D | ine..@C  067   - |
+| 20 4E 65 77 20 73 65 63 74 69 6F 6E 20 28 6C 65 |  New section (le |
+| 76 65 6C 20 33 29 2E 20 4D 75 73 74 20 62 65 20 | vel 3). Must be  |
+| 61 74 20 73 74 61 72 74 20 6F 66 20 61 20 6C 69 | at start of a li |
+| 6E 65 2E 0A 40 44 20 20 30 36 38 20 20 20 2D 20 | ne..@D  068   -  |
+| 4E 65 77 20 73 65 63 74 69 6F 6E 20 28 6C 65 76 | New section (lev |
+| 65 6C 20 34 29 2E 20 4D 75 73 74 20 62 65 20 61 | el 4). Must be a |
+| 74 20 73 74 61 72 74 20 6F 66 20 61 20 6C 69 6E | t start of a lin |
+| 65 2E 0A 40 45 20 20 30 36 39 20 20 20 2D 20 4E | e..@E  069   - N |
+| 65 77 20 73 65 63 74 69 6F 6E 20 28 6C 65 76 65 | ew section (leve |
+| 6C 20 35 29 2E 20 4D 75 73 74 20 62 65 20 61 74 | l 5). Must be at |
+| 20 73 74 61 72 74 20 6F 66 20 61 20 6C 69 6E 65 |  start of a line |
+| 2E 0A 30 37 30 20 20 40 46 20 20 20 2D 20 49 4C | ..070  @F   - IL |
+| 4C 45 47 41 4C 2E 0A 30 37 31 20 20 40 47 20 20 | LEGAL..071  @G   |
+| 20 2D 20 49 4C 4C 45 47 41 4C 2E 0A 30 37 32 20 |  - ILLEGAL..072  |
+| 20 40 48 20 20 20 2D 20 49 4C 4C 45 47 41 4C 2E |  @H   - ILLEGAL. |
+| 0A 30 37 33 20 20 40 49 20 20 20 2D 20 49 6E 63 | .073  @I   - Inc |
+| 6C 75 64 65 20 66 69 6C 65 2E 20 57 69 6C 6C 20 | lude file. Will  |
+| 70 72 6F 76 6F 6B 65 20 61 6E 20 65 72 72 6F 72 | provoke an error |
+| 20 68 65 72 65 20 74 68 6F 75 67 68 2E 0A 30 37 |  here though..07 |
+| 34 20 20 40 4A 20 20 20 2D 20 49 4C 4C 45 47 41 | 4  @J   - ILLEGA |
+| 4C 2E 0A 30 37 35 20 20 40 4B 20 20 20 2D 20 49 | L..075  @K   - I |
+| 4C 4C 45 47 41 4C 2E 0A 30 37 36 20 20 40 4C 20 | LLEGAL..076  @L  |
+| 20 20 2D 20 49 4C 4C 45 47 41 4C 2E 0A 30 37 37 |   - ILLEGAL..077 |
+| 20 20 40 4D 20 20 20 2D 20 54 61 67 73 20 6D 61 |   @M   - Tags ma |
+| 63 72 6F 20 61 73 20 62 65 69 6E 67 20 61 6C 6C | cro as being all |
+| 6F 77 65 64 20 74 6F 20 62 65 20 63 61 6C 6C 65 | owed to be calle |
+| 64 20 6D 61 6E 79 20 74 69 6D 65 73 2E 0A 30 37 | d many times..07 |
+| 38 20 20 40 4E 20 20 20 2D 20 49 4C 4C 45 47 41 | 8  @N   - ILLEGA |
+| 4C 2E 0A 40 4F 20 20 20 30 37 39 20 20 2D 20 4E | L..@O   079  - N |
+| 65 77 20 6D 61 63 72 6F 20 61 74 74 61 63 68 65 | ew macro attache |
+| 64 20 74 6F 20 6F 75 74 70 75 74 20 66 69 6C 65 | d to output file |
+| 2E 20 48 61 73 20 74 6F 20 62 65 20 61 74 20 73 | . Has to be at s |
+| 74 61 72 74 20 6F 66 20 6C 69 6E 65 2E 0A 30 38 | tart of line..08 |
+| 30 20 20 40 50 20 20 20 2D 20 50 72 61 67 6D 61 | 0  @P   - Pragma |
+| 2E 20 57 69 6C 6C 20 63 61 75 73 65 20 65 72 72 | . Will cause err |
+| 6F 72 20 68 65 72 65 20 74 68 6F 75 67 68 2E 0A | or here though.. |
+| 30 38 31 20 20 40 51 20 20 20 2D 20 49 4C 4C 45 | 081  @Q   - ILLE |
+| 47 41 4C 2E 0A 30 38 32 20 20 40 52 20 20 20 2D | GAL..082  @R   - |
+| 20 49 4C 4C 45 47 41 4C 2E 0A 30 38 33 20 20 40 |  ILLEGAL..083  @ |
+| 53 20 20 20 2D 20 49 4C 4C 45 47 41 4C 2E 0A 30 | S   - ILLEGAL..0 |
+| 38 34 20 20 40 54 20 20 20 2D 20 54 79 70 65 73 | 84  @T   - Types |
+| 65 74 74 65 72 20 64 69 72 65 63 74 69 76 65 2E | etter directive. |
+| 20 57 69 6C 6C 20 63 61 75 73 65 20 61 6E 20 65 |  Will cause an e |
+| 72 72 6F 72 20 68 65 72 65 20 74 68 6F 75 67 68 | rror here though |
+| 2E 0A 30 38 35 20 20 40 55 20 20 20 2D 20 49 4C | ..085  @U   - IL |
+| 4C 45 47 41 4C 2E 0A 30 38 36 20 20 40 56 20 20 | LEGAL..086  @V   |
+| 20 2D 20 49 4C 4C 45 47 41 4C 2E 0A 30 38 37 20 |  - ILLEGAL..087  |
+| 20 40 57 20 20 20 2D 20 49 4C 4C 45 47 41 4C 2E |  @W   - ILLEGAL. |
+| 0A 30 38 38 20 20 40 58 20 20 20 2D 20 49 4C 4C | .088  @X   - ILL |
+| 45 47 41 4C 2E 0A 30 38 39 20 20 40 59 20 20 20 | EGAL..089  @Y    |
+| 2D 20 49 4C 4C 45 47 41 4C 2E 0A 30 39 30 20 20 | - ILLEGAL..090   |
+| 40 5A 20 20 20 2D 20 54 61 67 73 20 6D 61 63 72 | @Z   - Tags macr |
+| 6F 20 61 73 20 62 65 69 6E 67 20 61 6C 6C 6F 77 | o as being allow |
+| 65 64 20 74 6F 20 62 65 20 63 61 6C 6C 65 64 20 | ed to be called  |
+| 7A 65 72 6F 20 74 69 6D 65 73 2E 0A 30 39 31 20 | zero times..091  |
+| 20 40 5B 20 20 20 2D 20 49 4C 4C 45 47 41 4C 2E |  @[   - ILLEGAL. |
+| 0A 30 39 32 20 20 40 5C 20 20 20 2D 20 49 4C 4C | .092  @\   - ILL |
+| 45 47 41 4C 2E 0A 30 39 33 20 20 40 5D 20 20 20 | EGAL..093  @]    |
+| 2D 20 49 4C 4C 45 47 41 4C 2E 0A 30 39 34 20 20 | - ILLEGAL..094   |
+| 40 5E 44 28 30 36 35 29 20 2D 20 49 6E 73 65 72 | @^D(065) - Inser |
+| 74 20 63 6F 6E 74 72 6F 6C 20 63 68 61 72 61 63 | t control charac |
+| 74 65 72 20 69 6E 74 6F 20 74 65 78 74 0A 30 39 | ter into text.09 |
+| 35 20 20 40 5F 20 20 20 2D 20 49 4C 4C 45 47 41 | 5  @_   - ILLEGA |
+| 4C 2E 0A 30 39 36 20 20 40 60 20 20 20 2D 20 49 | L..096  @`   - I |
+| 4C 4C 45 47 41 4C 2E 0A 40 61 20 20 20 30 39 37 | LLEGAL..@a   097 |
+| 20 20 2D 20 4E 65 77 20 73 65 63 74 69 6F 6E 20 |   - New section  |
+| 28 6C 65 76 65 6C 20 31 29 2E 20 4D 75 73 74 20 | (level 1). Must  |
+| 62 65 20 61 74 20 73 74 61 72 74 20 6F 66 20 61 | be at start of a |
+| 20 6C 69 6E 65 2E 0A 40 62 20 20 20 30 39 38 20 |  line..@b   098  |
+| 20 2D 20 4E 65 77 20 73 65 63 74 69 6F 6E 20 28 |  - New section ( |
+| 6C 65 76 65 6C 20 31 29 2E 20 4D 75 73 74 20 62 | level 1). Must b |
+| 65 20 61 74 20 73 74 61 72 74 20 6F 66 20 61 20 | e at start of a  |
+| 6C 69 6E 65 2E 0A 40 63 20 20 20 30 39 39 20 20 | line..@c   099   |
+| 2D 20 4E 65 77 20 73 65 63 74 69 6F 6E 20 28 6C | - New section (l |
+| 65 76 65 6C 20 31 29 2E 20 4D 75 73 74 20 62 65 | evel 1). Must be |
+| 20 61 74 20 73 74 61 72 74 20 6F 66 20 61 20 6C |  at start of a l |
+| 69 6E 65 2E 0A 40 64 20 20 20 31 30 30 20 20 2D | ine..@d   100  - |
+| 20 4E 65 77 20 73 65 63 74 69 6F 6E 20 28 6C 65 |  New section (le |
+| 76 65 6C 20 31 29 2E 20 4D 75 73 74 20 62 65 20 | vel 1). Must be  |
+| 61 74 20 73 74 61 72 74 20 6F 66 20 61 20 6C 69 | at start of a li |
+| 6E 65 2E 0A 40 65 20 20 20 31 30 31 20 20 2D 20 | ne..@e   101  -  |
+| 4E 65 77 20 73 65 63 74 69 6F 6E 20 28 6C 65 76 | New section (lev |
+| 65 6C 20 31 29 2E 20 4D 75 73 74 20 62 65 20 61 | el 1). Must be a |
+| 74 20 73 74 61 72 74 20 6F 66 20 61 20 6C 69 6E | t start of a lin |
+| 65 2E 0A 31 30 32 20 20 40 66 20 20 20 2D 20 49 | e..102  @f   - I |
+| 4C 4C 45 47 41 4C 2E 0A 31 30 33 20 20 40 67 20 | LLEGAL..103  @g  |
+| 20 20 2D 20 49 4C 4C 45 47 41 4C 2E 0A 31 30 34 |   - ILLEGAL..104 |
+| 20 20 40 68 20 20 20 2D 20 49 4C 4C 45 47 41 4C |   @h   - ILLEGAL |
+| 2E 0A 31 30 35 20 20 40 69 20 20 20 2D 20 49 6E | ..105  @i   - In |
+| 63 6C 75 64 65 20 66 69 6C 65 2E 20 57 69 6C 6C | clude file. Will |
+| 20 70 72 6F 76 6F 6B 65 20 61 6E 20 65 72 72 6F |  provoke an erro |
+| 72 20 68 65 72 65 20 74 68 6F 75 67 68 2E 0A 31 | r here though..1 |
+| 30 36 20 20 40 6A 20 20 20 2D 20 49 4C 4C 45 47 | 06  @j   - ILLEG |
+| 41 4C 2E 0A 31 30 37 20 20 40 6B 20 20 20 2D 20 | AL..107  @k   -  |
+| 49 4C 4C 45 47 41 4C 2E 0A 31 30 38 20 20 40 6C | ILLEGAL..108  @l |
+| 20 20 20 2D 20 49 4C 4C 45 47 41 4C 2E 0A 31 30 |    - ILLEGAL..10 |
+| 39 20 20 40 6D 20 20 20 2D 20 54 61 67 73 20 6D | 9  @m   - Tags m |
+| 61 63 72 6F 20 61 73 20 62 65 69 6E 67 20 61 6C | acro as being al |
+| 6C 6F 77 65 64 20 74 6F 20 62 65 20 63 61 6C 6C | lowed to be call |
+| 65 64 20 6D 61 6E 79 20 74 69 6D 65 73 2E 0A 31 | ed many times..1 |
+| 31 30 20 20 40 6E 20 20 20 2D 20 49 4C 4C 45 47 | 10  @n   - ILLEG |
+| 41 4C 2E 0A 40 4F 20 20 20 31 31 31 20 20 2D 20 | AL..@O   111  -  |
+| 4E 65 77 20 6D 61 63 72 6F 20 61 74 74 61 63 68 | New macro attach |
+| 65 64 20 74 6F 20 6F 75 74 70 75 74 20 66 69 6C | ed to output fil |
+| 65 2E 20 48 61 73 20 74 6F 20 62 65 20 61 74 20 | e. Has to be at  |
+| 73 74 61 72 74 20 6F 66 20 6C 69 6E 65 2E 0A 31 | start of line..1 |
+| 31 32 20 20 40 70 20 20 20 2D 20 50 72 61 67 6D | 12  @p   - Pragm |
+| 61 2E 20 57 69 6C 6C 20 63 61 75 73 65 20 65 72 | a. Will cause er |
+| 72 6F 72 20 68 65 72 65 20 74 68 6F 75 67 68 2E | ror here though. |
+| 0A 31 31 33 20 20 40 71 20 20 20 2D 20 49 4C 4C | .113  @q   - ILL |
+| 45 47 41 4C 2E 0A 31 31 34 20 20 40 72 20 20 20 | EGAL..114  @r    |
+| 2D 20 49 4C 4C 45 47 41 4C 2E 0A 31 31 35 20 20 | - ILLEGAL..115   |
+| 40 73 20 20 20 2D 20 49 4C 4C 45 47 41 4C 2E 0A | @s   - ILLEGAL.. |
+| 31 31 36 20 20 40 74 20 20 20 2D 20 54 79 70 65 | 116  @t   - Type |
+| 73 65 74 74 65 72 20 64 69 72 65 63 74 69 76 65 | setter directive |
+| 2E 20 57 69 6C 6C 20 63 61 75 73 65 20 61 6E 20 | . Will cause an  |
+| 65 72 72 6F 72 20 68 65 72 65 20 74 68 6F 75 67 | error here thoug |
+| 68 2E 0A 31 31 37 20 20 40 75 20 20 20 2D 20 49 | h..117  @u   - I |
+| 4C 4C 45 47 41 4C 2E 0A 31 31 38 20 20 40 76 20 | LLEGAL..118  @v  |
+| 20 20 2D 20 49 4C 4C 45 47 41 4C 2E 0A 31 31 39 |   - ILLEGAL..119 |
+| 20 20 40 77 20 20 20 2D 20 49 4C 4C 45 47 41 4C |   @w   - ILLEGAL |
+| 2E 0A 31 32 30 20 20 40 78 20 20 20 2D 20 49 4C | ..120  @x   - IL |
+| 4C 45 47 41 4C 2E 0A 31 32 31 20 20 40 79 20 20 | LEGAL..121  @y   |
+| 20 2D 20 49 4C 4C 45 47 41 4C 2E 0A 31 32 32 20 |  - ILLEGAL..122  |
+| 20 40 7A 20 20 20 2D 20 54 61 67 73 20 6D 61 63 |  @z   - Tags mac |
+| 72 6F 20 61 73 20 62 65 69 6E 67 20 61 6C 6C 6F | ro as being allo |
+| 77 65 64 20 74 6F 20 62 65 20 63 61 6C 6C 65 64 | wed to be called |
+| 20 7A 65 72 6F 20 74 69 6D 65 73 2E 0A 31 32 33 |  zero times..123 |
+| 20 20 40 7B 20 20 20 2D 20 4F 70 65 6E 20 6D 61 |   @{   - Open ma |
+| 63 72 6F 20 62 6F 64 79 2E 0A 31 32 34 20 20 40 | cro body..124  @ |
+| 7C 20 20 20 2D 20 49 4C 4C 45 47 41 4C 2E 0A 31 | |   - ILLEGAL..1 |
+| 32 35 20 20 40 7D 20 20 20 2D 20 43 6C 6F 73 65 | 25  @}   - Close |
+| 20 6D 61 63 72 6F 20 62 6F 64 79 2E 0A 31 32 36 |  macro body..126 |
+| 20 20 40 7E 20 20 20 2D 20 49 4C 4C 45 47 41 4C |   @~   - ILLEGAL |
+| 2E 0A 31 32 37 20 74 6F 20 32 35 35 20 61 72 65 | ..127 to 255 are |
+| 20 6E 6F 74 20 73 74 61 6E 64 61 72 64 20 70 72 |  not standard pr |
+| 69 6E 74 61 62 6C 65 20 41 53 43 49 49 20 63 68 | intable ASCII ch |
+| 61 72 61 63 74 65 72 73 2E 0A                   | aracters..       |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| Scanner Test: Special Sequence Recognition<010>
+00002 00002| ==========================================<010>
+00003 00003| This test tests to see that FunnelWeb is recognising the full set of special<010>
+00004 00004| sequences.<010>
+00005 00005| <010>
+00006 00006| Turn Off the Parser<010>
+00007 00007| -------------------<010>
+00008 00008| First we cause a deliberate scanner error so as to prevent the parser from<010>
+00009 00009| generating lots of errors over the syntactic rubbish presented here.<010>
+00010 00010| <010>
+00011 00011|    @ <010>
+00012 00012| <010>
+00013 00013| List of All Possible Special Sequences<010>
+00014 00014| --------------------------------------<010>
+00015 00015| The following is a list of the default special character followed by each of<010>
+00016 00016| the ASCII printables.<010>
+00017 00017| 000 to 031 are unprintable control characters.<010>
+00018 00018| <010>
+00019 00019| 032  @    - ILLEGAL.  (Note: Hyphen is needed to avoid trailing blanks error.)<010>
+00020 00020| 033  @!   - Comment.<010>
+00021 00021| 034  @"   - Parameter delimeter.<010>
+00022 00022| 035  @#X  - Short name sequence.<010>
+00023 00023| @$   036  - Define macro. Has to be at start of line.<010>
+00024 00024| 037  @%   - ILLEGAL.<010>
+00025 00025| 038  @&   - ILLEGAL.<010>
+00026 00026| 039  @'   - ILLEGAL.<010>
+00027 00027| 040  @(   - Open parameter list.<010>
+00028 00028| 041  @)   - Close parameter list.<010>
+00029 00029| 042<010>
+00030 00030| @*        - Old fashioned section marker (has to be at start of a line.).<010>
+00031 00031| 043  @+   - Insert newline.<010>
+00032 00032| 044  @,   - Parameter separator.<010>
+00033 00033| 045  @-<010>
+00034 00034|           - Ignore end of line marker (has to be at end of line).<010>
+00035 00035| 046  @.   - ILLEGAL.<010>
+00036 00036| 047  @/   - Emphasised text.<010>
+00037 00037| 048  @0   - ILLEGAL.<010>
+00038 00038| 049  @1   - Formal parameter 1.<010>
+00039 00039| 050  @2   - Formal parameter 2.<010>
+00040 00040| 051  @3   - Formal parameter 3.<010>
+00041 00041| 052  @4   - Formal parameter 4.<010>
+00042 00042| 053  @5   - Formal parameter 5.<010>
+00043 00043| 054  @6   - Formal parameter 6.<010>
+00044 00044| 055  @7   - Formal parameter 7.<010>
+00045 00045| 056  @8   - Formal parameter 8.<010>
+00046 00046| 057  @9   - Formal parameter 9.<010>
+00047 00047| 058  @:   - ILLEGAL.<010>
+00048 00048| 059  @;   - ILLEGAL.<010>
+00049 00049| 060  @<   - Open macro name.<010>
+00050 00050| 061  @=@  - Set special character.<010>
+00051 00051| 062  @>   - Close macro name.<010>
+00052 00052| 063  @?   - ILLEGAL.<010>
+00053 00053| 064  @@   - Insert special character into text.<010>
+00054 00054| @A  065   - New section (level 1). Must be at start of a line.<010>
+00055 00055| @B  066   - New section (level 2). Must be at start of a line.<010>
+00056 00056| @C  067   - New section (level 3). Must be at start of a line.<010>
+00057 00057| @D  068   - New section (level 4). Must be at start of a line.<010>
+00058 00058| @E  069   - New section (level 5). Must be at start of a line.<010>
+00059 00059| 070  @F   - ILLEGAL.<010>
+00060 00060| 071  @G   - ILLEGAL.<010>
+00061 00061| 072  @H   - ILLEGAL.<010>
+00062 00062| 073  @I   - Include file. Will provoke an error here though.<010>
+00063 00063| 074  @J   - ILLEGAL.<010>
+00064 00064| 075  @K   - ILLEGAL.<010>
+00065 00065| 076  @L   - ILLEGAL.<010>
+00066 00066| 077  @M   - Tags macro as being allowed to be called many times.<010>
+00067 00067| 078  @N   - ILLEGAL.<010>
+00068 00068| @O   079  - New macro attached to output file. Has to be at start of line.<010>
+00069 00069| 080  @P   - Pragma. Will cause error here though.<010>
+00070 00070| 081  @Q   - ILLEGAL.<010>
+00071 00071| 082  @R   - ILLEGAL.<010>
+00072 00072| 083  @S   - ILLEGAL.<010>
+00073 00073| 084  @T   - Typesetter directive. Will cause an error here though.<010>
+00074 00074| 085  @U   - ILLEGAL.<010>
+00075 00075| 086  @V   - ILLEGAL.<010>
+00076 00076| 087  @W   - ILLEGAL.<010>
+00077 00077| 088  @X   - ILLEGAL.<010>
+00078 00078| 089  @Y   - ILLEGAL.<010>
+00079 00079| 090  @Z   - Tags macro as being allowed to be called zero times.<010>
+00080 00080| 091  @[   - ILLEGAL.<010>
+00081 00081| 092  @\   - ILLEGAL.<010>
+00082 00082| 093  @]   - ILLEGAL.<010>
+00083 00083| 094  @^D(065) - Insert control character into text<010>
+00084 00084| 095  @_   - ILLEGAL.<010>
+00085 00085| 096  @`   - ILLEGAL.<010>
+00086 00086| @a   097  - New section (level 1). Must be at start of a line.<010>
+00087 00087| @b   098  - New section (level 1). Must be at start of a line.<010>
+00088 00088| @c   099  - New section (level 1). Must be at start of a line.<010>
+00089 00089| @d   100  - New section (level 1). Must be at start of a line.<010>
+00090 00090| @e   101  - New section (level 1). Must be at start of a line.<010>
+00091 00091| 102  @f   - ILLEGAL.<010>
+00092 00092| 103  @g   - ILLEGAL.<010>
+00093 00093| 104  @h   - ILLEGAL.<010>
+00094 00094| 105  @i   - Include file. Will provoke an error here though.<010>
+00095 00095| 106  @j   - ILLEGAL.<010>
+00096 00096| 107  @k   - ILLEGAL.<010>
+00097 00097| 108  @l   - ILLEGAL.<010>
+00098 00098| 109  @m   - Tags macro as being allowed to be called many times.<010>
+00099 00099| 110  @n   - ILLEGAL.<010>
+00100 00100| @O   111  - New macro attached to output file. Has to be at start of line.<010>
+00101 00101| 112  @p   - Pragma. Will cause error here though.<010>
+00102 00102| 113  @q   - ILLEGAL.<010>
+00103 00103| 114  @r   - ILLEGAL.<010>
+00104 00104| 115  @s   - ILLEGAL.<010>
+00105 00105| 116  @t   - Typesetter directive. Will cause an error here though.<010>
+00106 00106| 117  @u   - ILLEGAL.<010>
+00107 00107| 118  @v   - ILLEGAL.<010>
+00108 00108| 119  @w   - ILLEGAL.<010>
+00109 00109| 120  @x   - ILLEGAL.<010>
+00110 00110| 121  @y   - ILLEGAL.<010>
+00111 00111| 122  @z   - Tags macro as being allowed to be called zero times.<010>
+00112 00112| 123  @{   - Open macro body.<010>
+00113 00113| 124  @|   - ILLEGAL.<010>
+00114 00114| 125  @}   - Close macro body.<010>
+00115 00115| 126  @~   - ILLEGAL.<010>
+00116 00116| 127 to 255 are not standard printable ASCII characters.<010>
+00117 00117| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 137 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="Scanner Test: Special Sequence Recognition<010>
+==========================================<010>
+This test tests to see that FunnelWeb is recognising the full set of special<010>
+sequences.<010>
+<010>
+Turn Off the Parser<010>
+-------------------<010>
+First we cause a deliberate scanner error so as to prevent the parser from<010>
+generating lots of errors over the syntactic rubbish presented here.<010>
+<010>
+   "
+0011[06]: Text. Text scrap[Grey]="<010>
+<010>
+List of All Possible Special Sequences<010>
+--------------------------------------<010>
+The following is a list of the default special character followed by each of<010>
+the ASCII printables.<010>
+000 to 031 are unprintable control characters.<010>
+<010>
+032  "
+0019[08]: Text. Text scrap[Grey]="   - ILLEGAL.  (Note: Hyphen is needed to avoid trailing blanks error.)<010>
+033  "
+0021[01]: Text. Text scrap[Grey]="034  "
+0021[06]: @" Quote. 
+0021[08]: Text. Text scrap[Grey]="   - Parameter delimeter.<010>
+035  "
+0022[06]: @# Name. Character='X'.
+0022[09]: Text. Text scrap[Grey]="  - Short name sequence.<010>
+"
+0023[01]: @$ Macro defn. 
+0023[03]: Text. Text scrap[Grey]="   036  - Define macro. Has to be at start of line.<010>
+037  "
+0024[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+038  "
+0025[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+039  "
+0026[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+040  "
+0027[06]: @( Open param. 
+0027[08]: Text. Text scrap[Grey]="   - Open parameter list.<010>
+041  "
+0028[06]: @} Close param. 
+0028[08]: Text. Text scrap[Grey]="   - Close parameter list.<010>
+042<010>
+"
+0030[03]: Text. Text scrap[Grey]="        - Old fashioned section marker (has to be at start of a line.).<010>
+043  "
+0031[06]: Text. Text scrap[White]="<010>
+"
+0031[08]: Text. Text scrap[Grey]="   - Insert newline.<010>
+044  "
+0032[06]: @, Comma. 
+0032[08]: Text. Text scrap[Grey]="   - Parameter separator.<010>
+045  "
+0034[01]: Text. Text scrap[Grey]="          - Ignore end of line marker (has to be at end of line).<010>
+046  "
+0035[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+047  "
+0036[06]: @/ Emphasise. 
+0036[08]: Text. Text scrap[Grey]="   - Emphasised text.<010>
+048  "
+0037[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+049  "
+0038[06]: @n Parameter. Parameterno=1.
+0038[08]: Text. Text scrap[Grey]="   - Formal parameter 1.<010>
+050  "
+0039[06]: @n Parameter. Parameterno=2.
+0039[08]: Text. Text scrap[Grey]="   - Formal parameter 2.<010>
+051  "
+0040[06]: @n Parameter. Parameterno=3.
+0040[08]: Text. Text scrap[Grey]="   - Formal parameter 3.<010>
+052  "
+0041[06]: @n Parameter. Parameterno=4.
+0041[08]: Text. Text scrap[Grey]="   - Formal parameter 4.<010>
+053  "
+0042[06]: @n Parameter. Parameterno=5.
+0042[08]: Text. Text scrap[Grey]="   - Formal parameter 5.<010>
+054  "
+0043[06]: @n Parameter. Parameterno=6.
+0043[08]: Text. Text scrap[Grey]="   - Formal parameter 6.<010>
+055  "
+0044[06]: @n Parameter. Parameterno=7.
+0044[08]: Text. Text scrap[Grey]="   - Formal parameter 7.<010>
+056  "
+0045[06]: @n Parameter. Parameterno=8.
+0045[08]: Text. Text scrap[Grey]="   - Formal parameter 8.<010>
+057  "
+0046[06]: @n Parameter. Parameterno=9.
+0046[08]: Text. Text scrap[Grey]="   - Formal parameter 9.<010>
+058  "
+0047[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+059  "
+0048[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+060  "
+0049[06]: @< Open name. 
+0049[08]: Text. Text scrap[Grey]="   - Open macro name.<010>
+061  "
+0050[09]: Text. Text scrap[Grey]="  - Set special character.<010>
+062  "
+0051[06]: @> Close name. 
+0051[08]: Text. Text scrap[Grey]="   - Close macro name.<010>
+063  "
+0052[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+064  "
+0053[06]: Text. Text scrap[Grey]="@"
+0053[08]: Text. Text scrap[Grey]="   - Insert special character into text.<010>
+"
+0054[01]: @A New section (Level 1). 
+0054[03]: Text. Text scrap[Grey]="  065   - New section (level 1). Must be at start of a line.<010>
+"
+0055[01]: @B New section (Level 2). 
+0055[03]: Text. Text scrap[Grey]="  066   - New section (level 2). Must be at start of a line.<010>
+"
+0056[01]: @C New section (Level 3). 
+0056[03]: Text. Text scrap[Grey]="  067   - New section (level 3). Must be at start of a line.<010>
+"
+0057[01]: @D New section (Level 4). 
+0057[03]: Text. Text scrap[Grey]="  068   - New section (level 4). Must be at start of a line.<010>
+"
+0058[01]: @E New section (Level 5). 
+0058[03]: Text. Text scrap[Grey]="  069   - New section (level 5). Must be at start of a line.<010>
+070  "
+0059[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+071  "
+0060[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+072  "
+0061[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+073  "
+0063[01]: Text. Text scrap[Grey]="074  "
+0063[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+075  "
+0064[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+076  "
+0065[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+077  "
+0066[06]: @M Many calls. 
+0066[08]: Text. Text scrap[Grey]="   - Tags macro as being allowed to be called many times.<010>
+078  "
+0067[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+"
+0068[01]: @F File defn. 
+0068[03]: Text. Text scrap[Grey]="   079  - New macro attached to output file. Has to be at start of line.<010>
+080  "
+0070[01]: Text. Text scrap[Grey]="081  "
+0070[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+082  "
+0071[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+083  "
+0072[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+084  "
+0074[01]: Text. Text scrap[Grey]="085  "
+0074[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+086  "
+0075[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+087  "
+0076[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+088  "
+0077[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+089  "
+0078[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+090  "
+0079[06]: @Z Zero calls. 
+0079[08]: Text. Text scrap[Grey]="   - Tags macro as being allowed to be called zero times.<010>
+091  "
+0080[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+092  "
+0081[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+093  "
+0082[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+094  "
+0083[06]: Text. Text scrap[Grey]="A"
+0083[14]: Text. Text scrap[Grey]=" - Insert control character into text<010>
+095  "
+0084[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+096  "
+0085[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+"
+0086[01]: @A New section (Level 1). 
+0086[03]: Text. Text scrap[Grey]="   097  - New section (level 1). Must be at start of a line.<010>
+"
+0087[01]: @B New section (Level 2). 
+0087[03]: Text. Text scrap[Grey]="   098  - New section (level 1). Must be at start of a line.<010>
+"
+0088[01]: @C New section (Level 3). 
+0088[03]: Text. Text scrap[Grey]="   099  - New section (level 1). Must be at start of a line.<010>
+"
+0089[01]: @D New section (Level 4). 
+0089[03]: Text. Text scrap[Grey]="   100  - New section (level 1). Must be at start of a line.<010>
+"
+0090[01]: @E New section (Level 5). 
+0090[03]: Text. Text scrap[Grey]="   101  - New section (level 1). Must be at start of a line.<010>
+102  "
+0091[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+103  "
+0092[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+104  "
+0093[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+105  "
+0095[01]: Text. Text scrap[Grey]="106  "
+0095[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+107  "
+0096[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+108  "
+0097[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+109  "
+0098[06]: @M Many calls. 
+0098[08]: Text. Text scrap[Grey]="   - Tags macro as being allowed to be called many times.<010>
+110  "
+0099[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+"
+0100[01]: @F File defn. 
+0100[03]: Text. Text scrap[Grey]="   111  - New macro attached to output file. Has to be at start of line.<010>
+112  "
+0102[01]: Text. Text scrap[Grey]="113  "
+0102[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+114  "
+0103[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+115  "
+0104[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+116  "
+0106[01]: Text. Text scrap[Grey]="117  "
+0106[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+118  "
+0107[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+119  "
+0108[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+120  "
+0109[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+121  "
+0110[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+122  "
+0111[06]: @Z Zero calls. 
+0111[08]: Text. Text scrap[Grey]="   - Tags macro as being allowed to be called zero times.<010>
+123  "
+0112[06]: @{ Open defn. 
+0112[08]: Text. Text scrap[Grey]="   - Open macro body.<010>
+124  "
+0113[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+125  "
+0114[06]: @} Close defn. 
+0114[08]: Text. Text scrap[Grey]="   - Close macro body.<010>
+126  "
+0115[08]: Text. Text scrap[Grey]="   - ILLEGAL.<010>
+127 to 255 are not standard printable ASCII characters.<010>
+"
+0117[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+Macro table dump skipped (Parser was not invoked).
+Document list dump skipped (Parser was not invoked).
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| Scanner Test: Special Sequence Recognition
+     2     2| ==========================================
+     3     3| This test tests to see that FunnelWeb is recognising the full set of special
+     4     4| sequences.
+     5     5| 
+     6     6| Turn Off the Parser
+     7     7| -------------------
+     8     8| First we cause a deliberate scanner error so as to prevent the parser from
+     9     9| generating lots of errors over the syntactic rubbish presented here.
+    10    10| 
+    11    11|    @ 
+       Error|....^<special><space> is not a legal special sequence.
+     Warning|.....^Line has trailing spaces up to and including this space.
+    12    12| 
+    13    13| List of All Possible Special Sequences
+    14    14| --------------------------------------
+    15    15| The following is a list of the default special character followed by each of
+    16    16| the ASCII printables.
+    17    17| 000 to 031 are unprintable control characters.
+    18    18| 
+    19    19| 032  @    - ILLEGAL.  (Note: Hyphen is needed to avoid trailing blanks error.)
+       Error|......^<special><space> is not a legal special sequence.
+    20    20| 033  @!   - Comment.
+    21    21| 034  @"   - Parameter delimeter.
+    22    22| 035  @#X  - Short name sequence.
+    23    23| @$   036  - Define macro. Has to be at start of line.
+    24    24| 037  @%   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    25    25| 038  @&   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    26    26| 039  @'   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    27    27| 040  @(   - Open parameter list.
+    28    28| 041  @)   - Close parameter list.
+    29    29| 042
+    30    30| @*        - Old fashioned section marker (has to be at start of a line.).
+       Error|.^Unknown special sequence.
+    31    31| 043  @+   - Insert newline.
+    32    32| 044  @,   - Parameter separator.
+    33    33| 045  @-
+    34    34|           - Ignore end of line marker (has to be at end of line).
+    35    35| 046  @.   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    36    36| 047  @/   - Emphasised text.
+    37    37| 048  @0   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    38    38| 049  @1   - Formal parameter 1.
+    39    39| 050  @2   - Formal parameter 2.
+    40    40| 051  @3   - Formal parameter 3.
+    41    41| 052  @4   - Formal parameter 4.
+    42    42| 053  @5   - Formal parameter 5.
+    43    43| 054  @6   - Formal parameter 6.
+    44    44| 055  @7   - Formal parameter 7.
+    45    45| 056  @8   - Formal parameter 8.
+    46    46| 057  @9   - Formal parameter 9.
+    47    47| 058  @:   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    48    48| 059  @;   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    49    49| 060  @<   - Open macro name.
+    50    50| 061  @=@  - Set special character.
+    51    51| 062  @>   - Close macro name.
+    52    52| 063  @?   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    53    53| 064  @@   - Insert special character into text.
+    54    54| @A  065   - New section (level 1). Must be at start of a line.
+    55    55| @B  066   - New section (level 2). Must be at start of a line.
+    56    56| @C  067   - New section (level 3). Must be at start of a line.
+    57    57| @D  068   - New section (level 4). Must be at start of a line.
+    58    58| @E  069   - New section (level 5). Must be at start of a line.
+    59    59| 070  @F   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    60    60| 071  @G   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    61    61| 072  @H   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    62    62| 073  @I   - Include file. Will provoke an error here though.
+       Error|......^Include sequence must be at the beginning of a line.
+            |......^Include ignored.
+    63    63| 074  @J   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    64    64| 075  @K   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    65    65| 076  @L   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    66    66| 077  @M   - Tags macro as being allowed to be called many times.
+    67    67| 078  @N   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    68    68| @O   079  - New macro attached to output file. Has to be at start of line.
+    69    69| 080  @P   - Pragma. Will cause error here though.
+       Error|......^Pragma sequence @p must be at the start of a line.
+            |......^The rest of this line will be ignored.
+       Error|......^Unrecognised pragma. Possible legal pragmas are:
+            |......^   @p indentation = none | blank
+            |......^   @p maximum_input_line_length  = <num>|infinity
+            |......^   @p maximum_output_line_length = <num>|infinity
+            |......^   @p typesetter = none | tex
+            |......^The blanks between arguments are important.
+            |......^Pragma ignored.
+    70    70| 081  @Q   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    71    71| 082  @R   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    72    72| 083  @S   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    73    73| 084  @T   - Typesetter directive. Will cause an error here though.
+       Error|......^Typesetter directive @t must be at the start of a line.
+            |......^The rest of this line will be ignored.
+       Error|......^Unrecognised typesetter directive. Legal ones are:
+            |......^   @t new_page
+            |......^   @t table_of_contents
+            |......^   @t title <font> <align> <string>
+            |......^   @t vskip <num> mm
+            |......^The blanks between arguments are important.
+            |......^Typesetter directive ignored.
+    74    74| 085  @U   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    75    75| 086  @V   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    76    76| 087  @W   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    77    77| 088  @X   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    78    78| 089  @Y   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    79    79| 090  @Z   - Tags macro as being allowed to be called zero times.
+    80    80| 091  @[   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    81    81| 092  @\   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    82    82| 093  @]   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    83    83| 094  @^D(065) - Insert control character into text
+    84    84| 095  @_   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    85    85| 096  @`   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    86    86| @a   097  - New section (level 1). Must be at start of a line.
+    87    87| @b   098  - New section (level 1). Must be at start of a line.
+    88    88| @c   099  - New section (level 1). Must be at start of a line.
+    89    89| @d   100  - New section (level 1). Must be at start of a line.
+    90    90| @e   101  - New section (level 1). Must be at start of a line.
+    91    91| 102  @f   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    92    92| 103  @g   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    93    93| 104  @h   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    94    94| 105  @i   - Include file. Will provoke an error here though.
+       Error|......^Include sequence must be at the beginning of a line.
+            |......^Include ignored.
+    95    95| 106  @j   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    96    96| 107  @k   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    97    97| 108  @l   - ILLEGAL.
+       Error|......^Unknown special sequence.
+    98    98| 109  @m   - Tags macro as being allowed to be called many times.
+    99    99| 110  @n   - ILLEGAL.
+       Error|......^Unknown special sequence.
+   100   100| @O   111  - New macro attached to output file. Has to be at start of line.
+   101   101| 112  @p   - Pragma. Will cause error here though.
+       Error|......^Pragma sequence @p must be at the start of a line.
+            |......^The rest of this line will be ignored.
+       Error|......^Unrecognised pragma. Possible legal pragmas are:
+            |......^   @p indentation = none | blank
+            |......^   @p maximum_input_line_length  = <num>|infinity
+            |......^   @p maximum_output_line_length = <num>|infinity
+            |......^   @p typesetter = none | tex
+            |......^The blanks between arguments are important.
+            |......^Pragma ignored.
+   102   102| 113  @q   - ILLEGAL.
+       Error|......^Unknown special sequence.
+   103   103| 114  @r   - ILLEGAL.
+       Error|......^Unknown special sequence.
+   104   104| 115  @s   - ILLEGAL.
+       Error|......^Unknown special sequence.
+   105   105| 116  @t   - Typesetter directive. Will cause an error here though.
+       Error|......^Typesetter directive @t must be at the start of a line.
+            |......^The rest of this line will be ignored.
+       Error|......^Unrecognised typesetter directive. Legal ones are:
+            |......^   @t new_page
+            |......^   @t table_of_contents
+            |......^   @t title <font> <align> <string>
+            |......^   @t vskip <num> mm
+            |......^The blanks between arguments are important.
+            |......^Typesetter directive ignored.
+   106   106| 117  @u   - ILLEGAL.
+       Error|......^Unknown special sequence.
+   107   107| 118  @v   - ILLEGAL.
+       Error|......^Unknown special sequence.
+   108   108| 119  @w   - ILLEGAL.
+       Error|......^Unknown special sequence.
+   109   109| 120  @x   - ILLEGAL.
+       Error|......^Unknown special sequence.
+   110   110| 121  @y   - ILLEGAL.
+       Error|......^Unknown special sequence.
+   111   111| 122  @z   - Tags macro as being allowed to be called zero times.
+   112   112| 123  @{   - Open macro body.
+   113   113| 124  @|   - ILLEGAL.
+       Error|......^Unknown special sequence.
+   114   114| 125  @}   - Close macro body.
+   115   115| 126  @~   - ILLEGAL.
+       Error|......^Unknown special sequence.
+   116   116| 127 to 255 are not standard printable ASCII characters.
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 58 Errors and 1 Warning.

@@ -1,0 +1,656 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 50 52 30 34 3A 20 54 65 73 74 20 74 68 65 20 64 | PR04: Test the d |
+| 65 66 69 6E 69 74 69 6F 6E 20 6F 66 20 6F 72 64 | efinition of ord |
+| 69 6E 61 72 79 20 6D 61 63 72 6F 73 2E 0A 0A 31 | inary macros...1 |
+| 2E 20 54 65 73 74 20 61 6E 20 6F 72 64 69 6E 61 | . Test an ordina |
+| 72 79 20 6D 61 63 72 6F 20 64 65 66 69 6E 69 74 | ry macro definit |
+| 69 6F 6E 2E 0A 40 24 40 3C 4F 72 64 69 6E 61 72 | ion..@$@<Ordinar |
+| 79 40 3E 40 7B 54 68 65 20 74 65 78 74 20 6F 66 | y@>@{The text of |
+| 20 6F 72 64 69 6E 61 72 79 40 7D 0A 0A 32 2E 20 |  ordinary@}..2.  |
+| 54 65 73 74 20 61 6E 20 6F 72 64 69 6E 61 72 79 | Test an ordinary |
+| 20 64 65 66 69 6E 69 74 69 6F 6E 20 75 73 69 6E |  definition usin |
+| 67 20 61 20 71 75 69 63 6B 6E 61 6D 65 2E 0A 40 | g a quickname..@ |
+| 24 40 23 7C 40 7B 54 68 65 20 74 65 78 74 20 6F | $@#|@{The text o |
+| 66 20 6F 72 64 69 6E 61 72 79 40 7D 0A 0A 33 2E | f ordinary@}..3. |
+| 20 54 65 73 74 20 61 20 6E 61 6D 65 20 74 68 61 |  Test a name tha |
+| 74 20 69 6E 63 6C 75 64 65 73 20 45 4F 4C 2E 0A | t includes EOL.. |
+| 40 24 40 3C 54 68 69 73 20 6E 61 6D 65 20 69 73 | @$@<This name is |
+| 20 69 6C 6C 65 67 61 6C 20 62 65 63 61 75 73 65 |  illegal because |
+| 0A 69 74 20 63 72 6F 73 73 65 73 20 61 20 6C 69 | .it crosses a li |
+| 6F 6E 40 3E 40 7B 41 6E 64 20 70 65 6F 70 6C 65 | on@>@{And people |
+| 20 77 68 6F 20 63 72 6F 73 73 20 6C 69 6F 6E 73 |  who cross lions |
+| 20 74 65 6E 64 20 74 6F 20 67 65 74 20 65 61 74 |  tend to get eat |
+| 65 6E 2E 40 7D 0A 40 41 40 3C 45 72 72 6F 72 20 | en.@}.@A@<Error  |
+| 52 65 63 6F 76 65 72 79 20 50 6F 69 6E 74 40 3E | Recovery Point@> |
+| 0A 0A 34 2E 20 54 65 73 74 20 74 68 65 20 6D 69 | ..4. Test the mi |
+| 6E 69 6D 75 6D 20 6C 65 6E 67 74 68 20 6E 61 6D | nimum length nam |
+| 65 20 28 74 68 65 20 65 6D 70 74 79 20 6E 61 6D | e (the empty nam |
+| 65 29 2E 0A 40 24 40 3C 40 3E 40 7B 54 68 65 20 | e)..@$@<@>@{The  |
+| 65 6D 70 74 79 20 6D 61 63 72 6F 20 6E 61 6D 65 | empty macro name |
+| 20 69 73 20 71 75 69 74 65 20 6C 65 67 61 6C 20 |  is quite legal  |
+| 69 6E 20 46 75 6E 6E 65 6C 57 65 62 2E 40 7D 0A | in FunnelWeb.@}. |
+| 0A 35 2E 20 54 65 73 74 20 61 20 6E 61 6D 65 20 | .5. Test a name  |
+| 61 74 20 74 68 65 20 6D 61 78 69 6D 75 6D 20 6E | at the maximum n |
+| 61 6D 65 20 6C 65 6E 67 74 68 20 6C 69 6D 69 74 | ame length limit |
+| 20 28 38 30 29 2E 0A 4F 4E 6C 79 20 74 68 65 20 |  (80)..ONly the  |
+| 73 65 63 6F 6E 64 20 6F 66 20 74 68 65 20 74 77 | second of the tw |
+| 6F 20 6D 61 63 72 6F 73 20 73 68 6F 75 6C 64 20 | o macros should  |
+| 67 65 6E 65 72 61 74 65 20 61 6E 20 65 72 72 6F | generate an erro |
+| 72 2E 0A 40 70 20 6D 61 78 69 6D 75 6D 5F 69 6E | r..@p maximum_in |
+| 70 75 74 5F 6C 69 6E 65 5F 6C 65 6E 67 74 68 20 | put_line_length  |
+| 3D 20 31 30 30 0A 40 24 40 3C 31 32 33 34 35 36 | = 100.@$@<123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 40 3E 40 7B 40 7D | 1234567890@>@{@} |
+| 0A 40 24 40 3C 31 32 33 34 35 36 37 38 39 30 31 | .@$@<12345678901 |
+| 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 | 2345678901234567 |
+| 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 | 8901234567890123 |
+| 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 | 4567890123456789 |
+| 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 | 0123456789012345 |
+| 36 37 38 39 30 31 40 3E 40 7B 40 7D 0A 40 41 40 | 678901@>@{@}.@A@ |
+| 3C 45 72 72 6F 72 20 52 65 63 6F 76 65 72 79 20 | <Error Recovery  |
+| 50 6F 69 6E 74 40 3E 0A 0A 36 2E 20 54 65 73 74 | Point@>..6. Test |
+| 20 6E 61 6D 65 73 20 77 69 74 68 20 61 6C 6C 20 |  names with all  |
+| 6C 65 67 61 6C 20 63 68 61 72 61 63 74 65 72 73 | legal characters |
+| 2E 20 54 68 65 72 65 20 73 68 6F 75 6C 64 20 62 | . There should b |
+| 65 20 6E 6F 20 65 72 72 6F 72 73 2E 0A 40 24 40 | e no errors..@$@ |
+| 3C 20 21 22 23 24 25 27 28 29 2A 2B 2C 2D 2E 2F | < !"#$%'()*+,-./ |
+| 30 31 32 33 34 35 36 37 38 39 3A 3B 3C 3D 3E 3F | 0123456789:;<=>? |
+| 40 3E 40 7B 40 7D 0A 40 24 40 3C 41 42 43 44 45 | @>@{@}.@$@<ABCDE |
+| 46 47 48 49 4A 4B 4C 4D 4E 4F 50 51 52 53 54 55 | FGHIJKLMNOPQRSTU |
+| 56 57 58 59 5A 5B 5C 5D 5E 5F 60 40 3E 40 7B 40 | VWXYZ[\]^_`@>@{@ |
+| 7D 0A 40 24 40 3C 61 62 63 64 65 66 67 68 69 6A | }.@$@<abcdefghij |
+| 6B 6C 6D 6E 6F 70 71 72 73 74 75 76 77 78 79 7A | klmnopqrstuvwxyz |
+| 7B 7C 7D 7E 40 3E 40 7B 40 7D 0A 0A 37 2E 20 54 | {|}~@>@{@}..7. T |
+| 65 73 74 20 61 20 6E 61 6D 65 20 74 68 61 74 20 | est a name that  |
+| 68 61 73 20 69 6E 73 65 72 74 65 64 20 74 65 78 | has inserted tex |
+| 74 20 73 65 71 75 65 6E 63 65 73 2E 0A 0A 40 24 | t sequences...@$ |
+| 40 3C 40 5E 44 28 30 36 35 29 40 40 40 3E 3D 3D | @<@^D(065)@@@>== |
+| 40 7B 40 7D 0A 0A 0A                            | @{@}...          |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| PR04: Test the definition of ordinary macros.<010>
+00002 00002| <010>
+00003 00003| 1. Test an ordinary macro definition.<010>
+00004 00004| @$@<Ordinary@>@{The text of ordinary@}<010>
+00005 00005| <010>
+00006 00006| 2. Test an ordinary definition using a quickname.<010>
+00007 00007| @$@#|@{The text of ordinary@}<010>
+00008 00008| <010>
+00009 00009| 3. Test a name that includes EOL.<010>
+00010 00010| @$@<This name is illegal because<010>
+00011 00011| it crosses a lion@>@{And people who cross lions tend to get eaten.@}<010>
+00012 00012| @A@<Error Recovery Point@><010>
+00013 00013| <010>
+00014 00014| 4. Test the minimum length name (the empty name).<010>
+00015 00015| @$@<@>@{The empty macro name is quite legal in FunnelWeb.@}<010>
+00016 00016| <010>
+00017 00017| 5. Test a name at the maximum name length limit (80).<010>
+00018 00018| ONly the second of the two macros should generate an error.<010>
+00019 00019| @p maximum_input_line_length = 100<010>
+00020 00020| @$@<12345678901234567890123456789012345678901234567890123456789012345678901234567890@>@{@}<010>
+00021 00021| @$@<123456789012345678901234567890123456789012345678901234567890123456789012345678901@>@{@}<010>
+00022 00022| @A@<Error Recovery Point@><010>
+00023 00023| <010>
+00024 00024| 6. Test names with all legal characters. There should be no errors.<010>
+00025 00025| @$@< !"#$%'()*+,-./0123456789:;<=>?@>@{@}<010>
+00026 00026| @$@<ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`@>@{@}<010>
+00027 00027| @$@<abcdefghijklmnopqrstuvwxyz{|}~@>@{@}<010>
+00028 00028| <010>
+00029 00029| 7. Test a name that has inserted text sequences.<010>
+00030 00030| <010>
+00031 00031| @$@<@^D(065)@@@>==@{@}<010>
+00032 00032| <010>
+00033 00033| <010>
+00034 00034| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 85 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="PR04: Test the definition of ordinary macros.<010>
+<010>
+1. Test an ordinary macro definition.<010>
+"
+0004[01]: @$ Macro defn. 
+0004[03]: @< Open name. 
+0004[05]: Text. Text scrap[Grey]="Ordinary"
+0004[13]: @> Close name. 
+0004[15]: @{ Open defn. 
+0004[17]: Text. Text scrap[Grey]="The text of ordinary"
+0004[37]: @} Close defn. 
+0004[39]: Text. Text scrap[Grey]="<010>
+<010>
+2. Test an ordinary definition using a quickname.<010>
+"
+0007[01]: @$ Macro defn. 
+0007[03]: @# Name. Character='|'.
+0007[06]: @{ Open defn. 
+0007[08]: Text. Text scrap[Grey]="The text of ordinary"
+0007[28]: @} Close defn. 
+0007[30]: Text. Text scrap[Grey]="<010>
+<010>
+3. Test a name that includes EOL.<010>
+"
+0010[01]: @$ Macro defn. 
+0010[03]: @< Open name. 
+0010[05]: Text. Text scrap[Grey]="This name is illegal because<010>
+it crosses a lion"
+0011[18]: @> Close name. 
+0011[20]: @{ Open defn. 
+0011[22]: Text. Text scrap[Grey]="And people who cross lions tend to get eaten."
+0011[67]: @} Close defn. 
+0011[69]: Text. Text scrap[White]="<010>
+"
+0012[01]: @A New section (Level 1). 
+0012[03]: @< Open name. 
+0012[05]: Text. Text scrap[Grey]="Error Recovery Point"
+0012[25]: @> Close name. 
+0012[27]: Text. Text scrap[Grey]="<010>
+<010>
+4. Test the minimum length name (the empty name).<010>
+"
+0015[01]: @$ Macro defn. 
+0015[03]: @< Open name. 
+0015[05]: @> Close name. 
+0015[07]: @{ Open defn. 
+0015[09]: Text. Text scrap[Grey]="The empty macro name is quite legal in FunnelWeb."
+0015[58]: @} Close defn. 
+0015[60]: Text. Text scrap[Grey]="<010>
+<010>
+5. Test a name at the maximum name length limit (80).<010>
+ONly the second of the two macros should generate an error.<010>
+"
+0020[01]: @$ Macro defn. 
+0020[03]: @< Open name. 
+0020[05]: Text. Text scrap[Grey]="12345678901234567890123456789012345678901234567890123456789012345678901234567890"
+0020[85]: @> Close name. 
+0020[87]: @{ Open defn. 
+0020[89]: @} Close defn. 
+0020[91]: Text. Text scrap[White]="<010>
+"
+0021[01]: @$ Macro defn. 
+0021[03]: @< Open name. 
+0021[05]: Text. Text scrap[Grey]="123456789012345678901234567890123456789012345678901234567890123456789012345678901"
+0021[86]: @> Close name. 
+0021[88]: @{ Open defn. 
+0021[90]: @} Close defn. 
+0021[92]: Text. Text scrap[White]="<010>
+"
+0022[01]: @A New section (Level 1). 
+0022[03]: @< Open name. 
+0022[05]: Text. Text scrap[Grey]="Error Recovery Point"
+0022[25]: @> Close name. 
+0022[27]: Text. Text scrap[Grey]="<010>
+<010>
+6. Test names with all legal characters. There should be no errors.<010>
+"
+0025[01]: @$ Macro defn. 
+0025[03]: @< Open name. 
+0025[05]: Text. Text scrap[Grey]=" !"#$%'()*+,-./0123456789:;<=>?"
+0025[36]: @> Close name. 
+0025[38]: @{ Open defn. 
+0025[40]: @} Close defn. 
+0025[42]: Text. Text scrap[White]="<010>
+"
+0026[01]: @$ Macro defn. 
+0026[03]: @< Open name. 
+0026[05]: Text. Text scrap[Grey]="ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`"
+0026[37]: @> Close name. 
+0026[39]: @{ Open defn. 
+0026[41]: @} Close defn. 
+0026[43]: Text. Text scrap[White]="<010>
+"
+0027[01]: @$ Macro defn. 
+0027[03]: @< Open name. 
+0027[05]: Text. Text scrap[Grey]="abcdefghijklmnopqrstuvwxyz{|}~"
+0027[35]: @> Close name. 
+0027[37]: @{ Open defn. 
+0027[39]: @} Close defn. 
+0027[41]: Text. Text scrap[Grey]="<010>
+<010>
+7. Test a name that has inserted text sequences.<010>
+<010>
+"
+0031[01]: @$ Macro defn. 
+0031[03]: @< Open name. 
+0031[05]: Text. Text scrap[Grey]="A"
+0031[13]: Text. Text scrap[Grey]="@"
+0031[15]: @> Close name. 
+0031[17]: Text. Text scrap[Grey]="=="
+0031[19]: @{ Open defn. 
+0031[21]: @} Close defn. 
+0031[23]: Text. Text scrap[White]="<010>
+<010>
+<010>
+"
+0034[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+
+========================== Start of MACRO TABLE DUMP ===========================
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : ""
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=3, Pos(L,C)=(15,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="The empty macro name is quite legal in FunnelWeb."
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : " !"#$%'()*+,-./0123456789:;<=>?"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=5, Pos(L,C)=(25,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "12345678901234567890123456789012345678901234567890123456789012345678901234567890"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=4, Pos(L,C)=(20,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "A@"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=8, Pos(L,C)=(31,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=6, Pos(L,C)=(26,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Ordinary"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=1, Pos(L,C)=(4,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="The text of ordinary"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "abcdefghijklmnopqrstuvwxyz{|}~"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=7, Pos(L,C)=(27,3), Expression follows:
+
+---- Start of Expression ----
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "|"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=2, Pos(L,C)=(7,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="The text of ordinary"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+=========================== End of MACRO TABLE DUMP ============================
+
+
+========================= Start of DOCUMENT LIST DUMP ==========================
+
+
+TEXT COMPONENT: Pos(L,C)=(1,1). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="PR04: Test the definition of ordinary macros.<010>
+<010>
+1. Test an ordinary macro definition.<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(4,1). 
+Part 1 of macro @<Ordinary@>.
+
+TEXT COMPONENT: Pos(L,C)=(4,39). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+2. Test an ordinary definition using a quickname.<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(7,1). 
+Part 1 of macro @<|@>.
+
+TEXT COMPONENT: Pos(L,C)=(7,30). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+3. Test a name that includes EOL.<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "1", Section name="Error Recovery Point".
+
+TEXT COMPONENT: Pos(L,C)=(12,27). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+4. Test the minimum length name (the empty name).<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(15,1). 
+Part 1 of macro @<@>.
+
+TEXT COMPONENT: Pos(L,C)=(15,60). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+5. Test a name at the maximum name length limit (80).<010>
+ONly the second of the two macros should generate an error.<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(20,1). 
+Part 1 of macro @<12345678901234567890123456789012345678901234567890123456789012345678901234567890@>.
+
+TEXT COMPONENT: Pos(L,C)=(20,91). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "2", Section name="Error Recovery Point".
+
+TEXT COMPONENT: Pos(L,C)=(22,27). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+6. Test names with all legal characters. There should be no errors.<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(25,1). 
+Part 1 of macro @< !"#$%'()*+,-./0123456789:;<=>?@>.
+
+TEXT COMPONENT: Pos(L,C)=(25,42). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(26,1). 
+Part 1 of macro @<ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`@>.
+
+TEXT COMPONENT: Pos(L,C)=(26,43). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(27,1). 
+Part 1 of macro @<abcdefghijklmnopqrstuvwxyz{|}~@>.
+
+TEXT COMPONENT: Pos(L,C)=(27,41). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+7. Test a name that has inserted text sequences.<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(31,1). 
+Part 1 of macro @<A@@>.
+
+TEXT COMPONENT: Pos(L,C)=(31,23). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+========================== End of DOCUMENT LIST DUMP ===========================
+
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| PR04: Test the definition of ordinary macros.
+     2     2| 
+     3     3| 1. Test an ordinary macro definition.
+     4     4| @$@<Ordinary@>@{The text of ordinary@}
+     5     5| 
+     6     6| 2. Test an ordinary definition using a quickname.
+     7     7| @$@#|@{The text of ordinary@}
+     8     8| 
+     9     9| 3. Test a name that includes EOL.
+    10    10| @$@<This name is illegal because
+       Error|.....^Names cannot cross lines.
+            |.....^Skipping after error to the next major construct...
+    11    11| it crosses a lion@>@{And people who cross lions tend to get eaten.@}
+    12    12| @A@<Error Recovery Point@>
+            |.^...skipped to here after the error.
+    13    13| 
+    14    14| 4. Test the minimum length name (the empty name).
+    15    15| @$@<@>@{The empty macro name is quite legal in FunnelWeb.@}
+    16    16| 
+    17    17| 5. Test a name at the maximum name length limit (80).
+    18    18| ONly the second of the two macros should generate an error.
+    19    19| @p maximum_input_line_length = 100
+    20    20| @$@<12345678901234567890123456789012345678901234567890123456789012345678901234567890@>@{@}
+    21    21| @$@<123456789012345678901234567890123456789012345678901234567890123456789012345678901@>@{@}
+       Error|.....^Name is too long.
+            |.....^The maximum length of a legal name is 80 characters.
+            |.....^Skipping after error to the next major construct...
+    22    22| @A@<Error Recovery Point@>
+            |.^...skipped to here after the error.
+    23    23| 
+    24    24| 6. Test names with all legal characters. There should be no errors.
+    25    25| @$@< !"#$%'()*+,-./0123456789:;<=>?@>@{@}
+    26    26| @$@<ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`@>@{@}
+    27    27| @$@<abcdefghijklmnopqrstuvwxyz{|}~@>@{@}
+    28    28| 
+    29    29| 7. Test a name that has inserted text sequences.
+    30    30| 
+    31    31| @$@<@^D(065)@@@>==@{@}
+    32    32| 
+    33    33| 
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 2 Errors.

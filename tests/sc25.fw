@@ -1,0 +1,8 @@
+SC25: Test syntax checking of new page typesetter directive.
+
+1. Make sure that a legal new page directive is OK.
+@t new_page
+
+2. Check that it doesn't stand for any nonsense.
+@t new_page nonsense
+

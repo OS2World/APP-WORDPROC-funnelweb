@@ -1,0 +1,352 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 53 43 31 37 3A 20 54 65 73 74 20 3C 73 70 65 63 | SC17: Test <spec |
+| 69 61 6C 3E 23 2E 0A 0A 46 69 72 73 74 20 77 65 | ial>#...First we |
+| 20 74 72 69 70 20 75 70 20 74 68 65 20 73 63 61 |  trip up the sca |
+| 6E 6E 65 72 20 73 6F 20 6E 6F 20 66 75 72 74 68 | nner so no furth |
+| 65 72 20 70 61 73 73 65 73 20 74 61 6B 65 20 70 | er passes take p |
+| 6C 61 63 65 2E 0A 0A 40 0A 0A 31 2E 20 54 65 73 | lace...@..1. Tes |
+| 74 20 77 69 74 68 20 61 6C 6C 20 70 6F 73 73 69 | t with all possi |
+| 62 6C 65 20 70 72 69 6E 74 61 62 6C 65 20 63 68 | ble printable ch |
+| 61 72 61 63 74 65 72 73 2E 0A 0A 40 23 21 20 40 | aracters...@#! @ |
+| 23 22 20 40 23 23 20 40 23 24 20 40 23 25 20 40 | #" @## @#$ @#% @ |
+| 23 26 20 40 23 27 20 40 23 28 20 40 23 29 20 40 | #& @#' @#( @#) @ |
+| 23 2A 20 40 23 2B 20 40 23 2C 20 40 23 2D 20 40 | #* @#+ @#, @#- @ |
+| 23 2E 20 40 23 2F 0A 40 23 30 20 40 23 31 20 40 | #. @#/.@#0 @#1 @ |
+| 23 32 20 40 23 33 20 40 23 34 20 40 23 35 20 40 | #2 @#3 @#4 @#5 @ |
+| 23 36 20 40 23 37 20 40 23 38 20 40 23 39 20 40 | #6 @#7 @#8 @#9 @ |
+| 23 3A 20 40 23 3B 20 40 23 3C 20 40 23 3D 20 40 | #: @#; @#< @#= @ |
+| 23 3E 0A 40 23 3F 20 40 23 40 20 40 23 41 20 40 | #>.@#? @#@ @#A @ |
+| 23 42 20 40 23 43 20 40 23 44 20 40 23 45 20 40 | #B @#C @#D @#E @ |
+| 23 46 20 40 23 47 20 40 23 48 20 40 23 49 20 40 | #F @#G @#H @#I @ |
+| 23 4A 20 40 23 4B 20 40 23 4C 20 40 23 4D 0A 40 | #J @#K @#L @#M.@ |
+| 23 4E 20 40 23 4F 20 40 23 50 20 40 23 51 20 40 | #N @#O @#P @#Q @ |
+| 23 52 20 40 23 53 20 40 23 54 20 40 23 55 20 40 | #R @#S @#T @#U @ |
+| 23 56 20 40 23 57 20 40 23 58 20 40 23 59 20 40 | #V @#W @#X @#Y @ |
+| 23 5A 20 40 23 5B 20 40 23 5C 0A 40 23 5D 20 40 | #Z @#[ @#\.@#] @ |
+| 23 5E 20 40 23 5F 20 40 23 60 20 40 23 61 20 40 | #^ @#_ @#` @#a @ |
+| 23 62 20 40 23 63 20 40 23 64 20 40 23 65 20 40 | #b @#c @#d @#e @ |
+| 23 66 20 40 23 67 20 40 23 68 20 40 23 69 20 40 | #f @#g @#h @#i @ |
+| 23 6A 20 40 23 6B 0A 40 23 6C 20 40 23 6D 20 40 | #j @#k.@#l @#m @ |
+| 23 6E 20 40 23 6F 20 40 23 70 20 40 23 71 20 40 | #n @#o @#p @#q @ |
+| 23 72 20 40 23 73 20 40 23 74 20 40 23 75 20 40 | #r @#s @#t @#u @ |
+| 23 76 20 40 23 77 20 40 23 78 20 40 23 79 20 40 | #v @#w @#x @#y @ |
+| 23 7A 0A 40 23 7B 20 40 23 7C 20 40 23 7D 20 40 | #z.@#{ @#| @#} @ |
+| 23 7E 0A 0A 32 2E 20 54 65 73 74 20 74 68 61 74 | #~..2. Test that |
+| 20 3C 73 70 65 63 69 61 6C 3E 23 3C 73 70 61 63 |  <special>#<spac |
+| 65 3E 20 69 73 20 66 6C 61 67 67 65 64 20 61 73 | e> is flagged as |
+| 20 61 6E 20 65 72 72 6F 72 2E 0A 0A 20 20 20 40 |  an error...   @ |
+| 23 20 20 20 20 20 40 21 20 53 68 6F 75 6C 64 20 | #     @! Should  |
+| 62 65 20 66 6C 61 67 67 65 64 20 61 73 20 61 6E | be flagged as an |
+| 20 65 72 72 6F 72 2E 0A 0A 33 2E 20 54 65 73 74 |  error...3. Test |
+| 20 74 68 61 74 20 3C 73 70 65 63 69 61 6C 3E 23 |  that <special># |
+| 45 4F 4C 20 69 73 20 66 6C 61 67 67 65 64 20 61 | EOL is flagged a |
+| 73 20 61 6E 20 65 72 72 6F 72 2E 0A 0A 20 20 20 | s an error...    |
+| 40 23 0A 0A                                     | @#..             |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| SC17: Test <special>#.<010>
+00002 00002| <010>
+00003 00003| First we trip up the scanner so no further passes take place.<010>
+00004 00004| <010>
+00005 00005| @<010>
+00006 00006| <010>
+00007 00007| 1. Test with all possible printable characters.<010>
+00008 00008| <010>
+00009 00009| @#! @#" @## @#$ @#% @#& @#' @#( @#) @#* @#+ @#, @#- @#. @#/<010>
+00010 00010| @#0 @#1 @#2 @#3 @#4 @#5 @#6 @#7 @#8 @#9 @#: @#; @#< @#= @#><010>
+00011 00011| @#? @#@ @#A @#B @#C @#D @#E @#F @#G @#H @#I @#J @#K @#L @#M<010>
+00012 00012| @#N @#O @#P @#Q @#R @#S @#T @#U @#V @#W @#X @#Y @#Z @#[ @#\<010>
+00013 00013| @#] @#^ @#_ @#` @#a @#b @#c @#d @#e @#f @#g @#h @#i @#j @#k<010>
+00014 00014| @#l @#m @#n @#o @#p @#q @#r @#s @#t @#u @#v @#w @#x @#y @#z<010>
+00015 00015| @#{ @#| @#} @#~<010>
+00016 00016| <010>
+00017 00017| 2. Test that <special>#<space> is flagged as an error.<010>
+00018 00018| <010>
+00019 00019|    @#     @! Should be flagged as an error.<010>
+00020 00020| <010>
+00021 00021| 3. Test that <special>#EOL is flagged as an error.<010>
+00022 00022| <010>
+00023 00023|    @#<010>
+00024 00024| <010>
+00025 00025| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 194 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="SC17: Test <special>#.<010>
+<010>
+First we trip up the scanner so no further passes take place.<010>
+<010>
+"
+0006[01]: Text. Text scrap[Grey]="<010>
+1. Test with all possible printable characters.<010>
+<010>
+"
+0009[01]: @# Name. Character='!'.
+0009[04]: Text. Text scrap[White]=" "
+0009[05]: @# Name. Character='"'.
+0009[08]: Text. Text scrap[White]=" "
+0009[09]: @# Name. Character='#'.
+0009[12]: Text. Text scrap[White]=" "
+0009[13]: @# Name. Character='$'.
+0009[16]: Text. Text scrap[White]=" "
+0009[17]: @# Name. Character='%'.
+0009[20]: Text. Text scrap[White]=" "
+0009[21]: @# Name. Character='&'.
+0009[24]: Text. Text scrap[White]=" "
+0009[25]: @# Name. Character='''.
+0009[28]: Text. Text scrap[White]=" "
+0009[29]: @# Name. Character='('.
+0009[32]: Text. Text scrap[White]=" "
+0009[33]: @# Name. Character=')'.
+0009[36]: Text. Text scrap[White]=" "
+0009[37]: @# Name. Character='*'.
+0009[40]: Text. Text scrap[White]=" "
+0009[41]: @# Name. Character='+'.
+0009[44]: Text. Text scrap[White]=" "
+0009[45]: @# Name. Character=','.
+0009[48]: Text. Text scrap[White]=" "
+0009[49]: @# Name. Character='-'.
+0009[52]: Text. Text scrap[White]=" "
+0009[53]: @# Name. Character='.'.
+0009[56]: Text. Text scrap[White]=" "
+0009[57]: @# Name. Character='/'.
+0009[60]: Text. Text scrap[White]="<010>
+"
+0010[01]: @# Name. Character='0'.
+0010[04]: Text. Text scrap[White]=" "
+0010[05]: @# Name. Character='1'.
+0010[08]: Text. Text scrap[White]=" "
+0010[09]: @# Name. Character='2'.
+0010[12]: Text. Text scrap[White]=" "
+0010[13]: @# Name. Character='3'.
+0010[16]: Text. Text scrap[White]=" "
+0010[17]: @# Name. Character='4'.
+0010[20]: Text. Text scrap[White]=" "
+0010[21]: @# Name. Character='5'.
+0010[24]: Text. Text scrap[White]=" "
+0010[25]: @# Name. Character='6'.
+0010[28]: Text. Text scrap[White]=" "
+0010[29]: @# Name. Character='7'.
+0010[32]: Text. Text scrap[White]=" "
+0010[33]: @# Name. Character='8'.
+0010[36]: Text. Text scrap[White]=" "
+0010[37]: @# Name. Character='9'.
+0010[40]: Text. Text scrap[White]=" "
+0010[41]: @# Name. Character=':'.
+0010[44]: Text. Text scrap[White]=" "
+0010[45]: @# Name. Character=';'.
+0010[48]: Text. Text scrap[White]=" "
+0010[49]: @# Name. Character='<'.
+0010[52]: Text. Text scrap[White]=" "
+0010[53]: @# Name. Character='='.
+0010[56]: Text. Text scrap[White]=" "
+0010[57]: @# Name. Character='>'.
+0010[60]: Text. Text scrap[White]="<010>
+"
+0011[01]: @# Name. Character='?'.
+0011[04]: Text. Text scrap[White]=" "
+0011[05]: @# Name. Character='@'.
+0011[08]: Text. Text scrap[White]=" "
+0011[09]: @# Name. Character='A'.
+0011[12]: Text. Text scrap[White]=" "
+0011[13]: @# Name. Character='B'.
+0011[16]: Text. Text scrap[White]=" "
+0011[17]: @# Name. Character='C'.
+0011[20]: Text. Text scrap[White]=" "
+0011[21]: @# Name. Character='D'.
+0011[24]: Text. Text scrap[White]=" "
+0011[25]: @# Name. Character='E'.
+0011[28]: Text. Text scrap[White]=" "
+0011[29]: @# Name. Character='F'.
+0011[32]: Text. Text scrap[White]=" "
+0011[33]: @# Name. Character='G'.
+0011[36]: Text. Text scrap[White]=" "
+0011[37]: @# Name. Character='H'.
+0011[40]: Text. Text scrap[White]=" "
+0011[41]: @# Name. Character='I'.
+0011[44]: Text. Text scrap[White]=" "
+0011[45]: @# Name. Character='J'.
+0011[48]: Text. Text scrap[White]=" "
+0011[49]: @# Name. Character='K'.
+0011[52]: Text. Text scrap[White]=" "
+0011[53]: @# Name. Character='L'.
+0011[56]: Text. Text scrap[White]=" "
+0011[57]: @# Name. Character='M'.
+0011[60]: Text. Text scrap[White]="<010>
+"
+0012[01]: @# Name. Character='N'.
+0012[04]: Text. Text scrap[White]=" "
+0012[05]: @# Name. Character='O'.
+0012[08]: Text. Text scrap[White]=" "
+0012[09]: @# Name. Character='P'.
+0012[12]: Text. Text scrap[White]=" "
+0012[13]: @# Name. Character='Q'.
+0012[16]: Text. Text scrap[White]=" "
+0012[17]: @# Name. Character='R'.
+0012[20]: Text. Text scrap[White]=" "
+0012[21]: @# Name. Character='S'.
+0012[24]: Text. Text scrap[White]=" "
+0012[25]: @# Name. Character='T'.
+0012[28]: Text. Text scrap[White]=" "
+0012[29]: @# Name. Character='U'.
+0012[32]: Text. Text scrap[White]=" "
+0012[33]: @# Name. Character='V'.
+0012[36]: Text. Text scrap[White]=" "
+0012[37]: @# Name. Character='W'.
+0012[40]: Text. Text scrap[White]=" "
+0012[41]: @# Name. Character='X'.
+0012[44]: Text. Text scrap[White]=" "
+0012[45]: @# Name. Character='Y'.
+0012[48]: Text. Text scrap[White]=" "
+0012[49]: @# Name. Character='Z'.
+0012[52]: Text. Text scrap[White]=" "
+0012[53]: @# Name. Character='['.
+0012[56]: Text. Text scrap[White]=" "
+0012[57]: @# Name. Character='\'.
+0012[60]: Text. Text scrap[White]="<010>
+"
+0013[01]: @# Name. Character=']'.
+0013[04]: Text. Text scrap[White]=" "
+0013[05]: @# Name. Character='^'.
+0013[08]: Text. Text scrap[White]=" "
+0013[09]: @# Name. Character='_'.
+0013[12]: Text. Text scrap[White]=" "
+0013[13]: @# Name. Character='`'.
+0013[16]: Text. Text scrap[White]=" "
+0013[17]: @# Name. Character='a'.
+0013[20]: Text. Text scrap[White]=" "
+0013[21]: @# Name. Character='b'.
+0013[24]: Text. Text scrap[White]=" "
+0013[25]: @# Name. Character='c'.
+0013[28]: Text. Text scrap[White]=" "
+0013[29]: @# Name. Character='d'.
+0013[32]: Text. Text scrap[White]=" "
+0013[33]: @# Name. Character='e'.
+0013[36]: Text. Text scrap[White]=" "
+0013[37]: @# Name. Character='f'.
+0013[40]: Text. Text scrap[White]=" "
+0013[41]: @# Name. Character='g'.
+0013[44]: Text. Text scrap[White]=" "
+0013[45]: @# Name. Character='h'.
+0013[48]: Text. Text scrap[White]=" "
+0013[49]: @# Name. Character='i'.
+0013[52]: Text. Text scrap[White]=" "
+0013[53]: @# Name. Character='j'.
+0013[56]: Text. Text scrap[White]=" "
+0013[57]: @# Name. Character='k'.
+0013[60]: Text. Text scrap[White]="<010>
+"
+0014[01]: @# Name. Character='l'.
+0014[04]: Text. Text scrap[White]=" "
+0014[05]: @# Name. Character='m'.
+0014[08]: Text. Text scrap[White]=" "
+0014[09]: @# Name. Character='n'.
+0014[12]: Text. Text scrap[White]=" "
+0014[13]: @# Name. Character='o'.
+0014[16]: Text. Text scrap[White]=" "
+0014[17]: @# Name. Character='p'.
+0014[20]: Text. Text scrap[White]=" "
+0014[21]: @# Name. Character='q'.
+0014[24]: Text. Text scrap[White]=" "
+0014[25]: @# Name. Character='r'.
+0014[28]: Text. Text scrap[White]=" "
+0014[29]: @# Name. Character='s'.
+0014[32]: Text. Text scrap[White]=" "
+0014[33]: @# Name. Character='t'.
+0014[36]: Text. Text scrap[White]=" "
+0014[37]: @# Name. Character='u'.
+0014[40]: Text. Text scrap[White]=" "
+0014[41]: @# Name. Character='v'.
+0014[44]: Text. Text scrap[White]=" "
+0014[45]: @# Name. Character='w'.
+0014[48]: Text. Text scrap[White]=" "
+0014[49]: @# Name. Character='x'.
+0014[52]: Text. Text scrap[White]=" "
+0014[53]: @# Name. Character='y'.
+0014[56]: Text. Text scrap[White]=" "
+0014[57]: @# Name. Character='z'.
+0014[60]: Text. Text scrap[White]="<010>
+"
+0015[01]: @# Name. Character='{'.
+0015[04]: Text. Text scrap[White]=" "
+0015[05]: @# Name. Character='|'.
+0015[08]: Text. Text scrap[White]=" "
+0015[09]: @# Name. Character='}'.
+0015[12]: Text. Text scrap[White]=" "
+0015[13]: @# Name. Character='~'.
+0015[16]: Text. Text scrap[Grey]="<010>
+<010>
+2. Test that <special>#<space> is flagged as an error.<010>
+<010>
+   "
+0019[07]: Text. Text scrap[White]="    "
+0020[01]: Text. Text scrap[Grey]="<010>
+3. Test that <special>#EOL is flagged as an error.<010>
+<010>
+   "
+0024[01]: Text. Text scrap[White]="<010>
+"
+0025[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+Macro table dump skipped (Parser was not invoked).
+Document list dump skipped (Parser was not invoked).
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| SC17: Test <special>#.
+     2     2| 
+     3     3| First we trip up the scanner so no further passes take place.
+     4     4| 
+     5     5| @
+       Error|.^<special><endofline> is not a legal special sequence.
+     6     6| 
+     7     7| 1. Test with all possible printable characters.
+     8     8| 
+     9     9| @#! @#" @## @#$ @#% @#& @#' @#( @#) @#* @#+ @#, @#- @#. @#/
+    10    10| @#0 @#1 @#2 @#3 @#4 @#5 @#6 @#7 @#8 @#9 @#: @#; @#< @#= @#>
+    11    11| @#? @#@ @#A @#B @#C @#D @#E @#F @#G @#H @#I @#J @#K @#L @#M
+    12    12| @#N @#O @#P @#Q @#R @#S @#T @#U @#V @#W @#X @#Y @#Z @#[ @#\
+    13    13| @#] @#^ @#_ @#` @#a @#b @#c @#d @#e @#f @#g @#h @#i @#j @#k
+    14    14| @#l @#m @#n @#o @#p @#q @#r @#s @#t @#u @#v @#w @#x @#y @#z
+    15    15| @#{ @#| @#} @#~
+    16    16| 
+    17    17| 2. Test that <special>#<space> is flagged as an error.
+    18    18| 
+    19    19|    @#     @! Should be flagged as an error.
+       Error|......^Expecting a printable character.
+    20    20| 
+    21    21| 3. Test that <special>#EOL is flagged as an error.
+    22    22| 
+    23    23|    @#
+       Error|......^Expecting a printable character.
+    24    24| 
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 3 Errors.

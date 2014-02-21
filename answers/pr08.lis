@@ -1,0 +1,1266 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 50 52 30 38 3A 20 54 65 73 74 20 73 65 6D 61 6E | PR08: Test seman |
+| 74 69 63 20 63 68 65 63 6B 69 6E 67 20 6F 66 20 | tic checking of  |
+| 6D 61 63 72 6F 20 64 65 66 69 6E 69 74 69 6F 6E | macro definition |
+| 73 2E 0A 0A 54 72 69 70 20 70 61 72 73 65 72 20 | s...Trip parser  |
+| 74 6F 20 62 65 20 73 75 72 65 20 74 68 61 74 20 | to be sure that  |
+| 77 65 20 77 6F 6E 27 74 20 67 65 74 20 61 6E 79 | we won't get any |
+| 20 6F 75 74 70 75 74 20 66 69 6C 65 73 21 0A 40 |  output files!.@ |
+| 3E 0A 0A 31 2E 20 46 69 6C 65 20 6D 61 63 72 6F | >..1. File macro |
+| 20 68 61 73 20 70 61 72 61 6D 65 74 65 72 73 2E |  has parameters. |
+| 20 45 72 72 6F 72 2E 0A 40 4F 40 3C 53 6C 6F 74 |  Error..@O@<Slot |
+| 68 20 31 40 3E 40 28 40 33 40 29 40 7B 57 61 6C | h 1@>@(@3@)@{Wal |
+| 72 75 73 40 7D 0A 40 41 40 3C 45 72 72 6F 72 20 | rus@}.@A@<Error  |
+| 72 65 63 6F 76 65 72 79 20 70 6F 69 6E 74 40 3E | recovery point@> |
+| 0A 0A 32 2E 20 46 69 6C 65 20 6D 61 63 72 6F 20 | ..2. File macro  |
+| 69 73 20 61 64 64 69 74 69 76 65 2E 20 45 72 72 | is additive. Err |
+| 6F 72 2E 0A 40 4F 40 3C 53 6C 6F 74 68 20 32 40 | or..@O@<Sloth 2@ |
+| 3E 2B 3D 40 7B 57 61 6C 72 75 73 40 7D 0A 40 41 | >+=@{Walrus@}.@A |
+| 40 3C 45 72 72 6F 72 20 72 65 63 6F 76 65 72 79 | @<Error recovery |
+| 20 70 6F 69 6E 74 40 3E 0A 0A 33 2E 20 46 69 6C |  point@>..3. Fil |
+| 65 20 6D 61 63 72 6F 20 68 61 73 20 74 6F 6F 20 | e macro has too  |
+| 6C 6F 6E 67 20 61 20 6E 61 6D 65 2E 20 54 68 65 | long a name. The |
+| 20 74 65 73 74 20 6E 61 6D 65 20 68 61 73 20 31 |  test name has 1 |
+| 32 30 30 20 63 68 61 72 61 63 74 65 72 73 2E 20 | 200 characters.  |
+| 45 72 72 2E 0A 4E 6F 74 65 3A 20 54 68 69 73 20 | Err..Note: This  |
+| 74 65 73 74 20 63 61 6E 27 74 20 74 65 73 74 20 | test can't test  |
+| 74 68 65 20 65 72 72 6F 72 20 6D 65 73 73 61 67 | the error messag |
+| 65 20 69 66 20 74 68 65 20 6D 61 78 69 6D 75 6D | e if the maximum |
+| 20 6C 65 6E 67 74 68 20 6F 66 20 61 0A 6D 61 63 |  length of a.mac |
+| 72 6F 20 6E 61 6D 65 20 69 73 20 6C 65 73 73 20 | ro name is less  |
+| 74 68 61 6E 20 74 68 65 20 6D 61 78 69 6D 75 6D | than the maximum |
+| 20 6C 65 6E 67 74 68 20 6F 66 20 61 20 66 69 6C |  length of a fil |
+| 65 20 6E 61 6D 65 20 61 73 20 74 68 65 20 6E 61 | e name as the na |
+| 6D 65 0A 65 72 72 6F 72 20 69 73 20 63 61 75 67 | me.error is caug |
+| 68 74 20 66 69 72 73 74 2E 0A 40 70 20 6D 61 78 | ht first..@p max |
+| 69 6D 75 6D 5F 69 6E 70 75 74 5F 6C 69 6E 65 5F | imum_input_line_ |
+| 6C 65 6E 67 74 68 20 3D 20 69 6E 66 69 6E 69 74 | length = infinit |
+| 79 0A 40 4F 40 3C 31 32 33 34 35 36 37 38 39 30 | y.@O@<1234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 31 32 33 34 35 36 37 38 39 30 | 5678901234567890 |
+| 31 32 33 34 35 36 37 38 39 30 31 32 33 34 35 36 | 1234567890123456 |
+| 37 38 39 30 31 32 33 34 35 36 37 38 39 30 31 32 | 7890123456789012 |
+| 33 34 35 36 37 38 39 30 31 32 33 34 35 36 37 38 | 3456789012345678 |
+| 39 30 31 32 33 34 35 36 37 38 39 30 31 32 33 34 | 9012345678901234 |
+| 35 36 37 38 39 30 40 3E 40 7B 40 7D 0A 40 41 40 | 567890@>@{@}.@A@ |
+| 3C 45 72 72 6F 72 20 72 65 63 6F 76 65 72 79 20 | <Error recovery  |
+| 70 6F 69 6E 74 40 3E 0A 0A 34 2E 20 46 69 6C 65 | point@>..4. File |
+| 20 6D 61 63 72 6F 20 68 61 73 20 7A 65 72 6F 20 |  macro has zero  |
+| 6F 72 20 6D 61 6E 79 20 61 74 74 72 69 62 75 74 | or many attribut |
+| 65 73 2E 20 45 72 72 6F 72 2E 0A 40 4F 40 3C 53 | es. Error..@O@<S |
+| 6C 6F 74 68 20 33 40 3E 40 5A 40 7B 57 61 6C 72 | loth 3@>@Z@{Walr |
+| 75 73 40 7D 0A 40 41 40 3C 45 72 72 6F 72 20 72 | us@}.@A@<Error r |
+| 65 63 6F 76 65 72 79 20 70 6F 69 6E 74 40 3E 0A | ecovery point@>. |
+| 0A 40 4F 40 3C 53 6C 6F 74 68 20 34 40 3E 40 4D | .@O@<Sloth 4@>@M |
+| 40 7B 57 61 6C 72 75 73 40 7D 0A 40 41 40 3C 45 | @{Walrus@}.@A@<E |
+| 72 72 6F 72 20 72 65 63 6F 76 65 72 79 20 70 6F | rror recovery po |
+| 69 6E 74 40 3E 0A 0A 40 4F 40 3C 53 6C 6F 74 68 | int@>..@O@<Sloth |
+| 20 35 40 3E 40 5A 40 4D 40 7B 57 61 6C 72 75 73 |  5@>@Z@M@{Walrus |
+| 40 7D 0A 40 41 40 3C 45 72 72 6F 72 20 72 65 63 | @}.@A@<Error rec |
+| 6F 76 65 72 79 20 70 6F 69 6E 74 40 3E 0A 0A 35 | overy point@>..5 |
+| 2E 20 50 72 65 76 69 6F 75 73 20 64 65 66 69 6E | . Previous defin |
+| 69 74 69 6F 6E 20 69 73 20 66 75 6C 6C 2C 20 63 | ition is full, c |
+| 75 72 72 65 6E 74 20 69 73 20 61 64 64 69 74 69 | urrent is additi |
+| 76 65 2E 0A 40 24 40 3C 57 61 6C 72 75 73 20 31 | ve..@$@<Walrus 1 |
+| 40 3E 3D 3D 40 7B 53 6C 6F 74 68 40 7D 0A 40 24 | @>==@{Sloth@}.@$ |
+| 40 3C 57 61 6C 72 75 73 20 31 40 3E 2B 3D 40 7B | @<Walrus 1@>+=@{ |
+| 41 61 72 64 76 61 72 6B 40 7D 0A 40 41 40 3C 45 | Aardvark@}.@A@<E |
+| 72 72 6F 72 20 72 65 63 6F 76 65 72 79 20 70 6F | rror recovery po |
+| 69 6E 74 40 3E 0A 0A 36 2E 20 50 72 65 76 69 6F | int@>..6. Previo |
+| 75 73 20 64 65 66 69 6E 69 74 69 6F 6E 20 69 73 | us definition is |
+| 20 61 64 64 69 74 69 76 65 2C 20 63 75 72 72 65 |  additive, curre |
+| 6E 74 20 69 73 20 66 75 6C 6C 2E 0A 40 24 40 3C | nt is full..@$@< |
+| 57 61 6C 72 75 73 20 32 40 3E 2B 3D 40 7B 53 6C | Walrus 2@>+=@{Sl |
+| 6F 74 68 40 7D 0A 40 24 40 3C 57 61 6C 72 75 73 | oth@}.@$@<Walrus |
+| 20 32 40 3E 3D 3D 40 7B 41 61 72 64 76 61 72 6B |  2@>==@{Aardvark |
+| 40 7D 0A 40 41 40 3C 45 72 72 6F 72 20 72 65 63 | @}.@A@<Error rec |
+| 6F 76 65 72 79 20 70 6F 69 6E 74 40 3E 0A 0A 37 | overy point@>..7 |
+| 2E 20 4E 6F 6E 2D 66 69 72 73 74 20 62 6F 64 79 | . Non-first body |
+| 20 70 61 72 74 20 6F 66 20 70 61 72 74 69 61 6C |  part of partial |
+| 20 68 61 73 20 70 61 72 61 6D 65 74 65 72 2E 0A |  has parameter.. |
+| 40 24 40 3C 55 6E 69 63 6F 72 6E 40 3E 40 28 40 | @$@<Unicorn@>@(@ |
+| 33 40 29 2B 3D 40 7B 54 75 72 6B 65 79 40 7D 0A | 3@)+=@{Turkey@}. |
+| 40 24 40 3C 55 6E 69 63 6F 72 6E 40 3E 40 28 40 | @$@<Unicorn@>@(@ |
+| 33 40 29 2B 3D 40 7B 54 75 72 6B 65 79 40 7D 0A | 3@)+=@{Turkey@}. |
+| 40 41 40 3C 45 72 72 6F 72 20 72 65 63 6F 76 65 | @A@<Error recove |
+| 72 79 20 70 6F 69 6E 74 40 3E 0A 0A 38 2E 20 5A | ry point@>..8. Z |
+| 65 72 6F 20 6F 72 20 6D 61 6E 79 20 61 74 74 72 | ero or many attr |
+| 69 62 75 74 65 73 20 6F 6E 20 6E 6F 6E 2D 66 69 | ibutes on non-fi |
+| 72 73 74 20 62 6F 64 79 20 70 61 72 74 20 6F 66 | rst body part of |
+| 20 61 64 64 69 74 69 76 65 2E 0A 40 24 40 3C 45 |  additive..@$@<E |
+| 6C 65 70 68 61 6E 74 40 3E 40 5A 40 4D 2B 3D 40 | lephant@>@Z@M+=@ |
+| 7B 54 75 72 6B 65 79 40 7D 0A 40 24 40 3C 45 6C | {Turkey@}.@$@<El |
+| 65 70 68 61 6E 74 40 3E 40 5A 40 4D 2B 3D 40 7B | ephant@>@Z@M+=@{ |
+| 54 75 72 6B 65 79 40 7D 0A 40 41 40 3C 45 72 72 | Turkey@}.@A@<Err |
+| 6F 72 20 72 65 63 6F 76 65 72 79 20 70 6F 69 6E | or recovery poin |
+| 74 40 3E 0A 0A 39 2E 20 43 68 65 63 6B 20 74 68 | t@>..9. Check th |
+| 61 74 20 6E 6F 6E 2D 65 78 69 73 74 65 6E 74 20 | at non-existent  |
+| 66 6F 72 6D 61 6C 20 70 61 72 61 6D 65 74 65 72 | formal parameter |
+| 73 20 61 72 65 20 63 61 75 67 68 74 2E 0A 0A 40 | s are caught...@ |
+| 24 40 3C 5A 65 72 6F 40 3E 40 5A 40 7B 53 6C 6F | $@<Zero@>@Z@{Slo |
+| 74 68 40 31 57 61 6C 72 75 73 40 7D 0A 40 41 40 | th@1Walrus@}.@A@ |
+| 3C 45 72 72 6F 72 20 72 65 63 6F 76 65 72 79 20 | <Error recovery  |
+| 70 6F 69 6E 74 40 3E 0A 0A 40 24 40 3C 4F 6E 65 | point@>..@$@<One |
+| 40 3E 40 28 40 31 40 29 40 5A 40 7B 53 6C 6F 74 | @>@(@1@)@Z@{Slot |
+| 68 40 32 57 61 6C 72 75 73 40 7D 0A 40 41 40 3C | h@2Walrus@}.@A@< |
+| 45 72 72 6F 72 20 72 65 63 6F 76 65 72 79 20 70 | Error recovery p |
+| 6F 69 6E 74 40 3E 0A 0A 40 24 40 3C 4D 61 6E 79 | oint@>..@$@<Many |
+| 40 3E 40 28 40 37 40 29 40 5A 40 7B 53 6C 6F 74 | @>@(@7@)@Z@{Slot |
+| 68 40 38 57 61 6C 72 75 73 40 7D 0A 40 41 40 3C | h@8Walrus@}.@A@< |
+| 45 72 72 6F 72 20 72 65 63 6F 76 65 72 79 20 70 | Error recovery p |
+| 6F 69 6E 74 40 3E 0A                            | oint@>.          |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| PR08: Test semantic checking of macro definitions.<010>
+00002 00002| <010>
+00003 00003| Trip parser to be sure that we won't get any output files!<010>
+00004 00004| @><010>
+00005 00005| <010>
+00006 00006| 1. File macro has parameters. Error.<010>
+00007 00007| @O@<Sloth 1@>@(@3@)@{Walrus@}<010>
+00008 00008| @A@<Error recovery point@><010>
+00009 00009| <010>
+00010 00010| 2. File macro is additive. Error.<010>
+00011 00011| @O@<Sloth 2@>+=@{Walrus@}<010>
+00012 00012| @A@<Error recovery point@><010>
+00013 00013| <010>
+00014 00014| 3. File macro has too long a name. The test name has 1200 characters. Err.<010>
+00015 00015| Note: This test can't test the error message if the maximum length of a<010>
+00016 00016| macro name is less than the maximum length of a file name as the name<010>
+00017 00017| error is caught first.<010>
+00018 00018| @p maximum_input_line_length = infinity<010>
+00019 00019| @O@<123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890@>@{@}<010>
+00020 00020| @A@<Error recovery point@><010>
+00021 00021| <010>
+00022 00022| 4. File macro has zero or many attributes. Error.<010>
+00023 00023| @O@<Sloth 3@>@Z@{Walrus@}<010>
+00024 00024| @A@<Error recovery point@><010>
+00025 00025| <010>
+00026 00026| @O@<Sloth 4@>@M@{Walrus@}<010>
+00027 00027| @A@<Error recovery point@><010>
+00028 00028| <010>
+00029 00029| @O@<Sloth 5@>@Z@M@{Walrus@}<010>
+00030 00030| @A@<Error recovery point@><010>
+00031 00031| <010>
+00032 00032| 5. Previous definition is full, current is additive.<010>
+00033 00033| @$@<Walrus 1@>==@{Sloth@}<010>
+00034 00034| @$@<Walrus 1@>+=@{Aardvark@}<010>
+00035 00035| @A@<Error recovery point@><010>
+00036 00036| <010>
+00037 00037| 6. Previous definition is additive, current is full.<010>
+00038 00038| @$@<Walrus 2@>+=@{Sloth@}<010>
+00039 00039| @$@<Walrus 2@>==@{Aardvark@}<010>
+00040 00040| @A@<Error recovery point@><010>
+00041 00041| <010>
+00042 00042| 7. Non-first body part of partial has parameter.<010>
+00043 00043| @$@<Unicorn@>@(@3@)+=@{Turkey@}<010>
+00044 00044| @$@<Unicorn@>@(@3@)+=@{Turkey@}<010>
+00045 00045| @A@<Error recovery point@><010>
+00046 00046| <010>
+00047 00047| 8. Zero or many attributes on non-first body part of additive.<010>
+00048 00048| @$@<Elephant@>@Z@M+=@{Turkey@}<010>
+00049 00049| @$@<Elephant@>@Z@M+=@{Turkey@}<010>
+00050 00050| @A@<Error recovery point@><010>
+00051 00051| <010>
+00052 00052| 9. Check that non-existent formal parameters are caught.<010>
+00053 00053| <010>
+00054 00054| @$@<Zero@>@Z@{Sloth@1Walrus@}<010>
+00055 00055| @A@<Error recovery point@><010>
+00056 00056| <010>
+00057 00057| @$@<One@>@(@1@)@Z@{Sloth@2Walrus@}<010>
+00058 00058| @A@<Error recovery point@><010>
+00059 00059| <010>
+00060 00060| @$@<Many@>@(@7@)@Z@{Sloth@8Walrus@}<010>
+00061 00061| @A@<Error recovery point@><010>
+00062 00062| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 245 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="PR08: Test semantic checking of macro definitions.<010>
+<010>
+Trip parser to be sure that we won't get any output files!<010>
+"
+0004[01]: @> Close name. 
+0004[03]: Text. Text scrap[Grey]="<010>
+<010>
+1. File macro has parameters. Error.<010>
+"
+0007[01]: @F File defn. 
+0007[03]: @< Open name. 
+0007[05]: Text. Text scrap[Grey]="Sloth 1"
+0007[12]: @> Close name. 
+0007[14]: @( Open param. 
+0007[16]: @n Parameter. Parameterno=3.
+0007[18]: @} Close param. 
+0007[20]: @{ Open defn. 
+0007[22]: Text. Text scrap[Grey]="Walrus"
+0007[28]: @} Close defn. 
+0007[30]: Text. Text scrap[White]="<010>
+"
+0008[01]: @A New section (Level 1). 
+0008[03]: @< Open name. 
+0008[05]: Text. Text scrap[Grey]="Error recovery point"
+0008[25]: @> Close name. 
+0008[27]: Text. Text scrap[Grey]="<010>
+<010>
+2. File macro is additive. Error.<010>
+"
+0011[01]: @F File defn. 
+0011[03]: @< Open name. 
+0011[05]: Text. Text scrap[Grey]="Sloth 2"
+0011[12]: @> Close name. 
+0011[14]: Text. Text scrap[Grey]="+="
+0011[16]: @{ Open defn. 
+0011[18]: Text. Text scrap[Grey]="Walrus"
+0011[24]: @} Close defn. 
+0011[26]: Text. Text scrap[White]="<010>
+"
+0012[01]: @A New section (Level 1). 
+0012[03]: @< Open name. 
+0012[05]: Text. Text scrap[Grey]="Error recovery point"
+0012[25]: @> Close name. 
+0012[27]: Text. Text scrap[Grey]="<010>
+<010>
+3. File macro has too long a name. The test name has 1200 characters. Err.<010>
+Note: This test can't test the error message if the maximum length of a<010>
+macro name is less than the maximum length of a file name as the name<010>
+error is caught first.<010>
+"
+0019[01]: @F File defn. 
+0019[03]: @< Open name. 
+0019[05]: Text. Text scrap[Grey]="123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890"
+0019[1205]: @> Close name. 
+0019[1207]: @{ Open defn. 
+0019[1209]: @} Close defn. 
+0019[1211]: Text. Text scrap[White]="<010>
+"
+0020[01]: @A New section (Level 1). 
+0020[03]: @< Open name. 
+0020[05]: Text. Text scrap[Grey]="Error recovery point"
+0020[25]: @> Close name. 
+0020[27]: Text. Text scrap[Grey]="<010>
+<010>
+4. File macro has zero or many attributes. Error.<010>
+"
+0023[01]: @F File defn. 
+0023[03]: @< Open name. 
+0023[05]: Text. Text scrap[Grey]="Sloth 3"
+0023[12]: @> Close name. 
+0023[14]: @Z Zero calls. 
+0023[16]: @{ Open defn. 
+0023[18]: Text. Text scrap[Grey]="Walrus"
+0023[24]: @} Close defn. 
+0023[26]: Text. Text scrap[White]="<010>
+"
+0024[01]: @A New section (Level 1). 
+0024[03]: @< Open name. 
+0024[05]: Text. Text scrap[Grey]="Error recovery point"
+0024[25]: @> Close name. 
+0024[27]: Text. Text scrap[White]="<010>
+<010>
+"
+0026[01]: @F File defn. 
+0026[03]: @< Open name. 
+0026[05]: Text. Text scrap[Grey]="Sloth 4"
+0026[12]: @> Close name. 
+0026[14]: @M Many calls. 
+0026[16]: @{ Open defn. 
+0026[18]: Text. Text scrap[Grey]="Walrus"
+0026[24]: @} Close defn. 
+0026[26]: Text. Text scrap[White]="<010>
+"
+0027[01]: @A New section (Level 1). 
+0027[03]: @< Open name. 
+0027[05]: Text. Text scrap[Grey]="Error recovery point"
+0027[25]: @> Close name. 
+0027[27]: Text. Text scrap[White]="<010>
+<010>
+"
+0029[01]: @F File defn. 
+0029[03]: @< Open name. 
+0029[05]: Text. Text scrap[Grey]="Sloth 5"
+0029[12]: @> Close name. 
+0029[14]: @Z Zero calls. 
+0029[16]: @M Many calls. 
+0029[18]: @{ Open defn. 
+0029[20]: Text. Text scrap[Grey]="Walrus"
+0029[26]: @} Close defn. 
+0029[28]: Text. Text scrap[White]="<010>
+"
+0030[01]: @A New section (Level 1). 
+0030[03]: @< Open name. 
+0030[05]: Text. Text scrap[Grey]="Error recovery point"
+0030[25]: @> Close name. 
+0030[27]: Text. Text scrap[Grey]="<010>
+<010>
+5. Previous definition is full, current is additive.<010>
+"
+0033[01]: @$ Macro defn. 
+0033[03]: @< Open name. 
+0033[05]: Text. Text scrap[Grey]="Walrus 1"
+0033[13]: @> Close name. 
+0033[15]: Text. Text scrap[Grey]="=="
+0033[17]: @{ Open defn. 
+0033[19]: Text. Text scrap[Grey]="Sloth"
+0033[24]: @} Close defn. 
+0033[26]: Text. Text scrap[White]="<010>
+"
+0034[01]: @$ Macro defn. 
+0034[03]: @< Open name. 
+0034[05]: Text. Text scrap[Grey]="Walrus 1"
+0034[13]: @> Close name. 
+0034[15]: Text. Text scrap[Grey]="+="
+0034[17]: @{ Open defn. 
+0034[19]: Text. Text scrap[Grey]="Aardvark"
+0034[27]: @} Close defn. 
+0034[29]: Text. Text scrap[White]="<010>
+"
+0035[01]: @A New section (Level 1). 
+0035[03]: @< Open name. 
+0035[05]: Text. Text scrap[Grey]="Error recovery point"
+0035[25]: @> Close name. 
+0035[27]: Text. Text scrap[Grey]="<010>
+<010>
+6. Previous definition is additive, current is full.<010>
+"
+0038[01]: @$ Macro defn. 
+0038[03]: @< Open name. 
+0038[05]: Text. Text scrap[Grey]="Walrus 2"
+0038[13]: @> Close name. 
+0038[15]: Text. Text scrap[Grey]="+="
+0038[17]: @{ Open defn. 
+0038[19]: Text. Text scrap[Grey]="Sloth"
+0038[24]: @} Close defn. 
+0038[26]: Text. Text scrap[White]="<010>
+"
+0039[01]: @$ Macro defn. 
+0039[03]: @< Open name. 
+0039[05]: Text. Text scrap[Grey]="Walrus 2"
+0039[13]: @> Close name. 
+0039[15]: Text. Text scrap[Grey]="=="
+0039[17]: @{ Open defn. 
+0039[19]: Text. Text scrap[Grey]="Aardvark"
+0039[27]: @} Close defn. 
+0039[29]: Text. Text scrap[White]="<010>
+"
+0040[01]: @A New section (Level 1). 
+0040[03]: @< Open name. 
+0040[05]: Text. Text scrap[Grey]="Error recovery point"
+0040[25]: @> Close name. 
+0040[27]: Text. Text scrap[Grey]="<010>
+<010>
+7. Non-first body part of partial has parameter.<010>
+"
+0043[01]: @$ Macro defn. 
+0043[03]: @< Open name. 
+0043[05]: Text. Text scrap[Grey]="Unicorn"
+0043[12]: @> Close name. 
+0043[14]: @( Open param. 
+0043[16]: @n Parameter. Parameterno=3.
+0043[18]: @} Close param. 
+0043[20]: Text. Text scrap[Grey]="+="
+0043[22]: @{ Open defn. 
+0043[24]: Text. Text scrap[Grey]="Turkey"
+0043[30]: @} Close defn. 
+0043[32]: Text. Text scrap[White]="<010>
+"
+0044[01]: @$ Macro defn. 
+0044[03]: @< Open name. 
+0044[05]: Text. Text scrap[Grey]="Unicorn"
+0044[12]: @> Close name. 
+0044[14]: @( Open param. 
+0044[16]: @n Parameter. Parameterno=3.
+0044[18]: @} Close param. 
+0044[20]: Text. Text scrap[Grey]="+="
+0044[22]: @{ Open defn. 
+0044[24]: Text. Text scrap[Grey]="Turkey"
+0044[30]: @} Close defn. 
+0044[32]: Text. Text scrap[White]="<010>
+"
+0045[01]: @A New section (Level 1). 
+0045[03]: @< Open name. 
+0045[05]: Text. Text scrap[Grey]="Error recovery point"
+0045[25]: @> Close name. 
+0045[27]: Text. Text scrap[Grey]="<010>
+<010>
+8. Zero or many attributes on non-first body part of additive.<010>
+"
+0048[01]: @$ Macro defn. 
+0048[03]: @< Open name. 
+0048[05]: Text. Text scrap[Grey]="Elephant"
+0048[13]: @> Close name. 
+0048[15]: @Z Zero calls. 
+0048[17]: @M Many calls. 
+0048[19]: Text. Text scrap[Grey]="+="
+0048[21]: @{ Open defn. 
+0048[23]: Text. Text scrap[Grey]="Turkey"
+0048[29]: @} Close defn. 
+0048[31]: Text. Text scrap[White]="<010>
+"
+0049[01]: @$ Macro defn. 
+0049[03]: @< Open name. 
+0049[05]: Text. Text scrap[Grey]="Elephant"
+0049[13]: @> Close name. 
+0049[15]: @Z Zero calls. 
+0049[17]: @M Many calls. 
+0049[19]: Text. Text scrap[Grey]="+="
+0049[21]: @{ Open defn. 
+0049[23]: Text. Text scrap[Grey]="Turkey"
+0049[29]: @} Close defn. 
+0049[31]: Text. Text scrap[White]="<010>
+"
+0050[01]: @A New section (Level 1). 
+0050[03]: @< Open name. 
+0050[05]: Text. Text scrap[Grey]="Error recovery point"
+0050[25]: @> Close name. 
+0050[27]: Text. Text scrap[Grey]="<010>
+<010>
+9. Check that non-existent formal parameters are caught.<010>
+<010>
+"
+0054[01]: @$ Macro defn. 
+0054[03]: @< Open name. 
+0054[05]: Text. Text scrap[Grey]="Zero"
+0054[09]: @> Close name. 
+0054[11]: @Z Zero calls. 
+0054[13]: @{ Open defn. 
+0054[15]: Text. Text scrap[Grey]="Sloth"
+0054[20]: @n Parameter. Parameterno=1.
+0054[22]: Text. Text scrap[Grey]="Walrus"
+0054[28]: @} Close defn. 
+0054[30]: Text. Text scrap[White]="<010>
+"
+0055[01]: @A New section (Level 1). 
+0055[03]: @< Open name. 
+0055[05]: Text. Text scrap[Grey]="Error recovery point"
+0055[25]: @> Close name. 
+0055[27]: Text. Text scrap[White]="<010>
+<010>
+"
+0057[01]: @$ Macro defn. 
+0057[03]: @< Open name. 
+0057[05]: Text. Text scrap[Grey]="One"
+0057[08]: @> Close name. 
+0057[10]: @( Open param. 
+0057[12]: @n Parameter. Parameterno=1.
+0057[14]: @} Close param. 
+0057[16]: @Z Zero calls. 
+0057[18]: @{ Open defn. 
+0057[20]: Text. Text scrap[Grey]="Sloth"
+0057[25]: @n Parameter. Parameterno=2.
+0057[27]: Text. Text scrap[Grey]="Walrus"
+0057[33]: @} Close defn. 
+0057[35]: Text. Text scrap[White]="<010>
+"
+0058[01]: @A New section (Level 1). 
+0058[03]: @< Open name. 
+0058[05]: Text. Text scrap[Grey]="Error recovery point"
+0058[25]: @> Close name. 
+0058[27]: Text. Text scrap[White]="<010>
+<010>
+"
+0060[01]: @$ Macro defn. 
+0060[03]: @< Open name. 
+0060[05]: Text. Text scrap[Grey]="Many"
+0060[09]: @> Close name. 
+0060[11]: @( Open param. 
+0060[13]: @n Parameter. Parameterno=7.
+0060[15]: @} Close param. 
+0060[17]: @Z Zero calls. 
+0060[19]: @{ Open defn. 
+0060[21]: Text. Text scrap[Grey]="Sloth"
+0060[26]: @n Parameter. Parameterno=8.
+0060[28]: Text. Text scrap[Grey]="Walrus"
+0060[34]: @} Close defn. 
+0060[36]: Text. Text scrap[White]="<010>
+"
+0061[01]: @A New section (Level 1). 
+0061[03]: @< Open name. 
+0061[05]: Text. Text scrap[Grey]="Error recovery point"
+0061[25]: @> Close name. 
+0061[27]: Text. Text scrap[White]="<010>
+"
+0062[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+
+========================== Start of MACRO TABLE DUMP ===========================
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Elephant"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : Yes.
+Zero Calls? : Yes.
+Many Calls? : Yes.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=4, Pos(L,C)=(48,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Turkey"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Many"
+Defined?    : Yes.
+Parameters  : 7
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=7, Pos(L,C)=(60,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Sloth"
+------ End Text Element ------
+
+
+-- Start Parameter Element --
+Parameter number=8.
+Parameter is of macro "Many".
+--- End Parameter Element ---
+
+
+----- Start Text Element -----
+Text scrap[Grey]="Walrus"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "One"
+Defined?    : Yes.
+Parameters  : 1
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=6, Pos(L,C)=(57,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Sloth"
+------ End Text Element ------
+
+
+-- Start Parameter Element --
+Parameter number=2.
+Parameter is of macro "One".
+--- End Parameter Element ---
+
+
+----- Start Text Element -----
+Text scrap[Grey]="Walrus"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth 1"
+Defined?    : No.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth 2"
+Defined?    : No.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth 3"
+Defined?    : No.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth 4"
+Defined?    : No.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Sloth 5"
+Defined?    : No.
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Unicorn"
+Defined?    : Yes.
+Parameters  : 3
+Additive?   : Yes.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=3, Pos(L,C)=(43,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Turkey"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Walrus 1"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=1, Pos(L,C)=(33,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Sloth"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Walrus 2"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : Yes.
+Zero Calls? : No.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=2, Pos(L,C)=(38,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Sloth"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+------------------- Start of Macro Dump --------------------
+Macro Name  : "Zero"
+Defined?    : Yes.
+Parameters  : 0
+Additive?   : No.
+Zero Calls? : Yes.
+Many Calls? : No.
+Output File?: No.
+Call list   :
+Macro body  :
+
+--Start of List of Body Parts--
+This macro has 1 body part.
+Body part 1: Seqnum=5, Pos(L,C)=(54,3), Expression follows:
+
+---- Start of Expression ----
+
+----- Start Text Element -----
+Text scrap[Grey]="Sloth"
+------ End Text Element ------
+
+
+-- Start Parameter Element --
+Parameter number=1.
+Parameter is of macro "Zero".
+--- End Parameter Element ---
+
+
+----- Start Text Element -----
+Text scrap[Grey]="Walrus"
+------ End Text Element ------
+
+----- End of Expression -----
+
+---End of List of Body Parts---
+
+-------------------- End of Macro Dump ---------------------
+
+
+
+=========================== End of MACRO TABLE DUMP ============================
+
+
+========================= Start of DOCUMENT LIST DUMP ==========================
+
+
+TEXT COMPONENT: Pos(L,C)=(1,1). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="PR08: Test semantic checking of macro definitions.<010>
+<010>
+Trip parser to be sure that we won't get any output files!<010>
+"
+--- End of Text Scrap List ---
+
+
+TEXT COMPONENT: Pos(L,C)=(4,3). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+1. File macro has parameters. Error.<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "1", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(8,27). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+2. File macro is additive. Error.<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "2", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(12,27). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+3. File macro has too long a name. The test name has 1200 characters. Err.<010>
+Note: This test can't test the error message if the maximum length of a<010>
+macro name is less than the maximum length of a file name as the name<010>
+error is caught first.<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "3", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(20,27). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+4. File macro has zero or many attributes. Error.<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "4", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(24,27). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "5", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(27,27). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "6", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(30,27). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+5. Previous definition is full, current is additive.<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(33,1). 
+Part 1 of macro @<Walrus 1@>.
+
+TEXT COMPONENT: Pos(L,C)=(33,26). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "7", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(35,27). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+6. Previous definition is additive, current is full.<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(38,1). 
+Part 1 of macro @<Walrus 2@>.
+
+TEXT COMPONENT: Pos(L,C)=(38,26). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "8", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(40,27). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+7. Non-first body part of partial has parameter.<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(43,1). 
+Part 1 of macro @<Unicorn@>.
+
+TEXT COMPONENT: Pos(L,C)=(43,32). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "9", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(45,27). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+8. Zero or many attributes on non-first body part of additive.<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(48,1). 
+Part 1 of macro @<Elephant@>.
+
+TEXT COMPONENT: Pos(L,C)=(48,31). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "10", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(50,27). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="<010>
+<010>
+9. Check that non-existent formal parameters are caught.<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(54,1). 
+Part 1 of macro @<Zero@>.
+
+TEXT COMPONENT: Pos(L,C)=(54,30). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "11", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(55,27). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(57,1). 
+Part 1 of macro @<One@>.
+
+TEXT COMPONENT: Pos(L,C)=(57,35). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "12", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(58,27). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+<010>
+"
+--- End of Text Scrap List ---
+
+
+MACRO DEFINITION COMPONENT: Pos(L,C)=(60,1). 
+Part 1 of macro @<Many@>.
+
+TEXT COMPONENT: Pos(L,C)=(60,36). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+TYPESETTER DIRECTIVE COMPONENT: 
+   Section "13", Section name="Error recovery point".
+
+TEXT COMPONENT: Pos(L,C)=(61,27). 
+
+-- Start of Text Scrap List --
+Text scrap[White]="<010>
+"
+--- End of Text Scrap List ---
+
+
+========================== End of DOCUMENT LIST DUMP ===========================
+
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| PR08: Test semantic checking of macro definitions.
+     2     2| 
+     3     3| Trip parser to be sure that we won't get any output files!
+     4     4| @>
+       Error|.^The parser was at the top level and was expecting
+            |.^one of: {Directive, Text, Macro definition, EOF}.
+     5     5| 
+     6     6| 1. File macro has parameters. Error.
+     7     7| @O@<Sloth 1@>@(@3@)@{Walrus@}
+            |...^Macro definition ignored.
+       Error|................^Macros attached to output files cannot be parameterized.
+            |................^Reason: No actual parameters would be available during
+            |................^        output file generation.
+            |....................^Skipping after error to the next major construct...
+     8     8| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+     9     9| 
+    10    10| 2. File macro is additive. Error.
+    11    11| @O@<Sloth 2@>+=@{Walrus@}
+            |...^Macro definition ignored.
+       Error|..............^Macros attached to output files cannot be additive.
+            |..............^Reason: Preventing this makes it easy to find output
+            |..............^file macros later, because there will be exactly one
+            |..............^@O declaration in the input file for each output file.
+            |..............^To do what you are trying to do, just create an additive
+            |..............^bridging macro, like this:
+            |..............^   @O@<prog.c@>@{@<Bridge@>@}
+            |..............^   @$@<Bridge@>+=@{void stringhack()...@}
+            |..............^   @$@<Bridge@>+=@{main()...@}
+            |................^Skipping after error to the next major construct...
+    12    12| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    13    13| 
+    14    14| 3. File macro has too long a name. The test name has 1200 characters. Err.
+    15    15| Note: This test can't test the error message if the maximum length of a
+    16    16| macro name is less than the maximum length of a file name as the name
+    17    17| error is caught first.
+    18    18| @p maximum_input_line_length = infinity
+    19    19| @O@<123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890@>@{@}
+       Error|.....^Name is too long.
+            |.....^The maximum length of a legal name is 80 characters.
+            |.....^Skipping after error to the next major construct...
+    20    20| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    21    21| 
+    22    22| 4. File macro has zero or many attributes. Error.
+    23    23| @O@<Sloth 3@>@Z@{Walrus@}
+            |...^Macro definition ignored.
+       Error|..............^Macros attached to output files cannot have @Z or @M.
+            |..............^Reason: They are always called once to generate their
+            |..............^output file and they cannot be called from other macros.
+            |..............^Hence they are always called exactly once and so there
+            |..............^can be no need for @Z or @M in their declarations.
+            |................^Skipping after error to the next major construct...
+    24    24| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    25    25| 
+    26    26| @O@<Sloth 4@>@M@{Walrus@}
+            |...^Macro definition ignored.
+       Error|..............^Macros attached to output files cannot have @Z or @M.
+            |..............^Reason: They are always called once to generate their
+            |..............^output file and they cannot be called from other macros.
+            |..............^Hence they are always called exactly once and so there
+            |..............^can be no need for @Z or @M in their declarations.
+            |................^Skipping after error to the next major construct...
+    27    27| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    28    28| 
+    29    29| @O@<Sloth 5@>@Z@M@{Walrus@}
+            |...^Macro definition ignored.
+       Error|..............^Macros attached to output files cannot have @Z or @M.
+            |..............^Reason: They are always called once to generate their
+            |..............^output file and they cannot be called from other macros.
+            |..............^Hence they are always called exactly once and so there
+            |..............^can be no need for @Z or @M in their declarations.
+            |..................^Skipping after error to the next major construct...
+    30    30| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    31    31| 
+    32    32| 5. Previous definition is full, current is additive.
+    33    33| @$@<Walrus 1@>==@{Sloth@}
+    34    34| @$@<Walrus 1@>+=@{Aardvark@}
+       Error|...^A full definition of this macro appears at line 33.
+            |...^Full and additive definitions of the same macro cannot coexist.
+            |...^Macro definition ignored.
+            |.................^Skipping after error to the next major construct...
+    35    35| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    36    36| 
+    37    37| 6. Previous definition is additive, current is full.
+    38    38| @$@<Walrus 2@>+=@{Sloth@}
+    39    39| @$@<Walrus 2@>==@{Aardvark@}
+       Error|...^An additive definition of this macro appears at line 38.
+            |...^Full and additive definitions of the same macro cannot coexist.
+            |...^Macro definition ignored.
+            |.................^Skipping after error to the next major construct...
+    40    40| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    41    41| 
+    42    42| 7. Non-first body part of partial has parameter.
+    43    43| @$@<Unicorn@>@(@3@)+=@{Turkey@}
+    44    44| @$@<Unicorn@>@(@3@)+=@{Turkey@}
+            |...^Macro definition ignored.
+       Error|................^The formal parameter list of an additive macro
+            |................^must be placed only in the first definition part.
+            |................^The first part of this macro appears at line 43.
+            |......................^Skipping after error to the next major construct...
+    45    45| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    46    46| 
+    47    47| 8. Zero or many attributes on non-first body part of additive.
+    48    48| @$@<Elephant@>@Z@M+=@{Turkey@}
+    49    49| @$@<Elephant@>@Z@M+=@{Turkey@}
+            |...^Macro definition ignored.
+       Error|...............^@Z and @M modifiers for additive macros must
+            |...............^be placed only in the first definition part.
+            |...............^The first part of this macro appears at line 48.
+            |.....................^Skipping after error to the next major construct...
+    50    50| @A@<Error recovery point@>
+            |.^...skipped to here after the error.
+    51    51| 
+    52    52| 9. Check that non-existent formal parameters are caught.
+    53    53| 
+    54    54| @$@<Zero@>@Z@{Sloth@1Walrus@}
+       Error|....................^Macro being defined has only 0 parameters.
+    55    55| @A@<Error recovery point@>
+    56    56| 
+    57    57| @$@<One@>@(@1@)@Z@{Sloth@2Walrus@}
+       Error|.........................^Macro being defined has only 1 parameter.
+    58    58| @A@<Error recovery point@>
+    59    59| 
+    60    60| @$@<Many@>@(@7@)@Z@{Sloth@8Walrus@}
+       Error|..........................^Macro being defined has only 7 parameters.
+    61    61| @A@<Error recovery point@>
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 14 Errors.

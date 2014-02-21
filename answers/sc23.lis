@@ -1,0 +1,188 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 53 43 32 33 3A 20 54 65 73 74 20 73 79 6E 74 61 | SC23: Test synta |
+| 78 20 63 68 65 63 6B 69 6E 67 20 6F 66 20 6F 75 | x checking of ou |
+| 74 70 75 74 20 6C 69 6E 65 20 6C 65 6E 67 74 68 | tput line length |
+| 20 70 72 61 67 6D 61 2E 0A 0A 31 2E 20 54 65 73 |  pragma...1. Tes |
+| 74 20 6E 6F 74 20 74 68 72 65 65 20 61 72 67 75 | t not three argu |
+| 6D 65 6E 74 73 2E 0A 40 70 20 6D 61 78 69 6D 75 | ments..@p maximu |
+| 6D 5F 6F 75 74 70 75 74 5F 6C 69 6E 65 5F 6C 65 | m_output_line_le |
+| 6E 67 74 68 0A 40 70 20 6D 61 78 69 6D 75 6D 5F | ngth.@p maximum_ |
+| 6F 75 74 70 75 74 5F 6C 69 6E 65 5F 6C 65 6E 67 | output_line_leng |
+| 74 68 20 3D 0A 40 70 20 6D 61 78 69 6D 75 6D 5F | th =.@p maximum_ |
+| 6F 75 74 70 75 74 5F 6C 69 6E 65 5F 6C 65 6E 67 | output_line_leng |
+| 74 68 20 3D 20 78 78 78 20 79 79 79 0A 0A 32 2E | th = xxx yyy..2. |
+| 20 54 65 73 74 20 73 65 63 6F 6E 64 20 61 72 67 |  Test second arg |
+| 75 6D 65 6E 74 20 6E 6F 74 20 22 3D 22 2E 0A 40 | ument not "="..@ |
+| 70 20 6D 61 78 69 6D 75 6D 5F 6F 75 74 70 75 74 | p maximum_output |
+| 5F 6C 69 6E 65 5F 6C 65 6E 67 74 68 20 78 20 73 | _line_length x s |
+| 6C 6F 74 68 0A 0A 33 2E 20 54 65 73 74 20 76 61 | loth..3. Test va |
+| 6C 75 65 20 6F 66 20 69 6E 66 69 6E 69 74 79 2E | lue of infinity. |
+| 0A 40 70 20 6D 61 78 69 6D 75 6D 5F 6F 75 74 70 | .@p maximum_outp |
+| 75 74 5F 6C 69 6E 65 5F 6C 65 6E 67 74 68 20 3D | ut_line_length = |
+| 20 69 6E 66 69 6E 69 74 79 0A 0A 34 2E 20 54 65 |  infinity..4. Te |
+| 73 74 20 6E 6F 6E 2D 64 65 63 69 6D 61 6C 20 64 | st non-decimal d |
+| 69 67 69 74 20 69 6E 20 6E 75 6D 62 65 72 2E 0A | igit in number.. |
+| 40 70 20 6D 61 78 69 6D 75 6D 5F 6F 75 74 70 75 | @p maximum_outpu |
+| 74 5F 6C 69 6E 65 5F 6C 65 6E 67 74 68 20 3D 20 | t_line_length =  |
+| 32 65 66 0A 0A 35 2E 20 54 65 73 74 20 6E 75 6D | 2ef..5. Test num |
+| 62 65 72 20 69 73 20 6D 6F 72 65 20 74 68 61 6E | ber is more than |
+| 20 65 69 67 68 74 20 64 69 67 69 74 73 20 6C 6F |  eight digits lo |
+| 6E 67 2E 0A 40 70 20 6D 61 78 69 6D 75 6D 5F 6F | ng..@p maximum_o |
+| 75 74 70 75 74 5F 6C 69 6E 65 5F 6C 65 6E 67 74 | utput_line_lengt |
+| 68 20 3D 20 31 32 33 34 35 36 37 38 39 0A 0A 36 | h = 123456789..6 |
+| 2E 20 54 65 73 74 20 6E 75 6D 62 65 72 20 69 73 | . Test number is |
+| 20 65 78 61 63 74 6C 79 20 65 69 67 68 74 20 64 |  exactly eight d |
+| 69 67 69 74 73 20 6C 6F 6E 67 2E 0A 37 2E 20 54 | igits long..7. T |
+| 65 73 74 20 70 72 61 67 6D 61 20 6F 70 70 6F 73 | est pragma oppos |
+| 69 6E 67 20 65 61 72 6C 69 65 72 20 70 72 61 67 | ing earlier prag |
+| 6D 61 2E 0A 40 70 20 6D 61 78 69 6D 75 6D 5F 6F | ma..@p maximum_o |
+| 75 74 70 75 74 5F 6C 69 6E 65 5F 6C 65 6E 67 74 | utput_line_lengt |
+| 68 20 3D 20 31 32 33 34 35 36 37 38 0A 0A 38 2E | h = 12345678..8. |
+| 20 54 65 73 74 20 70 72 61 67 6D 61 20 6E 6F 74 |  Test pragma not |
+| 20 6F 70 70 6F 73 69 6E 67 20 65 61 72 6C 69 65 |  opposing earlie |
+| 72 20 70 72 61 67 6D 61 2E 0A 40 70 20 6D 61 78 | r pragma..@p max |
+| 69 6D 75 6D 5F 6F 75 74 70 75 74 5F 6C 69 6E 65 | imum_output_line |
+| 5F 6C 65 6E 67 74 68 20 3D 20 69 6E 66 69 6E 69 | _length = infini |
+| 74 79 0A 0A                                     | ty..             |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| SC23: Test syntax checking of output line length pragma.<010>
+00002 00002| <010>
+00003 00003| 1. Test not three arguments.<010>
+00004 00004| @p maximum_output_line_length<010>
+00005 00005| @p maximum_output_line_length =<010>
+00006 00006| @p maximum_output_line_length = xxx yyy<010>
+00007 00007| <010>
+00008 00008| 2. Test second argument not "=".<010>
+00009 00009| @p maximum_output_line_length x sloth<010>
+00010 00010| <010>
+00011 00011| 3. Test value of infinity.<010>
+00012 00012| @p maximum_output_line_length = infinity<010>
+00013 00013| <010>
+00014 00014| 4. Test non-decimal digit in number.<010>
+00015 00015| @p maximum_output_line_length = 2ef<010>
+00016 00016| <010>
+00017 00017| 5. Test number is more than eight digits long.<010>
+00018 00018| @p maximum_output_line_length = 123456789<010>
+00019 00019| <010>
+00020 00020| 6. Test number is exactly eight digits long.<010>
+00021 00021| 7. Test pragma opposing earlier pragma.<010>
+00022 00022| @p maximum_output_line_length = 12345678<010>
+00023 00023| <010>
+00024 00024| 8. Test pragma not opposing earlier pragma.<010>
+00025 00025| @p maximum_output_line_length = infinity<010>
+00026 00026| <010>
+00027 00027| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 9 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="SC23: Test syntax checking of output line length pragma.<010>
+<010>
+1. Test not three arguments.<010>
+"
+0007[01]: Text. Text scrap[Grey]="<010>
+2. Test second argument not "=".<010>
+"
+0010[01]: Text. Text scrap[Grey]="<010>
+3. Test value of infinity.<010>
+"
+0013[01]: Text. Text scrap[Grey]="<010>
+4. Test non-decimal digit in number.<010>
+"
+0016[01]: Text. Text scrap[Grey]="<010>
+5. Test number is more than eight digits long.<010>
+"
+0019[01]: Text. Text scrap[Grey]="<010>
+6. Test number is exactly eight digits long.<010>
+7. Test pragma opposing earlier pragma.<010>
+"
+0023[01]: Text. Text scrap[Grey]="<010>
+8. Test pragma not opposing earlier pragma.<010>
+"
+0026[01]: Text. Text scrap[White]="<010>
+"
+0027[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+Macro table dump skipped (Parser was not invoked).
+Document list dump skipped (Parser was not invoked).
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| SC23: Test syntax checking of output line length pragma.
+     2     2| 
+     3     3| 1. Test not three arguments.
+     4     4| @p maximum_output_line_length
+       Error|.^This pragma has the wrong number of arguments.
+            |.^The correct format is: "@p maximum_output_line_length = <num>|infinity".
+            |.^Pragma ignored.
+     5     5| @p maximum_output_line_length =
+       Error|.^This pragma has the wrong number of arguments.
+            |.^The correct format is: "@p maximum_output_line_length = <num>|infinity".
+            |.^Pragma ignored.
+     6     6| @p maximum_output_line_length = xxx yyy
+       Error|.^This pragma has the wrong number of arguments.
+            |.^The correct format is: "@p maximum_output_line_length = <num>|infinity".
+            |.^Pragma ignored.
+     7     7| 
+     8     8| 2. Test second argument not "=".
+     9     9| @p maximum_output_line_length x sloth
+            |.^The correct format is: "@p maximum_output_line_length = <num>|infinity".
+            |.^Pragma ignored.
+       Error|...............................^Expecting "=".
+    10    10| 
+    11    11| 3. Test value of infinity.
+    12    12| @p maximum_output_line_length = infinity
+            |.^This pragma is opposed by the pragma at line 22.
+    13    13| 
+    14    14| 4. Test non-decimal digit in number.
+    15    15| @p maximum_output_line_length = 2ef
+       Error|..................................^Illegal digit. Value must consist entirely of decimal digits.
+            |..................................^You can also use the value "infinity".
+            |..................................^Pragma ignored.
+    16    16| 
+    17    17| 5. Test number is more than eight digits long.
+    18    18| @p maximum_output_line_length = 123456789
+       Error|.................................^Too many digits. The maximum is eight.
+            |.................................^Pragma ignored.
+    19    19| 
+    20    20| 6. Test number is exactly eight digits long.
+    21    21| 7. Test pragma opposing earlier pragma.
+    22    22| @p maximum_output_line_length = 12345678
+       Error|.^This pragma opposes the pragma at line 12.
+            |.^You can have as many output line length pragmas
+            |.^as you like, but they all have to be the same!
+            |.^Pragma ignored.
+    23    23| 
+    24    24| 8. Test pragma not opposing earlier pragma.
+    25    25| @p maximum_output_line_length = infinity
+    26    26| 
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 7 Errors.

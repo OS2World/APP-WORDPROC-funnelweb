@@ -1,0 +1,116 @@
+Scanner Test: Special Sequence Recognition
+==========================================
+This test tests to see that FunnelWeb is recognising the full set of special
+sequences.
+
+Turn Off the Parser
+-------------------
+First we cause a deliberate scanner error so as to prevent the parser from
+generating lots of errors over the syntactic rubbish presented here.
+
+   @ 
+
+List of All Possible Special Sequences
+--------------------------------------
+The following is a list of the default special character followed by each of
+the ASCII printables.
+000 to 031 are unprintable control characters.
+
+032  @    - ILLEGAL.  (Note: Hyphen is needed to avoid trailing blanks error.)
+033  @!   - Comment.
+034  @"   - Parameter delimeter.
+035  @#X  - Short name sequence.
+@$   036  - Define macro. Has to be at start of line.
+037  @%   - ILLEGAL.
+038  @&   - ILLEGAL.
+039  @'   - ILLEGAL.
+040  @(   - Open parameter list.
+041  @)   - Close parameter list.
+042
+@*        - Old fashioned section marker (has to be at start of a line.).
+043  @+   - Insert newline.
+044  @,   - Parameter separator.
+045  @-
+          - Ignore end of line marker (has to be at end of line).
+046  @.   - ILLEGAL.
+047  @/   - Emphasised text.
+048  @0   - ILLEGAL.
+049  @1   - Formal parameter 1.
+050  @2   - Formal parameter 2.
+051  @3   - Formal parameter 3.
+052  @4   - Formal parameter 4.
+053  @5   - Formal parameter 5.
+054  @6   - Formal parameter 6.
+055  @7   - Formal parameter 7.
+056  @8   - Formal parameter 8.
+057  @9   - Formal parameter 9.
+058  @:   - ILLEGAL.
+059  @;   - ILLEGAL.
+060  @<   - Open macro name.
+061  @=@  - Set special character.
+062  @>   - Close macro name.
+063  @?   - ILLEGAL.
+064  @@   - Insert special character into text.
+@A  065   - New section (level 1). Must be at start of a line.
+@B  066   - New section (level 2). Must be at start of a line.
+@C  067   - New section (level 3). Must be at start of a line.
+@D  068   - New section (level 4). Must be at start of a line.
+@E  069   - New section (level 5). Must be at start of a line.
+070  @F   - ILLEGAL.
+071  @G   - ILLEGAL.
+072  @H   - ILLEGAL.
+073  @I   - Include file. Will provoke an error here though.
+074  @J   - ILLEGAL.
+075  @K   - ILLEGAL.
+076  @L   - ILLEGAL.
+077  @M   - Tags macro as being allowed to be called many times.
+078  @N   - ILLEGAL.
+@O   079  - New macro attached to output file. Has to be at start of line.
+080  @P   - Pragma. Will cause error here though.
+081  @Q   - ILLEGAL.
+082  @R   - ILLEGAL.
+083  @S   - ILLEGAL.
+084  @T   - Typesetter directive. Will cause an error here though.
+085  @U   - ILLEGAL.
+086  @V   - ILLEGAL.
+087  @W   - ILLEGAL.
+088  @X   - ILLEGAL.
+089  @Y   - ILLEGAL.
+090  @Z   - Tags macro as being allowed to be called zero times.
+091  @[   - ILLEGAL.
+092  @\   - ILLEGAL.
+093  @]   - ILLEGAL.
+094  @^D(065) - Insert control character into text
+095  @_   - ILLEGAL.
+096  @`   - ILLEGAL.
+@a   097  - New section (level 1). Must be at start of a line.
+@b   098  - New section (level 1). Must be at start of a line.
+@c   099  - New section (level 1). Must be at start of a line.
+@d   100  - New section (level 1). Must be at start of a line.
+@e   101  - New section (level 1). Must be at start of a line.
+102  @f   - ILLEGAL.
+103  @g   - ILLEGAL.
+104  @h   - ILLEGAL.
+105  @i   - Include file. Will provoke an error here though.
+106  @j   - ILLEGAL.
+107  @k   - ILLEGAL.
+108  @l   - ILLEGAL.
+109  @m   - Tags macro as being allowed to be called many times.
+110  @n   - ILLEGAL.
+@O   111  - New macro attached to output file. Has to be at start of line.
+112  @p   - Pragma. Will cause error here though.
+113  @q   - ILLEGAL.
+114  @r   - ILLEGAL.
+115  @s   - ILLEGAL.
+116  @t   - Typesetter directive. Will cause an error here though.
+117  @u   - ILLEGAL.
+118  @v   - ILLEGAL.
+119  @w   - ILLEGAL.
+120  @x   - ILLEGAL.
+121  @y   - ILLEGAL.
+122  @z   - Tags macro as being allowed to be called zero times.
+123  @{   - Open macro body.
+124  @|   - ILLEGAL.
+125  @}   - Close macro body.
+126  @~   - ILLEGAL.
+127 to 255 are not standard printable ASCII characters.

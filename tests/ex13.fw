@@ -1,0 +1,46 @@
+EX13: This example is used to generate typeset documentation which is
+      discussed in the tutorial in the FunnelWeb user's manual.
+
+
+@A@<Table of Contents@>
+
+@t table_of_contents
+
+@A@<Macros for Moral Support@>
+
+The following macro contain comments that provide moral support in the
+output code.
+
+@$@<Programmer's Cheer@>@M==@{
+-- Shift to the left!
+-- Shift to the right!
+-- Pop up, push down!
+-- Byte! Byte! Byte!
+-- (From "The New Hacker's Dictionary").
+@}
+
+The next macro is similar but is distributed throughout the program.
+@$@<Hacker's Cheer@>+=@{@+-- Pointer to the left@+@}
+
+@A@<An Extremely Imperative Stack Abstraction@>
+
+@B@<Define the Stack@>
+@$@<Hacker's Cheer@>+=@{-- Pointer to the right@+@}
+@$@<Stack Type@>@Z==@{type stack = record ... end;@}
+
+@B@<Push the Stack@>
+@$@<Hacker's Cheer@>+=@{-- Hack that code@+@}
+@$@<Push Procedure@>@Z==@{@-
+procedure push(var b:stack; v:value); @<Programmer's Cheer@> {...}@}
+
+@B@<Pop the Stack@>
+@$@<Hacker's Cheer@>+=@{-- Tight! Tight! Tight!@+@}
+@$@<Pop Procedure@>@Z==@{@-
+procedure pop(var b:stack); @<Programmer's Cheer@> {...}@}
+
+@B@<Rough the Stack Up a Bit@>
+@$@<Hacker's Cheer@>+=@{-- (RNW, 04-Jan-1991).@+@}
+@$@<Rough Procedure@>@Z==@{@-
+procedure rough(var b:stack); @<Hacker's Cheer@> {...}@}
+
+@O@<dummy.txt@>==@{dummy@+@}

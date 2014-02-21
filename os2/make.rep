@@ -1,0 +1,79 @@
+The following was the output from the build of fw.exe. 
+I thought that the warnings from gcc might be of interest so I have
+included this file with the OS/2 distribution of funnelweb.
+
+gcc -c -O2 -Wall analyse.c -o analyse.obj
+gcc -c -O2 -Wall as.c -o as.obj
+gcc -c -O2 -Wall clock.c -o clock.obj
+gcc -c -O2 -Wall command.c -o command.obj
+command.c: In function `do_diff':
+command.c:795: warning: `is_image' may be used uninitialized in this function
+command.c: In function `do_fix':
+command.c:1345: warning: array subscript has type `char'
+command.c:1348: warning: array subscript has type `char'
+command.c:1356: warning: array subscript has type `char'
+command.c: In function `do_stat':
+command.c:1548: warning: `thing' may be used uninitialized in this function
+command.c:1549: warning: `cnum' may be used uninitialized in this function
+gcc -c -O2 -Wall data.c -o data.obj
+gcc -c -O2 -Wall dump.c -o dump.obj
+dump.c: In function `dm_tkls':
+dump.c:303: warning: `m' may be used uninitialized in this function
+gcc -c -O2 -Wall help.c -o help.obj
+help.c: In function `hel_num':
+help.c:540: warning: `messnum' may be used uninitialized in this function
+gcc -c -O2 -Wall help_gnu.c -o help_gnu.obj
+gcc -c -O2 -Wall list.c -o list.obj
+gcc -c -O2 -Wall lister.c -o lister.obj
+lister.c: In function `cmpuqpos':
+lister.c:104: warning: `diff' may be used uninitialized in this function
+gcc -c -O2 -Wall machin.c -o machin.obj
+gcc -c -O2 -Wall main.c -o main.obj
+gcc -c -O2 -Wall mapper.c -o mapper.obj
+gcc -c -O2 -Wall memory.c -o memory.obj
+gcc -c -O2 -Wall misc.c -o misc.obj
+gcc -c -O2 -Wall option.c -o option.obj
+option.c: In function `op_add':
+option.c:169: warning: `opsign' may be used uninitialized in this function
+gcc -c -O2 -Wall parser.c -o parser.obj
+parser.c: In function `pr_macro':
+parser.c:1137: warning: `hasname' may be used uninitialized in this function
+gcc -c -O2 -Wall scanner.c -o scanner.obj
+gcc -c -O2 -Wall section.c -o section.obj
+gcc -c -O2 -Wall table.c -o table.obj
+gcc -c -O2 -Wall tangle.c -o tangle.obj
+gcc -c -O2 -Wall texhead.c -o texhead.obj
+gcc -c -O2 -Wall weave.c -o weave.obj
+gcc -c -O2 -Wall writfile.c -o writfile.obj
+link386 /A:16 /NOI @funnel.rsp, fw.exe, fw.map, libc, fw
+
+Operating System/2 LX (Linear Executable) Linker
+Version 2.00.000 Feb 25 1992
+Copyright (C) IBM Corporation 1988-1992.
+Copyright (C) Microsoft Corp. 1988-1992.
+All rights reserved.
+
+Object Modules [.obj]: /A:16 /NOI analyse.obj+
+Object Modules [.obj]: as.obj+
+Object Modules [.obj]: clock.obj+
+Object Modules [.obj]: command.obj+
+Object Modules [.obj]: data.obj+
+Object Modules [.obj]: dump.obj+
+Object Modules [.obj]: help.obj+
+Object Modules [.obj]: help_gnu.obj+
+Object Modules [.obj]: list.obj+
+Object Modules [.obj]: lister.obj+
+Object Modules [.obj]: machin.obj+
+Object Modules [.obj]: main.obj+
+Object Modules [.obj]: mapper.obj+
+Object Modules [.obj]: memory.obj+
+Object Modules [.obj]: misc.obj+
+Object Modules [.obj]: option.obj+
+Object Modules [.obj]: parser.obj+
+Object Modules [.obj]: scanner.obj+
+Object Modules [.obj]: section.obj+
+Object Modules [.obj]: table.obj+
+Object Modules [.obj]: tangle.obj+
+Object Modules [.obj]: texhead.obj+
+Object Modules [.obj]: weave.obj+
+Object Modules [.obj]: writfile.obj

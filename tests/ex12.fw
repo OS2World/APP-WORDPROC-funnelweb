@@ -1,0 +1,17 @@
+EX12: This example gives some simple headings and demonstrates heading name
+      inheritance.
+
+@O@<ex12.out@>==@{dummy text@}
+
+@A@<Feed the Penguins and Save the World@>
+@B@<Feed the Penguins@>
+@C@<Feed the little penguins@>
+@C@<Feed the big penguins@>
+@B@<Save the World@>
+@C@<Save Europe@>
+@C@<Save Africa@>
+
+@C This heading hasn't been given an explicit name, but will inherit the
+name \p{Save the rest of the world} from the macro definition below.
+
+@$@<Save the rest of the world@>@Z==@{...@}

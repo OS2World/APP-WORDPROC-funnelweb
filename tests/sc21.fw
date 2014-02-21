@@ -1,0 +1,31 @@
+SC21: Test generic syntax checking of pragmas and typesetter directives.
+
+1. Test pragma not at the start of line.
+   @p
+   @t
+
+2. Test character following <special>p is not a blank.
+@px
+@tx
+@p
+@t
+
+3. Test pragma line is too long (limit is 100)
+         1         2         3         4         5         6         7         8         9         1
+@p 4567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+@p 45678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901
+@t 4567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+@t 45678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901
+
+4. Test various different pragma lines.
+@p $#%@ 2525  sloth
+@t $#%@ 2525  sloth
+
+5. Test pragma with no arguments. (Will get a trailing blanks error.).
+@p    
+@t    
+
+6. Test pragma with too many arguments.
+@p a b c d e f g h i j k l m n o p q r s t u v w x y z
+@t a b c d e f g h i j k l m n o p q r s t u v w x y z
+

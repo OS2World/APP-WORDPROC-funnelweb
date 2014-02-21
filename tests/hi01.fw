@@ -1,0 +1,14 @@
+HI01: This example demonstrates a problem with managing end of line markers.
+
+@O@<hi01.out@>==@{
+while the_walrus_is_sleepy do
+   begin
+   writeln('zzzzzzz');
+   @<Wake up the walrus@>
+   writeln('Umpharumpha...');
+   end;
+@}
+
+@$@<Wake up the walrus@>==@{
+wake_up_the_walrus(the_walrus);
+@}

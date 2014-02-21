@@ -1,0 +1,34 @@
+Date: 13-Dec-92
+
+This zip file contains original C source code, "hacker's manual", and
+test suite for the literate programming tool "funnelweb", together
+with the patches and makefile used to port funnelweb to OS/2 2.0. The
+author of funnelweb is Ross Williams (ross@spam.adelaide.edu.au), and
+it was ported to OS/2 2.0 by Paul Lyon (plyon@emx.utexas.edu).
+Funnelweb is copyright Ross Williams, but he has released it under
+Version 2 of the GNU General Public License. The executable and user's
+manual are in a file called "funnel-x.zip" which should be available
+from the achive site or bbs from whence you acquired this file.
+
+I used gcc/2 for the port, and GNU make to run the makefile.  I ran
+gcc/2 with full optimization (-O2); the resulting executable passes
+all the tests in the test suite Williams provides. Only minor changes
+to the source were required. I added a define "OS2" to those files
+with system dependencies (environ.h, machin.h, machin.c, and
+command.c), and made two modifications to get around some difficulties
+in the C library and include files supplied with gcc/2. The first of
+these is in the file "misc.c"; I added a couple of "fflush(stdout);"
+statements, since the stdio implementation for gcc/2 fully buffers
+stdout.  Secondly, the "toupper()" and "tolower()" macros in the
+"ctype.h" header file are not ANSI standard; I added a kludge to the
+end of the file "style.h" to repair this. Finally, I made one change
+to the file texhead.tex to change the characters used to bracket code
+sections, to use the TeX characters \lfloor and \lceil instead of
+\lbrace and \rbrace, since I find the results more pleasing. I have
+prepared a context diff file "patches.os2", which can be fed to
+"patch" to incorporate the changes, but have also provided the
+modified source files just in case.
+
+Enjoy,
+
+Paul Lyon (plyon@emx.utexas.edu).

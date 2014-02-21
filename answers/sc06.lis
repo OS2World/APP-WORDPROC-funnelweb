@@ -1,0 +1,91 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 53 43 30 36 3A 20 54 65 73 74 20 46 75 6E 6E 65 | SC06: Test Funne |
+| 6C 57 65 62 20 6F 6E 20 61 20 66 69 6C 65 20 77 | lWeb on a file w |
+| 68 6F 73 65 20 6C 61 73 74 20 6C 69 6E 65 20 69 | hose last line i |
+| 73 20 6E 6F 74 20 74 65 72 6D 69 6E 61 74 65 64 | s not terminated |
+| 20 70 72 6F 70 65 72 6C 79 0A 77 69 74 68 20 61 |  properly.with a |
+| 6E 20 65 6E 64 20 6F 66 20 6C 69 6E 65 20 6D 61 | n end of line ma |
+| 72 6B 65 72 2E 0A 0A 48 65 72 65 20 69 73 20 74 | rker...Here is t |
+| 68 65 20 69 6D 70 72 6F 70 65 72 20 74 65 72 6D | he improper term |
+| 69 6E 61 74 69 6F 6E 21 2D 2D 2D 2D 3E          | ination!---->    |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| SC06: Test FunnelWeb on a file whose last line is not terminated properly<010>
+00002 00002| with an end of line marker.<010>
+00003 00003| <010>
+00004 00004| Here is the improper termination!----><010>
+00005 00005| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 2 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="SC06: Test FunnelWeb on a file whose last line is not terminated properly<010>
+with an end of line marker.<010>
+<010>
+Here is the improper termination!----><010>
+"
+0005[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+
+========================== Start of MACRO TABLE DUMP ===========================
+
+
+=========================== End of MACRO TABLE DUMP ============================
+
+
+========================= Start of DOCUMENT LIST DUMP ==========================
+
+
+TEXT COMPONENT: Pos(L,C)=(1,1). 
+
+-- Start of Text Scrap List --
+Text scrap[Grey]="SC06: Test FunnelWeb on a file whose last line is not terminated properly<010>
+with an end of line marker.<010>
+<010>
+Here is the improper termination!----><010>
+"
+--- End of Text Scrap List ---
+
+
+========================== End of DOCUMENT LIST DUMP ===========================
+
+E: No macros defined.
+E: No output files specified.
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| SC06: Test FunnelWeb on a file whose last line is not terminated properly
+     2     2| with an end of line marker.
+     3     3| 
+     4     4| Here is the improper termination!---->
+            | <End-Of-File>
+     Warning|.^The last line of the input file was terminated by EOF.
+            |.^An EOL was inserted at the end of the last line.
+------------+-------------------------------------------------------------------
+
+There were 2 Errors and 1 Warning.

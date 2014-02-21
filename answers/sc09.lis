@@ -1,0 +1,106 @@
+FUNNELWEB LISTING FILE
+======================
+
+Dump of mapped file "<<Suppressed>>".
+
+MEMORY DUMP OF MAPPED FILE
+==========================
+
++-------------------------------------------------+------------------+
+| 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F | 0123456789ABCDEF |
++-------------------------------------------------+------------------+
+| 53 43 30 39 3A 20 44 65 74 65 63 74 69 6F 6E 20 | SC09: Detection  |
+| 6F 66 20 63 6F 6E 74 72 6F 6C 20 63 68 61 72 61 | of control chara |
+| 63 74 65 72 73 2E 0A 0A 53 43 30 39 2E 31 20 54 | cters...SC09.1 T |
+| 65 73 74 20 74 68 61 74 20 63 6F 6E 74 72 6F 6C | est that control |
+| 20 63 68 61 72 61 63 74 65 72 73 20 61 72 65 20 |  characters are  |
+| 64 65 74 65 63 74 65 64 20 61 6E 64 20 72 65 70 | detected and rep |
+| 6C 61 63 65 64 20 62 79 20 22 3F 22 2E 0A 53 43 | laced by "?"..SC |
+| 30 39 2E 32 20 54 65 73 74 20 6E 6F 6E 20 70 72 | 09.2 Test non pr |
+| 69 6E 74 61 62 6C 65 20 74 68 61 74 20 68 61 73 | intable that has |
+| 20 61 20 6D 6E 65 6D 6F 6E 69 63 2E 0A 0A 54 68 |  a mnemonic...Th |
+| 65 72 65 20 69 73 20 61 20 74 61 62 20 62 65 74 | ere is a tab bet |
+| 77 65 65 6E 20 74 68 65 73 65 20 74 77 6F 20 62 | ween these two b |
+| 61 72 73 20 7C 09 7C 20 77 68 69 63 68 20 73 68 | ars |.| which sh |
+| 6F 75 6C 64 20 63 6F 6D 65 20 6F 75 74 20 61 73 | ould come out as |
+| 20 22 3F 22 2E 0A 54 68 65 20 61 62 6F 76 65 20 |  "?"..The above  |
+| 65 72 72 6F 72 20 6D 65 73 73 61 67 65 20 73 68 | error message sh |
+| 6F 75 6C 64 20 63 6F 6E 74 61 69 6E 20 74 68 65 | ould contain the |
+| 20 6D 6E 65 6D 6F 6E 69 63 20 22 48 54 22 2E 0A |  mnemonic "HT".. |
+| 0A 53 43 30 39 2E 33 20 54 65 73 74 20 6E 6F 6E | .SC09.3 Test non |
+| 20 70 72 69 6E 74 61 62 6C 65 20 74 68 61 74 20 |  printable that  |
+| 68 61 73 20 6E 6F 20 6D 6E 65 6D 6F 6E 69 63 2E | has no mnemonic. |
+| 0A 0A 54 68 65 72 65 20 69 73 20 61 20 6E 6F 6E | ..There is a non |
+| 2D 6D 6E 65 6D 6F 6E 69 63 20 63 6F 6E 74 72 6F | -mnemonic contro |
+| 6C 20 63 68 61 72 61 63 74 65 72 20 62 65 74 77 | l character betw |
+| 65 65 6E 20 74 68 65 73 65 20 62 61 72 73 20 7C | een these bars | |
+| EA 7C 2E 0A                                     | .|..             |
++-------------------------------------------------+------------------+
+
+
+=========================== Start of LINE LIST DUMP ============================
+
+Globl Local| Text
+-----------+--------------------------------------------------------------------
+00001 00001| SC09: Detection of control characters.<010>
+00002 00002| <010>
+00003 00003| SC09.1 Test that control characters are detected and replaced by "?".<010>
+00004 00004| SC09.2 Test non printable that has a mnemonic.<010>
+00005 00005| <010>
+00006 00006| There is a tab between these two bars |?| which should come out as "?".<010>
+00007 00007| The above error message should contain the mnemonic "HT".<010>
+00008 00008| <010>
+00009 00009| SC09.3 Test non printable that has no mnemonic.<010>
+00010 00010| <010>
+00011 00011| There is a non-mnemonic control character between these bars |?|.<010>
+00012 00012| <End-Of-File><010>
+-----------+--------------------------------------------------------------------
+Globl Local| Text
+
+============================ End of LINE LIST DUMP =============================
+
+
+=========================== Start of TOKEN LIST DUMP ===========================
+
+Summary: There are 2 tokens in the token list.
+
+Line[Column]: Token Description
+-------------------------------
+
+0001[01]: Text. Text scrap[Grey]="SC09: Detection of control characters.<010>
+<010>
+SC09.1 Test that control characters are detected and replaced by "?".<010>
+SC09.2 Test non printable that has a mnemonic.<010>
+<010>
+There is a tab between these two bars |?| which should come out as "?".<010>
+The above error message should contain the mnemonic "HT".<010>
+<010>
+SC09.3 Test non printable that has no mnemonic.<010>
+<010>
+There is a non-mnemonic control character between these bars |?|.<010>
+"
+0012[01]: End Of File. 
+============================ End of TOKEN LIST DUMP ============================
+
+Macro table dump skipped (Parser was not invoked).
+Document list dump skipped (Parser was not invoked).
+
+Global Local| Input File
+------------+-------------------------------------------------------------------
+     1     1| SC09: Detection of control characters.
+     2     2| 
+     3     3| SC09.1 Test that control characters are detected and replaced by "?".
+     4     4| SC09.2 Test non printable that has a mnemonic.
+     5     5| 
+     6     6| There is a tab between these two bars |?| which should come out as "?".
+       Error|........................................^Non printable character (Sym=HT, Dec=009, Hex=09, Oct=011).
+     7     7| The above error message should contain the mnemonic "HT".
+     8     8| 
+     9     9| SC09.3 Test non printable that has no mnemonic.
+    10    10| 
+    11    11| There is a non-mnemonic control character between these bars |?|.
+       Error|...............................................................^Non printable character (Sym=<none>, Dec=234, Hex=EA, Oct=352).
+            | <End-Of-File>
+------------+-------------------------------------------------------------------
+
+There were 2 Errors.

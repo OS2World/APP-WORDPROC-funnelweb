@@ -1,0 +1,20 @@
+WV04: Test ugly string processing.
+
+@! We need this to keep the analyser happy.
+@O@<wv04.out@>@{@}
+
+1. Test ugly string in section name.
+@A@< !"#$%'()*+,-./0123456789:;<=>?@>
+@A@<ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`@>
+@A@<abcdefghijklmnopqrstuvwxyz{|}~@>
+
+2. Test ugly string in macro name.
+@$@< !"#$%'()*+,-./0123456789:;<=>?@>@Z@{@}
+@$@<ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`@>@Z@{@}
+@$@<abcdefghijklmnopqrstuvwxyz{|}~@>@Z@{@}
+
+3. Test ugly string in literal section.
+@{ !"#$%'()*+,-./0123456789:;<=>?@}
+@{ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`@}
+@{abcdefghijklmnopqrstuvwxyz{|}~@}
+

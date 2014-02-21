@@ -1,0 +1,33 @@
+PR04: Test the definition of ordinary macros.
+
+1. Test an ordinary macro definition.
+@$@<Ordinary@>@{The text of ordinary@}
+
+2. Test an ordinary definition using a quickname.
+@$@#|@{The text of ordinary@}
+
+3. Test a name that includes EOL.
+@$@<This name is illegal because
+it crosses a lion@>@{And people who cross lions tend to get eaten.@}
+@A@<Error Recovery Point@>
+
+4. Test the minimum length name (the empty name).
+@$@<@>@{The empty macro name is quite legal in FunnelWeb.@}
+
+5. Test a name at the maximum name length limit (80).
+ONly the second of the two macros should generate an error.
+@p maximum_input_line_length = 100
+@$@<12345678901234567890123456789012345678901234567890123456789012345678901234567890@>@{@}
+@$@<123456789012345678901234567890123456789012345678901234567890123456789012345678901@>@{@}
+@A@<Error Recovery Point@>
+
+6. Test names with all legal characters. There should be no errors.
+@$@< !"#$%'()*+,-./0123456789:;<=>?@>@{@}
+@$@<ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`@>@{@}
+@$@<abcdefghijklmnopqrstuvwxyz{|}~@>@{@}
+
+7. Test a name that has inserted text sequences.
+
+@$@<@^D(065)@@@>==@{@}
+
+

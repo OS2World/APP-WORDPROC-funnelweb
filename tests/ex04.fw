@@ -1,0 +1,35 @@
+EX04: The same as EX03, but with the errors fixed.
+
+@O@<ex04.out@>==@{@-
+@<Include Files@>
+@<Function@>
+@<Main Program@>
+@}
+
+@$@<Main Program@>==@{@-
+main()
+{
+ doit();
+}
+@}
+
+@$@<Function@>==@{@-
+void doit()
+{
+ int i;
+ for (i=0;i<10;i++)
+   {
+    @<Print@>
+    @<Print@>
+   }
+}@}
+
+@$@<Print@>@M==@{@-
+printf("Hello World!");
+printf("\n");@}
+
+@$@<Scan@>@Z==@{scanf@}
+
+@$@<Include Files@>==@{@-
+#include <stdio.h>
+#include <stdlib.h>@}
